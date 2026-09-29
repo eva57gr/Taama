@@ -1,0 +1,58 @@
+id: arepa
+name: Arepa The Brain Drink Lite & Sparkling Blackcurrant (250 mL)
+market: AU
+regime: fsanz_food
+regime_basis:
+  reason: >
+    A 250 mL sparkling blackcurrant drink in a can, presented as a beverage rather than a dosed medicine,
+    so it is assessed as a general food under the Food Standards Code. Health claims are checked against
+    Schedule 4 and the food-health relationships Arepa has notified to FSANZ. The consultant sheet classes
+    it as a non-TGA food; the working document's own example of this drink is filed under FSANZ.
+  cite:
+    source: sources_and_logic_aus
+    locator: "FOOD-1 General Food"
+    excerpt: "Presented as food (beverage, bar, meal, snack)"
+
+inputs:
+  - "Source/Material/Arepa Brain Drink/*.webp"
+  - "Source/Material/Arepa Brain Drink/*.png"
+
+# Brand and ingredient trade names, so they are not read as health claims.
+mask:
+  - The Brain Drink Lite & Sparkling Blackcurrant
+  - The Brain Drink
+  - Neuroberry Blackcurrant
+  - Neuroberry
+  - Enzogenol
+  - Suntheanine
+  - Arepa
+
+business: "AlphaGen NZ Ltd t/a Ārepa"
+notified_source: fsanz_notified_arepa
+record_source: >
+  Source/Material/Arepa Brain Drink/The Brain Drink (Arepa) Blackcurrant (Formulation).xlsx,
+  scaled from the 100 g composition to a 250 mL can at 1 g/mL
+serving: {amount: 250, unit: mL}
+liquid: true
+npsc: null
+
+# L-theanine is 0.20 g per 100 g in the formulation (0.50 g / 500 mg per 250 mL can).
+# Vitamin C and sugars are claimed on pack but are not quantified in that sheet, so they stay
+# out of the record and come back unverified rather than green.
+record:
+  l-theanine: {per_serving: [500, mg], per_100: [200, mg]}
+
+properties:
+  l-theanine: ['\bl-?theanine\b']
+  caffeine: ['\bcaffeine\b']
+
+review_notes:
+  - note: >
+      Ingredient permissibility is not checked. The ground-truth sheet lists St John's wort, which is not
+      on the formulation workbook in this folder, and the consultant flags Enzogenol as a novel food.
+      The companion workbook "Non-Compliant-Medicine-Only Herb in a Food.xlsx" does not open (damaged zip).
+    evidence: "Source/Material/Arepa Brain Drink/The Brain Drink (Arepa) Blackcurrant (Formulation).xlsx"
+  - note: >
+      "Supplemented food" on the pack is a New Zealand category. NPSC is not calculated here, so a health
+      claim cannot come back green.
+    evidence: "Source/Material/Claims - Ground Truth.xlsx"

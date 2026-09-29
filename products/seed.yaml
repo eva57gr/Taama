@@ -1,0 +1,39 @@
+id: seed
+name: Seed AM-02 Energy + Focus (30 ViaCap capsules)
+market: AU
+regime: tga_listed
+regime_basis:
+  reason: >
+    Capsule dosage form with ginseng extract, theacrine, methylliberine and B vitamins, presented for energy
+    and focus, so it is assessed as a listed (AUST L) medicine.
+  cite:
+    source: sources_and_logic_aus
+    locator: "§1.4 Food vs Supplement, consultant comment"
+    excerpt: "If it is a tablet or capsule, it technically should be a TGA medicine ie. magnesium citrate capsules."
+
+inputs:
+  - "Source/Material/Seed AM-02/*.jpg"   # eight marketplace listing images
+
+# Blend and technology names from the product specification workbook.
+mask:
+  - Seed AM-02 Energy + Focus
+  - AM-02 Energy + Focus
+  - Energy + Focus
+  - Multi-Peak Energy Complex
+  - Gut-Brain Postbiotic
+  - Microbiome-Modulating Prebiotic
+  - Bioenergetic Cellular Complex
+  - ViaCap
+  - AM-02
+  - Seed
+
+record_source: "Source/Material/Seed AM-02/Product Specification - Seed AM-02 Energy + Focus.xlsx"
+record: {}
+
+review_notes:
+  - note: >
+      The listing images are US marketing (they carry the FDA "not evaluated" disclaimer). An Australian
+      listing would need an AUST L number and indications drawn from the Permissible Indications
+      Determination; theacrine and methylliberine would also need to be permitted listable ingredients,
+      which this tool does not check.
+    evidence: "Source/Material/Seed AM-02/Product Specification - Seed AM-02 Energy + Focus.xlsx"

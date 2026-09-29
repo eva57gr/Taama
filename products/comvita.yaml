@@ -1,0 +1,44 @@
+id: comvita
+name: Comvita Kids Honey Day-time Gentle Syrup (118 mL)
+market: AU
+regime: tga_listed
+regime_basis:
+  reason: >
+    Dosed liquid (10 mL once daily for children) with a herbal active (ivy leaf extract) plus vitamins C, D
+    and zinc, presented for children's health, so it sits on the medicine side of the food-medicine split and
+    is assessed as a listed (AUST L) medicine. The supplied artwork is a Singapore/Malaysia export label with
+    a food-style NIP and no AUST L number, so it would need re-labelling for Australia either way.
+  cite:
+    source: sources_and_logic_aus
+    locator: "§1.2 Food vs medicine split test, test 2"
+    excerpt: "Dosage form / presentation | Conventional food forms (beverage, bar, meal, snack) | Tablets, pills, capsules, pastilles, powders, liquids “and the like”"
+
+inputs:
+  - "Source/Material/Comvita Kids Herbal Syrup/105768 Kids Day-time Gentle Syrup Label Orange v8.pdf"
+  - "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf"
+
+# Proper names removed before health-term detection, so that e.g. "Night-time Calming Syrup" (a product
+# name) is not read as a calming claim.
+mask:
+  - Comvita Kids Honey Day-time Gentle Syrup
+  - Comvita Kids Honey Night-time Calming Syrup
+  - Comvita Kids Night-Time Calming Syrup
+  - Comvita Kids Syrups
+  - Comvita Kids Syrup
+  - Comvita
+  - UMFHA
+  - UMF
+
+record_source: "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf (Nutrition Information panel)"
+serving: {amount: 10, unit: mL}
+record:
+  vitamin c: {per_serving: [25, mg], rdi_pct: 63}
+  vitamin d: {per_serving: [10, mcg], rdi_pct: 100}
+  zinc: {per_serving: [3, mg], rdi_pct: 26}
+  sugars: {per_serving: [9.3, g], per_100: [93.2, g]}
+
+review_notes:
+  - note: >
+      The artwork is an export label (Singapore / Malaysia importers, food-style NIP, no AUST L number). For
+      Australia it needs an ARTG listing and TGA-compliant labelling; the claim verdicts assume that.
+    evidence: "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf"

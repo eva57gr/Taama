@@ -1,0 +1,2626 @@
+{
+  "product_id": "comvita",
+  "name": "Comvita Kids Honey Day-time Gentle Syrup (118 mL)",
+  "regime": "tga_listed",
+  "ai_judge": false,
+  "ocr": "rapidocr",
+  "verdicts_identical": true,
+  "runs": [
+    {
+      "summary": {
+        "RED": 0,
+        "AMBER": 0,
+        "GREEN": 20,
+        "claims": 20,
+        "needs_review": 0,
+        "ai": false
+      },
+      "claims": [
+        {
+          "id": "comvita-001",
+          "text": "Contains 10% UMF™ 10+ Mānuka Honey",
+          "claim_type": "compositional",
+          "verdict": "GREEN",
+          "decided_by": "rules",
+          "status": "PASS",
+          "justification": "This describes what the product contains or is free from. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
+          "rules": [
+            {
+              "rule_id": "TGA-NO-CLAIM",
+              "source": "rules",
+              "verdict": "GREEN",
+              "title": "No therapeutic or restricted representation",
+              "why": "This describes what the product contains or is free from. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
+              "matched": [],
+              "citations": [
+                {
+                  "source": "tga_advertising_code",
+                  "document": "Therapeutic Goods (Therapeutic Goods Advertising Code) Instrument 2021 (F2023C00019, compilation 1)",
+                  "locator": "s 8(1)(a)",
+                  "excerpt": "be accurate, balanced and not misleading or likely to be misleading",
+                  "snapshot": "rulebank/au/snapshots/tga_advertising_code.txt",
+                  "snapshot_line": 519,
+                  "url": "https://www.legislation.gov.au/F2021L01661/latest/text"
+                }
+              ],
+              "conditions": []
+            }
+          ],
+          "found_in": [
+            {
+              "file": "Source/Material/Comvita Kids Herbal Syrup/105768 Kids Day-time Gentle Syrup Label Orange v8.pdf",
+              "location": "page 1, text box 19 at (115, 243)",
+              "method": "pdf-text-layer"
+            },
+            {
+              "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+              "location": "page 1, text box 13 at (448, 291)",
+              "method": "pdf-text-layer"
+            },
+            {
+              "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+              "location": "page 1, text box 15 at (203, 298)",
+              "method": "pdf-text-layer"
+            }
+          ]
+        },
+        {
+          "id": "comvita-002",
+          "text": "HONEY GENTLE SYRUP",
+          "claim_type": "marketing_puffery",
+          "verdict": "GREEN",
+          "decided_by": "rules",
+          "status": "PASS",
+          "justification": "This is general marketing language. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
+          "rules": [
+            {
+              "rule_id": "TGA-NO-CLAIM",
+              "source": "rules",
+              "verdict": "GREEN",
+              "title": "No therapeutic or restricted representation",
+              "why": "This is general marketing language. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
+              "matched": [],
+              "citations": [
+                {
+                  "source": "tga_advertising_code",
+                  "document": "Therapeutic Goods (Therapeutic Goods Advertising Code) Instrument 2021 (F2023C00019, compilation 1)",
+                  "locator": "s 8(1)(a)",
+                  "excerpt": "be accurate, balanced and not misleading or likely to be misleading",
+                  "snapshot": "rulebank/au/snapshots/tga_advertising_code.txt",
+                  "snapshot_line": 519,
+                  "url": "https://www.legislation.gov.au/F2021L01661/latest/text"
+                }
+              ],
+              "conditions": []
+            }
+          ],
+          "found_in": [
+            {
+              "file": "Source/Material/Comvita Kids Herbal Syrup/105768 Kids Day-time Gentle Syrup Label Orange v8.pdf",
+              "location": "page 1, text box 27 at (231, 288)",
+              "method": "pdf-text-layer"
+            }
+          ]
+        },
+        {
+          "id": "comvita-003",
+          "text": "WITH IVY LEAF EXTRACT VITAMINS C, D & ZINC",
+          "claim_type": "compositional",
+          "verdict": "GREEN",
+          "decided_by": "rules",
+          "status": "PASS",
+          "justification": "This describes what the product contains or is free from. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
+          "rules": [
+            {
+              "rule_id": "TGA-NO-CLAIM",
+              "source": "rules",
+              "verdict": "GREEN",
+              "title": "No therapeutic or restricted representation",
+              "why": "This describes what the product contains or is free from. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
+              "matched": [],
+              "citations": [
+                {
+                  "source": "tga_advertising_code",
+                  "document": "Therapeutic Goods (Therapeutic Goods Advertising Code) Instrument 2021 (F2023C00019, compilation 1)",
+                  "locator": "s 8(1)(a)",
+                  "excerpt": "be accurate, balanced and not misleading or likely to be misleading",
+                  "snapshot": "rulebank/au/snapshots/tga_advertising_code.txt",
+                  "snapshot_line": 519,
+                  "url": "https://www.legislation.gov.au/F2021L01661/latest/text"
+                }
+              ],
+              "conditions": []
+            }
+          ],
+          "found_in": [
+            {
+              "file": "Source/Material/Comvita Kids Herbal Syrup/105768 Kids Day-time Gentle Syrup Label Orange v8.pdf",
+              "location": "page 1, text box 33 at (235, 338)",
+              "method": "pdf-text-layer"
+            }
+          ]
+        },
+        {
+          "id": "comvita-004",
+          "text": "ORANGE FLAVOURED",
+          "claim_type": "compositional",
+          "verdict": "GREEN",
+          "decided_by": "rules",
+          "status": "PASS",
+          "justification": "This describes what the product contains or is free from. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
+          "rules": [
+            {
+              "rule_id": "TGA-NO-CLAIM",
+              "source": "rules",
+              "verdict": "GREEN",
+              "title": "No therapeutic or restricted representation",
+              "why": "This describes what the product contains or is free from. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
+              "matched": [],
+              "citations": [
+                {
+                  "source": "tga_advertising_code",
+                  "document": "Therapeutic Goods (Therapeutic Goods Advertising Code) Instrument 2021 (F2023C00019, compilation 1)",
+                  "locator": "s 8(1)(a)",
+                  "excerpt": "be accurate, balanced and not misleading or likely to be misleading",
+                  "snapshot": "rulebank/au/snapshots/tga_advertising_code.txt",
+                  "snapshot_line": 519,
+                  "url": "https://www.legislation.gov.au/F2021L01661/latest/text"
+                }
+              ],
+              "conditions": []
+            }
+          ],
+          "found_in": [
+            {
+              "file": "Source/Material/Comvita Kids Herbal Syrup/105768 Kids Day-time Gentle Syrup Label Orange v8.pdf",
+              "location": "page 1, text box 35 at (228, 361)",
+              "method": "pdf-text-layer"
+            },
+            {
+              "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+              "location": "page 1, text box 43 at (450, 524)",
+              "method": "pdf-text-layer"
+            }
+          ]
+        },
+        {
+          "id": "comvita-005",
+          "text": "Gluten Free",
+          "claim_type": "compositional",
+          "verdict": "GREEN",
+          "decided_by": "rules",
+          "status": "PASS",
+          "justification": "This describes what the product contains or is free from. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
+          "rules": [
+            {
+              "rule_id": "TGA-NO-CLAIM",
+              "source": "rules",
+              "verdict": "GREEN",
+              "title": "No therapeutic or restricted representation",
+              "why": "This describes what the product contains or is free from. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
+              "matched": [],
+              "citations": [
+                {
+                  "source": "tga_advertising_code",
+                  "document": "Therapeutic Goods (Therapeutic Goods Advertising Code) Instrument 2021 (F2023C00019, compilation 1)",
+                  "locator": "s 8(1)(a)",
+                  "excerpt": "be accurate, balanced and not misleading or likely to be misleading",
+                  "snapshot": "rulebank/au/snapshots/tga_advertising_code.txt",
+                  "snapshot_line": 519,
+                  "url": "https://www.legislation.gov.au/F2021L01661/latest/text"
+                }
+              ],
+              "conditions": []
+            }
+          ],
+          "found_in": [
+            {
+              "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+              "location": "page 1, text box 9 at (172, 258)",
+              "method": "pdf-text-layer"
+            }
+          ]
+        },
+        {
+          "id": "comvita-006",
+          "text": "No Artificial Flavours or Colours",
+          "claim_type": "compositional",
+          "verdict": "GREEN",
+          "decided_by": "rules",
+          "status": "PASS",
+          "justification": "This describes what the product contains or is free from. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
+          "rules": [
+            {
+              "rule_id": "TGA-NO-CLAIM",
+              "source": "rules",
+              "verdict": "GREEN",
+              "title": "No therapeutic or restricted representation",
+              "why": "This describes what the product contains or is free from. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
+              "matched": [],
+              "citations": [
+                {
+                  "source": "tga_advertising_code",
+                  "document": "Therapeutic Goods (Therapeutic Goods Advertising Code) Instrument 2021 (F2023C00019, compilation 1)",
+                  "locator": "s 8(1)(a)",
+                  "excerpt": "be accurate, balanced and not misleading or likely to be misleading",
+                  "snapshot": "rulebank/au/snapshots/tga_advertising_code.txt",
+                  "snapshot_line": 519,
+                  "url": "https://www.legislation.gov.au/F2021L01661/latest/text"
+                }
+              ],
+              "conditions": []
+            }
+          ],
+          "found_in": [
+            {
+              "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+              "location": "page 1, text box 10 at (214, 258)",
+              "method": "pdf-text-layer"
+            }
+          ]
+        },
+        {
+          "id": "comvita-007",
+          "text": "Use with Comvita™ Kids Night-Time Calming Syrup for gentle care all day & night.",
+          "claim_type": "compositional",
+          "verdict": "GREEN",
+          "decided_by": "rules",
+          "status": "PASS",
+          "justification": "This describes what the product contains or is free from. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
+          "rules": [
+            {
+              "rule_id": "TGA-NO-CLAIM",
+              "source": "rules",
+              "verdict": "GREEN",
+              "title": "No therapeutic or restricted representation",
+              "why": "This describes what the product contains or is free from. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
+              "matched": [],
+              "citations": [
+                {
+                  "source": "tga_advertising_code",
+                  "document": "Therapeutic Goods (Therapeutic Goods Advertising Code) Instrument 2021 (F2023C00019, compilation 1)",
+                  "locator": "s 8(1)(a)",
+                  "excerpt": "be accurate, balanced and not misleading or likely to be misleading",
+                  "snapshot": "rulebank/au/snapshots/tga_advertising_code.txt",
+                  "snapshot_line": 519,
+                  "url": "https://www.legislation.gov.au/F2021L01661/latest/text"
+                }
+              ],
+              "conditions": []
+            }
+          ],
+          "found_in": [
+            {
+              "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+              "location": "page 1, text box 11 at (587, 261)",
+              "method": "pdf-text-layer"
+            }
+          ]
+        },
+        {
+          "id": "comvita-008",
+          "text": "HEY HONEY BEARS!",
+          "claim_type": "marketing_puffery",
+          "verdict": "GREEN",
+          "decided_by": "rules",
+          "status": "PASS",
+          "justification": "This is general marketing language. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
+          "rules": [
+            {
+              "rule_id": "TGA-NO-CLAIM",
+              "source": "rules",
+              "verdict": "GREEN",
+              "title": "No therapeutic or restricted representation",
+              "why": "This is general marketing language. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
+              "matched": [],
+              "citations": [
+                {
+                  "source": "tga_advertising_code",
+                  "document": "Therapeutic Goods (Therapeutic Goods Advertising Code) Instrument 2021 (F2023C00019, compilation 1)",
+                  "locator": "s 8(1)(a)",
+                  "excerpt": "be accurate, balanced and not misleading or likely to be misleading",
+                  "snapshot": "rulebank/au/snapshots/tga_advertising_code.txt",
+                  "snapshot_line": 519,
+                  "url": "https://www.legislation.gov.au/F2021L01661/latest/text"
+                }
+              ],
+              "conditions": []
+            }
+          ],
+          "found_in": [
+            {
+              "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+              "location": "page 1, text box 12 at (307, 284)",
+              "method": "pdf-text-layer"
+            }
+          ]
+        },
+        {
+          "id": "comvita-009",
+          "text": "HONEY GENTLE SYRUP WITH MULTIFLORAL AND MANUKA HONEY",
+          "claim_type": "compositional",
+          "verdict": "GREEN",
+          "decided_by": "rules",
+          "status": "PASS",
+          "justification": "This describes what the product contains or is free from. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
+          "rules": [
+            {
+              "rule_id": "TGA-NO-CLAIM",
+              "source": "rules",
+              "verdict": "GREEN",
+              "title": "No therapeutic or restricted representation",
+              "why": "This describes what the product contains or is free from. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
+              "matched": [],
+              "citations": [
+                {
+                  "source": "tga_advertising_code",
+                  "document": "Therapeutic Goods (Therapeutic Goods Advertising Code) Instrument 2021 (F2023C00019, compilation 1)",
+                  "locator": "s 8(1)(a)",
+                  "excerpt": "be accurate, balanced and not misleading or likely to be misleading",
+                  "snapshot": "rulebank/au/snapshots/tga_advertising_code.txt",
+                  "snapshot_line": 519,
+                  "url": "https://www.legislation.gov.au/F2021L01661/latest/text"
+                }
+              ],
+              "conditions": []
+            }
+          ],
+          "found_in": [
+            {
+              "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+              "location": "page 1, text box 13 at (448, 291)",
+              "method": "pdf-text-layer"
+            }
+          ]
+        },
+        {
+          "id": "comvita-010",
+          "text": "Parents around the world use honey in delicious ways to care for their little ones.",
+          "claim_type": "marketing_puffery",
+          "verdict": "GREEN",
+          "decided_by": "rules",
+          "status": "PASS",
+          "justification": "This is general marketing language. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
+          "rules": [
+            {
+              "rule_id": "TGA-NO-CLAIM",
+              "source": "rules",
+              "verdict": "GREEN",
+              "title": "No therapeutic or restricted representation",
+              "why": "This is general marketing language. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
+              "matched": [],
+              "citations": [
+                {
+                  "source": "tga_advertising_code",
+                  "document": "Therapeutic Goods (Therapeutic Goods Advertising Code) Instrument 2021 (F2023C00019, compilation 1)",
+                  "locator": "s 8(1)(a)",
+                  "excerpt": "be accurate, balanced and not misleading or likely to be misleading",
+                  "snapshot": "rulebank/au/snapshots/tga_advertising_code.txt",
+                  "snapshot_line": 519,
+                  "url": "https://www.legislation.gov.au/F2021L01661/latest/text"
+                }
+              ],
+              "conditions": []
+            }
+          ],
+          "found_in": [
+            {
+              "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+              "location": "page 1, text box 14 at (307, 294)",
+              "method": "pdf-text-layer"
+            }
+          ]
+        },
+        {
+          "id": "comvita-011",
+          "text": "Comvita™ Kids Honey Day-time Gentle Syrup with Ma-nuka Honey, Ivy Leaf, Vitamins C, D & Zinc is a tasty way to support your child’s daily routine.",
+          "claim_type": "compositional",
+          "verdict": "GREEN",
+          "decided_by": "rules",
+          "status": "PASS",
+          "justification": "This describes what the product contains or is free from. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
+          "rules": [
+            {
+              "rule_id": "TGA-NO-CLAIM",
+              "source": "rules",
+              "verdict": "GREEN",
+              "title": "No therapeutic or restricted representation",
+              "why": "This describes what the product contains or is free from. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
+              "matched": [],
+              "citations": [
+                {
+                  "source": "tga_advertising_code",
+                  "document": "Therapeutic Goods (Therapeutic Goods Advertising Code) Instrument 2021 (F2023C00019, compilation 1)",
+                  "locator": "s 8(1)(a)",
+                  "excerpt": "be accurate, balanced and not misleading or likely to be misleading",
+                  "snapshot": "rulebank/au/snapshots/tga_advertising_code.txt",
+                  "snapshot_line": 519,
+                  "url": "https://www.legislation.gov.au/F2021L01661/latest/text"
+                }
+              ],
+              "conditions": []
+            }
+          ],
+          "found_in": [
+            {
+              "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+              "location": "page 1, text box 14 at (307, 294)",
+              "method": "pdf-text-layer"
+            }
+          ]
+        },
+        {
+          "id": "comvita-012",
+          "text": "Also available: Comvita™ Kids Honey Night-time Calming Syrup with Chamomile – a gentle addition to your child’s bedtime routine.",
+          "claim_type": "other",
+          "verdict": "GREEN",
+          "decided_by": "rules",
+          "status": "PASS",
+          "justification": "This is a price, availability or cross-sell statement. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
+          "rules": [
+            {
+              "rule_id": "TGA-NO-CLAIM",
+              "source": "rules",
+              "verdict": "GREEN",
+              "title": "No therapeutic or restricted representation",
+              "why": "This is a price, availability or cross-sell statement. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
+              "matched": [],
+              "citations": [
+                {
+                  "source": "tga_advertising_code",
+                  "document": "Therapeutic Goods (Therapeutic Goods Advertising Code) Instrument 2021 (F2023C00019, compilation 1)",
+                  "locator": "s 8(1)(a)",
+                  "excerpt": "be accurate, balanced and not misleading or likely to be misleading",
+                  "snapshot": "rulebank/au/snapshots/tga_advertising_code.txt",
+                  "snapshot_line": 519,
+                  "url": "https://www.legislation.gov.au/F2021L01661/latest/text"
+                }
+              ],
+              "conditions": []
+            }
+          ],
+          "found_in": [
+            {
+              "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+              "location": "page 1, text box 14 at (307, 294)",
+              "method": "pdf-text-layer"
+            }
+          ]
+        },
+        {
+          "id": "comvita-013",
+          "text": "Together, Comvita™ Kids Syrups are a delicious way to care for and support your little ones throughout the day and night.",
+          "claim_type": "marketing_puffery",
+          "verdict": "GREEN",
+          "decided_by": "rules",
+          "status": "PASS",
+          "justification": "This is general marketing language. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
+          "rules": [
+            {
+              "rule_id": "TGA-NO-CLAIM",
+              "source": "rules",
+              "verdict": "GREEN",
+              "title": "No therapeutic or restricted representation",
+              "why": "This is general marketing language. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
+              "matched": [],
+              "citations": [
+                {
+                  "source": "tga_advertising_code",
+                  "document": "Therapeutic Goods (Therapeutic Goods Advertising Code) Instrument 2021 (F2023C00019, compilation 1)",
+                  "locator": "s 8(1)(a)",
+                  "excerpt": "be accurate, balanced and not misleading or likely to be misleading",
+                  "snapshot": "rulebank/au/snapshots/tga_advertising_code.txt",
+                  "snapshot_line": 519,
+                  "url": "https://www.legislation.gov.au/F2021L01661/latest/text"
+                }
+              ],
+              "conditions": []
+            }
+          ],
+          "found_in": [
+            {
+              "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+              "location": "page 1, text box 14 at (307, 294)",
+              "method": "pdf-text-layer"
+            }
+          ]
+        },
+        {
+          "id": "comvita-014",
+          "text": "UMF™ 10+ Mānuka Honey is scientifically tested to contain a minimum 263 mg/kg of Methylglyoxal (MGO), a naturally occurring compound in Mānuka Honey.",
+          "claim_type": "nutrition_content",
+          "verdict": "GREEN",
+          "decided_by": "rules",
+          "status": "PASS",
+          "justification": "This states the amount of an ingredient or component. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
+          "rules": [
+            {
+              "rule_id": "TGA-NO-CLAIM",
+              "source": "rules",
+              "verdict": "GREEN",
+              "title": "No therapeutic or restricted representation",
+              "why": "This states the amount of an ingredient or component. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
+              "matched": [],
+              "citations": [
+                {
+                  "source": "tga_advertising_code",
+                  "document": "Therapeutic Goods (Therapeutic Goods Advertising Code) Instrument 2021 (F2023C00019, compilation 1)",
+                  "locator": "s 8(1)(a)",
+                  "excerpt": "be accurate, balanced and not misleading or likely to be misleading",
+                  "snapshot": "rulebank/au/snapshots/tga_advertising_code.txt",
+                  "snapshot_line": 519,
+                  "url": "https://www.legislation.gov.au/F2021L01661/latest/text"
+                }
+              ],
+              "conditions": []
+            }
+          ],
+          "found_in": [
+            {
+              "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+              "location": "page 1, text box 19 at (168, 327)",
+              "method": "pdf-text-layer"
+            }
+          ]
+        },
+        {
+          "id": "comvita-015",
+          "text": "The UMF ™ rating system independently certiﬁes natural components found in Ma¯ nuka Honey to assure potency, purity, authenticity, & freshness.",
+          "claim_type": "marketing_puffery",
+          "verdict": "GREEN",
+          "decided_by": "rules",
+          "status": "PASS",
+          "justification": "This is general marketing language. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
+          "rules": [
+            {
+              "rule_id": "TGA-NO-CLAIM",
+              "source": "rules",
+              "verdict": "GREEN",
+              "title": "No therapeutic or restricted representation",
+              "why": "This is general marketing language. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
+              "matched": [],
+              "citations": [
+                {
+                  "source": "tga_advertising_code",
+                  "document": "Therapeutic Goods (Therapeutic Goods Advertising Code) Instrument 2021 (F2023C00019, compilation 1)",
+                  "locator": "s 8(1)(a)",
+                  "excerpt": "be accurate, balanced and not misleading or likely to be misleading",
+                  "snapshot": "rulebank/au/snapshots/tga_advertising_code.txt",
+                  "snapshot_line": 519,
+                  "url": "https://www.legislation.gov.au/F2021L01661/latest/text"
+                }
+              ],
+              "conditions": []
+            }
+          ],
+          "found_in": [
+            {
+              "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+              "location": "page 1, text box 27 at (168, 361)",
+              "method": "pdf-text-layer"
+            }
+          ]
+        },
+        {
+          "id": "comvita-016",
+          "text": "MADE IN NEW ZEALAND from local and imported ingredients.",
+          "claim_type": "identity_or_origin",
+          "verdict": "GREEN",
+          "decided_by": "rules",
+          "status": "PASS",
+          "justification": "This is a statement about origin, provenance or the company. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
+          "rules": [
+            {
+              "rule_id": "TGA-NO-CLAIM",
+              "source": "rules",
+              "verdict": "GREEN",
+              "title": "No therapeutic or restricted representation",
+              "why": "This is a statement about origin, provenance or the company. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
+              "matched": [],
+              "citations": [
+                {
+                  "source": "tga_advertising_code",
+                  "document": "Therapeutic Goods (Therapeutic Goods Advertising Code) Instrument 2021 (F2023C00019, compilation 1)",
+                  "locator": "s 8(1)(a)",
+                  "excerpt": "be accurate, balanced and not misleading or likely to be misleading",
+                  "snapshot": "rulebank/au/snapshots/tga_advertising_code.txt",
+                  "snapshot_line": 519,
+                  "url": "https://www.legislation.gov.au/F2021L01661/latest/text"
+                }
+              ],
+              "conditions": []
+            }
+          ],
+          "found_in": [
+            {
+              "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+              "location": "page 1, text box 31 at (167, 415)",
+              "method": "pdf-text-layer"
+            }
+          ]
+        },
+        {
+          "id": "comvita-017",
+          "text": "with IVY LEAF EXTRACT a gentle plant ingredient",
+          "claim_type": "compositional",
+          "verdict": "GREEN",
+          "decided_by": "rules",
+          "status": "PASS",
+          "justification": "This describes what the product contains or is free from. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
+          "rules": [
+            {
+              "rule_id": "TGA-NO-CLAIM",
+              "source": "rules",
+              "verdict": "GREEN",
+              "title": "No therapeutic or restricted representation",
+              "why": "This describes what the product contains or is free from. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
+              "matched": [],
+              "citations": [
+                {
+                  "source": "tga_advertising_code",
+                  "document": "Therapeutic Goods (Therapeutic Goods Advertising Code) Instrument 2021 (F2023C00019, compilation 1)",
+                  "locator": "s 8(1)(a)",
+                  "excerpt": "be accurate, balanced and not misleading or likely to be misleading",
+                  "snapshot": "rulebank/au/snapshots/tga_advertising_code.txt",
+                  "snapshot_line": 519,
+                  "url": "https://www.legislation.gov.au/F2021L01661/latest/text"
+                }
+              ],
+              "conditions": []
+            }
+          ],
+          "found_in": [
+            {
+              "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+              "location": "page 1, text box 32 at (501, 418)",
+              "method": "pdf-text-layer"
+            }
+          ]
+        },
+        {
+          "id": "comvita-018",
+          "text": "In 1974, Claude Stratford and I began beekeeping together with a passion for connecting people to nature and good health.",
+          "claim_type": "identity_or_origin",
+          "verdict": "GREEN",
+          "decided_by": "rules",
+          "status": "PASS",
+          "justification": "This is a statement about origin, provenance or the company. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
+          "rules": [
+            {
+              "rule_id": "TGA-NO-CLAIM",
+              "source": "rules",
+              "verdict": "GREEN",
+              "title": "No therapeutic or restricted representation",
+              "why": "This is a statement about origin, provenance or the company. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
+              "matched": [],
+              "citations": [
+                {
+                  "source": "tga_advertising_code",
+                  "document": "Therapeutic Goods (Therapeutic Goods Advertising Code) Instrument 2021 (F2023C00019, compilation 1)",
+                  "locator": "s 8(1)(a)",
+                  "excerpt": "be accurate, balanced and not misleading or likely to be misleading",
+                  "snapshot": "rulebank/au/snapshots/tga_advertising_code.txt",
+                  "snapshot_line": 519,
+                  "url": "https://www.legislation.gov.au/F2021L01661/latest/text"
+                }
+              ],
+              "conditions": []
+            }
+          ],
+          "found_in": [
+            {
+              "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+              "location": "page 1, text box 34 at (307, 448)",
+              "method": "pdf-text-layer"
+            }
+          ]
+        },
+        {
+          "id": "comvita-019",
+          "text": "VITAMINS C, D & ZINC important nutrients for kids’ healthy growth & development",
+          "claim_type": "therapeutic",
+          "verdict": "GREEN",
+          "decided_by": "rules",
+          "status": "PASS",
+          "justification": "\"for kids' healthy growth and development\" uses the wording of permitted indication \"Helps enhance/promote healthy growth and development\" (Schedule 1, Part 1, item 74). Listed medicines may only carry indications from the Permissible Indications Determination, and the consultant's rule is that TGA wording must match word for word. The indication's action verb is replaced only by the linking word \"for\", which keeps its meaning.",
+          "rules": [
+            {
+              "rule_id": "TGA-IND-EXACT",
+              "source": "rules",
+              "verdict": "GREEN",
+              "title": "Wording matches a permitted indication",
+              "why": "\"for kids' healthy growth and development\" uses the wording of permitted indication \"Helps enhance/promote healthy growth and development\" (Schedule 1, Part 1, item 74). Listed medicines may only carry indications from the Permissible Indications Determination, and the consultant's rule is that TGA wording must match word for word. The indication's action verb is replaced only by the linking word \"for\", which keeps its meaning.",
+              "matched": [
+                "for kids' healthy growth and development"
+              ],
+              "citations": [
+                {
+                  "source": "tga_permissible_indications",
+                  "document": "Therapeutic Goods (Permissible Indications) Determination (No. 1) 2025 (F2025L00450, compilation 0)",
+                  "locator": "s 5(a)",
+                  "excerpt": "each indication specified in column 2 of the tables in Parts 1 to 17 of Schedule 1",
+                  "snapshot": "rulebank/au/snapshots/tga_permissible_indications.txt",
+                  "snapshot_line": 167,
+                  "url": "https://www.legislation.gov.au/F2025L00450/latest/text"
+                },
+                {
+                  "source": "sources_and_logic_aus",
+                  "document": "Taama — Australia Product Classification & Regulatory Assessment (consultant working document)",
+                  "locator": "§3.3 Matching rules",
+                  "excerpt": "TGA is exact word for word, no variation or semantic equivalence",
+                  "snapshot": "rulebank/au/snapshots/sources_and_logic_aus.txt",
+                  "snapshot_line": 338,
+                  "url": null
+                },
+                {
+                  "source": "tga_permissible_indications",
+                  "document": "Therapeutic Goods (Permissible Indications) Determination (No. 1) 2025 (F2025L00450, compilation 0)",
+                  "locator": "Schedule 1, Part 1, item 74",
+                  "excerpt": "Helps enhance/promote healthy growth and development",
+                  "snapshot": "rulebank/au/snapshots/tga_permissible_indications.txt",
+                  "snapshot_line": 857,
+                  "url": "https://www.legislation.gov.au/F2025L00450/latest/text"
+                }
+              ],
+              "conditions": []
+            }
+          ],
+          "found_in": [
+            {
+              "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+              "location": "page 1, text box 37 at (476, 474)",
+              "method": "pdf-text-layer"
+            }
+          ]
+        },
+        {
+          "id": "comvita-020",
+          "text": "Over 50 years later, our commitment to the craft continues, sharing one of nature’s special gifts from our remote and pristine forests.",
+          "claim_type": "identity_or_origin",
+          "verdict": "GREEN",
+          "decided_by": "rules",
+          "status": "PASS",
+          "justification": "This is a statement about origin, provenance or the company. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
+          "rules": [
+            {
+              "rule_id": "TGA-NO-CLAIM",
+              "source": "rules",
+              "verdict": "GREEN",
+              "title": "No therapeutic or restricted representation",
+              "why": "This is a statement about origin, provenance or the company. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
+              "matched": [],
+              "citations": [
+                {
+                  "source": "tga_advertising_code",
+                  "document": "Therapeutic Goods (Therapeutic Goods Advertising Code) Instrument 2021 (F2023C00019, compilation 1)",
+                  "locator": "s 8(1)(a)",
+                  "excerpt": "be accurate, balanced and not misleading or likely to be misleading",
+                  "snapshot": "rulebank/au/snapshots/tga_advertising_code.txt",
+                  "snapshot_line": 519,
+                  "url": "https://www.legislation.gov.au/F2021L01661/latest/text"
+                }
+              ],
+              "conditions": []
+            }
+          ],
+          "found_in": [
+            {
+              "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+              "location": "page 1, text box 39 at (307, 481)",
+              "method": "pdf-text-layer"
+            }
+          ]
+        }
+      ],
+      "not_assessed": [
+        {
+          "text": "105768 SEA Day-Time Syrup Label",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105768 Kids Day-time Gentle Syrup Label Orange v8.pdf",
+          "location": "page 1, text box 1 at (73, 65)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "FILE NAME",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105768 Kids Day-time Gentle Syrup Label Orange v8.pdf",
+          "location": "page 1, text box 2 at (21, 65)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "DATE",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105768 Kids Day-time Gentle Syrup Label Orange v8.pdf",
+          "location": "page 1, text box 3 at (21, 80)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "CREATED BY",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105768 Kids Day-time Gentle Syrup Label Orange v8.pdf",
+          "location": "page 1, text box 4 at (151, 80)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "4 November 2025",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105768 Kids Day-time Gentle Syrup Label Orange v8.pdf",
+          "location": "page 1, text box 5 at (56, 81)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "Michelle",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105768 Kids Day-time Gentle Syrup Label Orange v8.pdf",
+          "location": "page 1, text box 6 at (214, 81)",
+          "reason": "single word"
+        },
+        {
+          "text": "STOCK",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105768 Kids Day-time Gentle Syrup Label Orange v8.pdf",
+          "location": "page 1, text box 7 at (21, 96)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "Self adhesive semigloss white paper",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105768 Kids Day-time Gentle Syrup Label Orange v8.pdf",
+          "location": "page 1, text box 8 at (63, 96)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "PMS 2426",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105768 Kids Day-time Gentle Syrup Label Orange v8.pdf",
+          "location": "page 1, text box 9 at (80, 135)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "40% PMS 4685 C MATCHED",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105768 Kids Day-time Gentle Syrup Label Orange v8.pdf",
+          "location": "page 1, text box 10 at (21, 135)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "PMS142 C MATCHED",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105768 Kids Day-time Gentle Syrup Label Orange v8.pdf",
+          "location": "page 1, text box 11 at (49, 135)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "PMS412 C",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105768 Kids Day-time Gentle Syrup Label Orange v8.pdf",
+          "location": "page 1, text box 12 at (103, 135)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "Spot Overgloss",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105768 Kids Day-time Gentle Syrup Label Orange v8.pdf",
+          "location": "page 1, text box 13 at (242, 135)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "CMYK",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105768 Kids Day-time Gentle Syrup Label Orange v8.pdf",
+          "location": "page 1, text box 14 at (133, 136)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "BEST BEFORE & BATCH AREA TO BE PRINT AND VARNISH FREE",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105768 Kids Day-time Gentle Syrup Label Orange v8.pdf",
+          "location": "page 1, text box 15 at (21, 155)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "NUTRITION INFORMATION",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105768 Kids Day-time Gentle Syrup Label Orange v8.pdf",
+          "location": "page 1, text box 17 at (399, 237)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "Servings per bottle: approximately 12 Serving size: 10 mL",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105768 Kids Day-time Gentle Syrup Label Orange v8.pdf",
+          "location": "page 1, text box 20 at (378, 244)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "Quantity per Serving* Quantity per 1 00 mL*",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105768 Kids Day-time Gentle Syrup Label Orange v8.pdf",
+          "location": "page 1, text box 21 at (394, 255)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "445 kcal (1860 kJ) 0.4 g 3.5 g 1.9 g 102 g 93.2 g 11 mg 250 mg 100 mcg 30 mg * Values are based on analytical results. ^ Recommended dietary intake. INGREDIENTS: Multifloral Honey (78%), Water, Mānuka Honey UMF™ 10+ (10%), Vitamins (ascorbic acid, cholecalciferol), Ivy leaf extract (0.3%), Acidity regulator (citric acid), Mineral (zinc gluconate), Flavour. COMVITA SINGAPORE PTE LTD WEB: comvita.com.sg COMVITA MALAYSIA SDN BHD WEB: comvita.com.my",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105768 Kids Day-time Gentle Syrup Label Orange v8.pdf",
+          "location": "page 1, text box 22 at (374, 264)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "Energy Protein Fat, total - saturated Carbohydrate - total sugars Sodium Vitamin C 25 mg (63% RDI^) Vitamin D3 10 mcg (100% RDI^) Zinc 3 mg (26% RDI^)",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105768 Kids Day-time Gentle Syrup Label Orange v8.pdf",
+          "location": "page 1, text box 23 at (378, 264)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "44 kcal (186 kJ) 0.04 g 0.4 g 0.2 g 10.2 g 9.3 g 1.1 mg",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105768 Kids Day-time Gentle Syrup Label Orange v8.pdf",
+          "location": "page 1, text box 24 at (407, 264)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "Please see www.umf.org.nz. UMFHA License 1019",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105768 Kids Day-time Gentle Syrup Label Orange v8.pdf",
+          "location": "page 1, text box 26 at (85, 270)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "RECOMMENDED SERVINGS: CHILDREN 4+ Years: 10 mL once daily.",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105768 Kids Day-time Gentle Syrup Label Orange v8.pdf",
+          "location": "page 1, text box 28 at (118, 288)",
+          "reason": "direction / warning / dose statement"
+        },
+        {
+          "text": "CHILDREN 2-3 Years: 5 mL once daily.",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105768 Kids Day-time Gentle Syrup Label Orange v8.pdf",
+          "location": "page 1, text box 28 at (118, 288)",
+          "reason": "direction / warning / dose statement"
+        },
+        {
+          "text": "Enjoy as is or mixed with a favourite beverage.",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105768 Kids Day-time Gentle Syrup Label Orange v8.pdf",
+          "location": "page 1, text box 28 at (118, 288)",
+          "reason": "direction / warning / dose statement"
+        },
+        {
+          "text": "Best taken with a meal.",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105768 Kids Day-time Gentle Syrup Label Orange v8.pdf",
+          "location": "page 1, text box 28 at (118, 288)",
+          "reason": "direction / warning / dose statement"
+        },
+        {
+          "text": "Not intended for use in children under 2 years, or by pregnant or lactating women.",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105768 Kids Day-time Gentle Syrup Label Orange v8.pdf",
+          "location": "page 1, text box 28 at (118, 288)",
+          "reason": "direction / warning / dose statement"
+        },
+        {
+          "text": "Do not exceed recommended daily intake.",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105768 Kids Day-time Gentle Syrup Label Orange v8.pdf",
+          "location": "page 1, text box 28 at (118, 288)",
+          "reason": "direction / warning / dose statement"
+        },
+        {
+          "text": "SHAKE WELL BEFORE USE.",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105768 Kids Day-time Gentle Syrup Label Orange v8.pdf",
+          "location": "page 1, text box 28 at (118, 288)",
+          "reason": "direction / warning / dose statement"
+        },
+        {
+          "text": "For storage please see outer box.",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105768 Kids Day-time Gentle Syrup Label Orange v8.pdf",
+          "location": "page 1, text box 28 at (118, 288)",
+          "reason": "direction / warning / dose statement"
+        },
+        {
+          "text": "TOP",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 4 at (492, 143)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "RECOMMENDED SERVINGS: CHILDREN 4+ Years: 10 mL once daily.",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 6 at (587, 223)",
+          "reason": "direction / warning / dose statement"
+        },
+        {
+          "text": "CHILDREN 2-3 Years: 5 mL once daily.",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 6 at (587, 223)",
+          "reason": "direction / warning / dose statement"
+        },
+        {
+          "text": "Enjoy as is or mixed with a favourite beverage.",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 6 at (587, 223)",
+          "reason": "direction / warning / dose statement"
+        },
+        {
+          "text": "Best taken with a meal",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 6 at (587, 223)",
+          "reason": "direction / warning / dose statement"
+        },
+        {
+          "text": "BACK",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 7 at (192, 241)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "FRONT",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 8 at (476, 241)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "SHAKE WELL BEFORE USE.",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 11 at (587, 261)",
+          "reason": "direction / warning / dose statement"
+        },
+        {
+          "text": "Not intended for use in children under 2 years, or by pregnant or lactating women.",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 11 at (587, 261)",
+          "reason": "direction / warning / dose statement"
+        },
+        {
+          "text": "Do not exceed recommended daily intake.",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 11 at (587, 261)",
+          "reason": "direction / warning / dose statement"
+        },
+        {
+          "text": "STORAGE: Store in a cool, dry place below 25°C.",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 11 at (587, 261)",
+          "reason": "direction / warning / dose statement"
+        },
+        {
+          "text": "Store out of reach of young children.",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 11 at (587, 261)",
+          "reason": "direction / warning / dose statement"
+        },
+        {
+          "text": "Do not use if cap seal is broken.",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 11 at (587, 261)",
+          "reason": "direction / warning / dose statement"
+        },
+        {
+          "text": "NUTRITION INFORMATION",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 18 at (615, 323)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "Servings per bottle: approximately 12 Serving size: 10 mL",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 21 at (590, 332)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "Quantity per Serving* Quantity per 1 00 mL*",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 22 at (610, 345)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "445 kcal (1860 kJ) 0.4 g 3.5 g 1.9 g 102 g 93.2 g 11 mg 250 mg 100 mcg 30 mg * Values are based on analytical results. ^ Recommended dietary intake.",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 23 at (585, 356)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "Energy Protein Fat, total - saturated Carbohydrate - total sugars Sodium Vitamin C 25 mg (63% RDI^) Vitamin D3 10 mcg (100% RDI^) Zinc 3 mg (26% RDI^)",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 24 at (590, 356)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "44 kcal (186 kJ) 0.04 g 0.4 g 0.2 g 10.2 g 9.3 g 1.1 mg",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 25 at (626, 356)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "Please see www.umf.org.nz.",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 27 at (168, 361)",
+          "reason": "direction / warning / dose statement"
+        },
+        {
+          "text": "UMFHA Licence 1019",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 27 at (168, 361)",
+          "reason": "direction / warning / dose statement"
+        },
+        {
+          "text": "INGREDIENTS: Multifloral Honey (78%), Water, Mānuka Honey UMF™ 10+ (10%), Vitamins (ascorbic acid, cholecalciferol), Ivy leaf extract (0.3%), Acidity regulator (citric acid), Mineral (zinc gluconate), Flavour. IMPORTED BY: COMVITA SINGAPORE PTE LTD 21 Bukit Batok Crescent, #29-75, WCEGA Tower, Singapore 658065 WEB: comvita.com.sg EMAIL: hello.sg@comvitasea.com",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 33 at (588, 437)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "BATCH #",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 35 at (176, 460)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "Use BY DD.MM.YYYY",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 36 at (176, 470)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "105769",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 38 at (265, 478)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "DIIMPOT OLEH: COMVITA MALAYSIA SDN BHD 2, Lot 2610, Jalan Subang 6, Taman Perindustrian Subang, 47610 Subang Jaya, Selangor, Malaysia.",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 40 at (588, 511)",
+          "reason": "direction / warning / dose statement"
+        },
+        {
+          "text": "WEB: comvita.com.my EMAIL: hello.my@comvitasea.com",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 40 at (588, 511)",
+          "reason": "direction / warning / dose statement"
+        },
+        {
+          "text": "Barcode 9421003266674",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 41 at (201, 512)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "Alan Bougen Co-founder",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 42 at (353, 522)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "Comvita is a trademark of Comvita Ltd.",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 44 at (588, 549)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "PLEASE RECYCLE",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 45 at (494, 587)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "15.00",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 48 at (114, 680)",
+          "reason": "product / brand name only"
+        },
+        {
+          "text": "50.00",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 49 at (206, 680)",
+          "reason": "product / brand name only"
+        },
+        {
+          "text": "50.00",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 50 at (348, 680)",
+          "reason": "product / brand name only"
+        },
+        {
+          "text": "50.00",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 51 at (490, 680)",
+          "reason": "product / brand name only"
+        },
+        {
+          "text": "49.50",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 52 at (631, 680)",
+          "reason": "product / brand name only"
+        },
+        {
+          "text": "214.50",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 53 at (379, 706)",
+          "reason": "product / brand name only"
+        },
+        {
+          "text": "DIELINE: FPD00_3217 CRASHBOTTOM",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 54 at (257, 752)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "105769 Day-Time Syrup",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 55 at (169, 778)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "FILE NAME",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 56 at (116, 779)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "DATE",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 57 at (116, 794)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "25 November 2025",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 58 at (151, 794)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "AMENDED BY",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 59 at (244, 794)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "Michelle",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 60 at (309, 795)",
+          "reason": "single word"
+        },
+        {
+          "text": "STOCK",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 61 at (116, 809)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "PEFC FWB 415mic",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 62 at (158, 809)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "Spot Overgloss",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 63 at (339, 848)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "OFF WHITE MATCHED",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 64 at (115, 848)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "PMS142 C MATCHED",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 65 at (141, 849)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "PMS412 C",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 66 at (166, 849)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "CMYK",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 67 at (225, 849)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "PMS 2426",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 68 at (188, 851)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "BEST BEFORE & BATCH AREA TO BE PRINT AND VARNISH FREE",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 69 at (116, 868)",
+          "reason": "panel / print spec / legal or contact text"
+        }
+      ],
+      "elapsed_s": 4.47
+    },
+    {
+      "summary": {
+        "RED": 0,
+        "AMBER": 0,
+        "GREEN": 20,
+        "claims": 20,
+        "needs_review": 0,
+        "ai": false
+      },
+      "claims": [
+        {
+          "id": "comvita-001",
+          "text": "Contains 10% UMF™ 10+ Mānuka Honey",
+          "claim_type": "compositional",
+          "verdict": "GREEN",
+          "decided_by": "rules",
+          "status": "PASS",
+          "justification": "This describes what the product contains or is free from. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
+          "rules": [
+            {
+              "rule_id": "TGA-NO-CLAIM",
+              "source": "rules",
+              "verdict": "GREEN",
+              "title": "No therapeutic or restricted representation",
+              "why": "This describes what the product contains or is free from. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
+              "matched": [],
+              "citations": [
+                {
+                  "source": "tga_advertising_code",
+                  "document": "Therapeutic Goods (Therapeutic Goods Advertising Code) Instrument 2021 (F2023C00019, compilation 1)",
+                  "locator": "s 8(1)(a)",
+                  "excerpt": "be accurate, balanced and not misleading or likely to be misleading",
+                  "snapshot": "rulebank/au/snapshots/tga_advertising_code.txt",
+                  "snapshot_line": 519,
+                  "url": "https://www.legislation.gov.au/F2021L01661/latest/text"
+                }
+              ],
+              "conditions": []
+            }
+          ],
+          "found_in": [
+            {
+              "file": "Source/Material/Comvita Kids Herbal Syrup/105768 Kids Day-time Gentle Syrup Label Orange v8.pdf",
+              "location": "page 1, text box 19 at (115, 243)",
+              "method": "pdf-text-layer"
+            },
+            {
+              "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+              "location": "page 1, text box 13 at (448, 291)",
+              "method": "pdf-text-layer"
+            },
+            {
+              "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+              "location": "page 1, text box 15 at (203, 298)",
+              "method": "pdf-text-layer"
+            }
+          ]
+        },
+        {
+          "id": "comvita-002",
+          "text": "HONEY GENTLE SYRUP",
+          "claim_type": "marketing_puffery",
+          "verdict": "GREEN",
+          "decided_by": "rules",
+          "status": "PASS",
+          "justification": "This is general marketing language. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
+          "rules": [
+            {
+              "rule_id": "TGA-NO-CLAIM",
+              "source": "rules",
+              "verdict": "GREEN",
+              "title": "No therapeutic or restricted representation",
+              "why": "This is general marketing language. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
+              "matched": [],
+              "citations": [
+                {
+                  "source": "tga_advertising_code",
+                  "document": "Therapeutic Goods (Therapeutic Goods Advertising Code) Instrument 2021 (F2023C00019, compilation 1)",
+                  "locator": "s 8(1)(a)",
+                  "excerpt": "be accurate, balanced and not misleading or likely to be misleading",
+                  "snapshot": "rulebank/au/snapshots/tga_advertising_code.txt",
+                  "snapshot_line": 519,
+                  "url": "https://www.legislation.gov.au/F2021L01661/latest/text"
+                }
+              ],
+              "conditions": []
+            }
+          ],
+          "found_in": [
+            {
+              "file": "Source/Material/Comvita Kids Herbal Syrup/105768 Kids Day-time Gentle Syrup Label Orange v8.pdf",
+              "location": "page 1, text box 27 at (231, 288)",
+              "method": "pdf-text-layer"
+            }
+          ]
+        },
+        {
+          "id": "comvita-003",
+          "text": "WITH IVY LEAF EXTRACT VITAMINS C, D & ZINC",
+          "claim_type": "compositional",
+          "verdict": "GREEN",
+          "decided_by": "rules",
+          "status": "PASS",
+          "justification": "This describes what the product contains or is free from. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
+          "rules": [
+            {
+              "rule_id": "TGA-NO-CLAIM",
+              "source": "rules",
+              "verdict": "GREEN",
+              "title": "No therapeutic or restricted representation",
+              "why": "This describes what the product contains or is free from. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
+              "matched": [],
+              "citations": [
+                {
+                  "source": "tga_advertising_code",
+                  "document": "Therapeutic Goods (Therapeutic Goods Advertising Code) Instrument 2021 (F2023C00019, compilation 1)",
+                  "locator": "s 8(1)(a)",
+                  "excerpt": "be accurate, balanced and not misleading or likely to be misleading",
+                  "snapshot": "rulebank/au/snapshots/tga_advertising_code.txt",
+                  "snapshot_line": 519,
+                  "url": "https://www.legislation.gov.au/F2021L01661/latest/text"
+                }
+              ],
+              "conditions": []
+            }
+          ],
+          "found_in": [
+            {
+              "file": "Source/Material/Comvita Kids Herbal Syrup/105768 Kids Day-time Gentle Syrup Label Orange v8.pdf",
+              "location": "page 1, text box 33 at (235, 338)",
+              "method": "pdf-text-layer"
+            }
+          ]
+        },
+        {
+          "id": "comvita-004",
+          "text": "ORANGE FLAVOURED",
+          "claim_type": "compositional",
+          "verdict": "GREEN",
+          "decided_by": "rules",
+          "status": "PASS",
+          "justification": "This describes what the product contains or is free from. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
+          "rules": [
+            {
+              "rule_id": "TGA-NO-CLAIM",
+              "source": "rules",
+              "verdict": "GREEN",
+              "title": "No therapeutic or restricted representation",
+              "why": "This describes what the product contains or is free from. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
+              "matched": [],
+              "citations": [
+                {
+                  "source": "tga_advertising_code",
+                  "document": "Therapeutic Goods (Therapeutic Goods Advertising Code) Instrument 2021 (F2023C00019, compilation 1)",
+                  "locator": "s 8(1)(a)",
+                  "excerpt": "be accurate, balanced and not misleading or likely to be misleading",
+                  "snapshot": "rulebank/au/snapshots/tga_advertising_code.txt",
+                  "snapshot_line": 519,
+                  "url": "https://www.legislation.gov.au/F2021L01661/latest/text"
+                }
+              ],
+              "conditions": []
+            }
+          ],
+          "found_in": [
+            {
+              "file": "Source/Material/Comvita Kids Herbal Syrup/105768 Kids Day-time Gentle Syrup Label Orange v8.pdf",
+              "location": "page 1, text box 35 at (228, 361)",
+              "method": "pdf-text-layer"
+            },
+            {
+              "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+              "location": "page 1, text box 43 at (450, 524)",
+              "method": "pdf-text-layer"
+            }
+          ]
+        },
+        {
+          "id": "comvita-005",
+          "text": "Gluten Free",
+          "claim_type": "compositional",
+          "verdict": "GREEN",
+          "decided_by": "rules",
+          "status": "PASS",
+          "justification": "This describes what the product contains or is free from. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
+          "rules": [
+            {
+              "rule_id": "TGA-NO-CLAIM",
+              "source": "rules",
+              "verdict": "GREEN",
+              "title": "No therapeutic or restricted representation",
+              "why": "This describes what the product contains or is free from. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
+              "matched": [],
+              "citations": [
+                {
+                  "source": "tga_advertising_code",
+                  "document": "Therapeutic Goods (Therapeutic Goods Advertising Code) Instrument 2021 (F2023C00019, compilation 1)",
+                  "locator": "s 8(1)(a)",
+                  "excerpt": "be accurate, balanced and not misleading or likely to be misleading",
+                  "snapshot": "rulebank/au/snapshots/tga_advertising_code.txt",
+                  "snapshot_line": 519,
+                  "url": "https://www.legislation.gov.au/F2021L01661/latest/text"
+                }
+              ],
+              "conditions": []
+            }
+          ],
+          "found_in": [
+            {
+              "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+              "location": "page 1, text box 9 at (172, 258)",
+              "method": "pdf-text-layer"
+            }
+          ]
+        },
+        {
+          "id": "comvita-006",
+          "text": "No Artificial Flavours or Colours",
+          "claim_type": "compositional",
+          "verdict": "GREEN",
+          "decided_by": "rules",
+          "status": "PASS",
+          "justification": "This describes what the product contains or is free from. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
+          "rules": [
+            {
+              "rule_id": "TGA-NO-CLAIM",
+              "source": "rules",
+              "verdict": "GREEN",
+              "title": "No therapeutic or restricted representation",
+              "why": "This describes what the product contains or is free from. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
+              "matched": [],
+              "citations": [
+                {
+                  "source": "tga_advertising_code",
+                  "document": "Therapeutic Goods (Therapeutic Goods Advertising Code) Instrument 2021 (F2023C00019, compilation 1)",
+                  "locator": "s 8(1)(a)",
+                  "excerpt": "be accurate, balanced and not misleading or likely to be misleading",
+                  "snapshot": "rulebank/au/snapshots/tga_advertising_code.txt",
+                  "snapshot_line": 519,
+                  "url": "https://www.legislation.gov.au/F2021L01661/latest/text"
+                }
+              ],
+              "conditions": []
+            }
+          ],
+          "found_in": [
+            {
+              "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+              "location": "page 1, text box 10 at (214, 258)",
+              "method": "pdf-text-layer"
+            }
+          ]
+        },
+        {
+          "id": "comvita-007",
+          "text": "Use with Comvita™ Kids Night-Time Calming Syrup for gentle care all day & night.",
+          "claim_type": "compositional",
+          "verdict": "GREEN",
+          "decided_by": "rules",
+          "status": "PASS",
+          "justification": "This describes what the product contains or is free from. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
+          "rules": [
+            {
+              "rule_id": "TGA-NO-CLAIM",
+              "source": "rules",
+              "verdict": "GREEN",
+              "title": "No therapeutic or restricted representation",
+              "why": "This describes what the product contains or is free from. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
+              "matched": [],
+              "citations": [
+                {
+                  "source": "tga_advertising_code",
+                  "document": "Therapeutic Goods (Therapeutic Goods Advertising Code) Instrument 2021 (F2023C00019, compilation 1)",
+                  "locator": "s 8(1)(a)",
+                  "excerpt": "be accurate, balanced and not misleading or likely to be misleading",
+                  "snapshot": "rulebank/au/snapshots/tga_advertising_code.txt",
+                  "snapshot_line": 519,
+                  "url": "https://www.legislation.gov.au/F2021L01661/latest/text"
+                }
+              ],
+              "conditions": []
+            }
+          ],
+          "found_in": [
+            {
+              "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+              "location": "page 1, text box 11 at (587, 261)",
+              "method": "pdf-text-layer"
+            }
+          ]
+        },
+        {
+          "id": "comvita-008",
+          "text": "HEY HONEY BEARS!",
+          "claim_type": "marketing_puffery",
+          "verdict": "GREEN",
+          "decided_by": "rules",
+          "status": "PASS",
+          "justification": "This is general marketing language. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
+          "rules": [
+            {
+              "rule_id": "TGA-NO-CLAIM",
+              "source": "rules",
+              "verdict": "GREEN",
+              "title": "No therapeutic or restricted representation",
+              "why": "This is general marketing language. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
+              "matched": [],
+              "citations": [
+                {
+                  "source": "tga_advertising_code",
+                  "document": "Therapeutic Goods (Therapeutic Goods Advertising Code) Instrument 2021 (F2023C00019, compilation 1)",
+                  "locator": "s 8(1)(a)",
+                  "excerpt": "be accurate, balanced and not misleading or likely to be misleading",
+                  "snapshot": "rulebank/au/snapshots/tga_advertising_code.txt",
+                  "snapshot_line": 519,
+                  "url": "https://www.legislation.gov.au/F2021L01661/latest/text"
+                }
+              ],
+              "conditions": []
+            }
+          ],
+          "found_in": [
+            {
+              "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+              "location": "page 1, text box 12 at (307, 284)",
+              "method": "pdf-text-layer"
+            }
+          ]
+        },
+        {
+          "id": "comvita-009",
+          "text": "HONEY GENTLE SYRUP WITH MULTIFLORAL AND MANUKA HONEY",
+          "claim_type": "compositional",
+          "verdict": "GREEN",
+          "decided_by": "rules",
+          "status": "PASS",
+          "justification": "This describes what the product contains or is free from. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
+          "rules": [
+            {
+              "rule_id": "TGA-NO-CLAIM",
+              "source": "rules",
+              "verdict": "GREEN",
+              "title": "No therapeutic or restricted representation",
+              "why": "This describes what the product contains or is free from. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
+              "matched": [],
+              "citations": [
+                {
+                  "source": "tga_advertising_code",
+                  "document": "Therapeutic Goods (Therapeutic Goods Advertising Code) Instrument 2021 (F2023C00019, compilation 1)",
+                  "locator": "s 8(1)(a)",
+                  "excerpt": "be accurate, balanced and not misleading or likely to be misleading",
+                  "snapshot": "rulebank/au/snapshots/tga_advertising_code.txt",
+                  "snapshot_line": 519,
+                  "url": "https://www.legislation.gov.au/F2021L01661/latest/text"
+                }
+              ],
+              "conditions": []
+            }
+          ],
+          "found_in": [
+            {
+              "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+              "location": "page 1, text box 13 at (448, 291)",
+              "method": "pdf-text-layer"
+            }
+          ]
+        },
+        {
+          "id": "comvita-010",
+          "text": "Parents around the world use honey in delicious ways to care for their little ones.",
+          "claim_type": "marketing_puffery",
+          "verdict": "GREEN",
+          "decided_by": "rules",
+          "status": "PASS",
+          "justification": "This is general marketing language. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
+          "rules": [
+            {
+              "rule_id": "TGA-NO-CLAIM",
+              "source": "rules",
+              "verdict": "GREEN",
+              "title": "No therapeutic or restricted representation",
+              "why": "This is general marketing language. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
+              "matched": [],
+              "citations": [
+                {
+                  "source": "tga_advertising_code",
+                  "document": "Therapeutic Goods (Therapeutic Goods Advertising Code) Instrument 2021 (F2023C00019, compilation 1)",
+                  "locator": "s 8(1)(a)",
+                  "excerpt": "be accurate, balanced and not misleading or likely to be misleading",
+                  "snapshot": "rulebank/au/snapshots/tga_advertising_code.txt",
+                  "snapshot_line": 519,
+                  "url": "https://www.legislation.gov.au/F2021L01661/latest/text"
+                }
+              ],
+              "conditions": []
+            }
+          ],
+          "found_in": [
+            {
+              "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+              "location": "page 1, text box 14 at (307, 294)",
+              "method": "pdf-text-layer"
+            }
+          ]
+        },
+        {
+          "id": "comvita-011",
+          "text": "Comvita™ Kids Honey Day-time Gentle Syrup with Ma-nuka Honey, Ivy Leaf, Vitamins C, D & Zinc is a tasty way to support your child’s daily routine.",
+          "claim_type": "compositional",
+          "verdict": "GREEN",
+          "decided_by": "rules",
+          "status": "PASS",
+          "justification": "This describes what the product contains or is free from. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
+          "rules": [
+            {
+              "rule_id": "TGA-NO-CLAIM",
+              "source": "rules",
+              "verdict": "GREEN",
+              "title": "No therapeutic or restricted representation",
+              "why": "This describes what the product contains or is free from. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
+              "matched": [],
+              "citations": [
+                {
+                  "source": "tga_advertising_code",
+                  "document": "Therapeutic Goods (Therapeutic Goods Advertising Code) Instrument 2021 (F2023C00019, compilation 1)",
+                  "locator": "s 8(1)(a)",
+                  "excerpt": "be accurate, balanced and not misleading or likely to be misleading",
+                  "snapshot": "rulebank/au/snapshots/tga_advertising_code.txt",
+                  "snapshot_line": 519,
+                  "url": "https://www.legislation.gov.au/F2021L01661/latest/text"
+                }
+              ],
+              "conditions": []
+            }
+          ],
+          "found_in": [
+            {
+              "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+              "location": "page 1, text box 14 at (307, 294)",
+              "method": "pdf-text-layer"
+            }
+          ]
+        },
+        {
+          "id": "comvita-012",
+          "text": "Also available: Comvita™ Kids Honey Night-time Calming Syrup with Chamomile – a gentle addition to your child’s bedtime routine.",
+          "claim_type": "other",
+          "verdict": "GREEN",
+          "decided_by": "rules",
+          "status": "PASS",
+          "justification": "This is a price, availability or cross-sell statement. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
+          "rules": [
+            {
+              "rule_id": "TGA-NO-CLAIM",
+              "source": "rules",
+              "verdict": "GREEN",
+              "title": "No therapeutic or restricted representation",
+              "why": "This is a price, availability or cross-sell statement. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
+              "matched": [],
+              "citations": [
+                {
+                  "source": "tga_advertising_code",
+                  "document": "Therapeutic Goods (Therapeutic Goods Advertising Code) Instrument 2021 (F2023C00019, compilation 1)",
+                  "locator": "s 8(1)(a)",
+                  "excerpt": "be accurate, balanced and not misleading or likely to be misleading",
+                  "snapshot": "rulebank/au/snapshots/tga_advertising_code.txt",
+                  "snapshot_line": 519,
+                  "url": "https://www.legislation.gov.au/F2021L01661/latest/text"
+                }
+              ],
+              "conditions": []
+            }
+          ],
+          "found_in": [
+            {
+              "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+              "location": "page 1, text box 14 at (307, 294)",
+              "method": "pdf-text-layer"
+            }
+          ]
+        },
+        {
+          "id": "comvita-013",
+          "text": "Together, Comvita™ Kids Syrups are a delicious way to care for and support your little ones throughout the day and night.",
+          "claim_type": "marketing_puffery",
+          "verdict": "GREEN",
+          "decided_by": "rules",
+          "status": "PASS",
+          "justification": "This is general marketing language. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
+          "rules": [
+            {
+              "rule_id": "TGA-NO-CLAIM",
+              "source": "rules",
+              "verdict": "GREEN",
+              "title": "No therapeutic or restricted representation",
+              "why": "This is general marketing language. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
+              "matched": [],
+              "citations": [
+                {
+                  "source": "tga_advertising_code",
+                  "document": "Therapeutic Goods (Therapeutic Goods Advertising Code) Instrument 2021 (F2023C00019, compilation 1)",
+                  "locator": "s 8(1)(a)",
+                  "excerpt": "be accurate, balanced and not misleading or likely to be misleading",
+                  "snapshot": "rulebank/au/snapshots/tga_advertising_code.txt",
+                  "snapshot_line": 519,
+                  "url": "https://www.legislation.gov.au/F2021L01661/latest/text"
+                }
+              ],
+              "conditions": []
+            }
+          ],
+          "found_in": [
+            {
+              "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+              "location": "page 1, text box 14 at (307, 294)",
+              "method": "pdf-text-layer"
+            }
+          ]
+        },
+        {
+          "id": "comvita-014",
+          "text": "UMF™ 10+ Mānuka Honey is scientifically tested to contain a minimum 263 mg/kg of Methylglyoxal (MGO), a naturally occurring compound in Mānuka Honey.",
+          "claim_type": "nutrition_content",
+          "verdict": "GREEN",
+          "decided_by": "rules",
+          "status": "PASS",
+          "justification": "This states the amount of an ingredient or component. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
+          "rules": [
+            {
+              "rule_id": "TGA-NO-CLAIM",
+              "source": "rules",
+              "verdict": "GREEN",
+              "title": "No therapeutic or restricted representation",
+              "why": "This states the amount of an ingredient or component. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
+              "matched": [],
+              "citations": [
+                {
+                  "source": "tga_advertising_code",
+                  "document": "Therapeutic Goods (Therapeutic Goods Advertising Code) Instrument 2021 (F2023C00019, compilation 1)",
+                  "locator": "s 8(1)(a)",
+                  "excerpt": "be accurate, balanced and not misleading or likely to be misleading",
+                  "snapshot": "rulebank/au/snapshots/tga_advertising_code.txt",
+                  "snapshot_line": 519,
+                  "url": "https://www.legislation.gov.au/F2021L01661/latest/text"
+                }
+              ],
+              "conditions": []
+            }
+          ],
+          "found_in": [
+            {
+              "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+              "location": "page 1, text box 19 at (168, 327)",
+              "method": "pdf-text-layer"
+            }
+          ]
+        },
+        {
+          "id": "comvita-015",
+          "text": "The UMF ™ rating system independently certiﬁes natural components found in Ma¯ nuka Honey to assure potency, purity, authenticity, & freshness.",
+          "claim_type": "marketing_puffery",
+          "verdict": "GREEN",
+          "decided_by": "rules",
+          "status": "PASS",
+          "justification": "This is general marketing language. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
+          "rules": [
+            {
+              "rule_id": "TGA-NO-CLAIM",
+              "source": "rules",
+              "verdict": "GREEN",
+              "title": "No therapeutic or restricted representation",
+              "why": "This is general marketing language. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
+              "matched": [],
+              "citations": [
+                {
+                  "source": "tga_advertising_code",
+                  "document": "Therapeutic Goods (Therapeutic Goods Advertising Code) Instrument 2021 (F2023C00019, compilation 1)",
+                  "locator": "s 8(1)(a)",
+                  "excerpt": "be accurate, balanced and not misleading or likely to be misleading",
+                  "snapshot": "rulebank/au/snapshots/tga_advertising_code.txt",
+                  "snapshot_line": 519,
+                  "url": "https://www.legislation.gov.au/F2021L01661/latest/text"
+                }
+              ],
+              "conditions": []
+            }
+          ],
+          "found_in": [
+            {
+              "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+              "location": "page 1, text box 27 at (168, 361)",
+              "method": "pdf-text-layer"
+            }
+          ]
+        },
+        {
+          "id": "comvita-016",
+          "text": "MADE IN NEW ZEALAND from local and imported ingredients.",
+          "claim_type": "identity_or_origin",
+          "verdict": "GREEN",
+          "decided_by": "rules",
+          "status": "PASS",
+          "justification": "This is a statement about origin, provenance or the company. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
+          "rules": [
+            {
+              "rule_id": "TGA-NO-CLAIM",
+              "source": "rules",
+              "verdict": "GREEN",
+              "title": "No therapeutic or restricted representation",
+              "why": "This is a statement about origin, provenance or the company. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
+              "matched": [],
+              "citations": [
+                {
+                  "source": "tga_advertising_code",
+                  "document": "Therapeutic Goods (Therapeutic Goods Advertising Code) Instrument 2021 (F2023C00019, compilation 1)",
+                  "locator": "s 8(1)(a)",
+                  "excerpt": "be accurate, balanced and not misleading or likely to be misleading",
+                  "snapshot": "rulebank/au/snapshots/tga_advertising_code.txt",
+                  "snapshot_line": 519,
+                  "url": "https://www.legislation.gov.au/F2021L01661/latest/text"
+                }
+              ],
+              "conditions": []
+            }
+          ],
+          "found_in": [
+            {
+              "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+              "location": "page 1, text box 31 at (167, 415)",
+              "method": "pdf-text-layer"
+            }
+          ]
+        },
+        {
+          "id": "comvita-017",
+          "text": "with IVY LEAF EXTRACT a gentle plant ingredient",
+          "claim_type": "compositional",
+          "verdict": "GREEN",
+          "decided_by": "rules",
+          "status": "PASS",
+          "justification": "This describes what the product contains or is free from. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
+          "rules": [
+            {
+              "rule_id": "TGA-NO-CLAIM",
+              "source": "rules",
+              "verdict": "GREEN",
+              "title": "No therapeutic or restricted representation",
+              "why": "This describes what the product contains or is free from. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
+              "matched": [],
+              "citations": [
+                {
+                  "source": "tga_advertising_code",
+                  "document": "Therapeutic Goods (Therapeutic Goods Advertising Code) Instrument 2021 (F2023C00019, compilation 1)",
+                  "locator": "s 8(1)(a)",
+                  "excerpt": "be accurate, balanced and not misleading or likely to be misleading",
+                  "snapshot": "rulebank/au/snapshots/tga_advertising_code.txt",
+                  "snapshot_line": 519,
+                  "url": "https://www.legislation.gov.au/F2021L01661/latest/text"
+                }
+              ],
+              "conditions": []
+            }
+          ],
+          "found_in": [
+            {
+              "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+              "location": "page 1, text box 32 at (501, 418)",
+              "method": "pdf-text-layer"
+            }
+          ]
+        },
+        {
+          "id": "comvita-018",
+          "text": "In 1974, Claude Stratford and I began beekeeping together with a passion for connecting people to nature and good health.",
+          "claim_type": "identity_or_origin",
+          "verdict": "GREEN",
+          "decided_by": "rules",
+          "status": "PASS",
+          "justification": "This is a statement about origin, provenance or the company. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
+          "rules": [
+            {
+              "rule_id": "TGA-NO-CLAIM",
+              "source": "rules",
+              "verdict": "GREEN",
+              "title": "No therapeutic or restricted representation",
+              "why": "This is a statement about origin, provenance or the company. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
+              "matched": [],
+              "citations": [
+                {
+                  "source": "tga_advertising_code",
+                  "document": "Therapeutic Goods (Therapeutic Goods Advertising Code) Instrument 2021 (F2023C00019, compilation 1)",
+                  "locator": "s 8(1)(a)",
+                  "excerpt": "be accurate, balanced and not misleading or likely to be misleading",
+                  "snapshot": "rulebank/au/snapshots/tga_advertising_code.txt",
+                  "snapshot_line": 519,
+                  "url": "https://www.legislation.gov.au/F2021L01661/latest/text"
+                }
+              ],
+              "conditions": []
+            }
+          ],
+          "found_in": [
+            {
+              "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+              "location": "page 1, text box 34 at (307, 448)",
+              "method": "pdf-text-layer"
+            }
+          ]
+        },
+        {
+          "id": "comvita-019",
+          "text": "VITAMINS C, D & ZINC important nutrients for kids’ healthy growth & development",
+          "claim_type": "therapeutic",
+          "verdict": "GREEN",
+          "decided_by": "rules",
+          "status": "PASS",
+          "justification": "\"for kids' healthy growth and development\" uses the wording of permitted indication \"Helps enhance/promote healthy growth and development\" (Schedule 1, Part 1, item 74). Listed medicines may only carry indications from the Permissible Indications Determination, and the consultant's rule is that TGA wording must match word for word. The indication's action verb is replaced only by the linking word \"for\", which keeps its meaning.",
+          "rules": [
+            {
+              "rule_id": "TGA-IND-EXACT",
+              "source": "rules",
+              "verdict": "GREEN",
+              "title": "Wording matches a permitted indication",
+              "why": "\"for kids' healthy growth and development\" uses the wording of permitted indication \"Helps enhance/promote healthy growth and development\" (Schedule 1, Part 1, item 74). Listed medicines may only carry indications from the Permissible Indications Determination, and the consultant's rule is that TGA wording must match word for word. The indication's action verb is replaced only by the linking word \"for\", which keeps its meaning.",
+              "matched": [
+                "for kids' healthy growth and development"
+              ],
+              "citations": [
+                {
+                  "source": "tga_permissible_indications",
+                  "document": "Therapeutic Goods (Permissible Indications) Determination (No. 1) 2025 (F2025L00450, compilation 0)",
+                  "locator": "s 5(a)",
+                  "excerpt": "each indication specified in column 2 of the tables in Parts 1 to 17 of Schedule 1",
+                  "snapshot": "rulebank/au/snapshots/tga_permissible_indications.txt",
+                  "snapshot_line": 167,
+                  "url": "https://www.legislation.gov.au/F2025L00450/latest/text"
+                },
+                {
+                  "source": "sources_and_logic_aus",
+                  "document": "Taama — Australia Product Classification & Regulatory Assessment (consultant working document)",
+                  "locator": "§3.3 Matching rules",
+                  "excerpt": "TGA is exact word for word, no variation or semantic equivalence",
+                  "snapshot": "rulebank/au/snapshots/sources_and_logic_aus.txt",
+                  "snapshot_line": 338,
+                  "url": null
+                },
+                {
+                  "source": "tga_permissible_indications",
+                  "document": "Therapeutic Goods (Permissible Indications) Determination (No. 1) 2025 (F2025L00450, compilation 0)",
+                  "locator": "Schedule 1, Part 1, item 74",
+                  "excerpt": "Helps enhance/promote healthy growth and development",
+                  "snapshot": "rulebank/au/snapshots/tga_permissible_indications.txt",
+                  "snapshot_line": 857,
+                  "url": "https://www.legislation.gov.au/F2025L00450/latest/text"
+                }
+              ],
+              "conditions": []
+            }
+          ],
+          "found_in": [
+            {
+              "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+              "location": "page 1, text box 37 at (476, 474)",
+              "method": "pdf-text-layer"
+            }
+          ]
+        },
+        {
+          "id": "comvita-020",
+          "text": "Over 50 years later, our commitment to the craft continues, sharing one of nature’s special gifts from our remote and pristine forests.",
+          "claim_type": "identity_or_origin",
+          "verdict": "GREEN",
+          "decided_by": "rules",
+          "status": "PASS",
+          "justification": "This is a statement about origin, provenance or the company. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
+          "rules": [
+            {
+              "rule_id": "TGA-NO-CLAIM",
+              "source": "rules",
+              "verdict": "GREEN",
+              "title": "No therapeutic or restricted representation",
+              "why": "This is a statement about origin, provenance or the company. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
+              "matched": [],
+              "citations": [
+                {
+                  "source": "tga_advertising_code",
+                  "document": "Therapeutic Goods (Therapeutic Goods Advertising Code) Instrument 2021 (F2023C00019, compilation 1)",
+                  "locator": "s 8(1)(a)",
+                  "excerpt": "be accurate, balanced and not misleading or likely to be misleading",
+                  "snapshot": "rulebank/au/snapshots/tga_advertising_code.txt",
+                  "snapshot_line": 519,
+                  "url": "https://www.legislation.gov.au/F2021L01661/latest/text"
+                }
+              ],
+              "conditions": []
+            }
+          ],
+          "found_in": [
+            {
+              "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+              "location": "page 1, text box 39 at (307, 481)",
+              "method": "pdf-text-layer"
+            }
+          ]
+        }
+      ],
+      "not_assessed": [
+        {
+          "text": "105768 SEA Day-Time Syrup Label",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105768 Kids Day-time Gentle Syrup Label Orange v8.pdf",
+          "location": "page 1, text box 1 at (73, 65)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "FILE NAME",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105768 Kids Day-time Gentle Syrup Label Orange v8.pdf",
+          "location": "page 1, text box 2 at (21, 65)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "DATE",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105768 Kids Day-time Gentle Syrup Label Orange v8.pdf",
+          "location": "page 1, text box 3 at (21, 80)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "CREATED BY",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105768 Kids Day-time Gentle Syrup Label Orange v8.pdf",
+          "location": "page 1, text box 4 at (151, 80)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "4 November 2025",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105768 Kids Day-time Gentle Syrup Label Orange v8.pdf",
+          "location": "page 1, text box 5 at (56, 81)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "Michelle",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105768 Kids Day-time Gentle Syrup Label Orange v8.pdf",
+          "location": "page 1, text box 6 at (214, 81)",
+          "reason": "single word"
+        },
+        {
+          "text": "STOCK",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105768 Kids Day-time Gentle Syrup Label Orange v8.pdf",
+          "location": "page 1, text box 7 at (21, 96)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "Self adhesive semigloss white paper",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105768 Kids Day-time Gentle Syrup Label Orange v8.pdf",
+          "location": "page 1, text box 8 at (63, 96)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "PMS 2426",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105768 Kids Day-time Gentle Syrup Label Orange v8.pdf",
+          "location": "page 1, text box 9 at (80, 135)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "40% PMS 4685 C MATCHED",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105768 Kids Day-time Gentle Syrup Label Orange v8.pdf",
+          "location": "page 1, text box 10 at (21, 135)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "PMS142 C MATCHED",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105768 Kids Day-time Gentle Syrup Label Orange v8.pdf",
+          "location": "page 1, text box 11 at (49, 135)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "PMS412 C",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105768 Kids Day-time Gentle Syrup Label Orange v8.pdf",
+          "location": "page 1, text box 12 at (103, 135)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "Spot Overgloss",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105768 Kids Day-time Gentle Syrup Label Orange v8.pdf",
+          "location": "page 1, text box 13 at (242, 135)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "CMYK",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105768 Kids Day-time Gentle Syrup Label Orange v8.pdf",
+          "location": "page 1, text box 14 at (133, 136)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "BEST BEFORE & BATCH AREA TO BE PRINT AND VARNISH FREE",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105768 Kids Day-time Gentle Syrup Label Orange v8.pdf",
+          "location": "page 1, text box 15 at (21, 155)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "NUTRITION INFORMATION",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105768 Kids Day-time Gentle Syrup Label Orange v8.pdf",
+          "location": "page 1, text box 17 at (399, 237)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "Servings per bottle: approximately 12 Serving size: 10 mL",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105768 Kids Day-time Gentle Syrup Label Orange v8.pdf",
+          "location": "page 1, text box 20 at (378, 244)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "Quantity per Serving* Quantity per 1 00 mL*",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105768 Kids Day-time Gentle Syrup Label Orange v8.pdf",
+          "location": "page 1, text box 21 at (394, 255)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "445 kcal (1860 kJ) 0.4 g 3.5 g 1.9 g 102 g 93.2 g 11 mg 250 mg 100 mcg 30 mg * Values are based on analytical results. ^ Recommended dietary intake. INGREDIENTS: Multifloral Honey (78%), Water, Mānuka Honey UMF™ 10+ (10%), Vitamins (ascorbic acid, cholecalciferol), Ivy leaf extract (0.3%), Acidity regulator (citric acid), Mineral (zinc gluconate), Flavour. COMVITA SINGAPORE PTE LTD WEB: comvita.com.sg COMVITA MALAYSIA SDN BHD WEB: comvita.com.my",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105768 Kids Day-time Gentle Syrup Label Orange v8.pdf",
+          "location": "page 1, text box 22 at (374, 264)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "Energy Protein Fat, total - saturated Carbohydrate - total sugars Sodium Vitamin C 25 mg (63% RDI^) Vitamin D3 10 mcg (100% RDI^) Zinc 3 mg (26% RDI^)",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105768 Kids Day-time Gentle Syrup Label Orange v8.pdf",
+          "location": "page 1, text box 23 at (378, 264)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "44 kcal (186 kJ) 0.04 g 0.4 g 0.2 g 10.2 g 9.3 g 1.1 mg",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105768 Kids Day-time Gentle Syrup Label Orange v8.pdf",
+          "location": "page 1, text box 24 at (407, 264)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "Please see www.umf.org.nz. UMFHA License 1019",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105768 Kids Day-time Gentle Syrup Label Orange v8.pdf",
+          "location": "page 1, text box 26 at (85, 270)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "RECOMMENDED SERVINGS: CHILDREN 4+ Years: 10 mL once daily.",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105768 Kids Day-time Gentle Syrup Label Orange v8.pdf",
+          "location": "page 1, text box 28 at (118, 288)",
+          "reason": "direction / warning / dose statement"
+        },
+        {
+          "text": "CHILDREN 2-3 Years: 5 mL once daily.",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105768 Kids Day-time Gentle Syrup Label Orange v8.pdf",
+          "location": "page 1, text box 28 at (118, 288)",
+          "reason": "direction / warning / dose statement"
+        },
+        {
+          "text": "Enjoy as is or mixed with a favourite beverage.",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105768 Kids Day-time Gentle Syrup Label Orange v8.pdf",
+          "location": "page 1, text box 28 at (118, 288)",
+          "reason": "direction / warning / dose statement"
+        },
+        {
+          "text": "Best taken with a meal.",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105768 Kids Day-time Gentle Syrup Label Orange v8.pdf",
+          "location": "page 1, text box 28 at (118, 288)",
+          "reason": "direction / warning / dose statement"
+        },
+        {
+          "text": "Not intended for use in children under 2 years, or by pregnant or lactating women.",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105768 Kids Day-time Gentle Syrup Label Orange v8.pdf",
+          "location": "page 1, text box 28 at (118, 288)",
+          "reason": "direction / warning / dose statement"
+        },
+        {
+          "text": "Do not exceed recommended daily intake.",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105768 Kids Day-time Gentle Syrup Label Orange v8.pdf",
+          "location": "page 1, text box 28 at (118, 288)",
+          "reason": "direction / warning / dose statement"
+        },
+        {
+          "text": "SHAKE WELL BEFORE USE.",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105768 Kids Day-time Gentle Syrup Label Orange v8.pdf",
+          "location": "page 1, text box 28 at (118, 288)",
+          "reason": "direction / warning / dose statement"
+        },
+        {
+          "text": "For storage please see outer box.",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105768 Kids Day-time Gentle Syrup Label Orange v8.pdf",
+          "location": "page 1, text box 28 at (118, 288)",
+          "reason": "direction / warning / dose statement"
+        },
+        {
+          "text": "TOP",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 4 at (492, 143)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "RECOMMENDED SERVINGS: CHILDREN 4+ Years: 10 mL once daily.",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 6 at (587, 223)",
+          "reason": "direction / warning / dose statement"
+        },
+        {
+          "text": "CHILDREN 2-3 Years: 5 mL once daily.",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 6 at (587, 223)",
+          "reason": "direction / warning / dose statement"
+        },
+        {
+          "text": "Enjoy as is or mixed with a favourite beverage.",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 6 at (587, 223)",
+          "reason": "direction / warning / dose statement"
+        },
+        {
+          "text": "Best taken with a meal",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 6 at (587, 223)",
+          "reason": "direction / warning / dose statement"
+        },
+        {
+          "text": "BACK",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 7 at (192, 241)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "FRONT",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 8 at (476, 241)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "SHAKE WELL BEFORE USE.",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 11 at (587, 261)",
+          "reason": "direction / warning / dose statement"
+        },
+        {
+          "text": "Not intended for use in children under 2 years, or by pregnant or lactating women.",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 11 at (587, 261)",
+          "reason": "direction / warning / dose statement"
+        },
+        {
+          "text": "Do not exceed recommended daily intake.",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 11 at (587, 261)",
+          "reason": "direction / warning / dose statement"
+        },
+        {
+          "text": "STORAGE: Store in a cool, dry place below 25°C.",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 11 at (587, 261)",
+          "reason": "direction / warning / dose statement"
+        },
+        {
+          "text": "Store out of reach of young children.",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 11 at (587, 261)",
+          "reason": "direction / warning / dose statement"
+        },
+        {
+          "text": "Do not use if cap seal is broken.",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 11 at (587, 261)",
+          "reason": "direction / warning / dose statement"
+        },
+        {
+          "text": "NUTRITION INFORMATION",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 18 at (615, 323)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "Servings per bottle: approximately 12 Serving size: 10 mL",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 21 at (590, 332)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "Quantity per Serving* Quantity per 1 00 mL*",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 22 at (610, 345)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "445 kcal (1860 kJ) 0.4 g 3.5 g 1.9 g 102 g 93.2 g 11 mg 250 mg 100 mcg 30 mg * Values are based on analytical results. ^ Recommended dietary intake.",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 23 at (585, 356)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "Energy Protein Fat, total - saturated Carbohydrate - total sugars Sodium Vitamin C 25 mg (63% RDI^) Vitamin D3 10 mcg (100% RDI^) Zinc 3 mg (26% RDI^)",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 24 at (590, 356)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "44 kcal (186 kJ) 0.04 g 0.4 g 0.2 g 10.2 g 9.3 g 1.1 mg",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 25 at (626, 356)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "Please see www.umf.org.nz.",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 27 at (168, 361)",
+          "reason": "direction / warning / dose statement"
+        },
+        {
+          "text": "UMFHA Licence 1019",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 27 at (168, 361)",
+          "reason": "direction / warning / dose statement"
+        },
+        {
+          "text": "INGREDIENTS: Multifloral Honey (78%), Water, Mānuka Honey UMF™ 10+ (10%), Vitamins (ascorbic acid, cholecalciferol), Ivy leaf extract (0.3%), Acidity regulator (citric acid), Mineral (zinc gluconate), Flavour. IMPORTED BY: COMVITA SINGAPORE PTE LTD 21 Bukit Batok Crescent, #29-75, WCEGA Tower, Singapore 658065 WEB: comvita.com.sg EMAIL: hello.sg@comvitasea.com",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 33 at (588, 437)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "BATCH #",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 35 at (176, 460)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "Use BY DD.MM.YYYY",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 36 at (176, 470)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "105769",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 38 at (265, 478)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "DIIMPOT OLEH: COMVITA MALAYSIA SDN BHD 2, Lot 2610, Jalan Subang 6, Taman Perindustrian Subang, 47610 Subang Jaya, Selangor, Malaysia.",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 40 at (588, 511)",
+          "reason": "direction / warning / dose statement"
+        },
+        {
+          "text": "WEB: comvita.com.my EMAIL: hello.my@comvitasea.com",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 40 at (588, 511)",
+          "reason": "direction / warning / dose statement"
+        },
+        {
+          "text": "Barcode 9421003266674",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 41 at (201, 512)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "Alan Bougen Co-founder",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 42 at (353, 522)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "Comvita is a trademark of Comvita Ltd.",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 44 at (588, 549)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "PLEASE RECYCLE",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 45 at (494, 587)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "15.00",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 48 at (114, 680)",
+          "reason": "product / brand name only"
+        },
+        {
+          "text": "50.00",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 49 at (206, 680)",
+          "reason": "product / brand name only"
+        },
+        {
+          "text": "50.00",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 50 at (348, 680)",
+          "reason": "product / brand name only"
+        },
+        {
+          "text": "50.00",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 51 at (490, 680)",
+          "reason": "product / brand name only"
+        },
+        {
+          "text": "49.50",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 52 at (631, 680)",
+          "reason": "product / brand name only"
+        },
+        {
+          "text": "214.50",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 53 at (379, 706)",
+          "reason": "product / brand name only"
+        },
+        {
+          "text": "DIELINE: FPD00_3217 CRASHBOTTOM",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 54 at (257, 752)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "105769 Day-Time Syrup",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 55 at (169, 778)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "FILE NAME",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 56 at (116, 779)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "DATE",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 57 at (116, 794)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "25 November 2025",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 58 at (151, 794)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "AMENDED BY",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 59 at (244, 794)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "Michelle",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 60 at (309, 795)",
+          "reason": "single word"
+        },
+        {
+          "text": "STOCK",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 61 at (116, 809)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "PEFC FWB 415mic",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 62 at (158, 809)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "Spot Overgloss",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 63 at (339, 848)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "OFF WHITE MATCHED",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 64 at (115, 848)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "PMS142 C MATCHED",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 65 at (141, 849)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "PMS412 C",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 66 at (166, 849)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "CMYK",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 67 at (225, 849)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "PMS 2426",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 68 at (188, 851)",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "BEST BEFORE & BATCH AREA TO BE PRINT AND VARNISH FREE",
+          "file": "Source/Material/Comvita Kids Herbal Syrup/105769 Kids Day-time Gentle Syrup Box Orange_FA2.pdf",
+          "location": "page 1, text box 69 at (116, 868)",
+          "reason": "panel / print spec / legal or contact text"
+        }
+      ],
+      "elapsed_s": 4.28
+    }
+  ]
+}

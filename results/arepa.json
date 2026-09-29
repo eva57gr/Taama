@@ -3,16 +3,16 @@
   "name": "Arepa The Brain Drink Lite & Sparkling Blackcurrant (250 mL)",
   "regime": "fsanz_food",
   "ai_judge": false,
-  "ocr": "rapidocr",
+  "ocr": "openai",
   "verdicts_identical": true,
   "runs": [
     {
       "summary": {
         "RED": 0,
-        "AMBER": 15,
-        "GREEN": 14,
-        "claims": 29,
-        "needs_review": 5,
+        "AMBER": 14,
+        "GREEN": 12,
+        "claims": 26,
+        "needs_review": 3,
         "ai": false
       },
       "claims": [
@@ -154,13 +154,60 @@
           "found_in": [
             {
               "file": "Source/Material/Arepa Brain Drink/9413000088328_1.png.webp",
-              "location": "region (431, 747)-(610, 791) px, 2 line(s), min OCR confidence 0.83",
-              "method": "ocr"
+              "location": "text block 2",
+              "method": "ocr-openai gpt-5.2"
             }
           ]
         },
         {
           "id": "arepa-002",
+          "text": "Designed & tested by neuroscientists",
+          "claim_type": "marketing_puffery",
+          "verdict": "GREEN",
+          "decided_by": "rules",
+          "status": "PASS",
+          "justification": "This is general marketing language. It does not state or imply a health effect or make a nutrient claim, so Standard 1.2.7 does not restrict it; the general consumer-law requirement to be true and not misleading applies.",
+          "rules": [
+            {
+              "rule_id": "FOOD-NO-CLAIM",
+              "source": "rules",
+              "verdict": "GREEN",
+              "title": "Not a nutrition content or health claim",
+              "why": "This is general marketing language. It does not state or imply a health effect or make a nutrient claim, so Standard 1.2.7 does not restrict it; the general consumer-law requirement to be true and not misleading applies.",
+              "matched": [],
+              "citations": [
+                {
+                  "source": "fsc_std_1_2_7",
+                  "document": "Australia New Zealand Food Standards Code – Standard 1.2.7 – Nutrition, health and related claims (F2025C00833, compilation 8)",
+                  "locator": "definition, 1.2.7—2",
+                  "excerpt": "health claim means a claim which states, suggests or implies that a food or a property of food has, or may have, a health effect.",
+                  "snapshot": "rulebank/au/snapshots/fsc_std_1_2_7.txt",
+                  "snapshot_line": 59,
+                  "url": "https://www.legislation.gov.au/F2015L00394/latest/text"
+                },
+                {
+                  "source": "sources_and_logic_aus",
+                  "document": "Taama — Australia Product Classification & Regulatory Assessment (consultant working document)",
+                  "locator": "Part 3, FOOD-1 Advertising",
+                  "excerpt": "Claims must be true and not misleading under Australian Consumer Law (ACCC), on top of the FSC claim rules.",
+                  "snapshot": "rulebank/au/snapshots/sources_and_logic_aus.txt",
+                  "snapshot_line": 203,
+                  "url": null
+                }
+              ],
+              "conditions": []
+            }
+          ],
+          "found_in": [
+            {
+              "file": "Source/Material/Arepa Brain Drink/9413000088328_1.png.webp",
+              "location": "text block 3",
+              "method": "ocr-openai gpt-5.2"
+            }
+          ]
+        },
+        {
+          "id": "arepa-003",
           "text": "100% natural caffeine free",
           "claim_type": "nutrition_content",
           "verdict": "AMBER",
@@ -216,55 +263,8 @@
           "found_in": [
             {
               "file": "Source/Material/Arepa Brain Drink/9413000088328_1.png.webp",
-              "location": "region (593, 804)-(659, 835) px, 2 line(s), min OCR confidence 0.85",
-              "method": "ocr"
-            }
-          ]
-        },
-        {
-          "id": "arepa-003",
-          "text": "Designed & tested by neuroscientists",
-          "claim_type": "marketing_puffery",
-          "verdict": "GREEN",
-          "decided_by": "rules",
-          "status": "PASS",
-          "justification": "This is general marketing language. It does not state or imply a health effect or make a nutrient claim, so Standard 1.2.7 does not restrict it; the general consumer-law requirement to be true and not misleading applies.",
-          "rules": [
-            {
-              "rule_id": "FOOD-NO-CLAIM",
-              "source": "rules",
-              "verdict": "GREEN",
-              "title": "Not a nutrition content or health claim",
-              "why": "This is general marketing language. It does not state or imply a health effect or make a nutrient claim, so Standard 1.2.7 does not restrict it; the general consumer-law requirement to be true and not misleading applies.",
-              "matched": [],
-              "citations": [
-                {
-                  "source": "fsc_std_1_2_7",
-                  "document": "Australia New Zealand Food Standards Code – Standard 1.2.7 – Nutrition, health and related claims (F2025C00833, compilation 8)",
-                  "locator": "definition, 1.2.7—2",
-                  "excerpt": "health claim means a claim which states, suggests or implies that a food or a property of food has, or may have, a health effect.",
-                  "snapshot": "rulebank/au/snapshots/fsc_std_1_2_7.txt",
-                  "snapshot_line": 59,
-                  "url": "https://www.legislation.gov.au/F2015L00394/latest/text"
-                },
-                {
-                  "source": "sources_and_logic_aus",
-                  "document": "Taama — Australia Product Classification & Regulatory Assessment (consultant working document)",
-                  "locator": "Part 3, FOOD-1 Advertising",
-                  "excerpt": "Claims must be true and not misleading under Australian Consumer Law (ACCC), on top of the FSC claim rules.",
-                  "snapshot": "rulebank/au/snapshots/sources_and_logic_aus.txt",
-                  "snapshot_line": 203,
-                  "url": null
-                }
-              ],
-              "conditions": []
-            }
-          ],
-          "found_in": [
-            {
-              "file": "Source/Material/Arepa Brain Drink/9413000088328_1.png.webp",
-              "location": "region (453, 806)-(556, 837) px, 2 line(s), min OCR confidence 0.87",
-              "method": "ocr"
+              "location": "text block 4",
+              "method": "ocr-openai gpt-5.2"
             }
           ]
         },
@@ -310,26 +310,26 @@
           "found_in": [
             {
               "file": "Source/Material/Arepa Brain Drink/9413000088328_1.png.webp",
-              "location": "region (433, 863)-(594, 884) px, 1 line(s), min OCR confidence 0.92",
-              "method": "ocr"
+              "location": "text block 5",
+              "method": "ocr-openai gpt-5.2"
             }
           ]
         },
         {
           "id": "arepa-005",
-          "text": "Neuro br ry Blackcurrant, Pine Bark Extract",
-          "claim_type": "compositional",
+          "text": "Neuroberry® Blackcurrant, Pine Bark Extract, L-theanine. Made in Aotearoa, New Zealand.",
+          "claim_type": "identity_or_origin",
           "verdict": "GREEN",
           "decided_by": "rules",
           "status": "PASS",
-          "justification": "This describes what the product contains or is free from. It does not state or imply a health effect or make a nutrient claim, so Standard 1.2.7 does not restrict it; the general consumer-law requirement to be true and not misleading applies.",
+          "justification": "This is a statement about origin, provenance or the company. It does not state or imply a health effect or make a nutrient claim, so Standard 1.2.7 does not restrict it; the general consumer-law requirement to be true and not misleading applies.",
           "rules": [
             {
               "rule_id": "FOOD-NO-CLAIM",
               "source": "rules",
               "verdict": "GREEN",
               "title": "Not a nutrition content or health claim",
-              "why": "This describes what the product contains or is free from. It does not state or imply a health effect or make a nutrient claim, so Standard 1.2.7 does not restrict it; the general consumer-law requirement to be true and not misleading applies.",
+              "why": "This is a statement about origin, provenance or the company. It does not state or imply a health effect or make a nutrient claim, so Standard 1.2.7 does not restrict it; the general consumer-law requirement to be true and not misleading applies.",
               "matched": [],
               "citations": [
                 {
@@ -357,8 +357,8 @@
           "found_in": [
             {
               "file": "Source/Material/Arepa Brain Drink/9413000088328_1.png.webp",
-              "location": "region (431, 888)-(662, 909) px, 1 line(s), min OCR confidence 0.82",
-              "method": "ocr"
+              "location": "text block 6",
+              "method": "ocr-openai gpt-5.2"
             }
           ]
         },
@@ -404,19 +404,19 @@
           "found_in": [
             {
               "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-              "location": "region (700, 467)-(1099, 494) px, 1 line(s), min OCR confidence 0.90",
-              "method": "ocr"
+              "location": "text block 1",
+              "method": "ocr-openai gpt-5.2"
             }
           ]
         },
         {
           "id": "arepa-007",
-          "text": "When you're calmer, clearer, faster, happier, youre more productive.",
+          "text": "When you’re calmer, clearer, faster, happier, you’re more productive. Our clinically researched* natural ingredients, help support neurological function and cognitive performance.",
           "claim_type": "therapeutic",
           "verdict": "AMBER",
           "decided_by": "rules",
           "status": "NEEDS_REVIEW",
-          "justification": "\"happier\" implies an effect on mood and psychological function. Neither Schedule 4 (for a property this product contains) nor a relationship notified by this business covers it. Per the consultant, this is a warning: the relationship would need to be notified / approved by FSANZ before the claim is made. \"calmer\", \"clearer\" is a health claim (it states or implies a health effect). A permitted basis exists (relationships notified to FSANZ by AlphaGen NZ Ltd t/a Ārepa: L-theanine \"Helps to support relaxation\"; L-theanine \"Helps to support calmness\"; L-theanine \"Helps to support mental clarity\"), but these conditions are not met or cannot be verified: the claim names the property of food behind the calmness and relaxation effect (L-theanine) [not met]; the claim names the property of food behind the mental focus and clarity effect (L-theanine) [not met]; a dietary context statement accompanies the claim [not met]; the food meets the Nutrient Profiling Scoring Criterion [unverified].",
+          "justification": "\"happier\" implies an effect on mood and psychological function. Neither Schedule 4 (for a property this product contains) nor a relationship notified by this business covers it. Per the consultant, this is a warning: the relationship would need to be notified / approved by FSANZ before the claim is made. \"neurological\" implies an effect on nervous system function. Neither Schedule 4 (for a property this product contains) nor a relationship notified by this business covers it. Per the consultant, this is a warning: the relationship would need to be notified / approved by FSANZ before the claim is made. \"cognitive performance\" implies an effect on cognitive function. Neither Schedule 4 (for a property this product contains) nor a relationship notified by this business covers it. Per the consultant, this is a warning: the relationship would need to be notified / approved by FSANZ before the claim is made. \"calmer\", \"clearer\" is a health claim (it states or implies a health effect). A permitted basis exists (relationships notified to FSANZ by AlphaGen NZ Ltd t/a Ārepa: L-theanine \"Helps to support relaxation\"; L-theanine \"Helps to support calmness\"; L-theanine \"Helps to support mental clarity\"), but these conditions are not met or cannot be verified: the claim names the property of food behind the calmness and relaxation effect (L-theanine) [not met]; the claim names the property of food behind the mental focus and clarity effect (L-theanine) [not met]; a dietary context statement accompanies the claim [not met]; the food meets the Nutrient Profiling Scoring Criterion [unverified].",
           "rules": [
             {
               "rule_id": "FOOD-HC-UNAUTHORISED",
@@ -426,6 +426,86 @@
               "why": "\"happier\" implies an effect on mood and psychological function. Neither Schedule 4 (for a property this product contains) nor a relationship notified by this business covers it. Per the consultant, this is a warning: the relationship would need to be notified / approved by FSANZ before the claim is made.",
               "matched": [
                 "happier"
+              ],
+              "citations": [
+                {
+                  "source": "fsc_std_1_2_7",
+                  "document": "Australia New Zealand Food Standards Code – Standard 1.2.7 – Nutrition, health and related claims (F2025C00833, compilation 8)",
+                  "locator": "definition, 1.2.7—2",
+                  "excerpt": "health claim means a claim which states, suggests or implies that a food or a property of food has, or may have, a health effect.",
+                  "snapshot": "rulebank/au/snapshots/fsc_std_1_2_7.txt",
+                  "snapshot_line": 59,
+                  "url": "https://www.legislation.gov.au/F2015L00394/latest/text"
+                },
+                {
+                  "source": "fsc_std_1_2_7",
+                  "document": "Australia New Zealand Food Standards Code – Standard 1.2.7 – Nutrition, health and related claims (F2025C00833, compilation 8)",
+                  "locator": "1.2.7—18(3)(b)",
+                  "excerpt": "the person who is responsible for making the *health claim has notified the Chief Executive Officer of the Authority (FSANZ) of the details of a relationship between a food or *property of food and a *health effect",
+                  "snapshot": "rulebank/au/snapshots/fsc_std_1_2_7.txt",
+                  "snapshot_line": 411,
+                  "url": "https://www.legislation.gov.au/F2015L00394/latest/text"
+                },
+                {
+                  "source": "sources_and_logic_aus",
+                  "document": "Taama — Australia Product Classification & Regulatory Assessment (consultant working document)",
+                  "locator": "§3.1 Trigger logic",
+                  "excerpt": "Unauthorised health claim (food) | Food health claim not permitted / conditions not met. / FSC Schedule 4 (nutrition & health claims) |  | Blocks (claim) | ☐ Disapprove | Provide warning and advise needs to be submitted for FSANZ pre-approval",
+                  "snapshot": "rulebank/au/snapshots/sources_and_logic_aus.txt",
+                  "snapshot_line": 295,
+                  "url": null
+                }
+              ],
+              "conditions": []
+            },
+            {
+              "rule_id": "FOOD-HC-UNAUTHORISED",
+              "source": "rules",
+              "verdict": "AMBER",
+              "title": "Health effect with no Schedule 4 or notified basis",
+              "why": "\"neurological\" implies an effect on nervous system function. Neither Schedule 4 (for a property this product contains) nor a relationship notified by this business covers it. Per the consultant, this is a warning: the relationship would need to be notified / approved by FSANZ before the claim is made.",
+              "matched": [
+                "neurological"
+              ],
+              "citations": [
+                {
+                  "source": "fsc_std_1_2_7",
+                  "document": "Australia New Zealand Food Standards Code – Standard 1.2.7 – Nutrition, health and related claims (F2025C00833, compilation 8)",
+                  "locator": "definition, 1.2.7—2",
+                  "excerpt": "health claim means a claim which states, suggests or implies that a food or a property of food has, or may have, a health effect.",
+                  "snapshot": "rulebank/au/snapshots/fsc_std_1_2_7.txt",
+                  "snapshot_line": 59,
+                  "url": "https://www.legislation.gov.au/F2015L00394/latest/text"
+                },
+                {
+                  "source": "fsc_std_1_2_7",
+                  "document": "Australia New Zealand Food Standards Code – Standard 1.2.7 – Nutrition, health and related claims (F2025C00833, compilation 8)",
+                  "locator": "1.2.7—18(3)(b)",
+                  "excerpt": "the person who is responsible for making the *health claim has notified the Chief Executive Officer of the Authority (FSANZ) of the details of a relationship between a food or *property of food and a *health effect",
+                  "snapshot": "rulebank/au/snapshots/fsc_std_1_2_7.txt",
+                  "snapshot_line": 411,
+                  "url": "https://www.legislation.gov.au/F2015L00394/latest/text"
+                },
+                {
+                  "source": "sources_and_logic_aus",
+                  "document": "Taama — Australia Product Classification & Regulatory Assessment (consultant working document)",
+                  "locator": "§3.1 Trigger logic",
+                  "excerpt": "Unauthorised health claim (food) | Food health claim not permitted / conditions not met. / FSC Schedule 4 (nutrition & health claims) |  | Blocks (claim) | ☐ Disapprove | Provide warning and advise needs to be submitted for FSANZ pre-approval",
+                  "snapshot": "rulebank/au/snapshots/sources_and_logic_aus.txt",
+                  "snapshot_line": 295,
+                  "url": null
+                }
+              ],
+              "conditions": []
+            },
+            {
+              "rule_id": "FOOD-HC-UNAUTHORISED",
+              "source": "rules",
+              "verdict": "AMBER",
+              "title": "Health effect with no Schedule 4 or notified basis",
+              "why": "\"cognitive performance\" implies an effect on cognitive function. Neither Schedule 4 (for a property this product contains) nor a relationship notified by this business covers it. Per the consultant, this is a warning: the relationship would need to be notified / approved by FSANZ before the claim is made.",
+              "matched": [
+                "cognitive performance"
               ],
               "citations": [
                 {
@@ -587,111 +667,13 @@
           "found_in": [
             {
               "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-              "location": "region (695, 540)-(1098, 642) px, 4 line(s), min OCR confidence 0.80",
-              "method": "ocr"
+              "location": "text block 2",
+              "method": "ocr-openai gpt-5.2"
             }
           ]
         },
         {
           "id": "arepa-008",
-          "text": "Our clinically researched natural ingredients, help support neurological function and cognitive performance.",
-          "claim_type": "therapeutic",
-          "verdict": "AMBER",
-          "decided_by": "rules",
-          "status": "NEEDS_REVIEW",
-          "justification": "\"neurological\" implies an effect on nervous system function. Neither Schedule 4 (for a property this product contains) nor a relationship notified by this business covers it. Per the consultant, this is a warning: the relationship would need to be notified / approved by FSANZ before the claim is made. \"cognitive performance\" implies an effect on cognitive function. Neither Schedule 4 (for a property this product contains) nor a relationship notified by this business covers it. Per the consultant, this is a warning: the relationship would need to be notified / approved by FSANZ before the claim is made.",
-          "rules": [
-            {
-              "rule_id": "FOOD-HC-UNAUTHORISED",
-              "source": "rules",
-              "verdict": "AMBER",
-              "title": "Health effect with no Schedule 4 or notified basis",
-              "why": "\"neurological\" implies an effect on nervous system function. Neither Schedule 4 (for a property this product contains) nor a relationship notified by this business covers it. Per the consultant, this is a warning: the relationship would need to be notified / approved by FSANZ before the claim is made.",
-              "matched": [
-                "neurological"
-              ],
-              "citations": [
-                {
-                  "source": "fsc_std_1_2_7",
-                  "document": "Australia New Zealand Food Standards Code – Standard 1.2.7 – Nutrition, health and related claims (F2025C00833, compilation 8)",
-                  "locator": "definition, 1.2.7—2",
-                  "excerpt": "health claim means a claim which states, suggests or implies that a food or a property of food has, or may have, a health effect.",
-                  "snapshot": "rulebank/au/snapshots/fsc_std_1_2_7.txt",
-                  "snapshot_line": 59,
-                  "url": "https://www.legislation.gov.au/F2015L00394/latest/text"
-                },
-                {
-                  "source": "fsc_std_1_2_7",
-                  "document": "Australia New Zealand Food Standards Code – Standard 1.2.7 – Nutrition, health and related claims (F2025C00833, compilation 8)",
-                  "locator": "1.2.7—18(3)(b)",
-                  "excerpt": "the person who is responsible for making the *health claim has notified the Chief Executive Officer of the Authority (FSANZ) of the details of a relationship between a food or *property of food and a *health effect",
-                  "snapshot": "rulebank/au/snapshots/fsc_std_1_2_7.txt",
-                  "snapshot_line": 411,
-                  "url": "https://www.legislation.gov.au/F2015L00394/latest/text"
-                },
-                {
-                  "source": "sources_and_logic_aus",
-                  "document": "Taama — Australia Product Classification & Regulatory Assessment (consultant working document)",
-                  "locator": "§3.1 Trigger logic",
-                  "excerpt": "Unauthorised health claim (food) | Food health claim not permitted / conditions not met. / FSC Schedule 4 (nutrition & health claims) |  | Blocks (claim) | ☐ Disapprove | Provide warning and advise needs to be submitted for FSANZ pre-approval",
-                  "snapshot": "rulebank/au/snapshots/sources_and_logic_aus.txt",
-                  "snapshot_line": 295,
-                  "url": null
-                }
-              ],
-              "conditions": []
-            },
-            {
-              "rule_id": "FOOD-HC-UNAUTHORISED",
-              "source": "rules",
-              "verdict": "AMBER",
-              "title": "Health effect with no Schedule 4 or notified basis",
-              "why": "\"cognitive performance\" implies an effect on cognitive function. Neither Schedule 4 (for a property this product contains) nor a relationship notified by this business covers it. Per the consultant, this is a warning: the relationship would need to be notified / approved by FSANZ before the claim is made.",
-              "matched": [
-                "cognitive performance"
-              ],
-              "citations": [
-                {
-                  "source": "fsc_std_1_2_7",
-                  "document": "Australia New Zealand Food Standards Code – Standard 1.2.7 – Nutrition, health and related claims (F2025C00833, compilation 8)",
-                  "locator": "definition, 1.2.7—2",
-                  "excerpt": "health claim means a claim which states, suggests or implies that a food or a property of food has, or may have, a health effect.",
-                  "snapshot": "rulebank/au/snapshots/fsc_std_1_2_7.txt",
-                  "snapshot_line": 59,
-                  "url": "https://www.legislation.gov.au/F2015L00394/latest/text"
-                },
-                {
-                  "source": "fsc_std_1_2_7",
-                  "document": "Australia New Zealand Food Standards Code – Standard 1.2.7 – Nutrition, health and related claims (F2025C00833, compilation 8)",
-                  "locator": "1.2.7—18(3)(b)",
-                  "excerpt": "the person who is responsible for making the *health claim has notified the Chief Executive Officer of the Authority (FSANZ) of the details of a relationship between a food or *property of food and a *health effect",
-                  "snapshot": "rulebank/au/snapshots/fsc_std_1_2_7.txt",
-                  "snapshot_line": 411,
-                  "url": "https://www.legislation.gov.au/F2015L00394/latest/text"
-                },
-                {
-                  "source": "sources_and_logic_aus",
-                  "document": "Taama — Australia Product Classification & Regulatory Assessment (consultant working document)",
-                  "locator": "§3.1 Trigger logic",
-                  "excerpt": "Unauthorised health claim (food) | Food health claim not permitted / conditions not met. / FSC Schedule 4 (nutrition & health claims) |  | Blocks (claim) | ☐ Disapprove | Provide warning and advise needs to be submitted for FSANZ pre-approval",
-                  "snapshot": "rulebank/au/snapshots/sources_and_logic_aus.txt",
-                  "snapshot_line": 295,
-                  "url": null
-                }
-              ],
-              "conditions": []
-            }
-          ],
-          "found_in": [
-            {
-              "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-              "location": "region (695, 540)-(1098, 642) px, 4 line(s), min OCR confidence 0.80",
-              "method": "ocr"
-            }
-          ]
-        },
-        {
-          "id": "arepa-009",
           "text": "This is the drink for everyone with a brain.",
           "claim_type": "compositional",
           "verdict": "GREEN",
@@ -732,38 +714,38 @@
           "found_in": [
             {
               "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-              "location": "region (697, 652)-(1039, 678) px, 1 line(s), min OCR confidence 0.90",
-              "method": "ocr"
+              "location": "text block 3",
+              "method": "ocr-openai gpt-5.2"
             }
           ]
         },
         {
-          "id": "arepa-010",
-          "text": "Supplemented Food: Patented Formula",
-          "claim_type": "identity_or_origin",
+          "id": "arepa-009",
+          "text": "Vitamin C 12.5 mg -27% RDI 5 mg",
+          "claim_type": "nutrition_content",
           "verdict": "AMBER",
           "decided_by": "rules",
-          "status": "NEEDS_REVIEW",
-          "justification": "\"supplemented food\" names a New Zealand-only category with no Australian equivalent. In Australia the product must comply as an ordinary food under the FSC, so the statement and the formulation behind it need review for the Australian market.",
+          "status": "CONDITIONS",
+          "justification": "\"vitamin c\" is a nutrition content claim about vitamin c, but the product record has no %RDI for it, so the S4—3 minimum (10% RDI per serving) cannot be checked.",
           "rules": [
             {
-              "rule_id": "FOOD-NZ-CATEGORY",
+              "rule_id": "FOOD-NCC-UNVERIFIED",
               "source": "rules",
               "verdict": "AMBER",
-              "title": "New Zealand-only regulatory category on an Australian label",
-              "why": "\"supplemented food\" names a New Zealand-only category with no Australian equivalent. In Australia the product must comply as an ordinary food under the FSC, so the statement and the formulation behind it need review for the Australian market.",
+              "title": "Nutrition content claim, conditions not verifiable",
+              "why": "\"vitamin c\" is a nutrition content claim about vitamin c, but the product record has no %RDI for it, so the S4—3 minimum (10% RDI per serving) cannot be checked.",
               "matched": [
-                "supplemented food"
+                "vitamin c"
               ],
               "citations": [
                 {
-                  "source": "sources_and_logic_aus",
-                  "document": "Taama — Australia Product Classification & Regulatory Assessment (consultant working document)",
-                  "locator": "Part 3, FOOD-3",
-                  "excerpt": "Two NZ-only regimes with no Australian equivalent: (a) Supplemented food",
-                  "snapshot": "rulebank/au/snapshots/sources_and_logic_aus.txt",
-                  "snapshot_line": 251,
-                  "url": null
+                  "source": "fsc_std_1_2_7",
+                  "document": "Australia New Zealand Food Standards Code – Standard 1.2.7 – Nutrition, health and related claims (F2025C00833, compilation 8)",
+                  "locator": "1.2.7—12(2)",
+                  "excerpt": "If a claim is made in relation to a food about a *property of food mentioned in Column 1 of the nutrition content claims table, the food must meet the corresponding general claim conditions, if any, in Column 2 of the table.",
+                  "snapshot": "rulebank/au/snapshots/fsc_std_1_2_7.txt",
+                  "snapshot_line": 283,
+                  "url": "https://www.legislation.gov.au/F2015L00394/latest/text"
                 }
               ],
               "conditions": []
@@ -772,61 +754,14 @@
           "found_in": [
             {
               "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-              "location": "region (695, 1098)-(1071, 1143) px, 2 line(s), min OCR confidence 0.82",
-              "method": "ocr"
+              "location": "text block 16",
+              "method": "ocr-openai gpt-5.2"
             }
           ]
         },
         {
-          "id": "arepa-011",
-          "text": "Developed by neuroscientists with clinically researched ingredients, this is a drink for everyone with a brain.",
-          "claim_type": "compositional",
-          "verdict": "GREEN",
-          "decided_by": "rules",
-          "status": "PASS",
-          "justification": "This describes what the product contains or is free from. It does not state or imply a health effect or make a nutrient claim, so Standard 1.2.7 does not restrict it; the general consumer-law requirement to be true and not misleading applies.",
-          "rules": [
-            {
-              "rule_id": "FOOD-NO-CLAIM",
-              "source": "rules",
-              "verdict": "GREEN",
-              "title": "Not a nutrition content or health claim",
-              "why": "This describes what the product contains or is free from. It does not state or imply a health effect or make a nutrient claim, so Standard 1.2.7 does not restrict it; the general consumer-law requirement to be true and not misleading applies.",
-              "matched": [],
-              "citations": [
-                {
-                  "source": "fsc_std_1_2_7",
-                  "document": "Australia New Zealand Food Standards Code – Standard 1.2.7 – Nutrition, health and related claims (F2025C00833, compilation 8)",
-                  "locator": "definition, 1.2.7—2",
-                  "excerpt": "health claim means a claim which states, suggests or implies that a food or a property of food has, or may have, a health effect.",
-                  "snapshot": "rulebank/au/snapshots/fsc_std_1_2_7.txt",
-                  "snapshot_line": 59,
-                  "url": "https://www.legislation.gov.au/F2015L00394/latest/text"
-                },
-                {
-                  "source": "sources_and_logic_aus",
-                  "document": "Taama — Australia Product Classification & Regulatory Assessment (consultant working document)",
-                  "locator": "Part 3, FOOD-1 Advertising",
-                  "excerpt": "Claims must be true and not misleading under Australian Consumer Law (ACCC), on top of the FSC claim rules.",
-                  "snapshot": "rulebank/au/snapshots/sources_and_logic_aus.txt",
-                  "snapshot_line": 203,
-                  "url": null
-                }
-              ],
-              "conditions": []
-            }
-          ],
-          "found_in": [
-            {
-              "file": "Source/Material/Arepa Brain Drink/Capture d’écran 2026-08-10 à 10.55.24.png",
-              "location": "region (38, 26)-(1132, 189) px, 5 line(s), min OCR confidence 0.85",
-              "method": "ocr"
-            }
-          ]
-        },
-        {
-          "id": "arepa-012",
-          "text": "Drinking Arepa helps your brain keep calm and clear by reducing tiredness and supporting normal psychological and neurological function thanks to the high Vitamin C content in our Neuroberry® Blackcurrants as part of a healthy and varied diet.",
+          "id": "arepa-010",
+          "text": "Developed by neuroscientists with clinically researched ingredients, this is a drink for everyone with a brain. Drinking Arepa helps your brain keep calm and clear by reducing tiredness and supporting normal psychological and neurological function thanks to the high Vitamin C content in our Neuroberry® Blackcurrants as part of a healthy and varied diet.",
           "claim_type": "therapeutic",
           "verdict": "AMBER",
           "decided_by": "rules",
@@ -1104,13 +1039,13 @@
           "found_in": [
             {
               "file": "Source/Material/Arepa Brain Drink/Capture d’écran 2026-08-10 à 10.55.24.png",
-              "location": "region (38, 26)-(1132, 189) px, 5 line(s), min OCR confidence 0.85",
-              "method": "ocr"
+              "location": "text block 1",
+              "method": "ocr-openai gpt-5.2"
             }
           ]
         },
         {
-          "id": "arepa-013",
+          "id": "arepa-011",
           "text": "Natural",
           "claim_type": "marketing_puffery",
           "verdict": "AMBER",
@@ -1144,13 +1079,13 @@
           "found_in": [
             {
               "file": "Source/Material/Arepa Brain Drink/Capture d’écran 2026-08-10 à 10.55.24.png",
-              "location": "region (86, 239)-(186, 263) px, 1 line(s), min OCR confidence 0.81",
-              "method": "ocr"
+              "location": "text block 2",
+              "method": "ocr-openai gpt-5.2"
             }
           ]
         },
         {
-          "id": "arepa-014",
+          "id": "arepa-012",
           "text": "Caffeine Free",
           "claim_type": "nutrition_content",
           "verdict": "GREEN",
@@ -1184,13 +1119,13 @@
           "found_in": [
             {
               "file": "Source/Material/Arepa Brain Drink/Capture d’écran 2026-08-10 à 10.55.24.png",
-              "location": "region (91, 275)-(262, 297) px, 1 line(s), min OCR confidence 0.86",
-              "method": "ocr"
+              "location": "text block 3",
+              "method": "ocr-openai gpt-5.2"
             }
           ]
         },
         {
-          "id": "arepa-015",
+          "id": "arepa-013",
           "text": "Only 1.8g sugar in each serving",
           "claim_type": "nutrition_content",
           "verdict": "GREEN",
@@ -1233,13 +1168,13 @@
           "found_in": [
             {
               "file": "Source/Material/Arepa Brain Drink/Capture d’écran 2026-08-10 à 10.55.24.png",
-              "location": "region (90, 307)-(488, 335) px, 1 line(s), min OCR confidence 0.89",
-              "method": "ocr"
+              "location": "text block 4",
+              "method": "ocr-openai gpt-5.2"
             }
           ]
         },
         {
-          "id": "arepa-016",
+          "id": "arepa-014",
           "text": "Lite & sparkling blackcurrant flavour",
           "claim_type": "compositional",
           "verdict": "AMBER",
@@ -1282,13 +1217,13 @@
           "found_in": [
             {
               "file": "Source/Material/Arepa Brain Drink/Capture d’écran 2026-08-10 à 10.55.24.png",
-              "location": "region (89, 343)-(555, 367) px, 1 line(s), min OCR confidence 0.94",
-              "method": "ocr"
+              "location": "text block 5",
+              "method": "ocr-openai gpt-5.2"
             }
           ]
         },
         {
-          "id": "arepa-017",
+          "id": "arepa-015",
           "text": "Formulated by our world-renowned neuroscientist",
           "claim_type": "marketing_puffery",
           "verdict": "GREEN",
@@ -1329,13 +1264,13 @@
           "found_in": [
             {
               "file": "Source/Material/Arepa Brain Drink/Capture d’écran 2026-08-10 à 10.55.24.png",
-              "location": "region (90, 376)-(740, 403) px, 1 line(s), min OCR confidence 0.91",
-              "method": "ocr"
+              "location": "text block 6",
+              "method": "ocr-openai gpt-5.2"
             }
           ]
         },
         {
-          "id": "arepa-018",
+          "id": "arepa-016",
           "text": "With 208mg of L-theanine in every can",
           "claim_type": "nutrition_content",
           "verdict": "AMBER",
@@ -1400,13 +1335,13 @@
           "found_in": [
             {
               "file": "Source/Material/Arepa Brain Drink/Capture d’écran 2026-08-10 à 10.55.24.png",
-              "location": "region (90, 410)-(591, 436) px, 1 line(s), min OCR confidence 0.91",
-              "method": "ocr"
+              "location": "text block 7",
+              "method": "ocr-openai gpt-5.2"
             }
           ]
         },
         {
-          "id": "arepa-019",
+          "id": "arepa-017",
           "text": "27% RDI Vitamin C",
           "claim_type": "nutrition_content",
           "verdict": "AMBER",
@@ -1440,13 +1375,13 @@
           "found_in": [
             {
               "file": "Source/Material/Arepa Brain Drink/Capture d’écran 2026-08-10 à 10.55.24.png",
-              "location": "region (92, 445)-(319, 466) px, 1 line(s), min OCR confidence 0.77",
-              "method": "ocr"
+              "location": "text block 8",
+              "method": "ocr-openai gpt-5.2"
             }
           ]
         },
         {
-          "id": "arepa-020",
+          "id": "arepa-018",
           "text": "26 Cups Green Tea equivalent of L-theanine",
           "claim_type": "marketing_puffery",
           "verdict": "AMBER",
@@ -1481,13 +1416,13 @@
           "found_in": [
             {
               "file": "Source/Material/Arepa Brain Drink/Capture d’écran 2026-08-10 à 10.55.24.png",
-              "location": "region (90, 479)-(659, 503) px, 1 line(s), min OCR confidence 0.95",
-              "method": "ocr"
+              "location": "text block 9",
+              "method": "ocr-openai gpt-5.2"
             }
           ]
         },
         {
-          "id": "arepa-021",
+          "id": "arepa-019",
           "text": "1.25 kg Fruit & Vegetable Flavonoids",
           "claim_type": "marketing_puffery",
           "verdict": "AMBER",
@@ -1521,13 +1456,13 @@
           "found_in": [
             {
               "file": "Source/Material/Arepa Brain Drink/Capture d’écran 2026-08-10 à 10.55.24.png",
-              "location": "region (75, 513)-(548, 537) px, 1 line(s), min OCR confidence 0.91",
-              "method": "ocr"
+              "location": "text block 10",
+              "method": "ocr-openai gpt-5.2"
             }
           ]
         },
         {
-          "id": "arepa-022",
+          "id": "arepa-020",
           "text": "Neuroberry - Blackcurrants have polyphenols plus unusually high levels of vitamin C (an antioxidant) for a berry fruit, even higher than blueberries, raspberries and strawberries.",
           "claim_type": "nutrition_content",
           "verdict": "AMBER",
@@ -1584,61 +1519,14 @@
           "found_in": [
             {
               "file": "Source/Material/Arepa Brain Drink/Capture d’écran 2026-08-10 à 10.55.24.png",
-              "location": "region (67, 743)-(1148, 834) px, 3 line(s), min OCR confidence 0.90",
-              "method": "ocr"
+              "location": "text block 12",
+              "method": "ocr-openai gpt-5.2"
             }
           ]
         },
         {
-          "id": "arepa-023",
-          "text": "L-theanine - A rare amino acid.",
-          "claim_type": "marketing_puffery",
-          "verdict": "GREEN",
-          "decided_by": "rules",
-          "status": "PASS",
-          "justification": "This is general marketing language. It does not state or imply a health effect or make a nutrient claim, so Standard 1.2.7 does not restrict it; the general consumer-law requirement to be true and not misleading applies.",
-          "rules": [
-            {
-              "rule_id": "FOOD-NO-CLAIM",
-              "source": "rules",
-              "verdict": "GREEN",
-              "title": "Not a nutrition content or health claim",
-              "why": "This is general marketing language. It does not state or imply a health effect or make a nutrient claim, so Standard 1.2.7 does not restrict it; the general consumer-law requirement to be true and not misleading applies.",
-              "matched": [],
-              "citations": [
-                {
-                  "source": "fsc_std_1_2_7",
-                  "document": "Australia New Zealand Food Standards Code – Standard 1.2.7 – Nutrition, health and related claims (F2025C00833, compilation 8)",
-                  "locator": "definition, 1.2.7—2",
-                  "excerpt": "health claim means a claim which states, suggests or implies that a food or a property of food has, or may have, a health effect.",
-                  "snapshot": "rulebank/au/snapshots/fsc_std_1_2_7.txt",
-                  "snapshot_line": 59,
-                  "url": "https://www.legislation.gov.au/F2015L00394/latest/text"
-                },
-                {
-                  "source": "sources_and_logic_aus",
-                  "document": "Taama — Australia Product Classification & Regulatory Assessment (consultant working document)",
-                  "locator": "Part 3, FOOD-1 Advertising",
-                  "excerpt": "Claims must be true and not misleading under Australian Consumer Law (ACCC), on top of the FSC claim rules.",
-                  "snapshot": "rulebank/au/snapshots/sources_and_logic_aus.txt",
-                  "snapshot_line": 203,
-                  "url": null
-                }
-              ],
-              "conditions": []
-            }
-          ],
-          "found_in": [
-            {
-              "file": "Source/Material/Arepa Brain Drink/Capture d’écran 2026-08-10 à 10.55.24.png",
-              "location": "region (73, 843)-(1115, 904) px, 2 line(s), min OCR confidence 0.91",
-              "method": "ocr"
-            }
-          ]
-        },
-        {
-          "id": "arepa-024",
-          "text": "It is isolated from green tea via a fermentation process, allowing it to be caffeine-free.",
+          "id": "arepa-021",
+          "text": "L-theanine - A rare amino acid. It is isolated from green tea via a fermentation process, allowing it to be caffeine-free.",
           "claim_type": "nutrition_content",
           "verdict": "GREEN",
           "decided_by": "rules",
@@ -1671,13 +1559,13 @@
           "found_in": [
             {
               "file": "Source/Material/Arepa Brain Drink/Capture d’écran 2026-08-10 à 10.55.24.png",
-              "location": "region (73, 843)-(1115, 904) px, 2 line(s), min OCR confidence 0.91",
-              "method": "ocr"
+              "location": "text block 13",
+              "method": "ocr-openai gpt-5.2"
             }
           ]
         },
         {
-          "id": "arepa-025",
+          "id": "arepa-022",
           "text": "Enzogenol - an ultra-pure extract from the bark of New Zealand grown pine trees; a broad-spectrum polyphenol extract, containing many different flavonoid compounds including oligomeric proanthocyanidins (an antioxidant).",
           "claim_type": "identity_or_origin",
           "verdict": "GREEN",
@@ -1718,13 +1606,13 @@
           "found_in": [
             {
               "file": "Source/Material/Arepa Brain Drink/Capture d’écran 2026-08-10 à 10.55.24.png",
-              "location": "region (87, 910)-(1143, 1008) px, 3 line(s), min OCR confidence 0.92",
-              "method": "ocr"
+              "location": "text block 14",
+              "method": "ocr-openai gpt-5.2"
             }
           ]
         },
         {
-          "id": "arepa-026",
+          "id": "arepa-023",
           "text": "25ml Neuroberry Blackcurrant Juice",
           "claim_type": "marketing_puffery",
           "verdict": "GREEN",
@@ -1765,13 +1653,13 @@
           "found_in": [
             {
               "file": "Source/Material/Arepa Brain Drink/Capture d’écran 2026-08-10 à 10.55.24.png",
-              "location": "region (77, 1211)-(550, 1233) px, 1 line(s), min OCR confidence 0.90",
-              "method": "ocr"
+              "location": "text block 16",
+              "method": "ocr-openai gpt-5.2"
             }
           ]
         },
         {
-          "id": "arepa-027",
+          "id": "arepa-024",
           "text": "125mg Enzogenol Pine Bark Extract",
           "claim_type": "nutrition_content",
           "verdict": "GREEN",
@@ -1812,13 +1700,13 @@
           "found_in": [
             {
               "file": "Source/Material/Arepa Brain Drink/Capture d’écran 2026-08-10 à 10.55.24.png",
-              "location": "region (72, 1242)-(532, 1269) px, 1 line(s), min OCR confidence 0.85",
-              "method": "ocr"
+              "location": "text block 17",
+              "method": "ocr-openai gpt-5.2"
             }
           ]
         },
         {
-          "id": "arepa-028",
+          "id": "arepa-025",
           "text": "208mg L-theanine",
           "claim_type": "nutrition_content",
           "verdict": "AMBER",
@@ -1883,13 +1771,13 @@
           "found_in": [
             {
               "file": "Source/Material/Arepa Brain Drink/Capture d’écran 2026-08-10 à 10.55.24.png",
-              "location": "region (69, 1275)-(328, 1304) px, 1 line(s), min OCR confidence 0.86",
-              "method": "ocr"
+              "location": "text block 18",
+              "method": "ocr-openai gpt-5.2"
             }
           ]
         },
         {
-          "id": "arepa-029",
+          "id": "arepa-026",
           "text": "Take up to 30 minutes before you can feel the effects.",
           "claim_type": "marketing_puffery",
           "verdict": "AMBER",
@@ -1923,629 +1811,287 @@
           "found_in": [
             {
               "file": "Source/Material/Arepa Brain Drink/Capture d’écran 2026-08-10 à 10.55.30.png",
-              "location": "region (44, 134)-(1146, 194) px, 2 line(s), min OCR confidence 0.91",
-              "method": "ocr"
+              "location": "text block 2",
+              "method": "ocr-openai gpt-5.2"
             }
           ]
         }
       ],
       "not_assessed": [
         {
-          "text": "Arepa",
+          "text": "Ārepa",
           "file": "Source/Material/Arepa Brain Drink/9413000088328_1.png.webp",
-          "location": "region (426, 628)-(668, 727) px, 1 line(s), min OCR confidence 0.67",
+          "location": "text block 1",
           "reason": "product / brand name only"
         },
         {
-          "text": "Nutritional ln formation/ Serve per can:1(250 ml)",
+          "text": "Nutritional Information | Serve per can: 1 (250 ml)",
           "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (697, 701)-(1051, 726) px, 1 line(s), min OCR confidence 0.87",
+          "location": "text block 4",
           "reason": "panel / print spec / legal or contact text"
         },
         {
-          "text": "Per 100 mi",
+          "text": "Av QTY Per Serve Per 100 ml",
           "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (1005, 722)-(1077, 746) px, 1 line(s), min OCR confidence 0.88",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "AVQTY",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (698, 724)-(741, 745) px, 1 line(s), min OCR confidence 0.78",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "Per Serve",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (845, 725)-(923, 749) px, 1 line(s), min OCR confidence 0.82",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "Energy",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (694, 744)-(739, 774) px, 1 line(s), min OCR confidence 0.78",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "82.5kj",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (844, 747)-(905, 772) px, 1 line(s), min OCR confidence 0.69",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "33kJ",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (1006, 747)-(1049, 770) px, 1 line(s), min OCR confidence 0.67",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "79cal",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (1005, 767)-(1056, 792) px, 1 line(s), min OCR confidence 0.79",
-          "reason": "product / brand name only"
-        },
-        {
-          "text": "19.8cal",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (842, 769)-(907, 793) px, 1 line(s), min OCR confidence 0.80",
-          "reason": "product / brand name only"
-        },
-        {
-          "text": "0.19",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (1006, 788)-(1045, 814) px, 1 line(s), min OCR confidence 0.61",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "Protein",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (697, 789)-(739, 811) px, 1 line(s), min OCR confidence 0.85",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "0.39",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (844, 791)-(888, 812) px, 1 line(s), min OCR confidence 0.69",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "80 mg",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (1004, 807)-(1059, 838) px, 1 line(s), min OCR confidence 0.76",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "200 mg",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (842, 808)-(912, 838) px, 1 line(s), min OCR confidence 0.79",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "L-theanine",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (697, 809)-(762, 834) px, 1 line(s), min OCR confidence 0.81",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "Fat toia",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (696, 829)-(746, 853) px, 1 line(s), min OCR confidence 0.85",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "09",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (1008, 834)-(1036, 855) px, 1 line(s), min OCR confidence 0.57",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "0g",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (844, 835)-(874, 855) px, 1 line(s), min OCR confidence 0.57",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "-Saturated",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (711, 851)-(779, 875) px, 1 line(s), min OCR confidence 0.78",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "50",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (1006, 852)-(1036, 875) px, 1 line(s), min OCR confidence 0.57",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "50",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (844, 856)-(874, 876) px, 1 line(s), min OCR confidence 0.61",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "Carbohydrate",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (698, 870)-(781, 897) px, 1 line(s), min OCR confidence 0.91",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "2.39",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (1005, 871)-(1048, 898) px, 1 line(s), min OCR confidence 0.79",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "5.8g",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (841, 873)-(891, 899) px, 1 line(s), min OCR confidence 0.78",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "Sugars",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (712, 891)-(762, 918) px, 1 line(s), min OCR confidence 0.78",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "0.69",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (1006, 891)-(1049, 918) px, 1 line(s), min OCR confidence 0.78",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "1.5g",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (841, 896)-(886, 917) px, 1 line(s), min OCR confidence 0.78",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "Sodium.",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (695, 910)-(743, 937) px, 1 line(s), min OCR confidence 0.75",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "0.5mg",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (1006, 912)-(1060, 938) px, 1 line(s), min OCR confidence 0.74",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "1.3mg",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (840, 914)-(900, 939) px, 1 line(s), min OCR confidence 0.83",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "Enzo geno",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (696, 931)-(760, 959) px, 1 line(s), min OCR confidence 0.88",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "50mg",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (1006, 933)-(1058, 959) px, 1 line(s), min OCR confidence 0.80",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "125mg",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (840, 934)-(907, 962) px, 1 line(s), min OCR confidence 0.77",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "Via m inC",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (697, 953)-(757, 978) px, 1 line(s), min OCR confidence 0.81",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "5mg",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (1007, 956)-(1047, 976) px, 1 line(s), min OCR confidence 0.65",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "12.5mg-27% RDi",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (840, 956)-(985, 980) px, 1 line(s), min OCR confidence 0.88",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "Caffeine",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (697, 973)-(748, 1000) px, 1 line(s), min OCR confidence 0.75",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "Omg",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (1006, 975)-(1049, 1001) px, 1 line(s), min OCR confidence 0.64",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "Omg",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (844, 979)-(889, 1001) px, 1 line(s), min OCR confidence 0.60",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "INGREDIENTS: Uitra-Purified New",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (699, 1002)-(946, 1025) px, 1 line(s), min OCR confidence 0.88",
+          "location": "text block 5",
           "reason": "panel / print spec / legal or contact text"
         },
         {
-          "text": "Zealand (NZ) Watel",
+          "text": "Energy 82.5 kJ 33 kJ",
           "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (956, 1002)-(1102, 1024) px, 1 line(s), min OCR confidence 0.84",
+          "location": "text block 6",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "19.8 cal 7.9 cal",
+          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
+          "location": "text block 7",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "Protein 0.3 g 0.1 g",
+          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
+          "location": "text block 8",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "L-theanine 200 mg 80 mg",
+          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
+          "location": "text block 9",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "Fat total 0 g 0 g",
+          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
+          "location": "text block 10",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "- Saturated 0 g 0 g",
+          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
+          "location": "text block 11",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "Carbohydrate 5.8 g 2.3 g",
+          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
+          "location": "text block 12",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "- Sugars 1.5 g 0.6 g",
+          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
+          "location": "text block 13",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "Sodium 1.3 mg 0.5 mg",
+          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
+          "location": "text block 14",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "Enzogenol® 125 mg 50 mg",
+          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
+          "location": "text block 15",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "Caffeine 0 mg 0 mg",
+          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
+          "location": "text block 17",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "INGREDIENTS: Ultra-Purified New Zealand (NZ) Water, Neuroberry® Blackcurrant Juice 10%, Natural Sweetener (Organic Erythritol), Natural Flavours, Natural Acidity Regulator (Citric), L-theanine, Suntheanine®, NZ Pine Bark Extract Enzogenol®, Neuroberry® Blackcurrant* Extract, Natural Sweetener (Ste viol Glycosides). Juices from concentrate. Once opened, keep refrigerated. Supplemented Food. Patented Formula.",
+          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
+          "location": "text block 18",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "10 c refund at collection depots/points in participating State/Territory of purchase.",
+          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
+          "location": "text block 19",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "Manufactured by Alpha Gen NZ Ltd. Unit 1.3, 615 New North Rd, Kingsland, AKL, NZ 1021.",
+          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
+          "location": "text block 20",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "Ārepa",
+          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
+          "location": "text block 21",
+          "reason": "product / brand name only"
+        },
+        {
+          "text": "*To learn more: drink arepa.com",
+          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
+          "location": "text block 22",
           "reason": "direction / warning / dose statement"
         },
         {
-          "text": "Neuro be ry Blackcurrant Juice 10%,Natura i Sweetener (Organ it",
+          "text": "220",
           "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (697, 1019)-(1105, 1047) px, 1 line(s), min OCR confidence 0.86",
-          "reason": "panel / print spec / legal or contact text"
-        },
-        {
-          "text": "Glycosides).-Juices from refrigerated.",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (695, 1098)-(1071, 1143) px, 2 line(s), min OCR confidence 0.82",
-          "reason": "direction / warning / dose statement"
-        },
-        {
-          "text": "10 C refund at col ct on depots/points in participating",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (906, 1158)-(1109, 1219) px, 2 line(s), min OCR confidence 0.71",
-          "reason": "panel / print spec / legal or contact text"
-        },
-        {
-          "text": "13000088328>",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (855, 1159)-(898, 1410) px, 1 line(s), min OCR confidence 0.87",
-          "reason": "panel / print spec / legal or contact text"
-        },
-        {
-          "text": "State/Territory of purchase.",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (908, 1211)-(1097, 1241) px, 1 line(s), min OCR confidence 0.91",
-          "reason": "panel / print spec / legal or contact text"
-        },
-        {
-          "text": "Manufactured by Alpha Gen Nz",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (907, 1235)-(1105, 1268) px, 1 line(s), min OCR confidence 0.92",
-          "reason": "panel / print spec / legal or contact text"
-        },
-        {
-          "text": "Ltd. Unit 1.3,615 New North Rd, Kingsland, AKL,NZ1021",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (907, 1256)-(1104, 1307) px, 2 line(s), min OCR confidence 0.75",
-          "reason": "panel / print spec / legal or contact text"
-        },
-        {
-          "text": "Arepa",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (907, 1332)-(1108, 1415) px, 1 line(s), min OCR confidence 0.72",
+          "location": "text block 23",
           "reason": "product / brand name only"
-        },
-        {
-          "text": "To learn more: drink arepa.com",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (909, 1422)-(1070, 1477) px, 2 line(s), min OCR confidence 0.87",
-          "reason": "direction / warning / dose statement"
         },
         {
           "text": "Nutrition Information",
           "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (99, 115)-(902, 175) px, 1 line(s), min OCR confidence 0.86",
+          "location": "text block 1",
           "reason": "panel / print spec / legal or contact text"
         },
         {
           "text": "Servings per can: 1 (250 ml)",
           "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (99, 197)-(702, 243) px, 1 line(s), min OCR confidence 0.91",
+          "location": "text block 2",
           "reason": "panel / print spec / legal or contact text"
         },
         {
-          "text": "Per Serving",
+          "text": "Av. QTY Per Serving Per 100 ml",
           "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (760, 300)-(1005, 349) px, 1 line(s), min OCR confidence 0.84",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "Av. QTY",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (112, 301)-(279, 346) px, 1 line(s), min OCR confidence 0.84",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "Per 100 ml",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (1456, 302)-(1681, 343) px, 1 line(s), min OCR confidence 0.85",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "Energy",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (108, 382)-(264, 437) px, 1 line(s), min OCR confidence 0.85",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "33 kJ",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (1452, 384)-(1571, 426) px, 1 line(s), min OCR confidence 0.75",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "82.5 kJ",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (759, 385)-(918, 426) px, 1 line(s), min OCR confidence 0.82",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "(7.9 Cal)",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (1455, 449)-(1636, 493) px, 1 line(s), min OCR confidence 0.81",
-          "reason": "product / brand name only"
-        },
-        {
-          "text": "(19.8 Cal)",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (761, 450)-(964, 491) px, 1 line(s), min OCR confidence 0.82",
-          "reason": "product / brand name only"
-        },
-        {
-          "text": "0.3 g",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (754, 505)-(876, 567) px, 1 line(s), min OCR confidence 0.80",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "0.1 g",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (1448, 506)-(1558, 567) px, 1 line(s), min OCR confidence 0.83",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "Protein",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (109, 512)-(268, 557) px, 1 line(s), min OCR confidence 0.84",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "0g",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (1445, 569)-(1533, 633) px, 1 line(s), min OCR confidence 0.59",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "0g",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (750, 570)-(839, 634) px, 1 line(s), min OCR confidence 0.56",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "Fat total",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (109, 577)-(289, 620) px, 1 line(s), min OCR confidence 0.87",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "0g",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (749, 633)-(839, 698) px, 1 line(s), min OCR confidence 0.58",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "0g",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (1445, 634)-(1533, 697) px, 1 line(s), min OCR confidence 0.61",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "-Saturated",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (175, 641)-(402, 685) px, 1 line(s), min OCR confidence 0.80",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "5.8 g",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (750, 695)-(878, 764) px, 1 line(s), min OCR confidence 0.75",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "2.3 g",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (1447, 698)-(1559, 760) px, 1 line(s), min OCR confidence 0.81",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "Carbohydrate",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (112, 706)-(406, 751) px, 1 line(s), min OCR confidence 0.86",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "1.5 g",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (749, 760)-(868, 828) px, 1 line(s), min OCR confidence 0.79",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "0.6 g",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (1448, 763)-(1573, 825) px, 1 line(s), min OCR confidence 0.76",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "-Sugars",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (171, 767)-(344, 820) px, 1 line(s), min OCR confidence 0.87",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "1.3 mg",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (754, 830)-(901, 887) px, 1 line(s), min OCR confidence 0.78",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "0.5 mg",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (1451, 830)-(1607, 887) px, 1 line(s), min OCR confidence 0.79",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "Sodium",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (108, 833)-(276, 879) px, 1 line(s), min OCR confidence 0.79",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "200 mg",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (757, 893)-(935, 950) px, 1 line(s), min OCR confidence 0.81",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "80 mg",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (1450, 894)-(1601, 950) px, 1 line(s), min OCR confidence 0.79",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "L-theanine",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (111, 900)-(342, 940) px, 1 line(s), min OCR confidence 0.84",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "50 mg",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (1449, 958)-(1597, 1016) px, 1 line(s), min OCR confidence 0.78",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "125 mg",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (757, 959)-(920, 1014) px, 1 line(s), min OCR confidence 0.79",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "Enzogenol",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (111, 963)-(340, 1007) px, 1 line(s), min OCR confidence 0.89",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "5 mg",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (1448, 1022)-(1568, 1082) px, 1 line(s), min OCR confidence 0.67",
-          "reason": "product / brand name only"
-        },
-        {
-          "text": "Vitamin C",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (112, 1028)-(321, 1069) px, 1 line(s), min OCR confidence 0.81",
-          "reason": "single word"
-        },
-        {
-          "text": "12.5 mg (27% RDI)*",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (761, 1028)-(1177, 1071) px, 1 line(s), min OCR confidence 0.83",
+          "location": "text block 3",
           "reason": "panel / print spec / legal or contact text"
         },
         {
-          "text": "O mg",
+          "text": "Energy 82.5 kJ (19.8 Cal) 33 kJ (7.9 Cal)",
           "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (754, 1087)-(876, 1145) px, 1 line(s), min OCR confidence 0.63",
-          "reason": "chart / table header"
+          "location": "text block 4",
+          "reason": "panel / print spec / legal or contact text"
         },
         {
-          "text": "0mg",
+          "text": "Protein 0.3 g 0.1 g",
           "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (1449, 1088)-(1569, 1144) px, 1 line(s), min OCR confidence 0.65",
-          "reason": "chart / table header"
+          "location": "text block 5",
+          "reason": "panel / print spec / legal or contact text"
         },
         {
-          "text": "Caffeine",
+          "text": "Fat total 0 g 0 g",
           "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (110, 1091)-(288, 1134) px, 1 line(s), min OCR confidence 0.89",
-          "reason": "chart / table header"
+          "location": "text block 6",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "-Saturated 0 g 0 g",
+          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
+          "location": "text block 7",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "Carbohydrate 5.8 g 2.3 g",
+          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
+          "location": "text block 8",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "-Sugars 1.5 g 0.6 g",
+          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
+          "location": "text block 9",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "Sodium 1.3 mg 0.5 mg",
+          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
+          "location": "text block 10",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "L-theanine 200 mg 80 mg",
+          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
+          "location": "text block 11",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "Enzogenol 125 mg 50 mg",
+          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
+          "location": "text block 12",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "Vitamin C 12.5 mg (27% RDI)* 5 mg",
+          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
+          "location": "text block 13",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "Caffeine 0 mg 0 mg",
+          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
+          "location": "text block 14",
+          "reason": "panel / print spec / legal or contact text"
         },
         {
           "text": "*Recommended Dietary Intake for Adults (NRV 2006)",
           "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (98, 1213)-(1249, 1263) px, 1 line(s), min OCR confidence 0.90",
+          "location": "text block 15",
           "reason": "panel / print spec / legal or contact text"
         },
         {
           "text": "Ingredients",
           "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (100, 1314)-(534, 1377) px, 1 line(s), min OCR confidence 0.81",
+          "location": "text block 16",
           "reason": "panel / print spec / legal or contact text"
         },
         {
-          "text": "Ultra-Purified Carbonated Water, Neuroberry® Blackcurrant Juice (1 O%), Natural Sweetener (Organic Erythritol), Natural Flavours, L-theanine Suntheanine®, Natural Acidity Regulator (Citric), NZ Pine Bark Extract Enzogenol®, Neuroberry® Blackcurrant Extract, Natural Sweetener (Ste viol Glycosides)",
+          "text": "Ultra-Purified Carbonated Water, Neuroberry® Blackcurrant Juice (10%), Natural Sweetener (Organic Erythritol), Natural Flavours, L-theanine Suntheanine®, Natural Acidity Regulator (Citric), NZ Pine Bark Extract Enzogenol®, Neuroberry® Blackcurrant Extract, Natural Sweetener (Ste viol Glycosides).",
           "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (96, 1402)-(1699, 1681) px, 5 line(s), min OCR confidence 0.86",
+          "location": "text block 17",
           "reason": "panel / print spec / legal or contact text"
         },
         {
           "text": "Key Ingredients",
           "file": "Source/Material/Arepa Brain Drink/Capture d’écran 2026-08-10 à 10.55.24.png",
-          "location": "region (39, 665)-(244, 691) px, 1 line(s), min OCR confidence 0.87",
+          "location": "text block 11",
           "reason": "panel / print spec / legal or contact text"
         },
         {
           "text": "Active ingredients",
           "file": "Source/Material/Arepa Brain Drink/Capture d’écran 2026-08-10 à 10.55.24.png",
-          "location": "region (40, 1132)-(278, 1158) px, 1 line(s), min OCR confidence 0.89",
+          "location": "text block 15",
           "reason": "panel / print spec / legal or contact text"
         },
         {
           "text": "How to use",
           "file": "Source/Material/Arepa Brain Drink/Capture d’écran 2026-08-10 à 10.55.30.png",
-          "location": "region (46, 60)-(186, 80) px, 1 line(s), min OCR confidence 0.86",
+          "location": "text block 1",
           "reason": "panel / print spec / legal or contact text"
         },
         {
           "text": "Consume one full drink (250ml) to get the full benefits.",
           "file": "Source/Material/Arepa Brain Drink/Capture d’écran 2026-08-10 à 10.55.30.png",
-          "location": "region (44, 134)-(1146, 194) px, 2 line(s), min OCR confidence 0.91",
+          "location": "text block 2",
           "reason": "direction / warning / dose statement"
         },
         {
           "text": "Full Ingredients",
           "file": "Source/Material/Arepa Brain Drink/Capture d’écran 2026-08-10 à 10.55.30.png",
-          "location": "region (46, 324)-(248, 346) px, 1 line(s), min OCR confidence 0.89",
+          "location": "text block 3",
           "reason": "panel / print spec / legal or contact text"
         },
         {
-          "text": "Ultra-Purified Carbonated Water, Neuroberry Blackcurrant Juice (io%), Natural Sweetener (Organic Erythritol), Natural Flavours, Natural Acidity Regulator (Citric), Nz Pine Bark Extract Enzogenol, Neuroberry Blackcurrant Extract, Natural Sweetener (ste viol Glycosides)",
+          "text": "Ultra-Purified Carbonated Water, Neuroberry Blackcurrant Juice (10%), Natural Sweetener (Organic Erythritol), Natural Flavours, Natural Acidity Regulator (Citric), NZ Pine Bark Extract Enzogenol, Neuroberry Blackcurrant Extract, Natural Sweetener (Ste viol Glycosides)",
           "file": "Source/Material/Arepa Brain Drink/Capture d’écran 2026-08-10 à 10.55.30.png",
-          "location": "region (42, 396)-(1132, 526) px, 4 line(s), min OCR confidence 0.88",
+          "location": "text block 4",
           "reason": "panel / print spec / legal or contact text"
         },
         {
           "text": "Volume",
           "file": "Source/Material/Arepa Brain Drink/Capture d’écran 2026-08-10 à 10.55.30.png",
-          "location": "region (45, 654)-(145, 676) px, 1 line(s), min OCR confidence 0.79",
+          "location": "text block 5",
           "reason": "panel / print spec / legal or contact text"
         }
       ],
-      "elapsed_s": 134.39
+      "elapsed_s": 23.22
     },
     {
       "summary": {
         "RED": 0,
-        "AMBER": 15,
-        "GREEN": 14,
-        "claims": 29,
-        "needs_review": 5,
+        "AMBER": 14,
+        "GREEN": 12,
+        "claims": 26,
+        "needs_review": 3,
         "ai": false
       },
       "claims": [
@@ -2687,13 +2233,60 @@
           "found_in": [
             {
               "file": "Source/Material/Arepa Brain Drink/9413000088328_1.png.webp",
-              "location": "region (431, 747)-(610, 791) px, 2 line(s), min OCR confidence 0.83",
-              "method": "ocr (cached)"
+              "location": "text block 2",
+              "method": "ocr-openai gpt-5.2 (cached)"
             }
           ]
         },
         {
           "id": "arepa-002",
+          "text": "Designed & tested by neuroscientists",
+          "claim_type": "marketing_puffery",
+          "verdict": "GREEN",
+          "decided_by": "rules",
+          "status": "PASS",
+          "justification": "This is general marketing language. It does not state or imply a health effect or make a nutrient claim, so Standard 1.2.7 does not restrict it; the general consumer-law requirement to be true and not misleading applies.",
+          "rules": [
+            {
+              "rule_id": "FOOD-NO-CLAIM",
+              "source": "rules",
+              "verdict": "GREEN",
+              "title": "Not a nutrition content or health claim",
+              "why": "This is general marketing language. It does not state or imply a health effect or make a nutrient claim, so Standard 1.2.7 does not restrict it; the general consumer-law requirement to be true and not misleading applies.",
+              "matched": [],
+              "citations": [
+                {
+                  "source": "fsc_std_1_2_7",
+                  "document": "Australia New Zealand Food Standards Code – Standard 1.2.7 – Nutrition, health and related claims (F2025C00833, compilation 8)",
+                  "locator": "definition, 1.2.7—2",
+                  "excerpt": "health claim means a claim which states, suggests or implies that a food or a property of food has, or may have, a health effect.",
+                  "snapshot": "rulebank/au/snapshots/fsc_std_1_2_7.txt",
+                  "snapshot_line": 59,
+                  "url": "https://www.legislation.gov.au/F2015L00394/latest/text"
+                },
+                {
+                  "source": "sources_and_logic_aus",
+                  "document": "Taama — Australia Product Classification & Regulatory Assessment (consultant working document)",
+                  "locator": "Part 3, FOOD-1 Advertising",
+                  "excerpt": "Claims must be true and not misleading under Australian Consumer Law (ACCC), on top of the FSC claim rules.",
+                  "snapshot": "rulebank/au/snapshots/sources_and_logic_aus.txt",
+                  "snapshot_line": 203,
+                  "url": null
+                }
+              ],
+              "conditions": []
+            }
+          ],
+          "found_in": [
+            {
+              "file": "Source/Material/Arepa Brain Drink/9413000088328_1.png.webp",
+              "location": "text block 3",
+              "method": "ocr-openai gpt-5.2 (cached)"
+            }
+          ]
+        },
+        {
+          "id": "arepa-003",
           "text": "100% natural caffeine free",
           "claim_type": "nutrition_content",
           "verdict": "AMBER",
@@ -2749,55 +2342,8 @@
           "found_in": [
             {
               "file": "Source/Material/Arepa Brain Drink/9413000088328_1.png.webp",
-              "location": "region (593, 804)-(659, 835) px, 2 line(s), min OCR confidence 0.85",
-              "method": "ocr (cached)"
-            }
-          ]
-        },
-        {
-          "id": "arepa-003",
-          "text": "Designed & tested by neuroscientists",
-          "claim_type": "marketing_puffery",
-          "verdict": "GREEN",
-          "decided_by": "rules",
-          "status": "PASS",
-          "justification": "This is general marketing language. It does not state or imply a health effect or make a nutrient claim, so Standard 1.2.7 does not restrict it; the general consumer-law requirement to be true and not misleading applies.",
-          "rules": [
-            {
-              "rule_id": "FOOD-NO-CLAIM",
-              "source": "rules",
-              "verdict": "GREEN",
-              "title": "Not a nutrition content or health claim",
-              "why": "This is general marketing language. It does not state or imply a health effect or make a nutrient claim, so Standard 1.2.7 does not restrict it; the general consumer-law requirement to be true and not misleading applies.",
-              "matched": [],
-              "citations": [
-                {
-                  "source": "fsc_std_1_2_7",
-                  "document": "Australia New Zealand Food Standards Code – Standard 1.2.7 – Nutrition, health and related claims (F2025C00833, compilation 8)",
-                  "locator": "definition, 1.2.7—2",
-                  "excerpt": "health claim means a claim which states, suggests or implies that a food or a property of food has, or may have, a health effect.",
-                  "snapshot": "rulebank/au/snapshots/fsc_std_1_2_7.txt",
-                  "snapshot_line": 59,
-                  "url": "https://www.legislation.gov.au/F2015L00394/latest/text"
-                },
-                {
-                  "source": "sources_and_logic_aus",
-                  "document": "Taama — Australia Product Classification & Regulatory Assessment (consultant working document)",
-                  "locator": "Part 3, FOOD-1 Advertising",
-                  "excerpt": "Claims must be true and not misleading under Australian Consumer Law (ACCC), on top of the FSC claim rules.",
-                  "snapshot": "rulebank/au/snapshots/sources_and_logic_aus.txt",
-                  "snapshot_line": 203,
-                  "url": null
-                }
-              ],
-              "conditions": []
-            }
-          ],
-          "found_in": [
-            {
-              "file": "Source/Material/Arepa Brain Drink/9413000088328_1.png.webp",
-              "location": "region (453, 806)-(556, 837) px, 2 line(s), min OCR confidence 0.87",
-              "method": "ocr (cached)"
+              "location": "text block 4",
+              "method": "ocr-openai gpt-5.2 (cached)"
             }
           ]
         },
@@ -2843,26 +2389,26 @@
           "found_in": [
             {
               "file": "Source/Material/Arepa Brain Drink/9413000088328_1.png.webp",
-              "location": "region (433, 863)-(594, 884) px, 1 line(s), min OCR confidence 0.92",
-              "method": "ocr (cached)"
+              "location": "text block 5",
+              "method": "ocr-openai gpt-5.2 (cached)"
             }
           ]
         },
         {
           "id": "arepa-005",
-          "text": "Neuro br ry Blackcurrant, Pine Bark Extract",
-          "claim_type": "compositional",
+          "text": "Neuroberry® Blackcurrant, Pine Bark Extract, L-theanine. Made in Aotearoa, New Zealand.",
+          "claim_type": "identity_or_origin",
           "verdict": "GREEN",
           "decided_by": "rules",
           "status": "PASS",
-          "justification": "This describes what the product contains or is free from. It does not state or imply a health effect or make a nutrient claim, so Standard 1.2.7 does not restrict it; the general consumer-law requirement to be true and not misleading applies.",
+          "justification": "This is a statement about origin, provenance or the company. It does not state or imply a health effect or make a nutrient claim, so Standard 1.2.7 does not restrict it; the general consumer-law requirement to be true and not misleading applies.",
           "rules": [
             {
               "rule_id": "FOOD-NO-CLAIM",
               "source": "rules",
               "verdict": "GREEN",
               "title": "Not a nutrition content or health claim",
-              "why": "This describes what the product contains or is free from. It does not state or imply a health effect or make a nutrient claim, so Standard 1.2.7 does not restrict it; the general consumer-law requirement to be true and not misleading applies.",
+              "why": "This is a statement about origin, provenance or the company. It does not state or imply a health effect or make a nutrient claim, so Standard 1.2.7 does not restrict it; the general consumer-law requirement to be true and not misleading applies.",
               "matched": [],
               "citations": [
                 {
@@ -2890,8 +2436,8 @@
           "found_in": [
             {
               "file": "Source/Material/Arepa Brain Drink/9413000088328_1.png.webp",
-              "location": "region (431, 888)-(662, 909) px, 1 line(s), min OCR confidence 0.82",
-              "method": "ocr (cached)"
+              "location": "text block 6",
+              "method": "ocr-openai gpt-5.2 (cached)"
             }
           ]
         },
@@ -2937,19 +2483,19 @@
           "found_in": [
             {
               "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-              "location": "region (700, 467)-(1099, 494) px, 1 line(s), min OCR confidence 0.90",
-              "method": "ocr (cached)"
+              "location": "text block 1",
+              "method": "ocr-openai gpt-5.2 (cached)"
             }
           ]
         },
         {
           "id": "arepa-007",
-          "text": "When you're calmer, clearer, faster, happier, youre more productive.",
+          "text": "When you’re calmer, clearer, faster, happier, you’re more productive. Our clinically researched* natural ingredients, help support neurological function and cognitive performance.",
           "claim_type": "therapeutic",
           "verdict": "AMBER",
           "decided_by": "rules",
           "status": "NEEDS_REVIEW",
-          "justification": "\"happier\" implies an effect on mood and psychological function. Neither Schedule 4 (for a property this product contains) nor a relationship notified by this business covers it. Per the consultant, this is a warning: the relationship would need to be notified / approved by FSANZ before the claim is made. \"calmer\", \"clearer\" is a health claim (it states or implies a health effect). A permitted basis exists (relationships notified to FSANZ by AlphaGen NZ Ltd t/a Ārepa: L-theanine \"Helps to support relaxation\"; L-theanine \"Helps to support calmness\"; L-theanine \"Helps to support mental clarity\"), but these conditions are not met or cannot be verified: the claim names the property of food behind the calmness and relaxation effect (L-theanine) [not met]; the claim names the property of food behind the mental focus and clarity effect (L-theanine) [not met]; a dietary context statement accompanies the claim [not met]; the food meets the Nutrient Profiling Scoring Criterion [unverified].",
+          "justification": "\"happier\" implies an effect on mood and psychological function. Neither Schedule 4 (for a property this product contains) nor a relationship notified by this business covers it. Per the consultant, this is a warning: the relationship would need to be notified / approved by FSANZ before the claim is made. \"neurological\" implies an effect on nervous system function. Neither Schedule 4 (for a property this product contains) nor a relationship notified by this business covers it. Per the consultant, this is a warning: the relationship would need to be notified / approved by FSANZ before the claim is made. \"cognitive performance\" implies an effect on cognitive function. Neither Schedule 4 (for a property this product contains) nor a relationship notified by this business covers it. Per the consultant, this is a warning: the relationship would need to be notified / approved by FSANZ before the claim is made. \"calmer\", \"clearer\" is a health claim (it states or implies a health effect). A permitted basis exists (relationships notified to FSANZ by AlphaGen NZ Ltd t/a Ārepa: L-theanine \"Helps to support relaxation\"; L-theanine \"Helps to support calmness\"; L-theanine \"Helps to support mental clarity\"), but these conditions are not met or cannot be verified: the claim names the property of food behind the calmness and relaxation effect (L-theanine) [not met]; the claim names the property of food behind the mental focus and clarity effect (L-theanine) [not met]; a dietary context statement accompanies the claim [not met]; the food meets the Nutrient Profiling Scoring Criterion [unverified].",
           "rules": [
             {
               "rule_id": "FOOD-HC-UNAUTHORISED",
@@ -2959,6 +2505,86 @@
               "why": "\"happier\" implies an effect on mood and psychological function. Neither Schedule 4 (for a property this product contains) nor a relationship notified by this business covers it. Per the consultant, this is a warning: the relationship would need to be notified / approved by FSANZ before the claim is made.",
               "matched": [
                 "happier"
+              ],
+              "citations": [
+                {
+                  "source": "fsc_std_1_2_7",
+                  "document": "Australia New Zealand Food Standards Code – Standard 1.2.7 – Nutrition, health and related claims (F2025C00833, compilation 8)",
+                  "locator": "definition, 1.2.7—2",
+                  "excerpt": "health claim means a claim which states, suggests or implies that a food or a property of food has, or may have, a health effect.",
+                  "snapshot": "rulebank/au/snapshots/fsc_std_1_2_7.txt",
+                  "snapshot_line": 59,
+                  "url": "https://www.legislation.gov.au/F2015L00394/latest/text"
+                },
+                {
+                  "source": "fsc_std_1_2_7",
+                  "document": "Australia New Zealand Food Standards Code – Standard 1.2.7 – Nutrition, health and related claims (F2025C00833, compilation 8)",
+                  "locator": "1.2.7—18(3)(b)",
+                  "excerpt": "the person who is responsible for making the *health claim has notified the Chief Executive Officer of the Authority (FSANZ) of the details of a relationship between a food or *property of food and a *health effect",
+                  "snapshot": "rulebank/au/snapshots/fsc_std_1_2_7.txt",
+                  "snapshot_line": 411,
+                  "url": "https://www.legislation.gov.au/F2015L00394/latest/text"
+                },
+                {
+                  "source": "sources_and_logic_aus",
+                  "document": "Taama — Australia Product Classification & Regulatory Assessment (consultant working document)",
+                  "locator": "§3.1 Trigger logic",
+                  "excerpt": "Unauthorised health claim (food) | Food health claim not permitted / conditions not met. / FSC Schedule 4 (nutrition & health claims) |  | Blocks (claim) | ☐ Disapprove | Provide warning and advise needs to be submitted for FSANZ pre-approval",
+                  "snapshot": "rulebank/au/snapshots/sources_and_logic_aus.txt",
+                  "snapshot_line": 295,
+                  "url": null
+                }
+              ],
+              "conditions": []
+            },
+            {
+              "rule_id": "FOOD-HC-UNAUTHORISED",
+              "source": "rules",
+              "verdict": "AMBER",
+              "title": "Health effect with no Schedule 4 or notified basis",
+              "why": "\"neurological\" implies an effect on nervous system function. Neither Schedule 4 (for a property this product contains) nor a relationship notified by this business covers it. Per the consultant, this is a warning: the relationship would need to be notified / approved by FSANZ before the claim is made.",
+              "matched": [
+                "neurological"
+              ],
+              "citations": [
+                {
+                  "source": "fsc_std_1_2_7",
+                  "document": "Australia New Zealand Food Standards Code – Standard 1.2.7 – Nutrition, health and related claims (F2025C00833, compilation 8)",
+                  "locator": "definition, 1.2.7—2",
+                  "excerpt": "health claim means a claim which states, suggests or implies that a food or a property of food has, or may have, a health effect.",
+                  "snapshot": "rulebank/au/snapshots/fsc_std_1_2_7.txt",
+                  "snapshot_line": 59,
+                  "url": "https://www.legislation.gov.au/F2015L00394/latest/text"
+                },
+                {
+                  "source": "fsc_std_1_2_7",
+                  "document": "Australia New Zealand Food Standards Code – Standard 1.2.7 – Nutrition, health and related claims (F2025C00833, compilation 8)",
+                  "locator": "1.2.7—18(3)(b)",
+                  "excerpt": "the person who is responsible for making the *health claim has notified the Chief Executive Officer of the Authority (FSANZ) of the details of a relationship between a food or *property of food and a *health effect",
+                  "snapshot": "rulebank/au/snapshots/fsc_std_1_2_7.txt",
+                  "snapshot_line": 411,
+                  "url": "https://www.legislation.gov.au/F2015L00394/latest/text"
+                },
+                {
+                  "source": "sources_and_logic_aus",
+                  "document": "Taama — Australia Product Classification & Regulatory Assessment (consultant working document)",
+                  "locator": "§3.1 Trigger logic",
+                  "excerpt": "Unauthorised health claim (food) | Food health claim not permitted / conditions not met. / FSC Schedule 4 (nutrition & health claims) |  | Blocks (claim) | ☐ Disapprove | Provide warning and advise needs to be submitted for FSANZ pre-approval",
+                  "snapshot": "rulebank/au/snapshots/sources_and_logic_aus.txt",
+                  "snapshot_line": 295,
+                  "url": null
+                }
+              ],
+              "conditions": []
+            },
+            {
+              "rule_id": "FOOD-HC-UNAUTHORISED",
+              "source": "rules",
+              "verdict": "AMBER",
+              "title": "Health effect with no Schedule 4 or notified basis",
+              "why": "\"cognitive performance\" implies an effect on cognitive function. Neither Schedule 4 (for a property this product contains) nor a relationship notified by this business covers it. Per the consultant, this is a warning: the relationship would need to be notified / approved by FSANZ before the claim is made.",
+              "matched": [
+                "cognitive performance"
               ],
               "citations": [
                 {
@@ -3120,111 +2746,13 @@
           "found_in": [
             {
               "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-              "location": "region (695, 540)-(1098, 642) px, 4 line(s), min OCR confidence 0.80",
-              "method": "ocr (cached)"
+              "location": "text block 2",
+              "method": "ocr-openai gpt-5.2 (cached)"
             }
           ]
         },
         {
           "id": "arepa-008",
-          "text": "Our clinically researched natural ingredients, help support neurological function and cognitive performance.",
-          "claim_type": "therapeutic",
-          "verdict": "AMBER",
-          "decided_by": "rules",
-          "status": "NEEDS_REVIEW",
-          "justification": "\"neurological\" implies an effect on nervous system function. Neither Schedule 4 (for a property this product contains) nor a relationship notified by this business covers it. Per the consultant, this is a warning: the relationship would need to be notified / approved by FSANZ before the claim is made. \"cognitive performance\" implies an effect on cognitive function. Neither Schedule 4 (for a property this product contains) nor a relationship notified by this business covers it. Per the consultant, this is a warning: the relationship would need to be notified / approved by FSANZ before the claim is made.",
-          "rules": [
-            {
-              "rule_id": "FOOD-HC-UNAUTHORISED",
-              "source": "rules",
-              "verdict": "AMBER",
-              "title": "Health effect with no Schedule 4 or notified basis",
-              "why": "\"neurological\" implies an effect on nervous system function. Neither Schedule 4 (for a property this product contains) nor a relationship notified by this business covers it. Per the consultant, this is a warning: the relationship would need to be notified / approved by FSANZ before the claim is made.",
-              "matched": [
-                "neurological"
-              ],
-              "citations": [
-                {
-                  "source": "fsc_std_1_2_7",
-                  "document": "Australia New Zealand Food Standards Code – Standard 1.2.7 – Nutrition, health and related claims (F2025C00833, compilation 8)",
-                  "locator": "definition, 1.2.7—2",
-                  "excerpt": "health claim means a claim which states, suggests or implies that a food or a property of food has, or may have, a health effect.",
-                  "snapshot": "rulebank/au/snapshots/fsc_std_1_2_7.txt",
-                  "snapshot_line": 59,
-                  "url": "https://www.legislation.gov.au/F2015L00394/latest/text"
-                },
-                {
-                  "source": "fsc_std_1_2_7",
-                  "document": "Australia New Zealand Food Standards Code – Standard 1.2.7 – Nutrition, health and related claims (F2025C00833, compilation 8)",
-                  "locator": "1.2.7—18(3)(b)",
-                  "excerpt": "the person who is responsible for making the *health claim has notified the Chief Executive Officer of the Authority (FSANZ) of the details of a relationship between a food or *property of food and a *health effect",
-                  "snapshot": "rulebank/au/snapshots/fsc_std_1_2_7.txt",
-                  "snapshot_line": 411,
-                  "url": "https://www.legislation.gov.au/F2015L00394/latest/text"
-                },
-                {
-                  "source": "sources_and_logic_aus",
-                  "document": "Taama — Australia Product Classification & Regulatory Assessment (consultant working document)",
-                  "locator": "§3.1 Trigger logic",
-                  "excerpt": "Unauthorised health claim (food) | Food health claim not permitted / conditions not met. / FSC Schedule 4 (nutrition & health claims) |  | Blocks (claim) | ☐ Disapprove | Provide warning and advise needs to be submitted for FSANZ pre-approval",
-                  "snapshot": "rulebank/au/snapshots/sources_and_logic_aus.txt",
-                  "snapshot_line": 295,
-                  "url": null
-                }
-              ],
-              "conditions": []
-            },
-            {
-              "rule_id": "FOOD-HC-UNAUTHORISED",
-              "source": "rules",
-              "verdict": "AMBER",
-              "title": "Health effect with no Schedule 4 or notified basis",
-              "why": "\"cognitive performance\" implies an effect on cognitive function. Neither Schedule 4 (for a property this product contains) nor a relationship notified by this business covers it. Per the consultant, this is a warning: the relationship would need to be notified / approved by FSANZ before the claim is made.",
-              "matched": [
-                "cognitive performance"
-              ],
-              "citations": [
-                {
-                  "source": "fsc_std_1_2_7",
-                  "document": "Australia New Zealand Food Standards Code – Standard 1.2.7 – Nutrition, health and related claims (F2025C00833, compilation 8)",
-                  "locator": "definition, 1.2.7—2",
-                  "excerpt": "health claim means a claim which states, suggests or implies that a food or a property of food has, or may have, a health effect.",
-                  "snapshot": "rulebank/au/snapshots/fsc_std_1_2_7.txt",
-                  "snapshot_line": 59,
-                  "url": "https://www.legislation.gov.au/F2015L00394/latest/text"
-                },
-                {
-                  "source": "fsc_std_1_2_7",
-                  "document": "Australia New Zealand Food Standards Code – Standard 1.2.7 – Nutrition, health and related claims (F2025C00833, compilation 8)",
-                  "locator": "1.2.7—18(3)(b)",
-                  "excerpt": "the person who is responsible for making the *health claim has notified the Chief Executive Officer of the Authority (FSANZ) of the details of a relationship between a food or *property of food and a *health effect",
-                  "snapshot": "rulebank/au/snapshots/fsc_std_1_2_7.txt",
-                  "snapshot_line": 411,
-                  "url": "https://www.legislation.gov.au/F2015L00394/latest/text"
-                },
-                {
-                  "source": "sources_and_logic_aus",
-                  "document": "Taama — Australia Product Classification & Regulatory Assessment (consultant working document)",
-                  "locator": "§3.1 Trigger logic",
-                  "excerpt": "Unauthorised health claim (food) | Food health claim not permitted / conditions not met. / FSC Schedule 4 (nutrition & health claims) |  | Blocks (claim) | ☐ Disapprove | Provide warning and advise needs to be submitted for FSANZ pre-approval",
-                  "snapshot": "rulebank/au/snapshots/sources_and_logic_aus.txt",
-                  "snapshot_line": 295,
-                  "url": null
-                }
-              ],
-              "conditions": []
-            }
-          ],
-          "found_in": [
-            {
-              "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-              "location": "region (695, 540)-(1098, 642) px, 4 line(s), min OCR confidence 0.80",
-              "method": "ocr (cached)"
-            }
-          ]
-        },
-        {
-          "id": "arepa-009",
           "text": "This is the drink for everyone with a brain.",
           "claim_type": "compositional",
           "verdict": "GREEN",
@@ -3265,38 +2793,38 @@
           "found_in": [
             {
               "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-              "location": "region (697, 652)-(1039, 678) px, 1 line(s), min OCR confidence 0.90",
-              "method": "ocr (cached)"
+              "location": "text block 3",
+              "method": "ocr-openai gpt-5.2 (cached)"
             }
           ]
         },
         {
-          "id": "arepa-010",
-          "text": "Supplemented Food: Patented Formula",
-          "claim_type": "identity_or_origin",
+          "id": "arepa-009",
+          "text": "Vitamin C 12.5 mg -27% RDI 5 mg",
+          "claim_type": "nutrition_content",
           "verdict": "AMBER",
           "decided_by": "rules",
-          "status": "NEEDS_REVIEW",
-          "justification": "\"supplemented food\" names a New Zealand-only category with no Australian equivalent. In Australia the product must comply as an ordinary food under the FSC, so the statement and the formulation behind it need review for the Australian market.",
+          "status": "CONDITIONS",
+          "justification": "\"vitamin c\" is a nutrition content claim about vitamin c, but the product record has no %RDI for it, so the S4—3 minimum (10% RDI per serving) cannot be checked.",
           "rules": [
             {
-              "rule_id": "FOOD-NZ-CATEGORY",
+              "rule_id": "FOOD-NCC-UNVERIFIED",
               "source": "rules",
               "verdict": "AMBER",
-              "title": "New Zealand-only regulatory category on an Australian label",
-              "why": "\"supplemented food\" names a New Zealand-only category with no Australian equivalent. In Australia the product must comply as an ordinary food under the FSC, so the statement and the formulation behind it need review for the Australian market.",
+              "title": "Nutrition content claim, conditions not verifiable",
+              "why": "\"vitamin c\" is a nutrition content claim about vitamin c, but the product record has no %RDI for it, so the S4—3 minimum (10% RDI per serving) cannot be checked.",
               "matched": [
-                "supplemented food"
+                "vitamin c"
               ],
               "citations": [
                 {
-                  "source": "sources_and_logic_aus",
-                  "document": "Taama — Australia Product Classification & Regulatory Assessment (consultant working document)",
-                  "locator": "Part 3, FOOD-3",
-                  "excerpt": "Two NZ-only regimes with no Australian equivalent: (a) Supplemented food",
-                  "snapshot": "rulebank/au/snapshots/sources_and_logic_aus.txt",
-                  "snapshot_line": 251,
-                  "url": null
+                  "source": "fsc_std_1_2_7",
+                  "document": "Australia New Zealand Food Standards Code – Standard 1.2.7 – Nutrition, health and related claims (F2025C00833, compilation 8)",
+                  "locator": "1.2.7—12(2)",
+                  "excerpt": "If a claim is made in relation to a food about a *property of food mentioned in Column 1 of the nutrition content claims table, the food must meet the corresponding general claim conditions, if any, in Column 2 of the table.",
+                  "snapshot": "rulebank/au/snapshots/fsc_std_1_2_7.txt",
+                  "snapshot_line": 283,
+                  "url": "https://www.legislation.gov.au/F2015L00394/latest/text"
                 }
               ],
               "conditions": []
@@ -3305,61 +2833,14 @@
           "found_in": [
             {
               "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-              "location": "region (695, 1098)-(1071, 1143) px, 2 line(s), min OCR confidence 0.82",
-              "method": "ocr (cached)"
+              "location": "text block 16",
+              "method": "ocr-openai gpt-5.2 (cached)"
             }
           ]
         },
         {
-          "id": "arepa-011",
-          "text": "Developed by neuroscientists with clinically researched ingredients, this is a drink for everyone with a brain.",
-          "claim_type": "compositional",
-          "verdict": "GREEN",
-          "decided_by": "rules",
-          "status": "PASS",
-          "justification": "This describes what the product contains or is free from. It does not state or imply a health effect or make a nutrient claim, so Standard 1.2.7 does not restrict it; the general consumer-law requirement to be true and not misleading applies.",
-          "rules": [
-            {
-              "rule_id": "FOOD-NO-CLAIM",
-              "source": "rules",
-              "verdict": "GREEN",
-              "title": "Not a nutrition content or health claim",
-              "why": "This describes what the product contains or is free from. It does not state or imply a health effect or make a nutrient claim, so Standard 1.2.7 does not restrict it; the general consumer-law requirement to be true and not misleading applies.",
-              "matched": [],
-              "citations": [
-                {
-                  "source": "fsc_std_1_2_7",
-                  "document": "Australia New Zealand Food Standards Code – Standard 1.2.7 – Nutrition, health and related claims (F2025C00833, compilation 8)",
-                  "locator": "definition, 1.2.7—2",
-                  "excerpt": "health claim means a claim which states, suggests or implies that a food or a property of food has, or may have, a health effect.",
-                  "snapshot": "rulebank/au/snapshots/fsc_std_1_2_7.txt",
-                  "snapshot_line": 59,
-                  "url": "https://www.legislation.gov.au/F2015L00394/latest/text"
-                },
-                {
-                  "source": "sources_and_logic_aus",
-                  "document": "Taama — Australia Product Classification & Regulatory Assessment (consultant working document)",
-                  "locator": "Part 3, FOOD-1 Advertising",
-                  "excerpt": "Claims must be true and not misleading under Australian Consumer Law (ACCC), on top of the FSC claim rules.",
-                  "snapshot": "rulebank/au/snapshots/sources_and_logic_aus.txt",
-                  "snapshot_line": 203,
-                  "url": null
-                }
-              ],
-              "conditions": []
-            }
-          ],
-          "found_in": [
-            {
-              "file": "Source/Material/Arepa Brain Drink/Capture d’écran 2026-08-10 à 10.55.24.png",
-              "location": "region (38, 26)-(1132, 189) px, 5 line(s), min OCR confidence 0.85",
-              "method": "ocr (cached)"
-            }
-          ]
-        },
-        {
-          "id": "arepa-012",
-          "text": "Drinking Arepa helps your brain keep calm and clear by reducing tiredness and supporting normal psychological and neurological function thanks to the high Vitamin C content in our Neuroberry® Blackcurrants as part of a healthy and varied diet.",
+          "id": "arepa-010",
+          "text": "Developed by neuroscientists with clinically researched ingredients, this is a drink for everyone with a brain. Drinking Arepa helps your brain keep calm and clear by reducing tiredness and supporting normal psychological and neurological function thanks to the high Vitamin C content in our Neuroberry® Blackcurrants as part of a healthy and varied diet.",
           "claim_type": "therapeutic",
           "verdict": "AMBER",
           "decided_by": "rules",
@@ -3637,13 +3118,13 @@
           "found_in": [
             {
               "file": "Source/Material/Arepa Brain Drink/Capture d’écran 2026-08-10 à 10.55.24.png",
-              "location": "region (38, 26)-(1132, 189) px, 5 line(s), min OCR confidence 0.85",
-              "method": "ocr (cached)"
+              "location": "text block 1",
+              "method": "ocr-openai gpt-5.2 (cached)"
             }
           ]
         },
         {
-          "id": "arepa-013",
+          "id": "arepa-011",
           "text": "Natural",
           "claim_type": "marketing_puffery",
           "verdict": "AMBER",
@@ -3677,13 +3158,13 @@
           "found_in": [
             {
               "file": "Source/Material/Arepa Brain Drink/Capture d’écran 2026-08-10 à 10.55.24.png",
-              "location": "region (86, 239)-(186, 263) px, 1 line(s), min OCR confidence 0.81",
-              "method": "ocr (cached)"
+              "location": "text block 2",
+              "method": "ocr-openai gpt-5.2 (cached)"
             }
           ]
         },
         {
-          "id": "arepa-014",
+          "id": "arepa-012",
           "text": "Caffeine Free",
           "claim_type": "nutrition_content",
           "verdict": "GREEN",
@@ -3717,13 +3198,13 @@
           "found_in": [
             {
               "file": "Source/Material/Arepa Brain Drink/Capture d’écran 2026-08-10 à 10.55.24.png",
-              "location": "region (91, 275)-(262, 297) px, 1 line(s), min OCR confidence 0.86",
-              "method": "ocr (cached)"
+              "location": "text block 3",
+              "method": "ocr-openai gpt-5.2 (cached)"
             }
           ]
         },
         {
-          "id": "arepa-015",
+          "id": "arepa-013",
           "text": "Only 1.8g sugar in each serving",
           "claim_type": "nutrition_content",
           "verdict": "GREEN",
@@ -3766,13 +3247,13 @@
           "found_in": [
             {
               "file": "Source/Material/Arepa Brain Drink/Capture d’écran 2026-08-10 à 10.55.24.png",
-              "location": "region (90, 307)-(488, 335) px, 1 line(s), min OCR confidence 0.89",
-              "method": "ocr (cached)"
+              "location": "text block 4",
+              "method": "ocr-openai gpt-5.2 (cached)"
             }
           ]
         },
         {
-          "id": "arepa-016",
+          "id": "arepa-014",
           "text": "Lite & sparkling blackcurrant flavour",
           "claim_type": "compositional",
           "verdict": "AMBER",
@@ -3815,13 +3296,13 @@
           "found_in": [
             {
               "file": "Source/Material/Arepa Brain Drink/Capture d’écran 2026-08-10 à 10.55.24.png",
-              "location": "region (89, 343)-(555, 367) px, 1 line(s), min OCR confidence 0.94",
-              "method": "ocr (cached)"
+              "location": "text block 5",
+              "method": "ocr-openai gpt-5.2 (cached)"
             }
           ]
         },
         {
-          "id": "arepa-017",
+          "id": "arepa-015",
           "text": "Formulated by our world-renowned neuroscientist",
           "claim_type": "marketing_puffery",
           "verdict": "GREEN",
@@ -3862,13 +3343,13 @@
           "found_in": [
             {
               "file": "Source/Material/Arepa Brain Drink/Capture d’écran 2026-08-10 à 10.55.24.png",
-              "location": "region (90, 376)-(740, 403) px, 1 line(s), min OCR confidence 0.91",
-              "method": "ocr (cached)"
+              "location": "text block 6",
+              "method": "ocr-openai gpt-5.2 (cached)"
             }
           ]
         },
         {
-          "id": "arepa-018",
+          "id": "arepa-016",
           "text": "With 208mg of L-theanine in every can",
           "claim_type": "nutrition_content",
           "verdict": "AMBER",
@@ -3933,13 +3414,13 @@
           "found_in": [
             {
               "file": "Source/Material/Arepa Brain Drink/Capture d’écran 2026-08-10 à 10.55.24.png",
-              "location": "region (90, 410)-(591, 436) px, 1 line(s), min OCR confidence 0.91",
-              "method": "ocr (cached)"
+              "location": "text block 7",
+              "method": "ocr-openai gpt-5.2 (cached)"
             }
           ]
         },
         {
-          "id": "arepa-019",
+          "id": "arepa-017",
           "text": "27% RDI Vitamin C",
           "claim_type": "nutrition_content",
           "verdict": "AMBER",
@@ -3973,13 +3454,13 @@
           "found_in": [
             {
               "file": "Source/Material/Arepa Brain Drink/Capture d’écran 2026-08-10 à 10.55.24.png",
-              "location": "region (92, 445)-(319, 466) px, 1 line(s), min OCR confidence 0.77",
-              "method": "ocr (cached)"
+              "location": "text block 8",
+              "method": "ocr-openai gpt-5.2 (cached)"
             }
           ]
         },
         {
-          "id": "arepa-020",
+          "id": "arepa-018",
           "text": "26 Cups Green Tea equivalent of L-theanine",
           "claim_type": "marketing_puffery",
           "verdict": "AMBER",
@@ -4014,13 +3495,13 @@
           "found_in": [
             {
               "file": "Source/Material/Arepa Brain Drink/Capture d’écran 2026-08-10 à 10.55.24.png",
-              "location": "region (90, 479)-(659, 503) px, 1 line(s), min OCR confidence 0.95",
-              "method": "ocr (cached)"
+              "location": "text block 9",
+              "method": "ocr-openai gpt-5.2 (cached)"
             }
           ]
         },
         {
-          "id": "arepa-021",
+          "id": "arepa-019",
           "text": "1.25 kg Fruit & Vegetable Flavonoids",
           "claim_type": "marketing_puffery",
           "verdict": "AMBER",
@@ -4054,13 +3535,13 @@
           "found_in": [
             {
               "file": "Source/Material/Arepa Brain Drink/Capture d’écran 2026-08-10 à 10.55.24.png",
-              "location": "region (75, 513)-(548, 537) px, 1 line(s), min OCR confidence 0.91",
-              "method": "ocr (cached)"
+              "location": "text block 10",
+              "method": "ocr-openai gpt-5.2 (cached)"
             }
           ]
         },
         {
-          "id": "arepa-022",
+          "id": "arepa-020",
           "text": "Neuroberry - Blackcurrants have polyphenols plus unusually high levels of vitamin C (an antioxidant) for a berry fruit, even higher than blueberries, raspberries and strawberries.",
           "claim_type": "nutrition_content",
           "verdict": "AMBER",
@@ -4117,61 +3598,14 @@
           "found_in": [
             {
               "file": "Source/Material/Arepa Brain Drink/Capture d’écran 2026-08-10 à 10.55.24.png",
-              "location": "region (67, 743)-(1148, 834) px, 3 line(s), min OCR confidence 0.90",
-              "method": "ocr (cached)"
+              "location": "text block 12",
+              "method": "ocr-openai gpt-5.2 (cached)"
             }
           ]
         },
         {
-          "id": "arepa-023",
-          "text": "L-theanine - A rare amino acid.",
-          "claim_type": "marketing_puffery",
-          "verdict": "GREEN",
-          "decided_by": "rules",
-          "status": "PASS",
-          "justification": "This is general marketing language. It does not state or imply a health effect or make a nutrient claim, so Standard 1.2.7 does not restrict it; the general consumer-law requirement to be true and not misleading applies.",
-          "rules": [
-            {
-              "rule_id": "FOOD-NO-CLAIM",
-              "source": "rules",
-              "verdict": "GREEN",
-              "title": "Not a nutrition content or health claim",
-              "why": "This is general marketing language. It does not state or imply a health effect or make a nutrient claim, so Standard 1.2.7 does not restrict it; the general consumer-law requirement to be true and not misleading applies.",
-              "matched": [],
-              "citations": [
-                {
-                  "source": "fsc_std_1_2_7",
-                  "document": "Australia New Zealand Food Standards Code – Standard 1.2.7 – Nutrition, health and related claims (F2025C00833, compilation 8)",
-                  "locator": "definition, 1.2.7—2",
-                  "excerpt": "health claim means a claim which states, suggests or implies that a food or a property of food has, or may have, a health effect.",
-                  "snapshot": "rulebank/au/snapshots/fsc_std_1_2_7.txt",
-                  "snapshot_line": 59,
-                  "url": "https://www.legislation.gov.au/F2015L00394/latest/text"
-                },
-                {
-                  "source": "sources_and_logic_aus",
-                  "document": "Taama — Australia Product Classification & Regulatory Assessment (consultant working document)",
-                  "locator": "Part 3, FOOD-1 Advertising",
-                  "excerpt": "Claims must be true and not misleading under Australian Consumer Law (ACCC), on top of the FSC claim rules.",
-                  "snapshot": "rulebank/au/snapshots/sources_and_logic_aus.txt",
-                  "snapshot_line": 203,
-                  "url": null
-                }
-              ],
-              "conditions": []
-            }
-          ],
-          "found_in": [
-            {
-              "file": "Source/Material/Arepa Brain Drink/Capture d’écran 2026-08-10 à 10.55.24.png",
-              "location": "region (73, 843)-(1115, 904) px, 2 line(s), min OCR confidence 0.91",
-              "method": "ocr (cached)"
-            }
-          ]
-        },
-        {
-          "id": "arepa-024",
-          "text": "It is isolated from green tea via a fermentation process, allowing it to be caffeine-free.",
+          "id": "arepa-021",
+          "text": "L-theanine - A rare amino acid. It is isolated from green tea via a fermentation process, allowing it to be caffeine-free.",
           "claim_type": "nutrition_content",
           "verdict": "GREEN",
           "decided_by": "rules",
@@ -4204,13 +3638,13 @@
           "found_in": [
             {
               "file": "Source/Material/Arepa Brain Drink/Capture d’écran 2026-08-10 à 10.55.24.png",
-              "location": "region (73, 843)-(1115, 904) px, 2 line(s), min OCR confidence 0.91",
-              "method": "ocr (cached)"
+              "location": "text block 13",
+              "method": "ocr-openai gpt-5.2 (cached)"
             }
           ]
         },
         {
-          "id": "arepa-025",
+          "id": "arepa-022",
           "text": "Enzogenol - an ultra-pure extract from the bark of New Zealand grown pine trees; a broad-spectrum polyphenol extract, containing many different flavonoid compounds including oligomeric proanthocyanidins (an antioxidant).",
           "claim_type": "identity_or_origin",
           "verdict": "GREEN",
@@ -4251,13 +3685,13 @@
           "found_in": [
             {
               "file": "Source/Material/Arepa Brain Drink/Capture d’écran 2026-08-10 à 10.55.24.png",
-              "location": "region (87, 910)-(1143, 1008) px, 3 line(s), min OCR confidence 0.92",
-              "method": "ocr (cached)"
+              "location": "text block 14",
+              "method": "ocr-openai gpt-5.2 (cached)"
             }
           ]
         },
         {
-          "id": "arepa-026",
+          "id": "arepa-023",
           "text": "25ml Neuroberry Blackcurrant Juice",
           "claim_type": "marketing_puffery",
           "verdict": "GREEN",
@@ -4298,13 +3732,13 @@
           "found_in": [
             {
               "file": "Source/Material/Arepa Brain Drink/Capture d’écran 2026-08-10 à 10.55.24.png",
-              "location": "region (77, 1211)-(550, 1233) px, 1 line(s), min OCR confidence 0.90",
-              "method": "ocr (cached)"
+              "location": "text block 16",
+              "method": "ocr-openai gpt-5.2 (cached)"
             }
           ]
         },
         {
-          "id": "arepa-027",
+          "id": "arepa-024",
           "text": "125mg Enzogenol Pine Bark Extract",
           "claim_type": "nutrition_content",
           "verdict": "GREEN",
@@ -4345,13 +3779,13 @@
           "found_in": [
             {
               "file": "Source/Material/Arepa Brain Drink/Capture d’écran 2026-08-10 à 10.55.24.png",
-              "location": "region (72, 1242)-(532, 1269) px, 1 line(s), min OCR confidence 0.85",
-              "method": "ocr (cached)"
+              "location": "text block 17",
+              "method": "ocr-openai gpt-5.2 (cached)"
             }
           ]
         },
         {
-          "id": "arepa-028",
+          "id": "arepa-025",
           "text": "208mg L-theanine",
           "claim_type": "nutrition_content",
           "verdict": "AMBER",
@@ -4416,13 +3850,13 @@
           "found_in": [
             {
               "file": "Source/Material/Arepa Brain Drink/Capture d’écran 2026-08-10 à 10.55.24.png",
-              "location": "region (69, 1275)-(328, 1304) px, 1 line(s), min OCR confidence 0.86",
-              "method": "ocr (cached)"
+              "location": "text block 18",
+              "method": "ocr-openai gpt-5.2 (cached)"
             }
           ]
         },
         {
-          "id": "arepa-029",
+          "id": "arepa-026",
           "text": "Take up to 30 minutes before you can feel the effects.",
           "claim_type": "marketing_puffery",
           "verdict": "AMBER",
@@ -4456,621 +3890,279 @@
           "found_in": [
             {
               "file": "Source/Material/Arepa Brain Drink/Capture d’écran 2026-08-10 à 10.55.30.png",
-              "location": "region (44, 134)-(1146, 194) px, 2 line(s), min OCR confidence 0.91",
-              "method": "ocr (cached)"
+              "location": "text block 2",
+              "method": "ocr-openai gpt-5.2 (cached)"
             }
           ]
         }
       ],
       "not_assessed": [
         {
-          "text": "Arepa",
+          "text": "Ārepa",
           "file": "Source/Material/Arepa Brain Drink/9413000088328_1.png.webp",
-          "location": "region (426, 628)-(668, 727) px, 1 line(s), min OCR confidence 0.67",
+          "location": "text block 1",
           "reason": "product / brand name only"
         },
         {
-          "text": "Nutritional ln formation/ Serve per can:1(250 ml)",
+          "text": "Nutritional Information | Serve per can: 1 (250 ml)",
           "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (697, 701)-(1051, 726) px, 1 line(s), min OCR confidence 0.87",
+          "location": "text block 4",
           "reason": "panel / print spec / legal or contact text"
         },
         {
-          "text": "Per 100 mi",
+          "text": "Av QTY Per Serve Per 100 ml",
           "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (1005, 722)-(1077, 746) px, 1 line(s), min OCR confidence 0.88",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "AVQTY",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (698, 724)-(741, 745) px, 1 line(s), min OCR confidence 0.78",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "Per Serve",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (845, 725)-(923, 749) px, 1 line(s), min OCR confidence 0.82",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "Energy",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (694, 744)-(739, 774) px, 1 line(s), min OCR confidence 0.78",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "82.5kj",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (844, 747)-(905, 772) px, 1 line(s), min OCR confidence 0.69",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "33kJ",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (1006, 747)-(1049, 770) px, 1 line(s), min OCR confidence 0.67",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "79cal",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (1005, 767)-(1056, 792) px, 1 line(s), min OCR confidence 0.79",
-          "reason": "product / brand name only"
-        },
-        {
-          "text": "19.8cal",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (842, 769)-(907, 793) px, 1 line(s), min OCR confidence 0.80",
-          "reason": "product / brand name only"
-        },
-        {
-          "text": "0.19",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (1006, 788)-(1045, 814) px, 1 line(s), min OCR confidence 0.61",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "Protein",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (697, 789)-(739, 811) px, 1 line(s), min OCR confidence 0.85",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "0.39",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (844, 791)-(888, 812) px, 1 line(s), min OCR confidence 0.69",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "80 mg",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (1004, 807)-(1059, 838) px, 1 line(s), min OCR confidence 0.76",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "200 mg",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (842, 808)-(912, 838) px, 1 line(s), min OCR confidence 0.79",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "L-theanine",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (697, 809)-(762, 834) px, 1 line(s), min OCR confidence 0.81",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "Fat toia",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (696, 829)-(746, 853) px, 1 line(s), min OCR confidence 0.85",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "09",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (1008, 834)-(1036, 855) px, 1 line(s), min OCR confidence 0.57",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "0g",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (844, 835)-(874, 855) px, 1 line(s), min OCR confidence 0.57",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "-Saturated",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (711, 851)-(779, 875) px, 1 line(s), min OCR confidence 0.78",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "50",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (1006, 852)-(1036, 875) px, 1 line(s), min OCR confidence 0.57",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "50",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (844, 856)-(874, 876) px, 1 line(s), min OCR confidence 0.61",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "Carbohydrate",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (698, 870)-(781, 897) px, 1 line(s), min OCR confidence 0.91",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "2.39",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (1005, 871)-(1048, 898) px, 1 line(s), min OCR confidence 0.79",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "5.8g",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (841, 873)-(891, 899) px, 1 line(s), min OCR confidence 0.78",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "Sugars",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (712, 891)-(762, 918) px, 1 line(s), min OCR confidence 0.78",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "0.69",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (1006, 891)-(1049, 918) px, 1 line(s), min OCR confidence 0.78",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "1.5g",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (841, 896)-(886, 917) px, 1 line(s), min OCR confidence 0.78",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "Sodium.",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (695, 910)-(743, 937) px, 1 line(s), min OCR confidence 0.75",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "0.5mg",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (1006, 912)-(1060, 938) px, 1 line(s), min OCR confidence 0.74",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "1.3mg",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (840, 914)-(900, 939) px, 1 line(s), min OCR confidence 0.83",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "Enzo geno",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (696, 931)-(760, 959) px, 1 line(s), min OCR confidence 0.88",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "50mg",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (1006, 933)-(1058, 959) px, 1 line(s), min OCR confidence 0.80",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "125mg",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (840, 934)-(907, 962) px, 1 line(s), min OCR confidence 0.77",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "Via m inC",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (697, 953)-(757, 978) px, 1 line(s), min OCR confidence 0.81",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "5mg",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (1007, 956)-(1047, 976) px, 1 line(s), min OCR confidence 0.65",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "12.5mg-27% RDi",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (840, 956)-(985, 980) px, 1 line(s), min OCR confidence 0.88",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "Caffeine",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (697, 973)-(748, 1000) px, 1 line(s), min OCR confidence 0.75",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "Omg",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (1006, 975)-(1049, 1001) px, 1 line(s), min OCR confidence 0.64",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "Omg",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (844, 979)-(889, 1001) px, 1 line(s), min OCR confidence 0.60",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "INGREDIENTS: Uitra-Purified New",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (699, 1002)-(946, 1025) px, 1 line(s), min OCR confidence 0.88",
+          "location": "text block 5",
           "reason": "panel / print spec / legal or contact text"
         },
         {
-          "text": "Zealand (NZ) Watel",
+          "text": "Energy 82.5 kJ 33 kJ",
           "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (956, 1002)-(1102, 1024) px, 1 line(s), min OCR confidence 0.84",
+          "location": "text block 6",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "19.8 cal 7.9 cal",
+          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
+          "location": "text block 7",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "Protein 0.3 g 0.1 g",
+          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
+          "location": "text block 8",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "L-theanine 200 mg 80 mg",
+          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
+          "location": "text block 9",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "Fat total 0 g 0 g",
+          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
+          "location": "text block 10",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "- Saturated 0 g 0 g",
+          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
+          "location": "text block 11",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "Carbohydrate 5.8 g 2.3 g",
+          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
+          "location": "text block 12",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "- Sugars 1.5 g 0.6 g",
+          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
+          "location": "text block 13",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "Sodium 1.3 mg 0.5 mg",
+          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
+          "location": "text block 14",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "Enzogenol® 125 mg 50 mg",
+          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
+          "location": "text block 15",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "Caffeine 0 mg 0 mg",
+          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
+          "location": "text block 17",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "INGREDIENTS: Ultra-Purified New Zealand (NZ) Water, Neuroberry® Blackcurrant Juice 10%, Natural Sweetener (Organic Erythritol), Natural Flavours, Natural Acidity Regulator (Citric), L-theanine, Suntheanine®, NZ Pine Bark Extract Enzogenol®, Neuroberry® Blackcurrant* Extract, Natural Sweetener (Ste viol Glycosides). Juices from concentrate. Once opened, keep refrigerated. Supplemented Food. Patented Formula.",
+          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
+          "location": "text block 18",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "10 c refund at collection depots/points in participating State/Territory of purchase.",
+          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
+          "location": "text block 19",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "Manufactured by Alpha Gen NZ Ltd. Unit 1.3, 615 New North Rd, Kingsland, AKL, NZ 1021.",
+          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
+          "location": "text block 20",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "Ārepa",
+          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
+          "location": "text block 21",
+          "reason": "product / brand name only"
+        },
+        {
+          "text": "*To learn more: drink arepa.com",
+          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
+          "location": "text block 22",
           "reason": "direction / warning / dose statement"
         },
         {
-          "text": "Neuro be ry Blackcurrant Juice 10%,Natura i Sweetener (Organ it",
+          "text": "220",
           "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (697, 1019)-(1105, 1047) px, 1 line(s), min OCR confidence 0.86",
-          "reason": "panel / print spec / legal or contact text"
-        },
-        {
-          "text": "Glycosides).-Juices from refrigerated.",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (695, 1098)-(1071, 1143) px, 2 line(s), min OCR confidence 0.82",
-          "reason": "direction / warning / dose statement"
-        },
-        {
-          "text": "10 C refund at col ct on depots/points in participating",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (906, 1158)-(1109, 1219) px, 2 line(s), min OCR confidence 0.71",
-          "reason": "panel / print spec / legal or contact text"
-        },
-        {
-          "text": "13000088328>",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (855, 1159)-(898, 1410) px, 1 line(s), min OCR confidence 0.87",
-          "reason": "panel / print spec / legal or contact text"
-        },
-        {
-          "text": "State/Territory of purchase.",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (908, 1211)-(1097, 1241) px, 1 line(s), min OCR confidence 0.91",
-          "reason": "panel / print spec / legal or contact text"
-        },
-        {
-          "text": "Manufactured by Alpha Gen Nz",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (907, 1235)-(1105, 1268) px, 1 line(s), min OCR confidence 0.92",
-          "reason": "panel / print spec / legal or contact text"
-        },
-        {
-          "text": "Ltd. Unit 1.3,615 New North Rd, Kingsland, AKL,NZ1021",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (907, 1256)-(1104, 1307) px, 2 line(s), min OCR confidence 0.75",
-          "reason": "panel / print spec / legal or contact text"
-        },
-        {
-          "text": "Arepa",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (907, 1332)-(1108, 1415) px, 1 line(s), min OCR confidence 0.72",
+          "location": "text block 23",
           "reason": "product / brand name only"
-        },
-        {
-          "text": "To learn more: drink arepa.com",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_6.jpg.webp",
-          "location": "region (909, 1422)-(1070, 1477) px, 2 line(s), min OCR confidence 0.87",
-          "reason": "direction / warning / dose statement"
         },
         {
           "text": "Nutrition Information",
           "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (99, 115)-(902, 175) px, 1 line(s), min OCR confidence 0.86",
+          "location": "text block 1",
           "reason": "panel / print spec / legal or contact text"
         },
         {
           "text": "Servings per can: 1 (250 ml)",
           "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (99, 197)-(702, 243) px, 1 line(s), min OCR confidence 0.91",
+          "location": "text block 2",
           "reason": "panel / print spec / legal or contact text"
         },
         {
-          "text": "Per Serving",
+          "text": "Av. QTY Per Serving Per 100 ml",
           "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (760, 300)-(1005, 349) px, 1 line(s), min OCR confidence 0.84",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "Av. QTY",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (112, 301)-(279, 346) px, 1 line(s), min OCR confidence 0.84",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "Per 100 ml",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (1456, 302)-(1681, 343) px, 1 line(s), min OCR confidence 0.85",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "Energy",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (108, 382)-(264, 437) px, 1 line(s), min OCR confidence 0.85",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "33 kJ",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (1452, 384)-(1571, 426) px, 1 line(s), min OCR confidence 0.75",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "82.5 kJ",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (759, 385)-(918, 426) px, 1 line(s), min OCR confidence 0.82",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "(7.9 Cal)",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (1455, 449)-(1636, 493) px, 1 line(s), min OCR confidence 0.81",
-          "reason": "product / brand name only"
-        },
-        {
-          "text": "(19.8 Cal)",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (761, 450)-(964, 491) px, 1 line(s), min OCR confidence 0.82",
-          "reason": "product / brand name only"
-        },
-        {
-          "text": "0.3 g",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (754, 505)-(876, 567) px, 1 line(s), min OCR confidence 0.80",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "0.1 g",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (1448, 506)-(1558, 567) px, 1 line(s), min OCR confidence 0.83",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "Protein",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (109, 512)-(268, 557) px, 1 line(s), min OCR confidence 0.84",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "0g",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (1445, 569)-(1533, 633) px, 1 line(s), min OCR confidence 0.59",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "0g",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (750, 570)-(839, 634) px, 1 line(s), min OCR confidence 0.56",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "Fat total",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (109, 577)-(289, 620) px, 1 line(s), min OCR confidence 0.87",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "0g",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (749, 633)-(839, 698) px, 1 line(s), min OCR confidence 0.58",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "0g",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (1445, 634)-(1533, 697) px, 1 line(s), min OCR confidence 0.61",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "-Saturated",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (175, 641)-(402, 685) px, 1 line(s), min OCR confidence 0.80",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "5.8 g",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (750, 695)-(878, 764) px, 1 line(s), min OCR confidence 0.75",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "2.3 g",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (1447, 698)-(1559, 760) px, 1 line(s), min OCR confidence 0.81",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "Carbohydrate",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (112, 706)-(406, 751) px, 1 line(s), min OCR confidence 0.86",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "1.5 g",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (749, 760)-(868, 828) px, 1 line(s), min OCR confidence 0.79",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "0.6 g",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (1448, 763)-(1573, 825) px, 1 line(s), min OCR confidence 0.76",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "-Sugars",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (171, 767)-(344, 820) px, 1 line(s), min OCR confidence 0.87",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "1.3 mg",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (754, 830)-(901, 887) px, 1 line(s), min OCR confidence 0.78",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "0.5 mg",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (1451, 830)-(1607, 887) px, 1 line(s), min OCR confidence 0.79",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "Sodium",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (108, 833)-(276, 879) px, 1 line(s), min OCR confidence 0.79",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "200 mg",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (757, 893)-(935, 950) px, 1 line(s), min OCR confidence 0.81",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "80 mg",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (1450, 894)-(1601, 950) px, 1 line(s), min OCR confidence 0.79",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "L-theanine",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (111, 900)-(342, 940) px, 1 line(s), min OCR confidence 0.84",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "50 mg",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (1449, 958)-(1597, 1016) px, 1 line(s), min OCR confidence 0.78",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "125 mg",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (757, 959)-(920, 1014) px, 1 line(s), min OCR confidence 0.79",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "Enzogenol",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (111, 963)-(340, 1007) px, 1 line(s), min OCR confidence 0.89",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "5 mg",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (1448, 1022)-(1568, 1082) px, 1 line(s), min OCR confidence 0.67",
-          "reason": "product / brand name only"
-        },
-        {
-          "text": "Vitamin C",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (112, 1028)-(321, 1069) px, 1 line(s), min OCR confidence 0.81",
-          "reason": "single word"
-        },
-        {
-          "text": "12.5 mg (27% RDI)*",
-          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (761, 1028)-(1177, 1071) px, 1 line(s), min OCR confidence 0.83",
+          "location": "text block 3",
           "reason": "panel / print spec / legal or contact text"
         },
         {
-          "text": "O mg",
+          "text": "Energy 82.5 kJ (19.8 Cal) 33 kJ (7.9 Cal)",
           "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (754, 1087)-(876, 1145) px, 1 line(s), min OCR confidence 0.63",
-          "reason": "chart / table header"
+          "location": "text block 4",
+          "reason": "panel / print spec / legal or contact text"
         },
         {
-          "text": "0mg",
+          "text": "Protein 0.3 g 0.1 g",
           "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (1449, 1088)-(1569, 1144) px, 1 line(s), min OCR confidence 0.65",
-          "reason": "chart / table header"
+          "location": "text block 5",
+          "reason": "panel / print spec / legal or contact text"
         },
         {
-          "text": "Caffeine",
+          "text": "Fat total 0 g 0 g",
           "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (110, 1091)-(288, 1134) px, 1 line(s), min OCR confidence 0.89",
-          "reason": "chart / table header"
+          "location": "text block 6",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "-Saturated 0 g 0 g",
+          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
+          "location": "text block 7",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "Carbohydrate 5.8 g 2.3 g",
+          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
+          "location": "text block 8",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "-Sugars 1.5 g 0.6 g",
+          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
+          "location": "text block 9",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "Sodium 1.3 mg 0.5 mg",
+          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
+          "location": "text block 10",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "L-theanine 200 mg 80 mg",
+          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
+          "location": "text block 11",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "Enzogenol 125 mg 50 mg",
+          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
+          "location": "text block 12",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "Vitamin C 12.5 mg (27% RDI)* 5 mg",
+          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
+          "location": "text block 13",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "Caffeine 0 mg 0 mg",
+          "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
+          "location": "text block 14",
+          "reason": "panel / print spec / legal or contact text"
         },
         {
           "text": "*Recommended Dietary Intake for Adults (NRV 2006)",
           "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (98, 1213)-(1249, 1263) px, 1 line(s), min OCR confidence 0.90",
+          "location": "text block 15",
           "reason": "panel / print spec / legal or contact text"
         },
         {
           "text": "Ingredients",
           "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (100, 1314)-(534, 1377) px, 1 line(s), min OCR confidence 0.81",
+          "location": "text block 16",
           "reason": "panel / print spec / legal or contact text"
         },
         {
-          "text": "Ultra-Purified Carbonated Water, Neuroberry® Blackcurrant Juice (1 O%), Natural Sweetener (Organic Erythritol), Natural Flavours, L-theanine Suntheanine®, Natural Acidity Regulator (Citric), NZ Pine Bark Extract Enzogenol®, Neuroberry® Blackcurrant Extract, Natural Sweetener (Ste viol Glycosides)",
+          "text": "Ultra-Purified Carbonated Water, Neuroberry® Blackcurrant Juice (10%), Natural Sweetener (Organic Erythritol), Natural Flavours, L-theanine Suntheanine®, Natural Acidity Regulator (Citric), NZ Pine Bark Extract Enzogenol®, Neuroberry® Blackcurrant Extract, Natural Sweetener (Ste viol Glycosides).",
           "file": "Source/Material/Arepa Brain Drink/9413000088328_7.jpg.webp",
-          "location": "region (96, 1402)-(1699, 1681) px, 5 line(s), min OCR confidence 0.86",
+          "location": "text block 17",
           "reason": "panel / print spec / legal or contact text"
         },
         {
           "text": "Key Ingredients",
           "file": "Source/Material/Arepa Brain Drink/Capture d’écran 2026-08-10 à 10.55.24.png",
-          "location": "region (39, 665)-(244, 691) px, 1 line(s), min OCR confidence 0.87",
+          "location": "text block 11",
           "reason": "panel / print spec / legal or contact text"
         },
         {
           "text": "Active ingredients",
           "file": "Source/Material/Arepa Brain Drink/Capture d’écran 2026-08-10 à 10.55.24.png",
-          "location": "region (40, 1132)-(278, 1158) px, 1 line(s), min OCR confidence 0.89",
+          "location": "text block 15",
           "reason": "panel / print spec / legal or contact text"
         },
         {
           "text": "How to use",
           "file": "Source/Material/Arepa Brain Drink/Capture d’écran 2026-08-10 à 10.55.30.png",
-          "location": "region (46, 60)-(186, 80) px, 1 line(s), min OCR confidence 0.86",
+          "location": "text block 1",
           "reason": "panel / print spec / legal or contact text"
         },
         {
           "text": "Consume one full drink (250ml) to get the full benefits.",
           "file": "Source/Material/Arepa Brain Drink/Capture d’écran 2026-08-10 à 10.55.30.png",
-          "location": "region (44, 134)-(1146, 194) px, 2 line(s), min OCR confidence 0.91",
+          "location": "text block 2",
           "reason": "direction / warning / dose statement"
         },
         {
           "text": "Full Ingredients",
           "file": "Source/Material/Arepa Brain Drink/Capture d’écran 2026-08-10 à 10.55.30.png",
-          "location": "region (46, 324)-(248, 346) px, 1 line(s), min OCR confidence 0.89",
+          "location": "text block 3",
           "reason": "panel / print spec / legal or contact text"
         },
         {
-          "text": "Ultra-Purified Carbonated Water, Neuroberry Blackcurrant Juice (io%), Natural Sweetener (Organic Erythritol), Natural Flavours, Natural Acidity Regulator (Citric), Nz Pine Bark Extract Enzogenol, Neuroberry Blackcurrant Extract, Natural Sweetener (ste viol Glycosides)",
+          "text": "Ultra-Purified Carbonated Water, Neuroberry Blackcurrant Juice (10%), Natural Sweetener (Organic Erythritol), Natural Flavours, Natural Acidity Regulator (Citric), NZ Pine Bark Extract Enzogenol, Neuroberry Blackcurrant Extract, Natural Sweetener (Ste viol Glycosides)",
           "file": "Source/Material/Arepa Brain Drink/Capture d’écran 2026-08-10 à 10.55.30.png",
-          "location": "region (42, 396)-(1132, 526) px, 4 line(s), min OCR confidence 0.88",
+          "location": "text block 4",
           "reason": "panel / print spec / legal or contact text"
         },
         {
           "text": "Volume",
           "file": "Source/Material/Arepa Brain Drink/Capture d’écran 2026-08-10 à 10.55.30.png",
-          "location": "region (45, 654)-(145, 676) px, 1 line(s), min OCR confidence 0.79",
+          "location": "text block 5",
           "reason": "panel / print spec / legal or contact text"
         }
       ],
-      "elapsed_s": 1.18
+      "elapsed_s": 0.7
     }
   ]
 }

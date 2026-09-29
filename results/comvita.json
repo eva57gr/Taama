@@ -3,7 +3,7 @@
   "name": "Comvita Kids Honey Day-time Gentle Syrup (118 mL)",
   "regime": "tga_listed",
   "ai_judge": false,
-  "ocr": "rapidocr",
+  "ocr": "openai",
   "verdicts_identical": true,
   "runs": [
     {
@@ -1312,7 +1312,7 @@
           "reason": "panel / print spec / legal or contact text"
         }
       ],
-      "elapsed_s": 4.47
+      "elapsed_s": 4.61
     },
     {
       "summary": {
@@ -2620,7 +2620,7 @@
           "reason": "panel / print spec / legal or contact text"
         }
       ],
-      "elapsed_s": 4.28
+      "elapsed_s": 4.48
     }
   ]
 }

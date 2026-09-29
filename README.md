@@ -9,21 +9,22 @@ medicines, and Food Standards Code Standard 1.2.7 / Schedule 4 for foods. For ev
 - a plain-English justification.
 
 The verdict engine is deterministic Python: the same claim, profile and rule bank always give the same
-red / amber / green result, with no network access at check time (except fetching URLs you submit). Every
-citation is checked verbatim against the source snapshot when it is emitted. Wording the rule bank can't map
+red / amber / green result. The rule engine itself does not call the network (except fetching URLs you submit).
+Every citation is checked verbatim against the source snapshot when it is emitted. Wording the rule bank can't map
 is flagged AMBER *needs review* rather than guessed.
 
 An optional second opinion (`backend/judge.py`) runs only when `OPENAI_API_KEY` is set and `CLAIMCHECK_JUDGE`
 is not `off`. It may only quote passages retrieved from the same snapshots; a quote that is not verbatim is
 dropped, and a red or amber answer with no surviving quote becomes amber `AI-UNGROUNDED`. The sample-bank
-results in `results/` were produced with the judge off, so they do not need a key.
+results in `results/` were produced with the judge off. Image OCR still needs a key.
 
 - **Backend:** FastAPI (`backend/`)
 - **Frontend:** Next.js (`frontend/`)
 
 ## How to run
 
-No API keys, accounts or external services are needed. Python 3.11+ and Node 20+.
+No API keys, accounts or external services are needed for PDF and text checks. Image OCR
+requires `OPENAI_API_KEY`. Python 3.11+ and Node 20+.
 
 ```bash
 python -m venv .venv
@@ -63,9 +64,8 @@ use webpack (`--webpack`) because Turbopack's on-disk cache can hit file-lock er
 | `CLAIMCHECK_CORS_ORIGINS` | localhost / 127.0.0.1 on ports 3000 and 3001 | Allowed frontend origins (comma-separated) |
 | `CLAIMCHECK_CORS_ORIGIN_REGEX` | localhost and private LAN IPs (10.x, 172.16-31.x, 192.168.x), any port | Extra allowed origins (regex; empty to disable) |
 | `CLAIMCHECK_PRODUCTS_DIR` | `products/` | Where product profiles (`<id>.yaml`) are stored |
-| `OPENAI_API_KEY` | unset | Enables OpenAI vision OCR for images |
+| `OPENAI_API_KEY` | unset | Required for image OCR (OpenAI vision) |
 | `OPENAI_OCR_MODEL` | `gpt-4o` | Model used for OpenAI OCR |
-| `CLAIMCHECK_OCR` | `openai` if a key is set, else `rapidocr` | Force the OCR engine (`openai` or `rapidocr`) |
 | `NEXT_PUBLIC_API_URL` | `<page host>:8000` | Backend URL used by the frontend |
 
 ### API
@@ -90,10 +90,9 @@ empty profile. Without a nutrition record, any claim that depends on amounts com
 
 What needs what:
 
-- **OCR** uses OpenAI vision (`gpt-4o`, temperature 0) when `OPENAI_API_KEY` is set: copy
-  `backend/.env.example` to `backend/.env`, fill in the key and restart uvicorn. Without a key it falls back to
-  RapidOCR (ONNX, runs locally on CPU). Results of both are cached under `extracted/`, keyed by image SHA-256
-  (OpenAI results also by model and prompt), so repeat checks are deterministic and free.
+- **OCR** uses OpenAI vision (`gpt-4o` by default, temperature 0): copy `backend/.env.example` to
+  `backend/.env`, fill in `OPENAI_API_KEY` and restart uvicorn. Results are cached under `extracted/`,
+  keyed by image SHA-256, model and prompt, so repeat checks are identical and do not call the API again.
 - **Network** is used only for submitted URLs and by `scripts/snapshot_sources.py`, which rebuilds the
   regulation snapshots from the Federal Register of Legislation API and the FSANZ register.
 
@@ -106,13 +105,12 @@ input ─► ingest ─► blocks ─► segment ─► claims ─► engine ─
           file + page/box provenance)    de-dup, IDs)
 ```
 
-1. **Ingest** (`ingest.py`, `ocr.py`). The PDF text layer is read with pdfminer. Images go through RapidOCR in
-   two passes: the full image, upscaled, plus overlapping horizontal bands to catch small print. Words that OCR
-   runs together are re-split with a word-frequency model; brand and ingredient names are protected from
-   splitting. Each block records its file and location (PDF page and text box, or image pixel region with OCR
-   confidence).
+1. **Ingest** (`ingest.py`, `ocr.py`). The PDF text layer is read with pdfminer. Images go through OpenAI
+   vision OCR; words that run together are re-split with a word-frequency model, and brand and ingredient
+   names are protected from splitting. Each block records its file and location (PDF page and text box, or
+   image text-block index).
 2. **Segment** (`segment.py`). Nutrition panels, ingredient lists, print specs, directions, warnings,
-   addresses, boilerplate and low-confidence OCR are dropped; every dropped text is returned under
+   addresses, boilerplate and unreadable OCR are dropped; every dropped text is returned under
    `not_assessed` with its reason. The rest is split into sentences and de-duplicated across files.
 3. **Regime.** Each product profile (`products/*.yaml`) declares whether the product is assessed as a TGA listed
    medicine or a food, with a cited reason. The profile also carries the Nutrition Information Panel values and
@@ -148,8 +146,7 @@ and a citation whose excerpt isn't in the snapshot raises `CitationError`.
 - **Not checked:** ingredient permissibility, mandatory label elements, NPSC calculation (reported as
   unverified), evidence dossiers, AUST L(A), registered medicines, the NZ market, scanned PDFs without a text
   layer, JavaScript-rendered pages.
-- **OCR** can miss small or low-contrast print. Blocks with a line under 0.65 confidence are dropped (listed in
-  `not_assessed`).
+- **OCR** can miss small or low-contrast print. Dropped text is listed in `not_assessed`.
 - **Regulation drift.** Snapshots are dated; re-run `scripts/snapshot_sources.py` after amendments.
 
 ## Repository layout
@@ -162,14 +159,14 @@ products/         product profiles (comvita, seed, arepa)
 Source/Material/  case-study artwork, images and formulation sheets the profiles point at
 results/          one JSON per product: two consecutive runs
 scripts/          snapshot_sources.py; run_sample_bank.py (rewrites results/)
-tests/            test_citations.py (every rule excerpt must be in its snapshot)
+tests/            test_citations.py, test_ocr.py
 ```
 
 ## Sample bank
 
 `python scripts/run_sample_bank.py` checks Comvita, Seed and Arepa twice with the judge off and writes
 `results/<id>.json`. Add `--judge on` to run the same inputs with the AI judge (needs `OPENAI_API_KEY`);
-that writes `results/<id>.judge-on.json` and leaves the default files alone. OCR stays local RapidOCR
+that writes `results/<id>.judge-on.json` and leaves the default files alone. Image OCR uses OpenAI vision
 either way. `CLAIMS.md` is one line per claim from the judge-off run. `WRITEUP.md` answers the
 submission questions (stability, a new market, production, what comes next).
 

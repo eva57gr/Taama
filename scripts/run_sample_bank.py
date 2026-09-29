@@ -1,7 +1,6 @@
 """Run the three sample products twice and write results/<id>.json.
 
-OCR stays on local RapidOCR either way, so a reviewer without an API key can reproduce the
-default files. The second run reuses the OCR cache.
+Image OCR uses OpenAI vision. The second run reuses the OCR cache.
 
     python scripts/run_sample_bank.py              # judge off -> results/<id>.json
     python scripts/run_sample_bank.py --judge on   # judge on  -> results/<id>.judge-on.json
@@ -17,7 +16,10 @@ import sys
 import time
 from pathlib import Path
 
+from dotenv import load_dotenv
+
 ROOT = Path(__file__).resolve().parents[1]
+load_dotenv(ROOT / "backend" / ".env")
 sys.path.insert(0, str(ROOT / "backend"))
 
 from engine import list_products  # noqa: E402
@@ -37,14 +39,14 @@ def main() -> None:
                         help="AI judge. Default off. On requires OPENAI_API_KEY in backend/.env.")
     args = parser.parse_args()
     use_ai = args.judge == "on"
-    # Set after parse and before any OCR/judge call. Force these so backend/.env cannot flip them.
     os.environ["CLAIMCHECK_JUDGE"] = args.judge
-    os.environ["CLAIMCHECK_OCR"] = "rapidocr"
+    if not os.environ.get("OPENAI_API_KEY", "").split("#")[0].strip():
+        raise SystemExit("OPENAI_API_KEY in backend/.env is required for image OCR")
     if use_ai:
-        from dotenv import load_dotenv
-        load_dotenv(ROOT / "backend" / ".env")
-        if not os.environ.get("OPENAI_API_KEY", "").strip():
-            raise SystemExit("--judge on requires OPENAI_API_KEY in backend/.env")
+        log_note = "judge on"
+    else:
+        log_note = "judge off"
+    print(f"sample bank: {log_note}, OpenAI OCR", flush=True)
 
     OUT.mkdir(exist_ok=True)
     by_id = {p.id: p for p in list_products()}
@@ -67,7 +69,7 @@ def main() -> None:
             "name": by_id[pid].name,
             "regime": by_id[pid].regime,
             "ai_judge": use_ai,
-            "ocr": "rapidocr",
+            "ocr": "openai",
             "verdicts_identical": identical,
             "runs": runs,
         }

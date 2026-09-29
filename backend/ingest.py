@@ -4,14 +4,12 @@ from __future__ import annotations
 
 import logging
 import re
-import statistics
 import urllib.request
 from html.parser import HTMLParser
 from pathlib import Path
 
 from models import Block, Provenance
 import ocr
-from ocr import ocr_lines
 from rulebank import REPO_ROOT, squash
 
 IMAGE_SUFFIXES = {".png", ".jpg", ".jpeg", ".webp", ".gif", ".bmp", ".tif", ".tiff"}
@@ -138,90 +136,15 @@ def respace(text: str, protected: set[str] = frozenset()) -> str:
     return squash(t)
 
 
-def _overlap(a: list[float], b: list[float]) -> float:
-    inter = min(a[2], b[2]) - max(a[0], b[0])
-    return max(0.0, inter) / max(1.0, min(a[2] - a[0], b[2] - b[0]))
-
-
-def group_lines(lines: list[dict]) -> list[list[dict]]:
-    """Chains OCR lines into blocks: a line continues the one above it if it sits directly below,
-    overlaps it horizontally, and reads as a continuation (wrap, lowercase start, connector, or a
-    multi-line heading)."""
-    if not lines:
-        return []
-    lines = sorted(lines, key=lambda l: (l["box"][1], l["box"][0]))
-    heights = [l["box"][3] - l["box"][1] for l in lines]
-    median_h = statistics.median(heights)
-    nxt: dict[int, int] = {}
-    taken: set[int] = set()
-    for i, a in enumerate(lines):
-        ah = a["box"][3] - a["box"][1]
-        best = None
-        for j in range(i + 1, len(lines)):
-            b = lines[j]
-            if j in taken or b["box"][1] < a["box"][1] + 0.5 * ah:
-                continue
-            bh = b["box"][3] - b["box"][1]
-            gap = b["box"][1] - a["box"][3]
-            if gap > 0.9 * max(ah, bh):
-                continue
-            if _overlap(a["box"], b["box"]) < 0.3 or not (0.55 <= bh / ah <= 1.8):
-                continue
-            best = j
-            break
-        if best is None:
-            continue
-        b = lines[best]
-        at, bt = a["text"].strip(), b["text"].strip()
-        last = at.split()[-1].lower() if at.split() else ""
-        width_a = a["box"][2] - a["box"][0]
-        column_w = max(l["box"][2] - l["box"][0] for l in lines if _overlap(l["box"], a["box"]) >= 0.3)
-        ends_sentence = bool(re.search(r"[.!?:]$", at))
-        heading = ah >= 1.4 * median_h and (b["box"][3] - b["box"][1]) >= 1.4 * median_h
-        left_aligned = abs(a["box"][0] - b["box"][0]) <= 1.5 * median_h
-        continues = (
-            bt[:1].islower()
-            or last in CONNECTORS
-            or at.endswith((",", "-", "&", "+"))
-            or (heading and not ends_sentence)
-            or (left_aligned and width_a >= 0.8 * column_w and not ends_sentence and len(at) > 25)
-        )
-        if continues:
-            nxt[i] = best
-            taken.add(best)
-    blocks, seen = [], set()
-    for i in range(len(lines)):
-        if i in seen or i in taken:
-            continue
-        chain, k = [], i
-        while k is not None and k not in seen:
-            chain.append(lines[k])
-            seen.add(k)
-            k = nxt.get(k)
-        blocks.append(chain)
-    return blocks
-
-
 def from_image(path: Path, protected: set[str] = frozenset(), refresh_ocr: bool = False) -> list[Block]:
-    engine = ocr.backend()
-    log.info("image %s -> OCR engine %s%s", Path(path).name, engine, " (refresh)" if refresh_ocr else "")
-    if engine == "openai":
-        texts, method = ocr.openai_blocks(path, refresh=refresh_ocr)
-        return [Block(squash(t), Provenance(rel(path), f"text block {i + 1}", method))
-                for i, t in enumerate(texts) if squash(t)]
-    lines, method = ocr_lines(path, refresh=refresh_ocr)
-    log.info("RapidOCR %s: %d lines (%s)", Path(path).name, len(lines), method)
-    lines = [dict(l, text=respace(l["text"], protected)) for l in lines]
+    log.info("image %s -> OpenAI OCR%s", Path(path).name, " (refresh)" if refresh_ocr else "")
+    texts, method = ocr.openai_blocks(path, refresh=refresh_ocr)
     blocks = []
-    for chain in group_lines(lines):
-        text = squash(" ".join(l["text"] for l in chain))
-        x0 = min(l["box"][0] for l in chain)
-        y0 = min(l["box"][1] for l in chain)
-        x1 = max(l["box"][2] for l in chain)
-        y1 = max(l["box"][3] for l in chain)
-        conf = min(l["score"] for l in chain)
-        loc = f"region ({x0:.0f}, {y0:.0f})-({x1:.0f}, {y1:.0f}) px, {len(chain)} line(s), min OCR confidence {conf:.2f}"
-        blocks.append(Block(text, Provenance(rel(path), loc, method), (x0, y0, x1, y1), conf))
+    for i, raw in enumerate(texts, start=1):
+        text = squash(respace(raw, protected))
+        if text:
+            blocks.append(Block(text, Provenance(rel(path), f"text block {i}", method)))
+    log.info("OpenAI OCR %s: %d blocks (%s)", Path(path).name, len(blocks), method)
     return blocks
 
 

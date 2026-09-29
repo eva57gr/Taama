@@ -94,7 +94,7 @@ def _sentences(text: str) -> list[str]:
 
 def whole_block(block: Block) -> bool:
     """Clean, already block-structured sources (OpenAI OCR, Word paragraphs) are checked as whole blocks so the
-    claim keeps its context; noisy line-level sources (RapidOCR, PDF, pasted text) are split into sentences."""
+    claim keeps its context; noisy line-level sources (vision OCR, PDF, pasted text) are split into sentences."""
     m = block.provenance.method
     return m.startswith("ocr-openai") or m == "docx"
 

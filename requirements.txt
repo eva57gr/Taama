@@ -9,9 +9,10 @@ fastapi>=0.115
 uvicorn[standard]>=0.30
 python-multipart>=0.0.9
 
-# Image input (OCR); results are cached under extracted/
-rapidocr-onnxruntime>=1.2   # local OCR (default without an API key)
-openai>=1.40                # OpenAI vision OCR (used when OPENAI_API_KEY is set)
+# Image input (OpenAI vision OCR); results are cached under extracted/
+openai>=1.40
+Pillow>=10.0                # bmp / tiff converted to PNG before the vision request
+numpy>=1.26                 # passage index for the optional LLM judge
 python-dotenv>=1.0          # loads backend/.env
 
 # Word / Excel input (also used by scripts/snapshot_sources.py)

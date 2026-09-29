@@ -40,7 +40,7 @@ class Block:
     text: str
     provenance: Provenance
     box: tuple[float, float, float, float] | None = None  # image pixels (x0, y0, x1, y1), OCR only
-    confidence: float | None = None  # lowest OCR line confidence in the block
+    confidence: float | None = None  # unused for vision OCR blocks; kept for PDF-derived layout
 
 
 @dataclass

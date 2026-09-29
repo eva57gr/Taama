@@ -3,21 +3,155 @@
   "name": "Seed AM-02 Energy + Focus (30 ViaCap capsules)",
   "regime": "tga_listed",
   "ai_judge": false,
-  "ocr": "rapidocr",
+  "ocr": "openai",
   "verdicts_identical": true,
   "runs": [
     {
       "summary": {
         "RED": 4,
-        "AMBER": 21,
-        "GREEN": 11,
+        "AMBER": 22,
+        "GREEN": 10,
         "claims": 36,
-        "needs_review": 16,
+        "needs_review": 19,
         "ai": false
       },
       "claims": [
         {
           "id": "seed-001",
+          "text": "Energy Drinks",
+          "claim_type": "therapeutic",
+          "verdict": "AMBER",
+          "decided_by": "rules",
+          "status": "NEEDS_REVIEW",
+          "justification": "\"energy\" is about energy levels, which the Determination covers (\"Enhance/promote energy levels\" (Schedule 1, Part 1, item 54, Scientific or Traditional evidence); \"Maintain/support energy levels\" (Schedule 1, Part 1, item 115, Scientific or Traditional evidence); \"Helps enhance/promote body energy reserves\" (Schedule 1, Part 1, item 67, Scientific or Traditional evidence)), but not in the permitted words. The Determination tolerates varied wording only if the meaning is unchanged, while the consultant's rule is exact wording only; a reviewer must either restore the permitted wording or confirm the variation keeps the meaning.",
+          "rules": [
+            {
+              "rule_id": "TGA-IND-VARIED",
+              "source": "rules",
+              "verdict": "AMBER",
+              "title": "Reworded version of a permitted indication",
+              "why": "\"energy\" is about energy levels, which the Determination covers (\"Enhance/promote energy levels\" (Schedule 1, Part 1, item 54, Scientific or Traditional evidence); \"Maintain/support energy levels\" (Schedule 1, Part 1, item 115, Scientific or Traditional evidence); \"Helps enhance/promote body energy reserves\" (Schedule 1, Part 1, item 67, Scientific or Traditional evidence)), but not in the permitted words. The Determination tolerates varied wording only if the meaning is unchanged, while the consultant's rule is exact wording only; a reviewer must either restore the permitted wording or confirm the variation keeps the meaning.",
+              "matched": [
+                "energy"
+              ],
+              "citations": [
+                {
+                  "source": "tga_permissible_indications",
+                  "document": "Therapeutic Goods (Permissible Indications) Determination (No. 1) 2025 (F2025L00450, compilation 0)",
+                  "locator": "s 6(4)(a)",
+                  "excerpt": "If the wording of an indication is varied on the label of a medicine, then the indication, as varied, must not: (a) change the meaning or intent of the indication as specified in column 2 of an item in a table in Parts 1 to 17 of Schedule 1",
+                  "snapshot": "rulebank/au/snapshots/tga_permissible_indications.txt",
+                  "snapshot_line": 195,
+                  "url": "https://www.legislation.gov.au/F2025L00450/latest/text"
+                },
+                {
+                  "source": "sources_and_logic_aus",
+                  "document": "Taama — Australia Product Classification & Regulatory Assessment (consultant working document)",
+                  "locator": "§3.3 Matching rules",
+                  "excerpt": "TGA is exact word for word, no variation or semantic equivalence",
+                  "snapshot": "rulebank/au/snapshots/sources_and_logic_aus.txt",
+                  "snapshot_line": 338,
+                  "url": null
+                },
+                {
+                  "source": "tga_permissible_indications",
+                  "document": "Therapeutic Goods (Permissible Indications) Determination (No. 1) 2025 (F2025L00450, compilation 0)",
+                  "locator": "Schedule 1, Part 1, item 54",
+                  "excerpt": "Enhance/promote energy levels",
+                  "snapshot": "rulebank/au/snapshots/tga_permissible_indications.txt",
+                  "snapshot_line": 703,
+                  "url": "https://www.legislation.gov.au/F2025L00450/latest/text"
+                },
+                {
+                  "source": "tga_permissible_indications",
+                  "document": "Therapeutic Goods (Permissible Indications) Determination (No. 1) 2025 (F2025L00450, compilation 0)",
+                  "locator": "Schedule 1, Part 1, item 115",
+                  "excerpt": "Maintain/support energy levels",
+                  "snapshot": "rulebank/au/snapshots/tga_permissible_indications.txt",
+                  "snapshot_line": 1159,
+                  "url": "https://www.legislation.gov.au/F2025L00450/latest/text"
+                },
+                {
+                  "source": "tga_permissible_indications",
+                  "document": "Therapeutic Goods (Permissible Indications) Determination (No. 1) 2025 (F2025L00450, compilation 0)",
+                  "locator": "Schedule 1, Part 1, item 67",
+                  "excerpt": "Helps enhance/promote body energy reserves",
+                  "snapshot": "rulebank/au/snapshots/tga_permissible_indications.txt",
+                  "snapshot_line": 811,
+                  "url": "https://www.legislation.gov.au/F2025L00450/latest/text"
+                }
+              ],
+              "conditions": []
+            }
+          ],
+          "found_in": [
+            {
+              "file": "Source/Material/Seed AM-02/61FNaD5xgwL._AC_SL1500_.jpg",
+              "location": "text block 3",
+              "method": "ocr-openai gpt-5.2"
+            }
+          ]
+        },
+        {
+          "id": "seed-002",
+          "text": "Leading Focus Supplement",
+          "claim_type": "therapeutic",
+          "verdict": "AMBER",
+          "decided_by": "rules",
+          "status": "NEEDS_REVIEW",
+          "justification": "\"focus\" is about mental focus and clarity, which the Determination covers (\"Maintain/support mental concentration/focus/clarity\" (Schedule 1, Part 8, item 58, Scientific or Traditional evidence)), but not in the permitted words. The Determination tolerates varied wording only if the meaning is unchanged, while the consultant's rule is exact wording only; a reviewer must either restore the permitted wording or confirm the variation keeps the meaning.",
+          "rules": [
+            {
+              "rule_id": "TGA-IND-VARIED",
+              "source": "rules",
+              "verdict": "AMBER",
+              "title": "Reworded version of a permitted indication",
+              "why": "\"focus\" is about mental focus and clarity, which the Determination covers (\"Maintain/support mental concentration/focus/clarity\" (Schedule 1, Part 8, item 58, Scientific or Traditional evidence)), but not in the permitted words. The Determination tolerates varied wording only if the meaning is unchanged, while the consultant's rule is exact wording only; a reviewer must either restore the permitted wording or confirm the variation keeps the meaning.",
+              "matched": [
+                "focus"
+              ],
+              "citations": [
+                {
+                  "source": "tga_permissible_indications",
+                  "document": "Therapeutic Goods (Permissible Indications) Determination (No. 1) 2025 (F2025L00450, compilation 0)",
+                  "locator": "s 6(4)(a)",
+                  "excerpt": "If the wording of an indication is varied on the label of a medicine, then the indication, as varied, must not: (a) change the meaning or intent of the indication as specified in column 2 of an item in a table in Parts 1 to 17 of Schedule 1",
+                  "snapshot": "rulebank/au/snapshots/tga_permissible_indications.txt",
+                  "snapshot_line": 195,
+                  "url": "https://www.legislation.gov.au/F2025L00450/latest/text"
+                },
+                {
+                  "source": "sources_and_logic_aus",
+                  "document": "Taama — Australia Product Classification & Regulatory Assessment (consultant working document)",
+                  "locator": "§3.3 Matching rules",
+                  "excerpt": "TGA is exact word for word, no variation or semantic equivalence",
+                  "snapshot": "rulebank/au/snapshots/sources_and_logic_aus.txt",
+                  "snapshot_line": 338,
+                  "url": null
+                },
+                {
+                  "source": "tga_permissible_indications",
+                  "document": "Therapeutic Goods (Permissible Indications) Determination (No. 1) 2025 (F2025L00450, compilation 0)",
+                  "locator": "Schedule 1, Part 8, item 58",
+                  "excerpt": "Maintain/support mental concentration/focus/clarity",
+                  "snapshot": "rulebank/au/snapshots/tga_permissible_indications.txt",
+                  "snapshot_line": 4625,
+                  "url": "https://www.legislation.gov.au/F2025L00450/latest/text"
+                }
+              ],
+              "conditions": []
+            }
+          ],
+          "found_in": [
+            {
+              "file": "Source/Material/Seed AM-02/61FNaD5xgwL._AC_SL1500_.jpg",
+              "location": "text block 4",
+              "method": "ocr-openai gpt-5.2"
+            }
+          ]
+        },
+        {
+          "id": "seed-003",
           "text": "Fast-acting energy within 1 hour",
           "claim_type": "therapeutic",
           "verdict": "AMBER",
@@ -128,13 +262,13 @@
           "found_in": [
             {
               "file": "Source/Material/Seed AM-02/61FNaD5xgwL._AC_SL1500_.jpg",
-              "location": "region (113, 629)-(631, 667) px, 1 line(s), min OCR confidence 0.91",
-              "method": "ocr"
+              "location": "text block 5",
+              "method": "ocr-openai gpt-5.2"
             }
           ]
         },
         {
-          "id": "seed-002",
+          "id": "seed-004",
           "text": "Energy support for your body",
           "claim_type": "therapeutic",
           "verdict": "AMBER",
@@ -204,13 +338,13 @@
           "found_in": [
             {
               "file": "Source/Material/Seed AM-02/61FNaD5xgwL._AC_SL1500_.jpg",
-              "location": "region (113, 799)-(590, 838) px, 1 line(s), min OCR confidence 0.88",
-              "method": "ocr"
+              "location": "text block 6",
+              "method": "ocr-openai gpt-5.2"
             }
           ]
         },
         {
-          "id": "seed-003",
+          "id": "seed-005",
           "text": "Support for the gut-brain axis",
           "claim_type": "therapeutic",
           "verdict": "RED",
@@ -271,13 +405,13 @@
           "found_in": [
             {
               "file": "Source/Material/Seed AM-02/61FNaD5xgwL._AC_SL1500_.jpg",
-              "location": "region (113, 968)-(594, 1005) px, 1 line(s), min OCR confidence 0.86",
-              "method": "ocr"
+              "location": "text block 7",
+              "method": "ocr-openai gpt-5.2"
             }
           ]
         },
         {
-          "id": "seed-004",
+          "id": "seed-006",
           "text": "Caffeine-free",
           "claim_type": "compositional",
           "verdict": "GREEN",
@@ -309,13 +443,13 @@
           "found_in": [
             {
               "file": "Source/Material/Seed AM-02/61FNaD5xgwL._AC_SL1500_.jpg",
-              "location": "region (115, 1139)-(337, 1174) px, 1 line(s), min OCR confidence 0.87",
-              "method": "ocr"
+              "location": "text block 8",
+              "method": "ocr-openai gpt-5.2"
             }
           ]
         },
         {
-          "id": "seed-005",
+          "id": "seed-007",
           "text": "Less than $1.50 per serving",
           "claim_type": "other",
           "verdict": "GREEN",
@@ -347,13 +481,13 @@
           "found_in": [
             {
               "file": "Source/Material/Seed AM-02/61FNaD5xgwL._AC_SL1500_.jpg",
-              "location": "region (112, 1305)-(556, 1347) px, 1 line(s), min OCR confidence 0.87",
-              "method": "ocr"
+              "location": "text block 9",
+              "method": "ocr-openai gpt-5.2"
             }
           ]
         },
         {
-          "id": "seed-006",
+          "id": "seed-008",
           "text": "2-in-1 Formulation for Lasting Energy",
           "claim_type": "therapeutic",
           "verdict": "AMBER",
@@ -423,14 +557,14 @@
           "found_in": [
             {
               "file": "Source/Material/Seed AM-02/61uoQem0hOL._AC_SL1500_.jpg",
-              "location": "region (62, 60)-(1015, 274) px, 2 line(s), min OCR confidence 0.92",
-              "method": "ocr"
+              "location": "text block 1",
+              "method": "ocr-openai gpt-5.2"
             }
           ]
         },
         {
-          "id": "seed-007",
-          "text": "Seed's ViaCap delivery system is engineered for targeted nutrient delivery along the Gl tract.",
+          "id": "seed-009",
+          "text": "Seed’s ViaCap delivery system is engineered for targeted nutrient delivery along the GI tract.",
           "claim_type": "marketing_puffery",
           "verdict": "AMBER",
           "decided_by": "rules",
@@ -481,13 +615,13 @@
           "found_in": [
             {
               "file": "Source/Material/Seed AM-02/61uoQem0hOL._AC_SL1500_.jpg",
-              "location": "region (65, 294)-(1116, 399) px, 2 line(s), min OCR confidence 0.86",
-              "method": "ocr"
+              "location": "text block 2",
+              "method": "ocr-openai gpt-5.2"
             }
           ]
         },
         {
-          "id": "seed-008",
+          "id": "seed-010",
           "text": "Nootropics from ginseng root, theacrine, and methylliberine sustain energy and sharpen focus.",
           "claim_type": "therapeutic",
           "verdict": "AMBER",
@@ -656,13 +790,13 @@
           "found_in": [
             {
               "file": "Source/Material/Seed AM-02/61uoQem0hOL._AC_SL1500_.jpg",
-              "location": "region (985, 758)-(1434, 926) px, 4 line(s), min OCR confidence 0.78",
-              "method": "ocr"
+              "location": "text block 4",
+              "method": "ocr-openai gpt-5.2"
             }
           ]
         },
         {
-          "id": "seed-009",
+          "id": "seed-011",
           "text": "Prebiotics from Japanese wasabi, B vitamins, and a gut-brain postbiotic.",
           "claim_type": "compositional",
           "verdict": "GREEN",
@@ -694,13 +828,13 @@
           "found_in": [
             {
               "file": "Source/Material/Seed AM-02/61uoQem0hOL._AC_SL1500_.jpg",
-              "location": "region (65, 974)-(483, 1101) px, 3 line(s), min OCR confidence 0.87",
-              "method": "ocr"
+              "location": "text block 6",
+              "method": "ocr-openai gpt-5.2"
             }
           ]
         },
         {
-          "id": "seed-010",
+          "id": "seed-012",
           "text": "Energy That Peaks Without the Crash",
           "claim_type": "therapeutic",
           "verdict": "AMBER",
@@ -811,14 +945,14 @@
           "found_in": [
             {
               "file": "Source/Material/Seed AM-02/71FqhcmawIL._AC_SL1500_.jpg",
-              "location": "region (64, 54)-(895, 246) px, 2 line(s), min OCR confidence 0.84",
-              "method": "ocr"
+              "location": "text block 1",
+              "method": "ocr-openai gpt-5.2"
             }
           ]
         },
         {
-          "id": "seed-011",
-          "text": "SoWell TM Methylliberine",
+          "id": "seed-013",
+          "text": "SoWell™ Methylliberine",
           "claim_type": "marketing_puffery",
           "verdict": "GREEN",
           "decided_by": "rules",
@@ -849,14 +983,14 @@
           "found_in": [
             {
               "file": "Source/Material/Seed AM-02/71FqhcmawIL._AC_SL1500_.jpg",
-              "location": "region (67, 432)-(570, 474) px, 1 line(s), min OCR confidence 0.85",
-              "method": "ocr"
+              "location": "text block 2",
+              "method": "ocr-openai gpt-5.2"
             }
           ]
         },
         {
-          "id": "seed-012",
-          "text": "A fast-acting nootropic compound derived from kucha, a wild pu'ertea",
+          "id": "seed-014",
+          "text": "A fast-acting nootropic compound derived from kucha, a wild pu'er tea.",
           "claim_type": "therapeutic",
           "verdict": "AMBER",
           "decided_by": "rules",
@@ -965,14 +1099,14 @@
           "found_in": [
             {
               "file": "Source/Material/Seed AM-02/71FqhcmawIL._AC_SL1500_.jpg",
-              "location": "region (63, 494)-(843, 597) px, 2 line(s), min OCR confidence 0.86",
-              "method": "ocr"
+              "location": "text block 3",
+              "method": "ocr-openai gpt-5.2"
             }
           ]
         },
         {
-          "id": "seed-013",
-          "text": "CereBoost Ginseng Root",
+          "id": "seed-015",
+          "text": "CereBoost® Ginseng Root",
           "claim_type": "marketing_puffery",
           "verdict": "GREEN",
           "decided_by": "rules",
@@ -1003,14 +1137,14 @@
           "found_in": [
             {
               "file": "Source/Material/Seed AM-02/71FqhcmawIL._AC_SL1500_.jpg",
-              "location": "region (67, 703)-(626, 750) px, 1 line(s), min OCR confidence 0.88",
-              "method": "ocr"
+              "location": "text block 4",
+              "method": "ocr-openai gpt-5.2"
             }
           ]
         },
         {
-          "id": "seed-014",
-          "text": "A clinically proven adaptogen that promotes focus and calming sensations during daily stress",
+          "id": "seed-016",
+          "text": "A clinically proven adaptogen that promotes focus and calming sensations during daily stress.",
           "claim_type": "therapeutic",
           "verdict": "RED",
           "decided_by": "rules",
@@ -1293,14 +1427,14 @@
           "found_in": [
             {
               "file": "Source/Material/Seed AM-02/71FqhcmawIL._AC_SL1500_.jpg",
-              "location": "region (63, 767)-(808, 926) px, 3 line(s), min OCR confidence 0.84",
-              "method": "ocr"
+              "location": "text block 5",
+              "method": "ocr-openai gpt-5.2"
             }
           ]
         },
         {
-          "id": "seed-015",
-          "text": "TeaCrine Theacrine",
+          "id": "seed-017",
+          "text": "TeaCrine® Theacrine",
           "claim_type": "marketing_puffery",
           "verdict": "GREEN",
           "decided_by": "rules",
@@ -1331,14 +1465,14 @@
           "found_in": [
             {
               "file": "Source/Material/Seed AM-02/71FqhcmawIL._AC_SL1500_.jpg",
-              "location": "region (68, 1034)-(506, 1076) px, 1 line(s), min OCR confidence 0.85",
-              "method": "ocr"
+              "location": "text block 6",
+              "method": "ocr-openai gpt-5.2"
             }
           ]
         },
         {
-          "id": "seed-016",
-          "text": "A natural, tea-derived compound with a molecular structure similar to caffeine",
+          "id": "seed-018",
+          "text": "A natural, tea-derived compound with a molecular structure similar to caffeine.",
           "claim_type": "compositional",
           "verdict": "GREEN",
           "decided_by": "rules",
@@ -1369,13 +1503,13 @@
           "found_in": [
             {
               "file": "Source/Material/Seed AM-02/71FqhcmawIL._AC_SL1500_.jpg",
-              "location": "region (65, 1099)-(920, 1195) px, 2 line(s), min OCR confidence 0.86",
-              "method": "ocr"
+              "location": "text block 7",
+              "method": "ocr-openai gpt-5.2"
             }
           ]
         },
         {
-          "id": "seed-017",
+          "id": "seed-019",
           "text": "Safe to take with coffee or tea.",
           "claim_type": "compositional",
           "verdict": "RED",
@@ -1418,14 +1552,14 @@
           "found_in": [
             {
               "file": "Source/Material/Seed AM-02/71TozKMzxzL._AC_SL1500_.jpg",
-              "location": "region (67, 250)-(1019, 295) px, 1 line(s), min OCR confidence 0.93",
-              "method": "ocr"
+              "location": "text block 2",
+              "method": "ocr-openai gpt-5.2"
             }
           ]
         },
         {
-          "id": "seed-018",
-          "text": "With Ginseng Root, B Vitamins and Multi-Peak Energy Complex",
+          "id": "seed-020",
+          "text": "With Ginseng Root, B Vitamins, and Multi-Peak Energy Complex",
           "claim_type": "compositional",
           "verdict": "GREEN",
           "decided_by": "rules",
@@ -1456,13 +1590,13 @@
           "found_in": [
             {
               "file": "Source/Material/Seed AM-02/71TozKMzxzL._AC_SL1500_.jpg",
-              "location": "region (274, 809)-(450, 850) px, 2 line(s), min OCR confidence 0.85",
-              "method": "ocr"
+              "location": "text block 5",
+              "method": "ocr-openai gpt-5.2"
             }
           ]
         },
         {
-          "id": "seed-019",
+          "id": "seed-021",
           "text": "Delivers fast-acting and sustained energy",
           "claim_type": "therapeutic",
           "verdict": "AMBER",
@@ -1572,19 +1706,19 @@
           "found_in": [
             {
               "file": "Source/Material/Seed AM-02/71TozKMzxzL._AC_SL1500_.jpg",
-              "location": "region (277, 900)-(502, 929) px, 1 line(s), min OCR confidence 0.95",
-              "method": "ocr"
+              "location": "text block 6",
+              "method": "ocr-openai gpt-5.2"
             }
           ]
         },
         {
-          "id": "seed-020",
-          "text": "Improves cognitive function in 1hr",
+          "id": "seed-022",
+          "text": "Improves cognitive function in 1 hr",
           "claim_type": "therapeutic",
           "verdict": "AMBER",
           "decided_by": "rules",
           "status": "NEEDS_REVIEW",
-          "justification": "\"cognitive function\" is about cognitive function, which the Determination covers (\"Enhance/improve/promote/increase cognitive performance\" (Schedule 1, Part 8, item 27, Scientific or Traditional evidence); \"Maintain/support cognitive function/mental function\" (Schedule 1, Part 8, item 53, Scientific or Traditional evidence); \"Maintain/support brain function\" (Schedule 1, Part 8, item 49, Scientific or Traditional evidence)), but not in the permitted words. The Determination tolerates varied wording only if the meaning is unchanged, while the consultant's rule is exact wording only; a reviewer must either restore the permitted wording or confirm the variation keeps the meaning. \"in 1hr\" adds a specific performance promise (onset, duration, intensity or comparison) beyond the indication itself. It is only acceptable if the sponsor holds evidence for exactly that promise, and it must not exaggerate efficacy.",
+          "justification": "\"cognitive function\" is about cognitive function, which the Determination covers (\"Enhance/improve/promote/increase cognitive performance\" (Schedule 1, Part 8, item 27, Scientific or Traditional evidence); \"Maintain/support cognitive function/mental function\" (Schedule 1, Part 8, item 53, Scientific or Traditional evidence); \"Maintain/support brain function\" (Schedule 1, Part 8, item 49, Scientific or Traditional evidence)), but not in the permitted words. The Determination tolerates varied wording only if the meaning is unchanged, while the consultant's rule is exact wording only; a reviewer must either restore the permitted wording or confirm the variation keeps the meaning. \"in 1 hr\" adds a specific performance promise (onset, duration, intensity or comparison) beyond the indication itself. It is only acceptable if the sponsor holds evidence for exactly that promise, and it must not exaggerate efficacy.",
           "rules": [
             {
               "rule_id": "TGA-IND-VARIED",
@@ -1649,9 +1783,9 @@
               "source": "rules",
               "verdict": "AMBER",
               "title": "Efficacy detail that needs substantiation",
-              "why": "\"in 1hr\" adds a specific performance promise (onset, duration, intensity or comparison) beyond the indication itself. It is only acceptable if the sponsor holds evidence for exactly that promise, and it must not exaggerate efficacy.",
+              "why": "\"in 1 hr\" adds a specific performance promise (onset, duration, intensity or comparison) beyond the indication itself. It is only acceptable if the sponsor holds evidence for exactly that promise, and it must not exaggerate efficacy.",
               "matched": [
-                "in 1hr"
+                "in 1 hr"
               ],
               "citations": [
                 {
@@ -1688,19 +1822,19 @@
           "found_in": [
             {
               "file": "Source/Material/Seed AM-02/71TozKMzxzL._AC_SL1500_.jpg",
-              "location": "region (276, 931)-(470, 960) px, 1 line(s), min OCR confidence 0.92",
-              "method": "ocr"
+              "location": "text block 7",
+              "method": "ocr-openai gpt-5.2"
             }
           ]
         },
         {
-          "id": "seed-021",
-          "text": "Increases attention for up to 6hrs",
+          "id": "seed-023",
+          "text": "Increases attention for up to 6 hrs",
           "claim_type": "therapeutic",
           "verdict": "AMBER",
           "decided_by": "rules",
           "status": "NEEDS_REVIEW",
-          "justification": "\"attention\" is about attention and alertness, which the Determination covers (\"Helps enhance/improve/promote/increase attention span\" (Schedule 1, Part 8, item 42, Scientific or Traditional evidence); \"Enhance/improve/promote/increase mental alertness/wakefulness\" (Schedule 1, Part 8, item 29, Scientific or Traditional evidence)), but not in the permitted words. The Determination tolerates varied wording only if the meaning is unchanged, while the consultant's rule is exact wording only; a reviewer must either restore the permitted wording or confirm the variation keeps the meaning. \"for up to 6hrs\" adds a specific performance promise (onset, duration, intensity or comparison) beyond the indication itself. It is only acceptable if the sponsor holds evidence for exactly that promise, and it must not exaggerate efficacy.",
+          "justification": "\"attention\" is about attention and alertness, which the Determination covers (\"Helps enhance/improve/promote/increase attention span\" (Schedule 1, Part 8, item 42, Scientific or Traditional evidence); \"Enhance/improve/promote/increase mental alertness/wakefulness\" (Schedule 1, Part 8, item 29, Scientific or Traditional evidence)), but not in the permitted words. The Determination tolerates varied wording only if the meaning is unchanged, while the consultant's rule is exact wording only; a reviewer must either restore the permitted wording or confirm the variation keeps the meaning. \"for up to 6 hrs\" adds a specific performance promise (onset, duration, intensity or comparison) beyond the indication itself. It is only acceptable if the sponsor holds evidence for exactly that promise, and it must not exaggerate efficacy.",
           "rules": [
             {
               "rule_id": "TGA-IND-VARIED",
@@ -1756,9 +1890,9 @@
               "source": "rules",
               "verdict": "AMBER",
               "title": "Efficacy detail that needs substantiation",
-              "why": "\"for up to 6hrs\" adds a specific performance promise (onset, duration, intensity or comparison) beyond the indication itself. It is only acceptable if the sponsor holds evidence for exactly that promise, and it must not exaggerate efficacy.",
+              "why": "\"for up to 6 hrs\" adds a specific performance promise (onset, duration, intensity or comparison) beyond the indication itself. It is only acceptable if the sponsor holds evidence for exactly that promise, and it must not exaggerate efficacy.",
               "matched": [
-                "for up to 6hrs"
+                "for up to 6 hrs"
               ],
               "citations": [
                 {
@@ -1795,106 +1929,29 @@
           "found_in": [
             {
               "file": "Source/Material/Seed AM-02/71TozKMzxzL._AC_SL1500_.jpg",
-              "location": "region (277, 961)-(464, 991) px, 1 line(s), min OCR confidence 0.90",
-              "method": "ocr"
-            }
-          ]
-        },
-        {
-          "id": "seed-022",
-          "text": "Consistent, daily use unlocks the full benefits of AM-02.",
-          "claim_type": "marketing_puffery",
-          "verdict": "AMBER",
-          "decided_by": "rules",
-          "status": "CONDITIONS",
-          "justification": "\"consistent, daily use\", \"daily use\" encourages ongoing use for better results. The Advertising Code prohibits encouraging inappropriate or excessive use, so a reviewer should confirm this matches the approved directions.",
-          "rules": [
-            {
-              "rule_id": "TGA-EXCESSIVE-USE",
-              "source": "rules",
-              "verdict": "AMBER",
-              "title": "Encourages continued or increased use",
-              "why": "\"consistent, daily use\", \"daily use\" encourages ongoing use for better results. The Advertising Code prohibits encouraging inappropriate or excessive use, so a reviewer should confirm this matches the approved directions.",
-              "matched": [
-                "consistent, daily use",
-                "daily use"
-              ],
-              "citations": [
-                {
-                  "source": "tga_advertising_code",
-                  "document": "Therapeutic Goods (Therapeutic Goods Advertising Code) Instrument 2021 (F2023C00019, compilation 1)",
-                  "locator": "s 9(3)(e)",
-                  "excerpt": "encourages, or is likely to encourage, inappropriate or excessive use of the goods",
-                  "snapshot": "rulebank/au/snapshots/tga_advertising_code.txt",
-                  "snapshot_line": 551,
-                  "url": "https://www.legislation.gov.au/F2021L01661/latest/text"
-                }
-              ],
-              "conditions": []
-            }
-          ],
-          "found_in": [
-            {
-              "file": "Source/Material/Seed AM-02/71TozKMzxzL._AC_SL1500_.jpg",
-              "location": "region (65, 1319)-(1358, 1439) px, 3 line(s), min OCR confidence 0.90",
-              "method": "ocr"
-            }
-          ]
-        },
-        {
-          "id": "seed-023",
-          "text": "When and how you feel results may vary based on your body and physiology.",
-          "claim_type": "marketing_puffery",
-          "verdict": "GREEN",
-          "decided_by": "rules",
-          "status": "PASS",
-          "justification": "This is general marketing language. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
-          "rules": [
-            {
-              "rule_id": "TGA-NO-CLAIM",
-              "source": "rules",
-              "verdict": "GREEN",
-              "title": "No therapeutic or restricted representation",
-              "why": "This is general marketing language. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
-              "matched": [],
-              "citations": [
-                {
-                  "source": "tga_advertising_code",
-                  "document": "Therapeutic Goods (Therapeutic Goods Advertising Code) Instrument 2021 (F2023C00019, compilation 1)",
-                  "locator": "s 8(1)(a)",
-                  "excerpt": "be accurate, balanced and not misleading or likely to be misleading",
-                  "snapshot": "rulebank/au/snapshots/tga_advertising_code.txt",
-                  "snapshot_line": 519,
-                  "url": "https://www.legislation.gov.au/F2021L01661/latest/text"
-                }
-              ],
-              "conditions": []
-            }
-          ],
-          "found_in": [
-            {
-              "file": "Source/Material/Seed AM-02/71TozKMzxzL._AC_SL1500_.jpg",
-              "location": "region (65, 1319)-(1358, 1439) px, 3 line(s), min OCR confidence 0.90",
-              "method": "ocr"
+              "location": "text block 8",
+              "method": "ocr-openai gpt-5.2"
             }
           ]
         },
         {
           "id": "seed-024",
-          "text": "Maintain your routine for improved impact overtime.",
-          "claim_type": "marketing_puffery",
+          "text": "Consistent, daily use unlocks the full benefits of AM-02. When and how you feel results may vary based on your body and physiology. Maintain your routine for improved impact over time.",
+          "claim_type": "therapeutic",
           "verdict": "AMBER",
           "decided_by": "rules",
-          "status": "CONDITIONS",
-          "justification": "\"maintain your routine\" encourages ongoing use for better results. The Advertising Code prohibits encouraging inappropriate or excessive use, so a reviewer should confirm this matches the approved directions.",
+          "status": "NEEDS_REVIEW",
+          "justification": "\"consistent, daily use\", \"daily use\", \"maintain your routine\" encourages ongoing use for better results. The Advertising Code prohibits encouraging inappropriate or excessive use, so a reviewer should confirm this matches the approved directions. \"body\", \"maintain\", \"unlocks\" uses health-related language in a benefit statement that the rule bank has no mapping for, so it cannot be cleared automatically. A reviewer should decide whether it is a health claim.",
           "rules": [
             {
               "rule_id": "TGA-EXCESSIVE-USE",
               "source": "rules",
               "verdict": "AMBER",
               "title": "Encourages continued or increased use",
-              "why": "\"maintain your routine\" encourages ongoing use for better results. The Advertising Code prohibits encouraging inappropriate or excessive use, so a reviewer should confirm this matches the approved directions.",
+              "why": "\"consistent, daily use\", \"daily use\", \"maintain your routine\" encourages ongoing use for better results. The Advertising Code prohibits encouraging inappropriate or excessive use, so a reviewer should confirm this matches the approved directions.",
               "matched": [
+                "consistent, daily use",
+                "daily use",
                 "maintain your routine"
               ],
               "citations": [
@@ -1909,13 +1966,27 @@
                 }
               ],
               "conditions": []
+            },
+            {
+              "rule_id": "NEEDS-REVIEW",
+              "source": "rules",
+              "verdict": "AMBER",
+              "title": "Health-related wording the rule bank cannot map",
+              "why": "\"body\", \"maintain\", \"unlocks\" uses health-related language in a benefit statement that the rule bank has no mapping for, so it cannot be cleared automatically. A reviewer should decide whether it is a health claim.",
+              "matched": [
+                "body",
+                "maintain",
+                "unlocks"
+              ],
+              "citations": [],
+              "conditions": []
             }
           ],
           "found_in": [
             {
               "file": "Source/Material/Seed AM-02/71TozKMzxzL._AC_SL1500_.jpg",
-              "location": "region (65, 1319)-(1358, 1439) px, 3 line(s), min OCR confidence 0.90",
-              "method": "ocr"
+              "location": "text block 14",
+              "method": "ocr-openai gpt-5.2"
             }
           ]
         },
@@ -1972,8 +2043,8 @@
           "found_in": [
             {
               "file": "Source/Material/Seed AM-02/71hvKB-lX0L._AC_SL1500_.jpg",
-              "location": "region (71, 60)-(1381, 145) px, 1 line(s), min OCR confidence 0.88",
-              "method": "ocr"
+              "location": "text block 1",
+              "method": "ocr-openai gpt-5.2"
             }
           ]
         },
@@ -2113,8 +2184,8 @@
           "found_in": [
             {
               "file": "Source/Material/Seed AM-02/71hvKB-lX0L._AC_SL1500_.jpg",
-              "location": "region (66, 193)-(1380, 299) px, 2 line(s), min OCR confidence 0.89",
-              "method": "ocr"
+              "location": "text block 2",
+              "method": "ocr-openai gpt-5.2"
             }
           ]
         },
@@ -2260,8 +2331,8 @@
           "found_in": [
             {
               "file": "Source/Material/Seed AM-02/71hvKB-lX0L._AC_SL1500_.jpg",
-              "location": "region (390, 496)-(1098, 598) px, 2 line(s), min OCR confidence 0.83",
-              "method": "ocr"
+              "location": "text block 4",
+              "method": "ocr-openai gpt-5.2"
             }
           ]
         },
@@ -2403,8 +2474,8 @@
           "found_in": [
             {
               "file": "Source/Material/Seed AM-02/71hvKB-lX0L._AC_SL1500_.jpg",
-              "location": "region (389, 785)-(1213, 886) px, 2 line(s), min OCR confidence 0.92",
-              "method": "ocr"
+              "location": "text block 6",
+              "method": "ocr-openai gpt-5.2"
             }
           ]
         },
@@ -2532,8 +2603,8 @@
           "found_in": [
             {
               "file": "Source/Material/Seed AM-02/71hvKB-lX0L._AC_SL1500_.jpg",
-              "location": "region (390, 1072)-(1150, 1169) px, 2 line(s), min OCR confidence 0.90",
-              "method": "ocr"
+              "location": "text block 8",
+              "method": "ocr-openai gpt-5.2"
             }
           ]
         },
@@ -2608,14 +2679,14 @@
           "found_in": [
             {
               "file": "Source/Material/Seed AM-02/71if+KTgztL._AC_SL1500_.jpg",
-              "location": "region (59, 41)-(728, 247) px, 2 line(s), min OCR confidence 0.83",
-              "method": "ocr"
+              "location": "text block 1",
+              "method": "ocr-openai gpt-5.2"
             }
           ]
         },
         {
           "id": "seed-031",
-          "text": "Works within 1 hour lasts for up to 6 hours",
+          "text": "Works within 1 hour, lasts for up to 6 hours",
           "claim_type": "marketing_puffery",
           "verdict": "AMBER",
           "decided_by": "rules",
@@ -2667,8 +2738,8 @@
           "found_in": [
             {
               "file": "Source/Material/Seed AM-02/71if+KTgztL._AC_SL1500_.jpg",
-              "location": "region (240, 485)-(765, 604) px, 2 line(s), min OCR confidence 0.85",
-              "method": "ocr"
+              "location": "text block 2",
+              "method": "ocr-openai gpt-5.2"
             }
           ]
         },
@@ -2743,8 +2814,8 @@
           "found_in": [
             {
               "file": "Source/Material/Seed AM-02/71if+KTgztL._AC_SL1500_.jpg",
-              "location": "region (236, 692)-(824, 816) px, 2 line(s), min OCR confidence 0.84",
-              "method": "ocr"
+              "location": "text block 3",
+              "method": "ocr-openai gpt-5.2"
             }
           ]
         },
@@ -2850,8 +2921,8 @@
           "found_in": [
             {
               "file": "Source/Material/Seed AM-02/71if+KTgztL._AC_SL1500_.jpg",
-              "location": "region (240, 897)-(716, 1008) px, 2 line(s), min OCR confidence 0.86",
-              "method": "ocr"
+              "location": "text block 4",
+              "method": "ocr-openai gpt-5.2"
             }
           ]
         },
@@ -2909,8 +2980,8 @@
           "found_in": [
             {
               "file": "Source/Material/Seed AM-02/71if+KTgztL._AC_SL1500_.jpg",
-              "location": "region (238, 1095)-(694, 1215) px, 2 line(s), min OCR confidence 0.85",
-              "method": "ocr"
+              "location": "text block 5",
+              "method": "ocr-openai gpt-5.2"
             }
           ]
         },
@@ -2947,8 +3018,8 @@
           "found_in": [
             {
               "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-              "location": "region (1132, 338)-(1379, 476) px, 4 line(s), min OCR confidence 0.78",
-              "method": "ocr"
+              "location": "text block 24",
+              "method": "ocr-openai gpt-5.2"
             }
           ]
         },
@@ -2985,466 +3056,450 @@
           "found_in": [
             {
               "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-              "location": "region (1152, 756)-(1358, 895) px, 4 line(s), min OCR confidence 0.82",
-              "method": "ocr"
+              "location": "text block 25",
+              "method": "ocr-openai gpt-5.2"
             }
           ]
         }
       ],
       "not_assessed": [
         {
-          "text": "Energy + Focus",
+          "text": "How AM-02 Energy+ Focus Compares",
           "file": "Source/Material/Seed AM-02/61FNaD5xgwL._AC_SL1500_.jpg",
-          "location": "region (532, 55)-(1207, 168) px, 1 line(s), min OCR confidence 0.83",
-          "reason": "product / brand name only"
-        },
-        {
-          "text": "How Compares",
-          "file": "Source/Material/Seed AM-02/61FNaD5xgwL._AC_SL1500_.jpg",
-          "location": "region (64, 64)-(546, 266) px, 2 line(s), min OCR confidence 0.75",
+          "location": "text block 1",
           "reason": "direction / warning / dose statement"
         },
         {
           "text": "AM-02",
           "file": "Source/Material/Seed AM-02/61FNaD5xgwL._AC_SL1500_.jpg",
-          "location": "region (318, 82)-(488, 127) px, 1 line(s), min OCR confidence 0.83",
+          "location": "text block 2",
           "reason": "product / brand name only"
         },
         {
-          "text": "Energy",
-          "file": "Source/Material/Seed AM-02/61FNaD5xgwL._AC_SL1500_.jpg",
-          "location": "region (1039, 441)-(1144, 482) px, 1 line(s), min OCR confidence 0.85",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "Leading Focus",
-          "file": "Source/Material/Seed AM-02/61FNaD5xgwL._AC_SL1500_.jpg",
-          "location": "region (1197, 445)-(1395, 476) px, 1 line(s), min OCR confidence 0.86",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "AM-02",
-          "file": "Source/Material/Seed AM-02/61FNaD5xgwL._AC_SL1500_.jpg",
-          "location": "region (837, 459)-(945, 493) px, 1 line(s), min OCR confidence 0.75",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "Drinks",
-          "file": "Source/Material/Seed AM-02/61FNaD5xgwL._AC_SL1500_.jpg",
-          "location": "region (1047, 477)-(1142, 510) px, 1 line(s), min OCR confidence 0.75",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "Supplement",
-          "file": "Source/Material/Seed AM-02/61FNaD5xgwL._AC_SL1500_.jpg",
-          "location": "region (1210, 478)-(1383, 512) px, 1 line(s), min OCR confidence 0.83",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "Seed'",
+          "text": "Seed’",
           "file": "Source/Material/Seed AM-02/61tLFwLTJeL._AC_SL1500_.jpg",
-          "location": "region (647, 405)-(875, 491) px, 1 line(s), min OCR confidence 0.76",
+          "location": "text block 1",
           "reason": "product / brand name only"
         },
         {
-          "text": "AM-02 TM ENERGY+FOCUS",
+          "text": "AM-02™ ENERGY + FOCUS",
           "file": "Source/Material/Seed AM-02/61tLFwLTJeL._AC_SL1500_.jpg",
-          "location": "region (452, 1031)-(1073, 1090) px, 1 line(s), min OCR confidence 0.88",
-          "reason": "single word"
+          "location": "text block 2",
+          "reason": "product / brand name only"
         },
         {
           "text": "DIETARY SUPPLEMENT",
           "file": "Source/Material/Seed AM-02/61tLFwLTJeL._AC_SL1500_.jpg",
-          "location": "region (565, 1134)-(958, 1172) px, 1 line(s), min OCR confidence 0.91",
+          "location": "text block 3",
           "reason": "panel / print spec / legal or contact text"
         },
         {
-          "text": "30 CAPSULES ·30 DAY SUPPLY",
+          "text": "30 CAPSULES • 30 DAY SUPPLY",
           "file": "Source/Material/Seed AM-02/61tLFwLTJeL._AC_SL1500_.jpg",
-          "location": "region (502, 1179)-(1022, 1223) px, 1 line(s), min OCR confidence 0.85",
+          "location": "text block 4",
           "reason": "panel / print spec / legal or contact text"
         },
         {
           "text": "Outer Capsule",
           "file": "Source/Material/Seed AM-02/61uoQem0hOL._AC_SL1500_.jpg",
-          "location": "region (1117, 687)-(1433, 733) px, 1 line(s), min OCR confidence 0.86",
+          "location": "text block 3",
           "reason": "panel / print spec / legal or contact text"
         },
         {
           "text": "Inner Capsule",
           "file": "Source/Material/Seed AM-02/61uoQem0hOL._AC_SL1500_.jpg",
-          "location": "region (67, 905)-(370, 949) px, 1 line(s), min OCR confidence 0.84",
+          "location": "text block 5",
           "reason": "panel / print spec / legal or contact text"
         },
         {
-          "text": "* These statements have not been evaluated by the Food and Drug Administration.",
+          "text": "* These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.",
           "file": "Source/Material/Seed AM-02/71FqhcmawIL._AC_SL1500_.jpg",
-          "location": "region (63, 1380)-(971, 1415) px, 1 line(s), min OCR confidence 0.91",
-          "reason": "panel / print spec / legal or contact text"
-        },
-        {
-          "text": "This product is not intended to diagnose, treat, cure, or prevent any disease.",
-          "file": "Source/Material/Seed AM-02/71FqhcmawIL._AC_SL1500_.jpg",
-          "location": "region (65, 1412)-(900, 1442) px, 1 line(s), min OCR confidence 0.89",
+          "location": "text block 8",
           "reason": "panel / print spec / legal or contact text"
         },
         {
           "text": "For Optimal Use",
           "file": "Source/Material/Seed AM-02/71TozKMzxzL._AC_SL1500_.jpg",
-          "location": "region (64, 57)-(792, 158) px, 1 line(s), min OCR confidence 0.81",
+          "location": "text block 1",
           "reason": "panel / print spec / legal or contact text"
         },
         {
           "text": "Take one capsule in the morning within 2 hours of waking up.",
           "file": "Source/Material/Seed AM-02/71TozKMzxzL._AC_SL1500_.jpg",
-          "location": "region (65, 192)-(1380, 240) px, 1 line(s), min OCR confidence 0.90",
+          "location": "text block 2",
           "reason": "direction / warning / dose statement"
         },
         {
           "text": "Repeat daily.",
           "file": "Source/Material/Seed AM-02/71TozKMzxzL._AC_SL1500_.jpg",
-          "location": "region (67, 250)-(1019, 295) px, 1 line(s), min OCR confidence 0.93",
+          "location": "text block 2",
           "reason": "direction / warning / dose statement"
         },
         {
-          "text": "Seed'",
+          "text": "Seed®",
           "file": "Source/Material/Seed AM-02/71TozKMzxzL._AC_SL1500_.jpg",
-          "location": "region (273, 657)-(334, 687) px, 1 line(s), min OCR confidence 0.77",
+          "location": "text block 3",
           "reason": "product / brand name only"
         },
         {
-          "text": "AM-02 M Energy+Focus",
+          "text": "AM–02™ Energy+Focus",
           "file": "Source/Material/Seed AM-02/71TozKMzxzL._AC_SL1500_.jpg",
-          "location": "region (275, 726)-(506, 813) px, 2 line(s), min OCR confidence 0.84",
+          "location": "text block 4",
           "reason": "product / brand name only"
         },
         {
-          "text": "ott e twi tote",
+          "text": "DIETARY SUPPLEMENT • 30 CAPSULES • 30 DAY SUPPLY",
           "file": "Source/Material/Seed AM-02/71TozKMzxzL._AC_SL1500_.jpg",
-          "location": "region (156, 730)-(216, 749) px, 1 line(s), min OCR confidence 0.51",
-          "reason": "OCR confidence 0.51 below 0.65"
-        },
-        {
-          "text": "runs is t emo tien e",
-          "file": "Source/Material/Seed AM-02/71TozKMzxzL._AC_SL1500_.jpg",
-          "location": "region (140, 783)-(231, 812) px, 1 line(s), min OCR confidence 0.58",
-          "reason": "OCR confidence 0.58 below 0.65"
-        },
-        {
-          "text": "Seed'",
-          "file": "Source/Material/Seed AM-02/71TozKMzxzL._AC_SL1500_.jpg",
-          "location": "region (705, 888)-(772, 915) px, 1 line(s), min OCR confidence 0.76",
-          "reason": "product / brand name only"
-        },
-        {
-          "text": "DIETARY SUPPLEMENT-30 CAPSULES-30 DAY SUPPLY",
-          "file": "Source/Material/Seed AM-02/71TozKMzxzL._AC_SL1500_.jpg",
-          "location": "region (275, 995)-(530, 1030) px, 1 line(s), min OCR confidence 0.92",
+          "location": "text block 9",
           "reason": "panel / print spec / legal or contact text"
         },
         {
-          "text": "AM-02 M ENERGY+FOCUS",
+          "text": "Seed®",
           "file": "Source/Material/Seed AM-02/71TozKMzxzL._AC_SL1500_.jpg",
-          "location": "region (652, 1058)-(828, 1082) px, 1 line(s), min OCR confidence 0.91",
+          "location": "text block 10",
+          "reason": "product / brand name only"
+        },
+        {
+          "text": "AM–02™ ENERGY+FOCUS",
+          "file": "Source/Material/Seed AM-02/71TozKMzxzL._AC_SL1500_.jpg",
+          "location": "text block 11",
           "reason": "product / brand name only"
         },
         {
           "text": "DIETARY SUPPLEMENT",
           "file": "Source/Material/Seed AM-02/71TozKMzxzL._AC_SL1500_.jpg",
-          "location": "region (681, 1087)-(796, 1104) px, 1 line(s), min OCR confidence 0.90",
+          "location": "text block 12",
           "reason": "panel / print spec / legal or contact text"
         },
         {
-          "text": "30 CAPSULES-30 DAY SUPP IY",
+          "text": "30 CAPSULES • 30 DAY SUPPLY",
           "file": "Source/Material/Seed AM-02/71TozKMzxzL._AC_SL1500_.jpg",
-          "location": "region (667, 1102)-(811, 1115) px, 1 line(s), min OCR confidence 0.81",
+          "location": "text block 13",
           "reason": "panel / print spec / legal or contact text"
         },
         {
           "text": "Week 1",
           "file": "Source/Material/Seed AM-02/71hvKB-lX0L._AC_SL1500_.jpg",
-          "location": "region (162, 506)-(284, 544) px, 1 line(s), min OCR confidence 0.72",
+          "location": "text block 3",
           "reason": "panel / print spec / legal or contact text"
         },
         {
           "text": "Week 4",
           "file": "Source/Material/Seed AM-02/71hvKB-lX0L._AC_SL1500_.jpg",
-          "location": "region (158, 794)-(288, 829) px, 1 line(s), min OCR confidence 0.80",
+          "location": "text block 5",
           "reason": "panel / print spec / legal or contact text"
         },
         {
           "text": "Week 8+",
           "file": "Source/Material/Seed AM-02/71hvKB-lX0L._AC_SL1500_.jpg",
-          "location": "region (148, 1081)-(295, 1116) px, 1 line(s), min OCR confidence 0.85",
+          "location": "text block 7",
           "reason": "panel / print spec / legal or contact text"
         },
         {
-          "text": "* These statements have not been evaluated by the Food and Drug Administration.",
+          "text": "* These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.",
           "file": "Source/Material/Seed AM-02/71hvKB-lX0L._AC_SL1500_.jpg",
-          "location": "region (64, 1381)-(968, 1412) px, 1 line(s), min OCR confidence 0.92",
+          "location": "text block 9",
           "reason": "panel / print spec / legal or contact text"
         },
         {
-          "text": "This product is not intended to diagnose, treat, cure, or prevent any disease.",
-          "file": "Source/Material/Seed AM-02/71hvKB-lX0L._AC_SL1500_.jpg",
-          "location": "region (65, 1413)-(897, 1440) px, 1 line(s), min OCR confidence 0.89",
-          "reason": "panel / print spec / legal or contact text"
-        },
-        {
-          "text": "* These statements have not been evaluated by the Food and Drug Administration.",
+          "text": "* These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.",
           "file": "Source/Material/Seed AM-02/71if+KTgztL._AC_SL1500_.jpg",
-          "location": "region (61, 1381)-(969, 1413) px, 1 line(s), min OCR confidence 0.90",
-          "reason": "panel / print spec / legal or contact text"
-        },
-        {
-          "text": "This product is not intended to diagnose, treat, cure, or prevent any disease.",
-          "file": "Source/Material/Seed AM-02/71if+KTgztL._AC_SL1500_.jpg",
-          "location": "region (64, 1412)-(898, 1442) px, 1 line(s), min OCR confidence 0.90",
+          "location": "text block 6",
           "reason": "panel / print spec / legal or contact text"
         },
         {
           "text": "Supplement Facts",
           "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-          "location": "region (70, 158)-(539, 213) px, 1 line(s), min OCR confidence 0.87",
+          "location": "text block 1",
           "reason": "panel / print spec / legal or contact text"
         },
         {
-          "text": "Serving Size 1 ViaCap?",
+          "text": "Serving Size 1 ViaCap®",
           "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-          "location": "region (73, 217)-(412, 252) px, 1 line(s), min OCR confidence 0.90",
+          "location": "text block 2",
           "reason": "panel / print spec / legal or contact text"
         },
         {
-          "text": "Amount Per Serving",
+          "text": "Amount Per Serving % Daily Value",
           "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-          "location": "region (584, 280)-(802, 308) px, 1 line(s), min OCR confidence 0.86",
+          "location": "text block 3",
           "reason": "panel / print spec / legal or contact text"
         },
         {
-          "text": "% Daily Value",
+          "text": "Thiamine [Vitamin B1] (as thiamine hydrochloride) 1.2 mg 100%",
           "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-          "location": "region (819, 280)-(979, 308) px, 1 line(s), min OCR confidence 0.91",
+          "location": "text block 4",
           "reason": "panel / print spec / legal or contact text"
         },
         {
-          "text": "1.2mg",
+          "text": "Riboflavin [Vitamin B2] (as free riboflavin) 1.3 mg 100%",
           "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-          "location": "region (654, 323)-(728, 359) px, 1 line(s), min OCR confidence 0.77",
-          "reason": "product / brand name only"
-        },
-        {
-          "text": "100%",
-          "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-          "location": "region (871, 327)-(931, 354) px, 1 line(s), min OCR confidence 0.70",
-          "reason": "product / brand name only"
-        },
-        {
-          "text": "Thiamine [Vitamin B1] (as thiamine hydrochloride)",
-          "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-          "location": "region (72, 328)-(517, 354) px, 1 line(s), min OCR confidence 0.89",
+          "location": "text block 5",
           "reason": "panel / print spec / legal or contact text"
         },
         {
-          "text": "1.3mg",
+          "text": "Niacin [Vitamin B3] (as nicotinic acid) 5 mg 31%",
           "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-          "location": "region (655, 352)-(728, 385) px, 1 line(s), min OCR confidence 0.83",
-          "reason": "product / brand name only"
-        },
-        {
-          "text": "100%",
-          "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-          "location": "region (872, 354)-(930, 382) px, 1 line(s), min OCR confidence 0.75",
-          "reason": "product / brand name only"
-        },
-        {
-          "text": "Riboflavin [Vitamin B2] (as free riboflavin)",
-          "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-          "location": "region (71, 356)-(436, 381) px, 1 line(s), min OCR confidence 0.90",
+          "location": "text block 6",
           "reason": "panel / print spec / legal or contact text"
         },
         {
-          "text": "5mg",
+          "text": "Folate [Vitamin B9] (as MAGNAFOLATE® PRO methyl folate [L-5-MTHF Ca]) 400 mcg DFE 100%",
           "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-          "location": "region (663, 380)-(721, 412) px, 1 line(s), min OCR confidence 0.64",
-          "reason": "OCR confidence 0.64 below 0.65"
-        },
-        {
-          "text": "31%",
-          "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-          "location": "region (876, 382)-(925, 409) px, 1 line(s), min OCR confidence 0.73",
-          "reason": "product / brand name only"
-        },
-        {
-          "text": "Niacin[Vitamin B3] (as nicotinic acid)",
-          "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-          "location": "region (71, 385)-(401, 407) px, 1 line(s), min OCR confidence 0.89",
+          "location": "text block 7",
           "reason": "panel / print spec / legal or contact text"
         },
         {
-          "text": "400 mcg DFE",
+          "text": "Vitamin B12 (as adenosylcobalamin and methylcobalamin) 2.4 mcg 100%",
           "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-          "location": "region (631, 409)-(756, 438) px, 1 line(s), min OCR confidence 0.89",
+          "location": "text block 8",
           "reason": "panel / print spec / legal or contact text"
         },
         {
-          "text": "100%",
+          "text": "Multi-Peak Energy Complex° (Outer Capsule) 274 mg •",
           "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-          "location": "region (872, 409)-(930, 436) px, 1 line(s), min OCR confidence 0.75",
-          "reason": "product / brand name only"
-        },
-        {
-          "text": "Folate Vitamin B9] (as MAGNAFOLATE® PRO methyl folate",
-          "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-          "location": "region (69, 410)-(577, 437) px, 1 line(s), min OCR confidence 0.89",
+          "location": "text block 9",
           "reason": "panel / print spec / legal or contact text"
         },
         {
-          "text": "[L-5-MTHF Ca]]",
+          "text": "Cereboost® American ginseng (Panax quin que fo lius) extract (root) [10% Ginsenosides Rb1, Re, Rc, Rd, Rb2, and Rg1], Methylliberine (as SoWell™), Theacrine (as TeaCrine®)",
           "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-          "location": "region (71, 436)-(207, 463) px, 1 line(s), min OCR confidence 0.86",
+          "location": "text block 10",
           "reason": "panel / print spec / legal or contact text"
         },
         {
-          "text": "2.4 mcg",
+          "text": "Gut-Brain Postbiotic° (Inner Capsule) 100 mg •",
           "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-          "location": "region (650, 459)-(733, 494) px, 1 line(s), min OCR confidence 0.79",
-          "reason": "product / brand name only"
-        },
-        {
-          "text": "Vitamin B12 (as adenosylcobalamin and methylcobalamin)",
-          "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-          "location": "region (70, 463)-(568, 491) px, 1 line(s), min OCR confidence 0.91",
-          "reason": "panel / print spec / legal or contact text"
-        },
-        {
-          "text": "100%",
-          "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-          "location": "region (871, 463)-(930, 490) px, 1 line(s), min OCR confidence 0.78",
-          "reason": "product / brand name only"
-        },
-        {
-          "text": "274 mg",
-          "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-          "location": "region (655, 511)-(728, 540) px, 1 line(s), min OCR confidence 0.76",
-          "reason": "product / brand name only"
-        },
-        {
-          "text": "Multi-Peak Energy Complex(Outer Capsule)",
-          "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-          "location": "region (72, 514)-(507, 538) px, 1 line(s), min OCR confidence 0.90",
-          "reason": "panel / print spec / legal or contact text"
-        },
-        {
-          "text": "Cereboost® American ginseng (Panax quin que fo lius) extract (root) [10% Ginsenosides Rb1, Re, Rc, Rd Rb2, and Rg1], Methylliberine (as SoWell TM), Theacrine (as TeaCrine®)",
-          "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-          "location": "region (71, 542)-(990, 595) px, 2 line(s), min OCR confidence 0.93",
-          "reason": "panel / print spec / legal or contact text"
-        },
-        {
-          "text": "100 mg",
-          "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-          "location": "region (654, 609)-(731, 641) px, 1 line(s), min OCR confidence 0.82",
-          "reason": "product / brand name only"
-        },
-        {
-          "text": "Gut-Brain Postbiotic(Inner Capsule)",
-          "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-          "location": "region (71, 612)-(434, 638) px, 1 line(s), min OCR confidence 0.86",
+          "location": "text block 11",
           "reason": "panel / print spec / legal or contact text"
         },
         {
           "text": "GABA [Gamma-aminobutyric acid] (Lactobacillus brevis-derived postbiotic)",
           "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-          "location": "region (72, 641)-(733, 668) px, 1 line(s), min OCR confidence 0.92",
+          "location": "text block 12",
           "reason": "panel / print spec / legal or contact text"
         },
         {
-          "text": "Microbiome-Modulating Prebiotic [MMP]° (Inner Capsule) 33 mg",
+          "text": "Microbiome-Modulating Prebiotic [MMP]° (Inner Capsule) 33 mg •",
           "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-          "location": "region (71, 682)-(724, 713) px, 1 line(s), min OCR confidence 0.92",
+          "location": "text block 13",
           "reason": "panel / print spec / legal or contact text"
         },
         {
-          "text": "Japanese wasabi (Wasabi a japonica) extract (root)[2% isothiocyanates l, Japanese pagoda tree (Sophora japonica) extract (flower) [95% quercetin]",
+          "text": "Japanese wasabi (Wasabi a japonica) extract (root) [2% isothiocyanates], Japanese pagoda tree (Sophora japonica) extract (flower) [95% quercetin]",
           "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-          "location": "region (72, 716)-(995, 768) px, 2 line(s), min OCR confidence 0.88",
+          "location": "text block 14",
           "reason": "panel / print spec / legal or contact text"
         },
         {
-          "text": "17 mg",
+          "text": "Bioenergetic Cellular Complex° (Inner Capsule) 17 mg •",
           "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-          "location": "region (658, 780)-(725, 815) px, 1 line(s), min OCR confidence 0.77",
-          "reason": "product / brand name only"
-        },
-        {
-          "text": "Bioenergetic Cellular Complex(Inner Capsule)",
-          "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-          "location": "region (69, 784)-(531, 810) px, 1 line(s), min OCR confidence 0.93",
+          "location": "text block 15",
           "reason": "panel / print spec / legal or contact text"
         },
         {
-          "text": "Coenzyme Q10 [Ubiquinone] phytosome phospholipid complex, Coenzyme PQQ [Py rollo qui no line quin one] disodium salt, Vitamin K2 MK-7 [Menaquinone-7] (Bacillus subtilis var. natto-derived postbiotic) 'Daily Value not established.",
+          "text": "Coenzyme Q10 [Ubiquinone] phytosome phospholipid complex, Coenzyme PQQ [Pyrroloquinoline quin one] disodium salt, Vitamin K2 MK-7 [Menaquinone-7] (Bacillus subtilis var. natto-derived postbiotic)",
           "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-          "location": "region (70, 813)-(996, 917) px, 3 line(s), min OCR confidence 0.85",
+          "location": "text block 16",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "°Daily Value not established.",
+          "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
+          "location": "text block 17",
           "reason": "panel / print spec / legal or contact text"
         },
         {
           "text": "Other Ingredients: Vegan Outer [Hypromellose, Turmeric (for color)] and Inner [Hypromellose, Water] Capsules.",
           "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-          "location": "region (70, 933)-(933, 990) px, 2 line(s), min OCR confidence 0.85",
+          "location": "text block 18",
           "reason": "panel / print spec / legal or contact text"
         },
         {
-          "text": "ViaCap® is a registered trademark of Seed Health Inc. MAGNAFOLATE?PRO is a registered trademark of Lian yun gang J in kang Pharmaceutical Technology Co. Ltd. Cereboost is used under license from Givaudan Flavors Corporation. SoWell is under exclusive global distribution by Compound Solutions. TeaCrine is a registered trademark; protected by U.S. Patent(s) and other Patents Pending; exclusively distributed by Compound Solutions, Inc. R00250811.",
+          "text": "ViaCap® is a registered trademark of Seed Health Inc. MAGNAFOLATE® PRO is a registered trademark of Lian yun gang J in kang Pharmaceutical Technology Co. Ltd. Cereboost® is used under license from Givaudan Flavors Corporation. SoWell is under exclusive global distribution by Compound Solutions. TeaCrine® is a registered trademark; protected by U.S. Patent(s) and other Patents Pending; exclusively distributed by Compound Solutions, Inc. ROO 250811.",
           "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-          "location": "region (69, 998)-(999, 1120) px, 5 line(s), min OCR confidence 0.88",
+          "location": "text block 19",
           "reason": "panel / print spec / legal or contact text"
         },
         {
           "text": "Keep out of reach of children. As with any supplement, consult your healthcare practitioner before use, particularly if you are pregnant, nursing, taking medication, or have a medical condition. Do not use if seal is broken.",
           "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-          "location": "region (70, 1138)-(948, 1212) px, 3 line(s), min OCR confidence 0.86",
+          "location": "text block 20",
           "reason": "panel / print spec / legal or contact text"
         },
         {
-          "text": "Formulated to comply with Prop.65",
+          "text": "•These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.",
           "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-          "location": "region (1150, 1191)-(1353, 1297) px, 3 line(s), min OCR confidence 0.85",
+          "location": "text block 21",
           "reason": "panel / print spec / legal or contact text"
         },
         {
-          "text": "These statements have not been evaluated by the Food and Drug Administration.",
+          "text": "Developed and distributed by Seed Health, New York, New York 10013",
           "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-          "location": "region (66, 1229)-(945, 1258) px, 1 line(s), min OCR confidence 0.92",
+          "location": "text block 22",
           "reason": "panel / print spec / legal or contact text"
         },
         {
-          "text": "This product is not intended to diagnose, treat, cure, or prevent any disease.",
+          "text": "seed.com",
           "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-          "location": "region (73, 1258)-(898, 1287) px, 1 line(s), min OCR confidence 0.92",
-          "reason": "panel / print spec / legal or contact text"
+          "location": "text block 23",
+          "reason": "direction / warning / dose statement"
         },
         {
-          "text": "Developed and distributed by Seed Health, New York, New York 10013 seed.com",
+          "text": "Formulated to comply with Prop. 65",
           "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-          "location": "region (68, 1305)-(837, 1357) px, 2 line(s), min OCR confidence 0.84",
+          "location": "text block 26",
           "reason": "panel / print spec / legal or contact text"
         }
       ],
-      "elapsed_s": 231.99
+      "elapsed_s": 34.56
     },
     {
       "summary": {
         "RED": 4,
-        "AMBER": 21,
-        "GREEN": 11,
+        "AMBER": 22,
+        "GREEN": 10,
         "claims": 36,
-        "needs_review": 16,
+        "needs_review": 19,
         "ai": false
       },
       "claims": [
         {
           "id": "seed-001",
+          "text": "Energy Drinks",
+          "claim_type": "therapeutic",
+          "verdict": "AMBER",
+          "decided_by": "rules",
+          "status": "NEEDS_REVIEW",
+          "justification": "\"energy\" is about energy levels, which the Determination covers (\"Enhance/promote energy levels\" (Schedule 1, Part 1, item 54, Scientific or Traditional evidence); \"Maintain/support energy levels\" (Schedule 1, Part 1, item 115, Scientific or Traditional evidence); \"Helps enhance/promote body energy reserves\" (Schedule 1, Part 1, item 67, Scientific or Traditional evidence)), but not in the permitted words. The Determination tolerates varied wording only if the meaning is unchanged, while the consultant's rule is exact wording only; a reviewer must either restore the permitted wording or confirm the variation keeps the meaning.",
+          "rules": [
+            {
+              "rule_id": "TGA-IND-VARIED",
+              "source": "rules",
+              "verdict": "AMBER",
+              "title": "Reworded version of a permitted indication",
+              "why": "\"energy\" is about energy levels, which the Determination covers (\"Enhance/promote energy levels\" (Schedule 1, Part 1, item 54, Scientific or Traditional evidence); \"Maintain/support energy levels\" (Schedule 1, Part 1, item 115, Scientific or Traditional evidence); \"Helps enhance/promote body energy reserves\" (Schedule 1, Part 1, item 67, Scientific or Traditional evidence)), but not in the permitted words. The Determination tolerates varied wording only if the meaning is unchanged, while the consultant's rule is exact wording only; a reviewer must either restore the permitted wording or confirm the variation keeps the meaning.",
+              "matched": [
+                "energy"
+              ],
+              "citations": [
+                {
+                  "source": "tga_permissible_indications",
+                  "document": "Therapeutic Goods (Permissible Indications) Determination (No. 1) 2025 (F2025L00450, compilation 0)",
+                  "locator": "s 6(4)(a)",
+                  "excerpt": "If the wording of an indication is varied on the label of a medicine, then the indication, as varied, must not: (a) change the meaning or intent of the indication as specified in column 2 of an item in a table in Parts 1 to 17 of Schedule 1",
+                  "snapshot": "rulebank/au/snapshots/tga_permissible_indications.txt",
+                  "snapshot_line": 195,
+                  "url": "https://www.legislation.gov.au/F2025L00450/latest/text"
+                },
+                {
+                  "source": "sources_and_logic_aus",
+                  "document": "Taama — Australia Product Classification & Regulatory Assessment (consultant working document)",
+                  "locator": "§3.3 Matching rules",
+                  "excerpt": "TGA is exact word for word, no variation or semantic equivalence",
+                  "snapshot": "rulebank/au/snapshots/sources_and_logic_aus.txt",
+                  "snapshot_line": 338,
+                  "url": null
+                },
+                {
+                  "source": "tga_permissible_indications",
+                  "document": "Therapeutic Goods (Permissible Indications) Determination (No. 1) 2025 (F2025L00450, compilation 0)",
+                  "locator": "Schedule 1, Part 1, item 54",
+                  "excerpt": "Enhance/promote energy levels",
+                  "snapshot": "rulebank/au/snapshots/tga_permissible_indications.txt",
+                  "snapshot_line": 703,
+                  "url": "https://www.legislation.gov.au/F2025L00450/latest/text"
+                },
+                {
+                  "source": "tga_permissible_indications",
+                  "document": "Therapeutic Goods (Permissible Indications) Determination (No. 1) 2025 (F2025L00450, compilation 0)",
+                  "locator": "Schedule 1, Part 1, item 115",
+                  "excerpt": "Maintain/support energy levels",
+                  "snapshot": "rulebank/au/snapshots/tga_permissible_indications.txt",
+                  "snapshot_line": 1159,
+                  "url": "https://www.legislation.gov.au/F2025L00450/latest/text"
+                },
+                {
+                  "source": "tga_permissible_indications",
+                  "document": "Therapeutic Goods (Permissible Indications) Determination (No. 1) 2025 (F2025L00450, compilation 0)",
+                  "locator": "Schedule 1, Part 1, item 67",
+                  "excerpt": "Helps enhance/promote body energy reserves",
+                  "snapshot": "rulebank/au/snapshots/tga_permissible_indications.txt",
+                  "snapshot_line": 811,
+                  "url": "https://www.legislation.gov.au/F2025L00450/latest/text"
+                }
+              ],
+              "conditions": []
+            }
+          ],
+          "found_in": [
+            {
+              "file": "Source/Material/Seed AM-02/61FNaD5xgwL._AC_SL1500_.jpg",
+              "location": "text block 3",
+              "method": "ocr-openai gpt-5.2 (cached)"
+            }
+          ]
+        },
+        {
+          "id": "seed-002",
+          "text": "Leading Focus Supplement",
+          "claim_type": "therapeutic",
+          "verdict": "AMBER",
+          "decided_by": "rules",
+          "status": "NEEDS_REVIEW",
+          "justification": "\"focus\" is about mental focus and clarity, which the Determination covers (\"Maintain/support mental concentration/focus/clarity\" (Schedule 1, Part 8, item 58, Scientific or Traditional evidence)), but not in the permitted words. The Determination tolerates varied wording only if the meaning is unchanged, while the consultant's rule is exact wording only; a reviewer must either restore the permitted wording or confirm the variation keeps the meaning.",
+          "rules": [
+            {
+              "rule_id": "TGA-IND-VARIED",
+              "source": "rules",
+              "verdict": "AMBER",
+              "title": "Reworded version of a permitted indication",
+              "why": "\"focus\" is about mental focus and clarity, which the Determination covers (\"Maintain/support mental concentration/focus/clarity\" (Schedule 1, Part 8, item 58, Scientific or Traditional evidence)), but not in the permitted words. The Determination tolerates varied wording only if the meaning is unchanged, while the consultant's rule is exact wording only; a reviewer must either restore the permitted wording or confirm the variation keeps the meaning.",
+              "matched": [
+                "focus"
+              ],
+              "citations": [
+                {
+                  "source": "tga_permissible_indications",
+                  "document": "Therapeutic Goods (Permissible Indications) Determination (No. 1) 2025 (F2025L00450, compilation 0)",
+                  "locator": "s 6(4)(a)",
+                  "excerpt": "If the wording of an indication is varied on the label of a medicine, then the indication, as varied, must not: (a) change the meaning or intent of the indication as specified in column 2 of an item in a table in Parts 1 to 17 of Schedule 1",
+                  "snapshot": "rulebank/au/snapshots/tga_permissible_indications.txt",
+                  "snapshot_line": 195,
+                  "url": "https://www.legislation.gov.au/F2025L00450/latest/text"
+                },
+                {
+                  "source": "sources_and_logic_aus",
+                  "document": "Taama — Australia Product Classification & Regulatory Assessment (consultant working document)",
+                  "locator": "§3.3 Matching rules",
+                  "excerpt": "TGA is exact word for word, no variation or semantic equivalence",
+                  "snapshot": "rulebank/au/snapshots/sources_and_logic_aus.txt",
+                  "snapshot_line": 338,
+                  "url": null
+                },
+                {
+                  "source": "tga_permissible_indications",
+                  "document": "Therapeutic Goods (Permissible Indications) Determination (No. 1) 2025 (F2025L00450, compilation 0)",
+                  "locator": "Schedule 1, Part 8, item 58",
+                  "excerpt": "Maintain/support mental concentration/focus/clarity",
+                  "snapshot": "rulebank/au/snapshots/tga_permissible_indications.txt",
+                  "snapshot_line": 4625,
+                  "url": "https://www.legislation.gov.au/F2025L00450/latest/text"
+                }
+              ],
+              "conditions": []
+            }
+          ],
+          "found_in": [
+            {
+              "file": "Source/Material/Seed AM-02/61FNaD5xgwL._AC_SL1500_.jpg",
+              "location": "text block 4",
+              "method": "ocr-openai gpt-5.2 (cached)"
+            }
+          ]
+        },
+        {
+          "id": "seed-003",
           "text": "Fast-acting energy within 1 hour",
           "claim_type": "therapeutic",
           "verdict": "AMBER",
@@ -3555,13 +3610,13 @@
           "found_in": [
             {
               "file": "Source/Material/Seed AM-02/61FNaD5xgwL._AC_SL1500_.jpg",
-              "location": "region (113, 629)-(631, 667) px, 1 line(s), min OCR confidence 0.91",
-              "method": "ocr (cached)"
+              "location": "text block 5",
+              "method": "ocr-openai gpt-5.2 (cached)"
             }
           ]
         },
         {
-          "id": "seed-002",
+          "id": "seed-004",
           "text": "Energy support for your body",
           "claim_type": "therapeutic",
           "verdict": "AMBER",
@@ -3631,13 +3686,13 @@
           "found_in": [
             {
               "file": "Source/Material/Seed AM-02/61FNaD5xgwL._AC_SL1500_.jpg",
-              "location": "region (113, 799)-(590, 838) px, 1 line(s), min OCR confidence 0.88",
-              "method": "ocr (cached)"
+              "location": "text block 6",
+              "method": "ocr-openai gpt-5.2 (cached)"
             }
           ]
         },
         {
-          "id": "seed-003",
+          "id": "seed-005",
           "text": "Support for the gut-brain axis",
           "claim_type": "therapeutic",
           "verdict": "RED",
@@ -3698,13 +3753,13 @@
           "found_in": [
             {
               "file": "Source/Material/Seed AM-02/61FNaD5xgwL._AC_SL1500_.jpg",
-              "location": "region (113, 968)-(594, 1005) px, 1 line(s), min OCR confidence 0.86",
-              "method": "ocr (cached)"
+              "location": "text block 7",
+              "method": "ocr-openai gpt-5.2 (cached)"
             }
           ]
         },
         {
-          "id": "seed-004",
+          "id": "seed-006",
           "text": "Caffeine-free",
           "claim_type": "compositional",
           "verdict": "GREEN",
@@ -3736,13 +3791,13 @@
           "found_in": [
             {
               "file": "Source/Material/Seed AM-02/61FNaD5xgwL._AC_SL1500_.jpg",
-              "location": "region (115, 1139)-(337, 1174) px, 1 line(s), min OCR confidence 0.87",
-              "method": "ocr (cached)"
+              "location": "text block 8",
+              "method": "ocr-openai gpt-5.2 (cached)"
             }
           ]
         },
         {
-          "id": "seed-005",
+          "id": "seed-007",
           "text": "Less than $1.50 per serving",
           "claim_type": "other",
           "verdict": "GREEN",
@@ -3774,13 +3829,13 @@
           "found_in": [
             {
               "file": "Source/Material/Seed AM-02/61FNaD5xgwL._AC_SL1500_.jpg",
-              "location": "region (112, 1305)-(556, 1347) px, 1 line(s), min OCR confidence 0.87",
-              "method": "ocr (cached)"
+              "location": "text block 9",
+              "method": "ocr-openai gpt-5.2 (cached)"
             }
           ]
         },
         {
-          "id": "seed-006",
+          "id": "seed-008",
           "text": "2-in-1 Formulation for Lasting Energy",
           "claim_type": "therapeutic",
           "verdict": "AMBER",
@@ -3850,14 +3905,14 @@
           "found_in": [
             {
               "file": "Source/Material/Seed AM-02/61uoQem0hOL._AC_SL1500_.jpg",
-              "location": "region (62, 60)-(1015, 274) px, 2 line(s), min OCR confidence 0.92",
-              "method": "ocr (cached)"
+              "location": "text block 1",
+              "method": "ocr-openai gpt-5.2 (cached)"
             }
           ]
         },
         {
-          "id": "seed-007",
-          "text": "Seed's ViaCap delivery system is engineered for targeted nutrient delivery along the Gl tract.",
+          "id": "seed-009",
+          "text": "Seed’s ViaCap delivery system is engineered for targeted nutrient delivery along the GI tract.",
           "claim_type": "marketing_puffery",
           "verdict": "AMBER",
           "decided_by": "rules",
@@ -3908,13 +3963,13 @@
           "found_in": [
             {
               "file": "Source/Material/Seed AM-02/61uoQem0hOL._AC_SL1500_.jpg",
-              "location": "region (65, 294)-(1116, 399) px, 2 line(s), min OCR confidence 0.86",
-              "method": "ocr (cached)"
+              "location": "text block 2",
+              "method": "ocr-openai gpt-5.2 (cached)"
             }
           ]
         },
         {
-          "id": "seed-008",
+          "id": "seed-010",
           "text": "Nootropics from ginseng root, theacrine, and methylliberine sustain energy and sharpen focus.",
           "claim_type": "therapeutic",
           "verdict": "AMBER",
@@ -4083,13 +4138,13 @@
           "found_in": [
             {
               "file": "Source/Material/Seed AM-02/61uoQem0hOL._AC_SL1500_.jpg",
-              "location": "region (985, 758)-(1434, 926) px, 4 line(s), min OCR confidence 0.78",
-              "method": "ocr (cached)"
+              "location": "text block 4",
+              "method": "ocr-openai gpt-5.2 (cached)"
             }
           ]
         },
         {
-          "id": "seed-009",
+          "id": "seed-011",
           "text": "Prebiotics from Japanese wasabi, B vitamins, and a gut-brain postbiotic.",
           "claim_type": "compositional",
           "verdict": "GREEN",
@@ -4121,13 +4176,13 @@
           "found_in": [
             {
               "file": "Source/Material/Seed AM-02/61uoQem0hOL._AC_SL1500_.jpg",
-              "location": "region (65, 974)-(483, 1101) px, 3 line(s), min OCR confidence 0.87",
-              "method": "ocr (cached)"
+              "location": "text block 6",
+              "method": "ocr-openai gpt-5.2 (cached)"
             }
           ]
         },
         {
-          "id": "seed-010",
+          "id": "seed-012",
           "text": "Energy That Peaks Without the Crash",
           "claim_type": "therapeutic",
           "verdict": "AMBER",
@@ -4238,14 +4293,14 @@
           "found_in": [
             {
               "file": "Source/Material/Seed AM-02/71FqhcmawIL._AC_SL1500_.jpg",
-              "location": "region (64, 54)-(895, 246) px, 2 line(s), min OCR confidence 0.84",
-              "method": "ocr (cached)"
+              "location": "text block 1",
+              "method": "ocr-openai gpt-5.2 (cached)"
             }
           ]
         },
         {
-          "id": "seed-011",
-          "text": "SoWell TM Methylliberine",
+          "id": "seed-013",
+          "text": "SoWell™ Methylliberine",
           "claim_type": "marketing_puffery",
           "verdict": "GREEN",
           "decided_by": "rules",
@@ -4276,14 +4331,14 @@
           "found_in": [
             {
               "file": "Source/Material/Seed AM-02/71FqhcmawIL._AC_SL1500_.jpg",
-              "location": "region (67, 432)-(570, 474) px, 1 line(s), min OCR confidence 0.85",
-              "method": "ocr (cached)"
+              "location": "text block 2",
+              "method": "ocr-openai gpt-5.2 (cached)"
             }
           ]
         },
         {
-          "id": "seed-012",
-          "text": "A fast-acting nootropic compound derived from kucha, a wild pu'ertea",
+          "id": "seed-014",
+          "text": "A fast-acting nootropic compound derived from kucha, a wild pu'er tea.",
           "claim_type": "therapeutic",
           "verdict": "AMBER",
           "decided_by": "rules",
@@ -4392,14 +4447,14 @@
           "found_in": [
             {
               "file": "Source/Material/Seed AM-02/71FqhcmawIL._AC_SL1500_.jpg",
-              "location": "region (63, 494)-(843, 597) px, 2 line(s), min OCR confidence 0.86",
-              "method": "ocr (cached)"
+              "location": "text block 3",
+              "method": "ocr-openai gpt-5.2 (cached)"
             }
           ]
         },
         {
-          "id": "seed-013",
-          "text": "CereBoost Ginseng Root",
+          "id": "seed-015",
+          "text": "CereBoost® Ginseng Root",
           "claim_type": "marketing_puffery",
           "verdict": "GREEN",
           "decided_by": "rules",
@@ -4430,14 +4485,14 @@
           "found_in": [
             {
               "file": "Source/Material/Seed AM-02/71FqhcmawIL._AC_SL1500_.jpg",
-              "location": "region (67, 703)-(626, 750) px, 1 line(s), min OCR confidence 0.88",
-              "method": "ocr (cached)"
+              "location": "text block 4",
+              "method": "ocr-openai gpt-5.2 (cached)"
             }
           ]
         },
         {
-          "id": "seed-014",
-          "text": "A clinically proven adaptogen that promotes focus and calming sensations during daily stress",
+          "id": "seed-016",
+          "text": "A clinically proven adaptogen that promotes focus and calming sensations during daily stress.",
           "claim_type": "therapeutic",
           "verdict": "RED",
           "decided_by": "rules",
@@ -4720,14 +4775,14 @@
           "found_in": [
             {
               "file": "Source/Material/Seed AM-02/71FqhcmawIL._AC_SL1500_.jpg",
-              "location": "region (63, 767)-(808, 926) px, 3 line(s), min OCR confidence 0.84",
-              "method": "ocr (cached)"
+              "location": "text block 5",
+              "method": "ocr-openai gpt-5.2 (cached)"
             }
           ]
         },
         {
-          "id": "seed-015",
-          "text": "TeaCrine Theacrine",
+          "id": "seed-017",
+          "text": "TeaCrine® Theacrine",
           "claim_type": "marketing_puffery",
           "verdict": "GREEN",
           "decided_by": "rules",
@@ -4758,14 +4813,14 @@
           "found_in": [
             {
               "file": "Source/Material/Seed AM-02/71FqhcmawIL._AC_SL1500_.jpg",
-              "location": "region (68, 1034)-(506, 1076) px, 1 line(s), min OCR confidence 0.85",
-              "method": "ocr (cached)"
+              "location": "text block 6",
+              "method": "ocr-openai gpt-5.2 (cached)"
             }
           ]
         },
         {
-          "id": "seed-016",
-          "text": "A natural, tea-derived compound with a molecular structure similar to caffeine",
+          "id": "seed-018",
+          "text": "A natural, tea-derived compound with a molecular structure similar to caffeine.",
           "claim_type": "compositional",
           "verdict": "GREEN",
           "decided_by": "rules",
@@ -4796,13 +4851,13 @@
           "found_in": [
             {
               "file": "Source/Material/Seed AM-02/71FqhcmawIL._AC_SL1500_.jpg",
-              "location": "region (65, 1099)-(920, 1195) px, 2 line(s), min OCR confidence 0.86",
-              "method": "ocr (cached)"
+              "location": "text block 7",
+              "method": "ocr-openai gpt-5.2 (cached)"
             }
           ]
         },
         {
-          "id": "seed-017",
+          "id": "seed-019",
           "text": "Safe to take with coffee or tea.",
           "claim_type": "compositional",
           "verdict": "RED",
@@ -4845,14 +4900,14 @@
           "found_in": [
             {
               "file": "Source/Material/Seed AM-02/71TozKMzxzL._AC_SL1500_.jpg",
-              "location": "region (67, 250)-(1019, 295) px, 1 line(s), min OCR confidence 0.93",
-              "method": "ocr (cached)"
+              "location": "text block 2",
+              "method": "ocr-openai gpt-5.2 (cached)"
             }
           ]
         },
         {
-          "id": "seed-018",
-          "text": "With Ginseng Root, B Vitamins and Multi-Peak Energy Complex",
+          "id": "seed-020",
+          "text": "With Ginseng Root, B Vitamins, and Multi-Peak Energy Complex",
           "claim_type": "compositional",
           "verdict": "GREEN",
           "decided_by": "rules",
@@ -4883,13 +4938,13 @@
           "found_in": [
             {
               "file": "Source/Material/Seed AM-02/71TozKMzxzL._AC_SL1500_.jpg",
-              "location": "region (274, 809)-(450, 850) px, 2 line(s), min OCR confidence 0.85",
-              "method": "ocr (cached)"
+              "location": "text block 5",
+              "method": "ocr-openai gpt-5.2 (cached)"
             }
           ]
         },
         {
-          "id": "seed-019",
+          "id": "seed-021",
           "text": "Delivers fast-acting and sustained energy",
           "claim_type": "therapeutic",
           "verdict": "AMBER",
@@ -4999,19 +5054,19 @@
           "found_in": [
             {
               "file": "Source/Material/Seed AM-02/71TozKMzxzL._AC_SL1500_.jpg",
-              "location": "region (277, 900)-(502, 929) px, 1 line(s), min OCR confidence 0.95",
-              "method": "ocr (cached)"
+              "location": "text block 6",
+              "method": "ocr-openai gpt-5.2 (cached)"
             }
           ]
         },
         {
-          "id": "seed-020",
-          "text": "Improves cognitive function in 1hr",
+          "id": "seed-022",
+          "text": "Improves cognitive function in 1 hr",
           "claim_type": "therapeutic",
           "verdict": "AMBER",
           "decided_by": "rules",
           "status": "NEEDS_REVIEW",
-          "justification": "\"cognitive function\" is about cognitive function, which the Determination covers (\"Enhance/improve/promote/increase cognitive performance\" (Schedule 1, Part 8, item 27, Scientific or Traditional evidence); \"Maintain/support cognitive function/mental function\" (Schedule 1, Part 8, item 53, Scientific or Traditional evidence); \"Maintain/support brain function\" (Schedule 1, Part 8, item 49, Scientific or Traditional evidence)), but not in the permitted words. The Determination tolerates varied wording only if the meaning is unchanged, while the consultant's rule is exact wording only; a reviewer must either restore the permitted wording or confirm the variation keeps the meaning. \"in 1hr\" adds a specific performance promise (onset, duration, intensity or comparison) beyond the indication itself. It is only acceptable if the sponsor holds evidence for exactly that promise, and it must not exaggerate efficacy.",
+          "justification": "\"cognitive function\" is about cognitive function, which the Determination covers (\"Enhance/improve/promote/increase cognitive performance\" (Schedule 1, Part 8, item 27, Scientific or Traditional evidence); \"Maintain/support cognitive function/mental function\" (Schedule 1, Part 8, item 53, Scientific or Traditional evidence); \"Maintain/support brain function\" (Schedule 1, Part 8, item 49, Scientific or Traditional evidence)), but not in the permitted words. The Determination tolerates varied wording only if the meaning is unchanged, while the consultant's rule is exact wording only; a reviewer must either restore the permitted wording or confirm the variation keeps the meaning. \"in 1 hr\" adds a specific performance promise (onset, duration, intensity or comparison) beyond the indication itself. It is only acceptable if the sponsor holds evidence for exactly that promise, and it must not exaggerate efficacy.",
           "rules": [
             {
               "rule_id": "TGA-IND-VARIED",
@@ -5076,9 +5131,9 @@
               "source": "rules",
               "verdict": "AMBER",
               "title": "Efficacy detail that needs substantiation",
-              "why": "\"in 1hr\" adds a specific performance promise (onset, duration, intensity or comparison) beyond the indication itself. It is only acceptable if the sponsor holds evidence for exactly that promise, and it must not exaggerate efficacy.",
+              "why": "\"in 1 hr\" adds a specific performance promise (onset, duration, intensity or comparison) beyond the indication itself. It is only acceptable if the sponsor holds evidence for exactly that promise, and it must not exaggerate efficacy.",
               "matched": [
-                "in 1hr"
+                "in 1 hr"
               ],
               "citations": [
                 {
@@ -5115,19 +5170,19 @@
           "found_in": [
             {
               "file": "Source/Material/Seed AM-02/71TozKMzxzL._AC_SL1500_.jpg",
-              "location": "region (276, 931)-(470, 960) px, 1 line(s), min OCR confidence 0.92",
-              "method": "ocr (cached)"
+              "location": "text block 7",
+              "method": "ocr-openai gpt-5.2 (cached)"
             }
           ]
         },
         {
-          "id": "seed-021",
-          "text": "Increases attention for up to 6hrs",
+          "id": "seed-023",
+          "text": "Increases attention for up to 6 hrs",
           "claim_type": "therapeutic",
           "verdict": "AMBER",
           "decided_by": "rules",
           "status": "NEEDS_REVIEW",
-          "justification": "\"attention\" is about attention and alertness, which the Determination covers (\"Helps enhance/improve/promote/increase attention span\" (Schedule 1, Part 8, item 42, Scientific or Traditional evidence); \"Enhance/improve/promote/increase mental alertness/wakefulness\" (Schedule 1, Part 8, item 29, Scientific or Traditional evidence)), but not in the permitted words. The Determination tolerates varied wording only if the meaning is unchanged, while the consultant's rule is exact wording only; a reviewer must either restore the permitted wording or confirm the variation keeps the meaning. \"for up to 6hrs\" adds a specific performance promise (onset, duration, intensity or comparison) beyond the indication itself. It is only acceptable if the sponsor holds evidence for exactly that promise, and it must not exaggerate efficacy.",
+          "justification": "\"attention\" is about attention and alertness, which the Determination covers (\"Helps enhance/improve/promote/increase attention span\" (Schedule 1, Part 8, item 42, Scientific or Traditional evidence); \"Enhance/improve/promote/increase mental alertness/wakefulness\" (Schedule 1, Part 8, item 29, Scientific or Traditional evidence)), but not in the permitted words. The Determination tolerates varied wording only if the meaning is unchanged, while the consultant's rule is exact wording only; a reviewer must either restore the permitted wording or confirm the variation keeps the meaning. \"for up to 6 hrs\" adds a specific performance promise (onset, duration, intensity or comparison) beyond the indication itself. It is only acceptable if the sponsor holds evidence for exactly that promise, and it must not exaggerate efficacy.",
           "rules": [
             {
               "rule_id": "TGA-IND-VARIED",
@@ -5183,9 +5238,9 @@
               "source": "rules",
               "verdict": "AMBER",
               "title": "Efficacy detail that needs substantiation",
-              "why": "\"for up to 6hrs\" adds a specific performance promise (onset, duration, intensity or comparison) beyond the indication itself. It is only acceptable if the sponsor holds evidence for exactly that promise, and it must not exaggerate efficacy.",
+              "why": "\"for up to 6 hrs\" adds a specific performance promise (onset, duration, intensity or comparison) beyond the indication itself. It is only acceptable if the sponsor holds evidence for exactly that promise, and it must not exaggerate efficacy.",
               "matched": [
-                "for up to 6hrs"
+                "for up to 6 hrs"
               ],
               "citations": [
                 {
@@ -5222,106 +5277,29 @@
           "found_in": [
             {
               "file": "Source/Material/Seed AM-02/71TozKMzxzL._AC_SL1500_.jpg",
-              "location": "region (277, 961)-(464, 991) px, 1 line(s), min OCR confidence 0.90",
-              "method": "ocr (cached)"
-            }
-          ]
-        },
-        {
-          "id": "seed-022",
-          "text": "Consistent, daily use unlocks the full benefits of AM-02.",
-          "claim_type": "marketing_puffery",
-          "verdict": "AMBER",
-          "decided_by": "rules",
-          "status": "CONDITIONS",
-          "justification": "\"consistent, daily use\", \"daily use\" encourages ongoing use for better results. The Advertising Code prohibits encouraging inappropriate or excessive use, so a reviewer should confirm this matches the approved directions.",
-          "rules": [
-            {
-              "rule_id": "TGA-EXCESSIVE-USE",
-              "source": "rules",
-              "verdict": "AMBER",
-              "title": "Encourages continued or increased use",
-              "why": "\"consistent, daily use\", \"daily use\" encourages ongoing use for better results. The Advertising Code prohibits encouraging inappropriate or excessive use, so a reviewer should confirm this matches the approved directions.",
-              "matched": [
-                "consistent, daily use",
-                "daily use"
-              ],
-              "citations": [
-                {
-                  "source": "tga_advertising_code",
-                  "document": "Therapeutic Goods (Therapeutic Goods Advertising Code) Instrument 2021 (F2023C00019, compilation 1)",
-                  "locator": "s 9(3)(e)",
-                  "excerpt": "encourages, or is likely to encourage, inappropriate or excessive use of the goods",
-                  "snapshot": "rulebank/au/snapshots/tga_advertising_code.txt",
-                  "snapshot_line": 551,
-                  "url": "https://www.legislation.gov.au/F2021L01661/latest/text"
-                }
-              ],
-              "conditions": []
-            }
-          ],
-          "found_in": [
-            {
-              "file": "Source/Material/Seed AM-02/71TozKMzxzL._AC_SL1500_.jpg",
-              "location": "region (65, 1319)-(1358, 1439) px, 3 line(s), min OCR confidence 0.90",
-              "method": "ocr (cached)"
-            }
-          ]
-        },
-        {
-          "id": "seed-023",
-          "text": "When and how you feel results may vary based on your body and physiology.",
-          "claim_type": "marketing_puffery",
-          "verdict": "GREEN",
-          "decided_by": "rules",
-          "status": "PASS",
-          "justification": "This is general marketing language. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
-          "rules": [
-            {
-              "rule_id": "TGA-NO-CLAIM",
-              "source": "rules",
-              "verdict": "GREEN",
-              "title": "No therapeutic or restricted representation",
-              "why": "This is general marketing language. No indication, disease reference, safety or efficacy promise was detected, so only the general accuracy requirement applies.",
-              "matched": [],
-              "citations": [
-                {
-                  "source": "tga_advertising_code",
-                  "document": "Therapeutic Goods (Therapeutic Goods Advertising Code) Instrument 2021 (F2023C00019, compilation 1)",
-                  "locator": "s 8(1)(a)",
-                  "excerpt": "be accurate, balanced and not misleading or likely to be misleading",
-                  "snapshot": "rulebank/au/snapshots/tga_advertising_code.txt",
-                  "snapshot_line": 519,
-                  "url": "https://www.legislation.gov.au/F2021L01661/latest/text"
-                }
-              ],
-              "conditions": []
-            }
-          ],
-          "found_in": [
-            {
-              "file": "Source/Material/Seed AM-02/71TozKMzxzL._AC_SL1500_.jpg",
-              "location": "region (65, 1319)-(1358, 1439) px, 3 line(s), min OCR confidence 0.90",
-              "method": "ocr (cached)"
+              "location": "text block 8",
+              "method": "ocr-openai gpt-5.2 (cached)"
             }
           ]
         },
         {
           "id": "seed-024",
-          "text": "Maintain your routine for improved impact overtime.",
-          "claim_type": "marketing_puffery",
+          "text": "Consistent, daily use unlocks the full benefits of AM-02. When and how you feel results may vary based on your body and physiology. Maintain your routine for improved impact over time.",
+          "claim_type": "therapeutic",
           "verdict": "AMBER",
           "decided_by": "rules",
-          "status": "CONDITIONS",
-          "justification": "\"maintain your routine\" encourages ongoing use for better results. The Advertising Code prohibits encouraging inappropriate or excessive use, so a reviewer should confirm this matches the approved directions.",
+          "status": "NEEDS_REVIEW",
+          "justification": "\"consistent, daily use\", \"daily use\", \"maintain your routine\" encourages ongoing use for better results. The Advertising Code prohibits encouraging inappropriate or excessive use, so a reviewer should confirm this matches the approved directions. \"body\", \"maintain\", \"unlocks\" uses health-related language in a benefit statement that the rule bank has no mapping for, so it cannot be cleared automatically. A reviewer should decide whether it is a health claim.",
           "rules": [
             {
               "rule_id": "TGA-EXCESSIVE-USE",
               "source": "rules",
               "verdict": "AMBER",
               "title": "Encourages continued or increased use",
-              "why": "\"maintain your routine\" encourages ongoing use for better results. The Advertising Code prohibits encouraging inappropriate or excessive use, so a reviewer should confirm this matches the approved directions.",
+              "why": "\"consistent, daily use\", \"daily use\", \"maintain your routine\" encourages ongoing use for better results. The Advertising Code prohibits encouraging inappropriate or excessive use, so a reviewer should confirm this matches the approved directions.",
               "matched": [
+                "consistent, daily use",
+                "daily use",
                 "maintain your routine"
               ],
               "citations": [
@@ -5336,13 +5314,27 @@
                 }
               ],
               "conditions": []
+            },
+            {
+              "rule_id": "NEEDS-REVIEW",
+              "source": "rules",
+              "verdict": "AMBER",
+              "title": "Health-related wording the rule bank cannot map",
+              "why": "\"body\", \"maintain\", \"unlocks\" uses health-related language in a benefit statement that the rule bank has no mapping for, so it cannot be cleared automatically. A reviewer should decide whether it is a health claim.",
+              "matched": [
+                "body",
+                "maintain",
+                "unlocks"
+              ],
+              "citations": [],
+              "conditions": []
             }
           ],
           "found_in": [
             {
               "file": "Source/Material/Seed AM-02/71TozKMzxzL._AC_SL1500_.jpg",
-              "location": "region (65, 1319)-(1358, 1439) px, 3 line(s), min OCR confidence 0.90",
-              "method": "ocr (cached)"
+              "location": "text block 14",
+              "method": "ocr-openai gpt-5.2 (cached)"
             }
           ]
         },
@@ -5399,8 +5391,8 @@
           "found_in": [
             {
               "file": "Source/Material/Seed AM-02/71hvKB-lX0L._AC_SL1500_.jpg",
-              "location": "region (71, 60)-(1381, 145) px, 1 line(s), min OCR confidence 0.88",
-              "method": "ocr (cached)"
+              "location": "text block 1",
+              "method": "ocr-openai gpt-5.2 (cached)"
             }
           ]
         },
@@ -5540,8 +5532,8 @@
           "found_in": [
             {
               "file": "Source/Material/Seed AM-02/71hvKB-lX0L._AC_SL1500_.jpg",
-              "location": "region (66, 193)-(1380, 299) px, 2 line(s), min OCR confidence 0.89",
-              "method": "ocr (cached)"
+              "location": "text block 2",
+              "method": "ocr-openai gpt-5.2 (cached)"
             }
           ]
         },
@@ -5687,8 +5679,8 @@
           "found_in": [
             {
               "file": "Source/Material/Seed AM-02/71hvKB-lX0L._AC_SL1500_.jpg",
-              "location": "region (390, 496)-(1098, 598) px, 2 line(s), min OCR confidence 0.83",
-              "method": "ocr (cached)"
+              "location": "text block 4",
+              "method": "ocr-openai gpt-5.2 (cached)"
             }
           ]
         },
@@ -5830,8 +5822,8 @@
           "found_in": [
             {
               "file": "Source/Material/Seed AM-02/71hvKB-lX0L._AC_SL1500_.jpg",
-              "location": "region (389, 785)-(1213, 886) px, 2 line(s), min OCR confidence 0.92",
-              "method": "ocr (cached)"
+              "location": "text block 6",
+              "method": "ocr-openai gpt-5.2 (cached)"
             }
           ]
         },
@@ -5959,8 +5951,8 @@
           "found_in": [
             {
               "file": "Source/Material/Seed AM-02/71hvKB-lX0L._AC_SL1500_.jpg",
-              "location": "region (390, 1072)-(1150, 1169) px, 2 line(s), min OCR confidence 0.90",
-              "method": "ocr (cached)"
+              "location": "text block 8",
+              "method": "ocr-openai gpt-5.2 (cached)"
             }
           ]
         },
@@ -6035,14 +6027,14 @@
           "found_in": [
             {
               "file": "Source/Material/Seed AM-02/71if+KTgztL._AC_SL1500_.jpg",
-              "location": "region (59, 41)-(728, 247) px, 2 line(s), min OCR confidence 0.83",
-              "method": "ocr (cached)"
+              "location": "text block 1",
+              "method": "ocr-openai gpt-5.2 (cached)"
             }
           ]
         },
         {
           "id": "seed-031",
-          "text": "Works within 1 hour lasts for up to 6 hours",
+          "text": "Works within 1 hour, lasts for up to 6 hours",
           "claim_type": "marketing_puffery",
           "verdict": "AMBER",
           "decided_by": "rules",
@@ -6094,8 +6086,8 @@
           "found_in": [
             {
               "file": "Source/Material/Seed AM-02/71if+KTgztL._AC_SL1500_.jpg",
-              "location": "region (240, 485)-(765, 604) px, 2 line(s), min OCR confidence 0.85",
-              "method": "ocr (cached)"
+              "location": "text block 2",
+              "method": "ocr-openai gpt-5.2 (cached)"
             }
           ]
         },
@@ -6170,8 +6162,8 @@
           "found_in": [
             {
               "file": "Source/Material/Seed AM-02/71if+KTgztL._AC_SL1500_.jpg",
-              "location": "region (236, 692)-(824, 816) px, 2 line(s), min OCR confidence 0.84",
-              "method": "ocr (cached)"
+              "location": "text block 3",
+              "method": "ocr-openai gpt-5.2 (cached)"
             }
           ]
         },
@@ -6277,8 +6269,8 @@
           "found_in": [
             {
               "file": "Source/Material/Seed AM-02/71if+KTgztL._AC_SL1500_.jpg",
-              "location": "region (240, 897)-(716, 1008) px, 2 line(s), min OCR confidence 0.86",
-              "method": "ocr (cached)"
+              "location": "text block 4",
+              "method": "ocr-openai gpt-5.2 (cached)"
             }
           ]
         },
@@ -6336,8 +6328,8 @@
           "found_in": [
             {
               "file": "Source/Material/Seed AM-02/71if+KTgztL._AC_SL1500_.jpg",
-              "location": "region (238, 1095)-(694, 1215) px, 2 line(s), min OCR confidence 0.85",
-              "method": "ocr (cached)"
+              "location": "text block 5",
+              "method": "ocr-openai gpt-5.2 (cached)"
             }
           ]
         },
@@ -6374,8 +6366,8 @@
           "found_in": [
             {
               "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-              "location": "region (1132, 338)-(1379, 476) px, 4 line(s), min OCR confidence 0.78",
-              "method": "ocr (cached)"
+              "location": "text block 24",
+              "method": "ocr-openai gpt-5.2 (cached)"
             }
           ]
         },
@@ -6412,453 +6404,303 @@
           "found_in": [
             {
               "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-              "location": "region (1152, 756)-(1358, 895) px, 4 line(s), min OCR confidence 0.82",
-              "method": "ocr (cached)"
+              "location": "text block 25",
+              "method": "ocr-openai gpt-5.2 (cached)"
             }
           ]
         }
       ],
       "not_assessed": [
         {
-          "text": "Energy + Focus",
+          "text": "How AM-02 Energy+ Focus Compares",
           "file": "Source/Material/Seed AM-02/61FNaD5xgwL._AC_SL1500_.jpg",
-          "location": "region (532, 55)-(1207, 168) px, 1 line(s), min OCR confidence 0.83",
-          "reason": "product / brand name only"
-        },
-        {
-          "text": "How Compares",
-          "file": "Source/Material/Seed AM-02/61FNaD5xgwL._AC_SL1500_.jpg",
-          "location": "region (64, 64)-(546, 266) px, 2 line(s), min OCR confidence 0.75",
+          "location": "text block 1",
           "reason": "direction / warning / dose statement"
         },
         {
           "text": "AM-02",
           "file": "Source/Material/Seed AM-02/61FNaD5xgwL._AC_SL1500_.jpg",
-          "location": "region (318, 82)-(488, 127) px, 1 line(s), min OCR confidence 0.83",
+          "location": "text block 2",
           "reason": "product / brand name only"
         },
         {
-          "text": "Energy",
-          "file": "Source/Material/Seed AM-02/61FNaD5xgwL._AC_SL1500_.jpg",
-          "location": "region (1039, 441)-(1144, 482) px, 1 line(s), min OCR confidence 0.85",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "Leading Focus",
-          "file": "Source/Material/Seed AM-02/61FNaD5xgwL._AC_SL1500_.jpg",
-          "location": "region (1197, 445)-(1395, 476) px, 1 line(s), min OCR confidence 0.86",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "AM-02",
-          "file": "Source/Material/Seed AM-02/61FNaD5xgwL._AC_SL1500_.jpg",
-          "location": "region (837, 459)-(945, 493) px, 1 line(s), min OCR confidence 0.75",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "Drinks",
-          "file": "Source/Material/Seed AM-02/61FNaD5xgwL._AC_SL1500_.jpg",
-          "location": "region (1047, 477)-(1142, 510) px, 1 line(s), min OCR confidence 0.75",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "Supplement",
-          "file": "Source/Material/Seed AM-02/61FNaD5xgwL._AC_SL1500_.jpg",
-          "location": "region (1210, 478)-(1383, 512) px, 1 line(s), min OCR confidence 0.83",
-          "reason": "chart / table header"
-        },
-        {
-          "text": "Seed'",
+          "text": "Seed’",
           "file": "Source/Material/Seed AM-02/61tLFwLTJeL._AC_SL1500_.jpg",
-          "location": "region (647, 405)-(875, 491) px, 1 line(s), min OCR confidence 0.76",
+          "location": "text block 1",
           "reason": "product / brand name only"
         },
         {
-          "text": "AM-02 TM ENERGY+FOCUS",
+          "text": "AM-02™ ENERGY + FOCUS",
           "file": "Source/Material/Seed AM-02/61tLFwLTJeL._AC_SL1500_.jpg",
-          "location": "region (452, 1031)-(1073, 1090) px, 1 line(s), min OCR confidence 0.88",
-          "reason": "single word"
+          "location": "text block 2",
+          "reason": "product / brand name only"
         },
         {
           "text": "DIETARY SUPPLEMENT",
           "file": "Source/Material/Seed AM-02/61tLFwLTJeL._AC_SL1500_.jpg",
-          "location": "region (565, 1134)-(958, 1172) px, 1 line(s), min OCR confidence 0.91",
+          "location": "text block 3",
           "reason": "panel / print spec / legal or contact text"
         },
         {
-          "text": "30 CAPSULES ·30 DAY SUPPLY",
+          "text": "30 CAPSULES • 30 DAY SUPPLY",
           "file": "Source/Material/Seed AM-02/61tLFwLTJeL._AC_SL1500_.jpg",
-          "location": "region (502, 1179)-(1022, 1223) px, 1 line(s), min OCR confidence 0.85",
+          "location": "text block 4",
           "reason": "panel / print spec / legal or contact text"
         },
         {
           "text": "Outer Capsule",
           "file": "Source/Material/Seed AM-02/61uoQem0hOL._AC_SL1500_.jpg",
-          "location": "region (1117, 687)-(1433, 733) px, 1 line(s), min OCR confidence 0.86",
+          "location": "text block 3",
           "reason": "panel / print spec / legal or contact text"
         },
         {
           "text": "Inner Capsule",
           "file": "Source/Material/Seed AM-02/61uoQem0hOL._AC_SL1500_.jpg",
-          "location": "region (67, 905)-(370, 949) px, 1 line(s), min OCR confidence 0.84",
+          "location": "text block 5",
           "reason": "panel / print spec / legal or contact text"
         },
         {
-          "text": "* These statements have not been evaluated by the Food and Drug Administration.",
+          "text": "* These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.",
           "file": "Source/Material/Seed AM-02/71FqhcmawIL._AC_SL1500_.jpg",
-          "location": "region (63, 1380)-(971, 1415) px, 1 line(s), min OCR confidence 0.91",
-          "reason": "panel / print spec / legal or contact text"
-        },
-        {
-          "text": "This product is not intended to diagnose, treat, cure, or prevent any disease.",
-          "file": "Source/Material/Seed AM-02/71FqhcmawIL._AC_SL1500_.jpg",
-          "location": "region (65, 1412)-(900, 1442) px, 1 line(s), min OCR confidence 0.89",
+          "location": "text block 8",
           "reason": "panel / print spec / legal or contact text"
         },
         {
           "text": "For Optimal Use",
           "file": "Source/Material/Seed AM-02/71TozKMzxzL._AC_SL1500_.jpg",
-          "location": "region (64, 57)-(792, 158) px, 1 line(s), min OCR confidence 0.81",
+          "location": "text block 1",
           "reason": "panel / print spec / legal or contact text"
         },
         {
           "text": "Take one capsule in the morning within 2 hours of waking up.",
           "file": "Source/Material/Seed AM-02/71TozKMzxzL._AC_SL1500_.jpg",
-          "location": "region (65, 192)-(1380, 240) px, 1 line(s), min OCR confidence 0.90",
+          "location": "text block 2",
           "reason": "direction / warning / dose statement"
         },
         {
           "text": "Repeat daily.",
           "file": "Source/Material/Seed AM-02/71TozKMzxzL._AC_SL1500_.jpg",
-          "location": "region (67, 250)-(1019, 295) px, 1 line(s), min OCR confidence 0.93",
+          "location": "text block 2",
           "reason": "direction / warning / dose statement"
         },
         {
-          "text": "Seed'",
+          "text": "Seed®",
           "file": "Source/Material/Seed AM-02/71TozKMzxzL._AC_SL1500_.jpg",
-          "location": "region (273, 657)-(334, 687) px, 1 line(s), min OCR confidence 0.77",
+          "location": "text block 3",
           "reason": "product / brand name only"
         },
         {
-          "text": "AM-02 M Energy+Focus",
+          "text": "AM–02™ Energy+Focus",
           "file": "Source/Material/Seed AM-02/71TozKMzxzL._AC_SL1500_.jpg",
-          "location": "region (275, 726)-(506, 813) px, 2 line(s), min OCR confidence 0.84",
+          "location": "text block 4",
           "reason": "product / brand name only"
         },
         {
-          "text": "ott e twi tote",
+          "text": "DIETARY SUPPLEMENT • 30 CAPSULES • 30 DAY SUPPLY",
           "file": "Source/Material/Seed AM-02/71TozKMzxzL._AC_SL1500_.jpg",
-          "location": "region (156, 730)-(216, 749) px, 1 line(s), min OCR confidence 0.51",
-          "reason": "OCR confidence 0.51 below 0.65"
-        },
-        {
-          "text": "runs is t emo tien e",
-          "file": "Source/Material/Seed AM-02/71TozKMzxzL._AC_SL1500_.jpg",
-          "location": "region (140, 783)-(231, 812) px, 1 line(s), min OCR confidence 0.58",
-          "reason": "OCR confidence 0.58 below 0.65"
-        },
-        {
-          "text": "Seed'",
-          "file": "Source/Material/Seed AM-02/71TozKMzxzL._AC_SL1500_.jpg",
-          "location": "region (705, 888)-(772, 915) px, 1 line(s), min OCR confidence 0.76",
-          "reason": "product / brand name only"
-        },
-        {
-          "text": "DIETARY SUPPLEMENT-30 CAPSULES-30 DAY SUPPLY",
-          "file": "Source/Material/Seed AM-02/71TozKMzxzL._AC_SL1500_.jpg",
-          "location": "region (275, 995)-(530, 1030) px, 1 line(s), min OCR confidence 0.92",
+          "location": "text block 9",
           "reason": "panel / print spec / legal or contact text"
         },
         {
-          "text": "AM-02 M ENERGY+FOCUS",
+          "text": "Seed®",
           "file": "Source/Material/Seed AM-02/71TozKMzxzL._AC_SL1500_.jpg",
-          "location": "region (652, 1058)-(828, 1082) px, 1 line(s), min OCR confidence 0.91",
+          "location": "text block 10",
+          "reason": "product / brand name only"
+        },
+        {
+          "text": "AM–02™ ENERGY+FOCUS",
+          "file": "Source/Material/Seed AM-02/71TozKMzxzL._AC_SL1500_.jpg",
+          "location": "text block 11",
           "reason": "product / brand name only"
         },
         {
           "text": "DIETARY SUPPLEMENT",
           "file": "Source/Material/Seed AM-02/71TozKMzxzL._AC_SL1500_.jpg",
-          "location": "region (681, 1087)-(796, 1104) px, 1 line(s), min OCR confidence 0.90",
+          "location": "text block 12",
           "reason": "panel / print spec / legal or contact text"
         },
         {
-          "text": "30 CAPSULES-30 DAY SUPP IY",
+          "text": "30 CAPSULES • 30 DAY SUPPLY",
           "file": "Source/Material/Seed AM-02/71TozKMzxzL._AC_SL1500_.jpg",
-          "location": "region (667, 1102)-(811, 1115) px, 1 line(s), min OCR confidence 0.81",
+          "location": "text block 13",
           "reason": "panel / print spec / legal or contact text"
         },
         {
           "text": "Week 1",
           "file": "Source/Material/Seed AM-02/71hvKB-lX0L._AC_SL1500_.jpg",
-          "location": "region (162, 506)-(284, 544) px, 1 line(s), min OCR confidence 0.72",
+          "location": "text block 3",
           "reason": "panel / print spec / legal or contact text"
         },
         {
           "text": "Week 4",
           "file": "Source/Material/Seed AM-02/71hvKB-lX0L._AC_SL1500_.jpg",
-          "location": "region (158, 794)-(288, 829) px, 1 line(s), min OCR confidence 0.80",
+          "location": "text block 5",
           "reason": "panel / print spec / legal or contact text"
         },
         {
           "text": "Week 8+",
           "file": "Source/Material/Seed AM-02/71hvKB-lX0L._AC_SL1500_.jpg",
-          "location": "region (148, 1081)-(295, 1116) px, 1 line(s), min OCR confidence 0.85",
+          "location": "text block 7",
           "reason": "panel / print spec / legal or contact text"
         },
         {
-          "text": "* These statements have not been evaluated by the Food and Drug Administration.",
+          "text": "* These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.",
           "file": "Source/Material/Seed AM-02/71hvKB-lX0L._AC_SL1500_.jpg",
-          "location": "region (64, 1381)-(968, 1412) px, 1 line(s), min OCR confidence 0.92",
+          "location": "text block 9",
           "reason": "panel / print spec / legal or contact text"
         },
         {
-          "text": "This product is not intended to diagnose, treat, cure, or prevent any disease.",
-          "file": "Source/Material/Seed AM-02/71hvKB-lX0L._AC_SL1500_.jpg",
-          "location": "region (65, 1413)-(897, 1440) px, 1 line(s), min OCR confidence 0.89",
-          "reason": "panel / print spec / legal or contact text"
-        },
-        {
-          "text": "* These statements have not been evaluated by the Food and Drug Administration.",
+          "text": "* These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.",
           "file": "Source/Material/Seed AM-02/71if+KTgztL._AC_SL1500_.jpg",
-          "location": "region (61, 1381)-(969, 1413) px, 1 line(s), min OCR confidence 0.90",
-          "reason": "panel / print spec / legal or contact text"
-        },
-        {
-          "text": "This product is not intended to diagnose, treat, cure, or prevent any disease.",
-          "file": "Source/Material/Seed AM-02/71if+KTgztL._AC_SL1500_.jpg",
-          "location": "region (64, 1412)-(898, 1442) px, 1 line(s), min OCR confidence 0.90",
+          "location": "text block 6",
           "reason": "panel / print spec / legal or contact text"
         },
         {
           "text": "Supplement Facts",
           "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-          "location": "region (70, 158)-(539, 213) px, 1 line(s), min OCR confidence 0.87",
+          "location": "text block 1",
           "reason": "panel / print spec / legal or contact text"
         },
         {
-          "text": "Serving Size 1 ViaCap?",
+          "text": "Serving Size 1 ViaCap®",
           "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-          "location": "region (73, 217)-(412, 252) px, 1 line(s), min OCR confidence 0.90",
+          "location": "text block 2",
           "reason": "panel / print spec / legal or contact text"
         },
         {
-          "text": "Amount Per Serving",
+          "text": "Amount Per Serving % Daily Value",
           "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-          "location": "region (584, 280)-(802, 308) px, 1 line(s), min OCR confidence 0.86",
+          "location": "text block 3",
           "reason": "panel / print spec / legal or contact text"
         },
         {
-          "text": "% Daily Value",
+          "text": "Thiamine [Vitamin B1] (as thiamine hydrochloride) 1.2 mg 100%",
           "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-          "location": "region (819, 280)-(979, 308) px, 1 line(s), min OCR confidence 0.91",
+          "location": "text block 4",
           "reason": "panel / print spec / legal or contact text"
         },
         {
-          "text": "1.2mg",
+          "text": "Riboflavin [Vitamin B2] (as free riboflavin) 1.3 mg 100%",
           "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-          "location": "region (654, 323)-(728, 359) px, 1 line(s), min OCR confidence 0.77",
-          "reason": "product / brand name only"
-        },
-        {
-          "text": "100%",
-          "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-          "location": "region (871, 327)-(931, 354) px, 1 line(s), min OCR confidence 0.70",
-          "reason": "product / brand name only"
-        },
-        {
-          "text": "Thiamine [Vitamin B1] (as thiamine hydrochloride)",
-          "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-          "location": "region (72, 328)-(517, 354) px, 1 line(s), min OCR confidence 0.89",
+          "location": "text block 5",
           "reason": "panel / print spec / legal or contact text"
         },
         {
-          "text": "1.3mg",
+          "text": "Niacin [Vitamin B3] (as nicotinic acid) 5 mg 31%",
           "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-          "location": "region (655, 352)-(728, 385) px, 1 line(s), min OCR confidence 0.83",
-          "reason": "product / brand name only"
-        },
-        {
-          "text": "100%",
-          "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-          "location": "region (872, 354)-(930, 382) px, 1 line(s), min OCR confidence 0.75",
-          "reason": "product / brand name only"
-        },
-        {
-          "text": "Riboflavin [Vitamin B2] (as free riboflavin)",
-          "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-          "location": "region (71, 356)-(436, 381) px, 1 line(s), min OCR confidence 0.90",
+          "location": "text block 6",
           "reason": "panel / print spec / legal or contact text"
         },
         {
-          "text": "5mg",
+          "text": "Folate [Vitamin B9] (as MAGNAFOLATE® PRO methyl folate [L-5-MTHF Ca]) 400 mcg DFE 100%",
           "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-          "location": "region (663, 380)-(721, 412) px, 1 line(s), min OCR confidence 0.64",
-          "reason": "OCR confidence 0.64 below 0.65"
-        },
-        {
-          "text": "31%",
-          "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-          "location": "region (876, 382)-(925, 409) px, 1 line(s), min OCR confidence 0.73",
-          "reason": "product / brand name only"
-        },
-        {
-          "text": "Niacin[Vitamin B3] (as nicotinic acid)",
-          "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-          "location": "region (71, 385)-(401, 407) px, 1 line(s), min OCR confidence 0.89",
+          "location": "text block 7",
           "reason": "panel / print spec / legal or contact text"
         },
         {
-          "text": "400 mcg DFE",
+          "text": "Vitamin B12 (as adenosylcobalamin and methylcobalamin) 2.4 mcg 100%",
           "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-          "location": "region (631, 409)-(756, 438) px, 1 line(s), min OCR confidence 0.89",
+          "location": "text block 8",
           "reason": "panel / print spec / legal or contact text"
         },
         {
-          "text": "100%",
+          "text": "Multi-Peak Energy Complex° (Outer Capsule) 274 mg •",
           "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-          "location": "region (872, 409)-(930, 436) px, 1 line(s), min OCR confidence 0.75",
-          "reason": "product / brand name only"
-        },
-        {
-          "text": "Folate Vitamin B9] (as MAGNAFOLATE® PRO methyl folate",
-          "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-          "location": "region (69, 410)-(577, 437) px, 1 line(s), min OCR confidence 0.89",
+          "location": "text block 9",
           "reason": "panel / print spec / legal or contact text"
         },
         {
-          "text": "[L-5-MTHF Ca]]",
+          "text": "Cereboost® American ginseng (Panax quin que fo lius) extract (root) [10% Ginsenosides Rb1, Re, Rc, Rd, Rb2, and Rg1], Methylliberine (as SoWell™), Theacrine (as TeaCrine®)",
           "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-          "location": "region (71, 436)-(207, 463) px, 1 line(s), min OCR confidence 0.86",
+          "location": "text block 10",
           "reason": "panel / print spec / legal or contact text"
         },
         {
-          "text": "2.4 mcg",
+          "text": "Gut-Brain Postbiotic° (Inner Capsule) 100 mg •",
           "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-          "location": "region (650, 459)-(733, 494) px, 1 line(s), min OCR confidence 0.79",
-          "reason": "product / brand name only"
-        },
-        {
-          "text": "Vitamin B12 (as adenosylcobalamin and methylcobalamin)",
-          "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-          "location": "region (70, 463)-(568, 491) px, 1 line(s), min OCR confidence 0.91",
-          "reason": "panel / print spec / legal or contact text"
-        },
-        {
-          "text": "100%",
-          "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-          "location": "region (871, 463)-(930, 490) px, 1 line(s), min OCR confidence 0.78",
-          "reason": "product / brand name only"
-        },
-        {
-          "text": "274 mg",
-          "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-          "location": "region (655, 511)-(728, 540) px, 1 line(s), min OCR confidence 0.76",
-          "reason": "product / brand name only"
-        },
-        {
-          "text": "Multi-Peak Energy Complex(Outer Capsule)",
-          "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-          "location": "region (72, 514)-(507, 538) px, 1 line(s), min OCR confidence 0.90",
-          "reason": "panel / print spec / legal or contact text"
-        },
-        {
-          "text": "Cereboost® American ginseng (Panax quin que fo lius) extract (root) [10% Ginsenosides Rb1, Re, Rc, Rd Rb2, and Rg1], Methylliberine (as SoWell TM), Theacrine (as TeaCrine®)",
-          "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-          "location": "region (71, 542)-(990, 595) px, 2 line(s), min OCR confidence 0.93",
-          "reason": "panel / print spec / legal or contact text"
-        },
-        {
-          "text": "100 mg",
-          "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-          "location": "region (654, 609)-(731, 641) px, 1 line(s), min OCR confidence 0.82",
-          "reason": "product / brand name only"
-        },
-        {
-          "text": "Gut-Brain Postbiotic(Inner Capsule)",
-          "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-          "location": "region (71, 612)-(434, 638) px, 1 line(s), min OCR confidence 0.86",
+          "location": "text block 11",
           "reason": "panel / print spec / legal or contact text"
         },
         {
           "text": "GABA [Gamma-aminobutyric acid] (Lactobacillus brevis-derived postbiotic)",
           "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-          "location": "region (72, 641)-(733, 668) px, 1 line(s), min OCR confidence 0.92",
+          "location": "text block 12",
           "reason": "panel / print spec / legal or contact text"
         },
         {
-          "text": "Microbiome-Modulating Prebiotic [MMP]° (Inner Capsule) 33 mg",
+          "text": "Microbiome-Modulating Prebiotic [MMP]° (Inner Capsule) 33 mg •",
           "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-          "location": "region (71, 682)-(724, 713) px, 1 line(s), min OCR confidence 0.92",
+          "location": "text block 13",
           "reason": "panel / print spec / legal or contact text"
         },
         {
-          "text": "Japanese wasabi (Wasabi a japonica) extract (root)[2% isothiocyanates l, Japanese pagoda tree (Sophora japonica) extract (flower) [95% quercetin]",
+          "text": "Japanese wasabi (Wasabi a japonica) extract (root) [2% isothiocyanates], Japanese pagoda tree (Sophora japonica) extract (flower) [95% quercetin]",
           "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-          "location": "region (72, 716)-(995, 768) px, 2 line(s), min OCR confidence 0.88",
+          "location": "text block 14",
           "reason": "panel / print spec / legal or contact text"
         },
         {
-          "text": "17 mg",
+          "text": "Bioenergetic Cellular Complex° (Inner Capsule) 17 mg •",
           "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-          "location": "region (658, 780)-(725, 815) px, 1 line(s), min OCR confidence 0.77",
-          "reason": "product / brand name only"
-        },
-        {
-          "text": "Bioenergetic Cellular Complex(Inner Capsule)",
-          "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-          "location": "region (69, 784)-(531, 810) px, 1 line(s), min OCR confidence 0.93",
+          "location": "text block 15",
           "reason": "panel / print spec / legal or contact text"
         },
         {
-          "text": "Coenzyme Q10 [Ubiquinone] phytosome phospholipid complex, Coenzyme PQQ [Py rollo qui no line quin one] disodium salt, Vitamin K2 MK-7 [Menaquinone-7] (Bacillus subtilis var. natto-derived postbiotic) 'Daily Value not established.",
+          "text": "Coenzyme Q10 [Ubiquinone] phytosome phospholipid complex, Coenzyme PQQ [Pyrroloquinoline quin one] disodium salt, Vitamin K2 MK-7 [Menaquinone-7] (Bacillus subtilis var. natto-derived postbiotic)",
           "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-          "location": "region (70, 813)-(996, 917) px, 3 line(s), min OCR confidence 0.85",
+          "location": "text block 16",
+          "reason": "panel / print spec / legal or contact text"
+        },
+        {
+          "text": "°Daily Value not established.",
+          "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
+          "location": "text block 17",
           "reason": "panel / print spec / legal or contact text"
         },
         {
           "text": "Other Ingredients: Vegan Outer [Hypromellose, Turmeric (for color)] and Inner [Hypromellose, Water] Capsules.",
           "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-          "location": "region (70, 933)-(933, 990) px, 2 line(s), min OCR confidence 0.85",
+          "location": "text block 18",
           "reason": "panel / print spec / legal or contact text"
         },
         {
-          "text": "ViaCap® is a registered trademark of Seed Health Inc. MAGNAFOLATE?PRO is a registered trademark of Lian yun gang J in kang Pharmaceutical Technology Co. Ltd. Cereboost is used under license from Givaudan Flavors Corporation. SoWell is under exclusive global distribution by Compound Solutions. TeaCrine is a registered trademark; protected by U.S. Patent(s) and other Patents Pending; exclusively distributed by Compound Solutions, Inc. R00250811.",
+          "text": "ViaCap® is a registered trademark of Seed Health Inc. MAGNAFOLATE® PRO is a registered trademark of Lian yun gang J in kang Pharmaceutical Technology Co. Ltd. Cereboost® is used under license from Givaudan Flavors Corporation. SoWell is under exclusive global distribution by Compound Solutions. TeaCrine® is a registered trademark; protected by U.S. Patent(s) and other Patents Pending; exclusively distributed by Compound Solutions, Inc. ROO 250811.",
           "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-          "location": "region (69, 998)-(999, 1120) px, 5 line(s), min OCR confidence 0.88",
+          "location": "text block 19",
           "reason": "panel / print spec / legal or contact text"
         },
         {
           "text": "Keep out of reach of children. As with any supplement, consult your healthcare practitioner before use, particularly if you are pregnant, nursing, taking medication, or have a medical condition. Do not use if seal is broken.",
           "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-          "location": "region (70, 1138)-(948, 1212) px, 3 line(s), min OCR confidence 0.86",
+          "location": "text block 20",
           "reason": "panel / print spec / legal or contact text"
         },
         {
-          "text": "Formulated to comply with Prop.65",
+          "text": "•These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.",
           "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-          "location": "region (1150, 1191)-(1353, 1297) px, 3 line(s), min OCR confidence 0.85",
+          "location": "text block 21",
           "reason": "panel / print spec / legal or contact text"
         },
         {
-          "text": "These statements have not been evaluated by the Food and Drug Administration.",
+          "text": "Developed and distributed by Seed Health, New York, New York 10013",
           "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-          "location": "region (66, 1229)-(945, 1258) px, 1 line(s), min OCR confidence 0.92",
+          "location": "text block 22",
           "reason": "panel / print spec / legal or contact text"
         },
         {
-          "text": "This product is not intended to diagnose, treat, cure, or prevent any disease.",
+          "text": "seed.com",
           "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-          "location": "region (73, 1258)-(898, 1287) px, 1 line(s), min OCR confidence 0.92",
-          "reason": "panel / print spec / legal or contact text"
+          "location": "text block 23",
+          "reason": "direction / warning / dose statement"
         },
         {
-          "text": "Developed and distributed by Seed Health, New York, New York 10013 seed.com",
+          "text": "Formulated to comply with Prop. 65",
           "file": "Source/Material/Seed AM-02/81ydDsIopvL._AC_SL1500_-2.jpg",
-          "location": "region (68, 1305)-(837, 1357) px, 2 line(s), min OCR confidence 0.84",
+          "location": "text block 26",
           "reason": "panel / print spec / legal or contact text"
         }
       ],
-      "elapsed_s": 1.41
+      "elapsed_s": 0.91
     }
   ]
 }

@@ -167,8 +167,10 @@ tests/            test_citations.py (every rule excerpt must be in its snapshot)
 
 ## Sample bank
 
-`python scripts/run_sample_bank.py` checks Comvita, Seed and Arepa twice and writes `results/<id>.json`.
-Judge off, local RapidOCR. `CLAIMS.md` is one line per claim from the first run. `WRITEUP.md` answers the
+`python scripts/run_sample_bank.py` checks Comvita, Seed and Arepa twice with the judge off and writes
+`results/<id>.json`. Add `--judge on` to run the same inputs with the AI judge (needs `OPENAI_API_KEY`);
+that writes `results/<id>.judge-on.json` and leaves the default files alone. OCR stays local RapidOCR
+either way. `CLAIMS.md` is one line per claim from the judge-off run. `WRITEUP.md` answers the
 submission questions (stability, a new market, production, what comes next).
 
 Citation check: `python tests/test_citations.py`.

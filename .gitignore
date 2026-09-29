@@ -1,0 +1,11 @@
+.venv/
+.env
+.env.local
+__pycache__/
+*.pyc
+
+# OCR cache, created at runtime
+extracted/
+
+# Original case-study download (assignment PDF, materials zip)
+source/

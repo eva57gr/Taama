@@ -1,0 +1,19 @@
+# Core: rule engine, PDF extraction, rule bank
+pypdf>=6.0
+pdfminer.six>=20240706
+PyYAML>=6.0
+wordninja>=2.0      # re-inserts spaces OCR drops on tightly kerned artwork
+
+# REST API (cd backend; uvicorn api:app --reload)
+fastapi>=0.115
+uvicorn[standard]>=0.30
+python-multipart>=0.0.9
+
+# Image input (OCR); results are cached under extracted/
+rapidocr-onnxruntime>=1.2   # local OCR (default without an API key)
+openai>=1.40                # OpenAI vision OCR (used when OPENAI_API_KEY is set)
+python-dotenv>=1.0          # loads backend/.env
+
+# Word / Excel input (also used by scripts/snapshot_sources.py)
+python-docx>=1.1
+openpyxl>=3.1

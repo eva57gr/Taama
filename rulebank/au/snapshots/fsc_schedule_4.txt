@@ -1,0 +1,2059 @@
+Schedule 4 Nutrition, health and related claims
+
+Note 1 This instrument is a standard under the Food Standards Australia New Zealand Act 1991 (Cth). The standards together make up the Australia New Zealand Food Standards Code. See also section 1.1.1—3.
+
+This Standard, together with Schedule 5 and Schedule 6, relates to Standard 1.2.7 (nutrition, health and related claims), and sets out information for the purpose of that Standard.
+
+Note 2 The provisions of the Code that apply in New Zealand are incorporated in, or adopted under, the Food Act 2014 (NZ). See also section 1.1.1—3.
+
+S4—1 Name
+
+This Standard is Australia New Zealand Food Standards Code – Schedule 4 – Nutrition, health and related claims.
+
+Note Commencement:
+
+This Standard commences on 1 March 2016, being the date specified as the commencement date in notices in the Gazette and the New Zealand Gazette under section 92 of the Food Standards Australia New Zealand Act 1991 (Cth). See also section 93 of that Act.
+
+S4—2 Definitions
+
+In this Schedule:
+
+maximum claimable amount means the maximum claimable amount as prescribed by section 1.3.2—4 or 1.3.2—5.
+
+reference quantity means the reference quantity specified for the food in the Table to section S17—4.
+
+Note In this Code (see section 1.1.2—2):
+
+sugars:
+
+(a) in Standard 1.2.7, Standard 1.2.8 and Schedule 4—means monosaccharides (other than D-allulose) and disaccharides; and
+
+(b) otherwise—means any of the following products, derived from any source:
+
+(i) hexose monosaccharides and disaccharides, including dextrose, fructose, sucrose and lactose;
+
+(ii) starch hydrolysate;
+
+(iii) glucose syrups, maltodextrin and similar products;
+
+(iv) products derived at a sugar refinery, including brown sugar and molasses;
+
+(v) icing sugar;
+
+(vi) invert sugar;
+
+(vii) fruit sugar syrup;
+
+but does not include:
+
+(i) malt or malt extracts; or
+
+(ii) sorbitol, mannitol, glycerol, xylitol, polydextrose, isomalt, maltitol, maltitol syrup, erythritol or lactitol.
+
+Note Sugar is defined differently—see section 1.1.2—3.
+
+S4—3 Conditions for nutrition content claims
+
+For subsection 1.2.7—12(1), the table is:
+
+Conditions for nutrition content claims
+
+Column 1
+
+Column 2
+
+Column 3
+
+Column 4
+
+*Property of food
+
+General claim conditions that must be met
+
+Specific descriptor
+
+Conditions that must be met if using specific descriptor in Column 3
+
+*Carbohydrate
+
+Reduced or light/lite
+
+The food contains at least 25% less *carbohydrate than in the same amount of *reference food.
+
+Increased
+
+The food contains at least 25% more *carbohydrate than in the same amount of *reference food.
+
+Cholesterol
+
+The food meets the conditions for a nutrition content claim about low saturated fatty acids.
+
+Low
+
+The food contains no more cholesterol than:
+
+(a) 10 mg/100 mL for liquid food; or
+
+(b) 20 mg/100 g for solid food.
+
+Reduced or Light / Lite
+
+The food contains at least 25% less cholesterol than in the same amount of *reference food.
+
+*Dietary fibre
+
+A serving of the food contains at least 2 g of *dietary fibre unless the claim is about low or reduced dietary fibre.
+
+Good source
+
+A serving of the food contains at least 4 g of *dietary fibre.
+
+Excellent source
+
+A serving of the food contains at least 7 g of *dietary fibre.
+
+Increased
+
+(a) The *reference food contains at least 2 g of *dietary fibre per serving; and
+
+(b) the food contains at least 25% more *dietary fibre than in the same amount of reference food.
+
+Energy
+
+Low
+
+The *average energy content of the food is no more than:
+
+(a) 80 kJ/100 mL for liquid food; or
+
+(b) 170 kJ/100 g for solid food.
+
+Reduced or Light/Lite
+
+The food contains at least 25% less energy than in the same amount of *reference food.
+
+Diet
+
+(a) The food meets the NPSC, unless the food is a special purpose food; and
+
+(b) either of the following is satisfied:
+
+(i) the *average energy content of the food is no more than 80 kJ/100 mL for liquid food or 170 kJ/100 g for solid food; or
+
+(ii) the food contains at least 40% less energy than in the same amount of *reference food.
+
+Fat
+
+% Free
+
+The food meets the conditions for a nutrition content claim about low fat.
+
+Low
+
+The food contains no more fat than:
+
+(a) 1.5 g/100 mL for liquid food; or
+
+(b) 3 g/100 g for solid food.
+
+Reduced or Light/Lite
+
+The food contains at least 25% less fat than in the same amount of *reference food.
+
+Gluten
+
+Free
+
+The food must not contain:
+
+(a) detectable gluten; or
+
+(b) oats or oat products; or
+
+(c) cereals containing *gluten that have been malted, or products of such cereals.
+
+Low
+
+The food contains no more than 20 mg gluten/100 g of the food.
+
+*Glycaemic Index
+
+(a) The food meets the NPSC, unless the food is a special purpose food; and
+
+(b) the claim or the nutrition information panel includes the numerical value of the *glycaemic index of the food.
+
+Low
+
+The numerical value of the *glycaemic index of the food is 55 or below.
+
+Medium
+
+The numerical value of the *glycaemic index of the food is at least 56 and does not exceed 69.
+
+High
+
+The numerical value of the *glycaemic index of the food is 70 or above.
+
+Glycaemic load
+
+The food meets the NPSC, unless the food is a special purpose food.
+
+Lactose
+
+Free
+
+The food contains no detectable lactose.
+
+Low
+
+The food contains no more than 2 g of lactose/100 g of the food.
+
+Mono-unsaturated fatty acids
+
+The food contains, as a proportion of the total fatty acid content:
+
+(a) no more than 28% saturated fatty acids and trans fatty acids; and
+
+(b) no less than 40% monounsaturated fatty acids.
+
+Increased
+
+(a) The food contains at least 25% more *monounsaturated fatty acids than in the same amount of *reference food; and
+
+(b) the reference food meets the general claim conditions for a nutrition content claim about monounsaturated fatty acids.
+
+Omega fatty acids (any)
+
+The type of omega fatty acid is specified immediately after the word ‘omega’.
+
+Omega-3 fatty acids
+
+(a) The food meets the conditions for a nutrition content claim about omega fatty acids; and
+
+(b) the food contains no less than:
+
+(i) 200 mg alpha-linolenic acid per serving; or
+
+(ii) 30 mg total eicosapentaenoic acid and docosahexaenoic acid per serving; and
+
+(c) other than for fish or fish products with no added *saturated fatty acids, the food contains:
+
+(i) as a proportion of the total fatty acid content, no more than 28% saturated fatty acids and trans fatty acids; or
+
+(ii) no more saturated fatty acids and *trans fatty acids than 5 g per 100 g
+
+Good Source
+
+(a) The food contains no less than 60 mg total eicosapentaenoic acid and docosahexaenoic acid/serving; and
+
+(b) the food may contain less than 200 mg alpha-linolenic acid/serving.
+
+Increased
+
+(a) The food contains at least 25% more omega-3 fatty acids than in the same amount of *reference food; and
+
+(b) the reference food meets the general claim conditions for a nutrition content claim about omega-3 fatty acids.
+
+Omega-6 fatty acids
+
+(a) The food meets the conditions for a nutrition content claim about omega fatty acids; and
+
+(b) the food contains, as a proportion of the total fatty acid content:
+
+(i) no more than 28% *saturated fatty acids and trans fatty acids; and
+
+(ii) no less than 40% omega-6 fatty acids.
+
+Increased
+
+(a) The food contains at least 25% more omega-6 fatty acids than in the same amount of *reference food; and
+
+(b) the reference food meets the general claim conditions for a nutrition content claim about omega-6 fatty acids.
+
+Omega-9 fatty acids
+
+(a) The food meets the conditions for a nutrition content claim about omega fatty acids; and
+
+(b) the food contains, as a proportion of the total fatty acid content:
+
+(i) no more than 28% *saturated fatty acids and trans fatty acids; and
+
+(ii) no less than 40% omega-9 fatty acids.
+
+Increased
+
+(a) The food contains at least 25% more omega-9 fatty acids than in the same amount of *reference food; and
+
+(b) the reference food meets the general claim conditions for a nutrition content claim about omega-9 fatty acids.
+
+Poly-unsaturated fatty acids
+
+The food contains, as a proportion of the total fatty acid content:
+
+(a) no more than 28% *saturated fatty acids and trans fatty acids; and
+
+(b) no less than 40% polyunsaturated fatty acids.
+
+Increased
+
+(a) The food contains at least 25% more *polyunsaturated fatty acids than in the same amount of *reference food; and
+
+(b) the reference food meets the general claim conditions for a nutrition content claim about polyunsaturated fatty acids.
+
+Potassium
+
+The nutrition information panel indicates the sodium and potassium content.
+
+Protein
+
+The food contains at least 5 g of protein/serving unless the claim is about low or reduced protein.
+
+Good Source
+
+The food contains at least 10 g of protein/serving.
+
+Increased
+
+(a) The food contains at least 25% more protein than in the same amount of *reference food; and
+
+(b) the reference food meets the general claim conditions for a nutrition content claim about protein.
+
+Salt or sodium
+
+Low
+
+The food contains no more sodium than:
+
+(a) 120 mg/100 mL for liquid food; or
+
+(b) 120 mg/100 g for solid food.
+
+Reduced or Light/Lite
+
+The food contains at least 25% less sodium than in the same amount of *reference food.
+
+No added
+
+(a) The food contains no added sodium compound including no added salt; and
+
+(b) the ingredients of the food contain no added sodium compound including no added salt.
+
+Unsalted
+
+The food meets the conditions for a nutrition content claim about no added salt or sodium.
+
+Saturated and trans fatty acids
+
+Low
+
+The food contains no more *saturated and *trans fatty acids than:
+
+(a) 0.75 g/100 mL for liquid food; or
+
+(b) 1.5 g/100 g for solid food.
+
+Reduced or Light/Lite
+
+(a) The food contains at least 25% less saturated and *trans fatty acids than in the same amount of *reference food; and
+
+(b) both saturated and trans fatty acids are reduced relative to the same amount of reference food.
+
+Low proportion
+
+(a) The food contains as a proportion of the total fatty acid content, no more than 28% *saturated fatty acids and *trans fatty acids; and
+
+(b) the claim expressly states in words to the effect of ‘low proportion of *saturated and *trans fatty acids of total fatty acid content’.
+
+Saturated fatty acids
+
+Free
+
+(a) The food contains no detectable *saturated fatty acids; and
+
+(b) the food contains no detectable *trans fatty acids.
+
+Low
+
+The food contains no more *saturated and *trans fatty acids than:
+
+(a) 0.75 g/100 mL for liquid food; or
+
+(b) 1.5 g/100 g for solid food.
+
+Reduced or Light/Lite
+
+The food contains:
+
+(a) at least 25% less *saturated fatty acids than in the same amount of *reference food; and
+
+(b) no more *trans fatty acids than in the same amount of reference food.
+
+Low proportion
+
+(a) The food contains as a proportion of the total fatty acid content, no more than 28% *saturated fatty acids and trans fatty acids; and
+
+(b) the claim expressly states in words to the effect of ‘low proportion of saturated fatty acids of the total fatty acid content’.
+
+Sugar or sugars
+
+% Free
+
+The food meets the conditions for a nutrition content claim about low sugar.
+
+Low
+
+The food contains no more sugars than:
+
+(a) 2.5 g/100 mL for liquid food; or
+
+(b) 5 g/100 g for solid food.
+
+Reduced or Light/Lite
+
+The food contains at least 25% less sugars than in the same amount of *reference food.
+
+No added
+
+(a) The food for sale is not an added sugar.
+
+(b) The food for sale does not contain an added sugar as an added ingredient.
+
+(c) The food for sale does not contain more sugars than:
+
+(i) 10 g/100 g for solid food; or
+
+(ii) 7.5 g/100 mL for liquid food.
+
+(d) The food for sale has not had the concentration of hexose monosaccharides and disaccharides in that food increased by hydrolysis of carbohydrates during the production of that food.
+
+(e) Condition (d) does not apply if the concentration of hexose monosaccharides and disaccharides in that food is not > 1.5%.
+
+(f) For the purposes of conditions (a) and (b), an added sugar means any of the following derived from any source:
+
+(i) hexose monosaccharides (other than D-allulose) and disaccharides;
+
+(ii) low energy hexose monosaccharide D‑tagatose;
+
+(iii) starch hydrolysate;
+
+(iv) glucose syrup;
+
+(v) maltodextrin and similar products;
+
+(vi) a product derived at a sugar refinery (including brown sugar, molasses, raw sugar, golden syrup, treacle);
+
+(vii) icing sugar;
+
+(viii) invert sugar;
+
+(ix) sugar and sugar syrup derived from plants;
+
+(x) honey;
+
+(xi) native bee honey;
+
+(xii) malt;
+
+(xiii) malt extracts;
+
+(xiv) any of the following unless the food for sale is a prescribed beverage:
+
+(A) concentrated fruit juice;
+
+(B) concentrated vegetable juice;
+
+(C) deionised fruit juice;
+
+(D) deionised vegetable juice.
+
+(g) For the purposes of condition (b), an ingredient includes an ingredient of a *compound ingredient.
+
+(h) For the purposes of condition (f), a prescribed beverage means any of the following:
+
+(i) a brewed soft drink;
+
+(ii) a formulated beverage;
+
+(iii) a juice blend;
+
+(iv) a fruit drink;
+
+(v) a fruit juice;
+
+(vi) a vegetable juice;
+
+(vii) a water-based beverage.
+
+Unsweetened
+
+(a) The food meets the conditions for a nutrition content claim about no added sugar(s).
+
+(b) The food does not contain: intense sweeteners; sorbitol; mannitol; glycerol; xylitol; isomalt; maltitol; maltitol syrup; erythritol; or lactitol.
+
+The food does not contain, as an ingredient or as an ingredient of a *compound ingredient, a monosaccharide or disaccharide listed in the table to subsection S11—2(3).
+
+Trans fatty acids
+
+Free
+
+The food contains no detectable trans fatty acids, and contains:
+
+(a) no more than:
+
+(i) 0.75 g saturated fatty acids/100 mL of liquid food; or
+
+(ii) 1.5 g saturated fatty acids/100 g of solid food; or
+
+(b) no more than 28% saturated fatty acids as a proportion of the total fatty acid content.
+
+Reduced or Light / Lite
+
+The food contains:
+
+(a) at least 25% less *trans fatty acids than in the same amount of *reference food, and
+
+(b) no more *saturated fatty acids than in the same amount of reference food.
+
+Vitamin or mineral (not including potassium or sodium)
+
+(a) The vitamin or mineral is mentioned in Column 1 of the table to section S1—2 or S1—3; and
+
+(b) a serving of the food contains at least 10% *RDI or *ESADDI for that vitamin or mineral; and
+
+(c) a claim is not for more of the particular vitamin or mineral than the amount permitted by section 1.3.2—4 or 1.3.2—5; and
+
+(d) the food is not any of the following:
+
+(i) a formulated caffeinated beverage;
+
+(ii) food for infants;
+
+(iii) a formulated meal replacement;
+
+(iv) a formulated supplementary food;
+
+(v) a formulated supplementary sports food.
+
+Paragraph (b) does not apply where:
+
+(i) a maximum claimable amount applies in relation to the mineral or vitamin; and
+
+Good source
+
+A serving of the food contains no less than 25% *RDI or *ESADDI for that vitamin or mineral.
+
+(ii) the serving size is less than the reference quantity; and
+
+(iii) the reference quantity contains at least 10% *RDI or *ESADDI for the vitamin or mineral; and
+
+(iv) the maximum claimable amount is less than 10% *RDI or *ESADDI per serving.
+
+For food for infants, the food satisfies the condition for making a claim under subsection 2.9.2—10(2).
+
+For a formulated meal replacement, the food meets the condition for making a claim under subsection 2.9.3—4(2).
+
+For a formulated supplementary food, the food meets the conditions for making a claim under subsection 2.9.3—6(2).
+
+For a formulated supplementary food for young children, the food meets the conditions for making a claim under 2.9.3—8(2).
+
+S4—4 Conditions for permitted high level health claims
+
+For subsection 1.2.7—18(2), the table is:
+
+Conditions for permitted high level health claims
+
+Column 1
+
+Column 2
+
+Column 3
+
+Column 4
+
+Column 5
+
+Food or property of food
+
+Specific health effect
+
+Relevant population
+
+Context claim statements
+
+Conditions
+
+A high intake of fruit and vegetables
+
+Reduces risk of coronary heart disease
+
+Diet containing a high amount of both fruit and vegetables
+
+(a) Claims are not permitted on:
+
+(i) juice blend; or
+
+(ii) fruit juice; or
+
+(iii) vegetable juice; or
+
+(iv) a formulated beverage; or
+
+(v) mineral water or spring water; or
+
+(vi) a non-alcoholic beverage; or
+
+(vii) brewed soft drink; or
+
+(viii) fruit drink; or
+
+(ix) electrolyte drink; or
+
+(x) electrolyte drink base; and
+
+(b) the food must contain no less than 90% fruit or vegetable by weight.
+
+Beta-glucan
+
+Reduces blood cholesterol
+
+Diet low in saturated fatty acids
+
+Diet containing 3 g of beta-glucan per day
+
+The food must contain:
+
+(a) one or more of the following oat or barley foods:
+
+(i) oat bran;
+
+(ii) wholegrain oats; or
+
+(iii) wholegrain barley; and
+
+(b) at least 1 g per serving of beta-glucan from the foods listed in (a).
+
+Calcium
+
+Enhances bone mineral density
+
+Diet high in calcium
+
+The food must contain no less than 200 mg of calcium/serving.
+
+Reduces risk of osteoporosis
+
+Persons 65 years and over
+
+Diet high in calcium, and adequate vitamin D status
+
+The food must contain no less than 290 mg of calcium/serving.
+
+Reduces risk of osteoporotic fracture
+
+Calcium and Vitamin D
+
+Reduces risk of osteoporosis
+
+Persons 65 years and over
+
+Diet high in calcium, and adequate vitamin D status
+
+The food must:
+
+(a) contain no less than 290 mg of calcium/serving; and
+
+(b) meet the general claim conditions for making a nutrition content claim about vitamin D.
+
+Reduces risk of osteoporotic fracture
+
+Folic acid (but not folate)
+
+Reduces risk of foetal neural tube defects
+
+Women of child bearing age
+
+Consume at least 400 µg of folic acid per day, at least the month before and three months after conception
+
+The food must:
+
+(a) contain no less than 40 μg folic acid/serving; and
+
+(b) the food is not:
+
+(i) soft cheese; or
+
+(ii) pâté; or
+
+(iii) liver or liver product; or
+
+(iv) food containing added *phytosterols, phytostanols and their esters; or
+
+(v) a formulated caffeinated beverage; or
+
+(vi) a formulated supplementary sports food; or
+
+(vi) a formulated meal replacement.
+
+Increased intake of fruit and vegetables
+
+Reduces risk of coronary heart disease
+
+Diet containing an increased amount of both fruit and vegetables
+
+(a) Claims are not permitted on:
+
+(i) juice blend; or
+
+(ii) fruit juice; or
+
+(iii) vegetable juice; or
+
+(iv) a formulated beverage; or
+
+(v) mineral water or spring water; or
+
+(vi) a non-alcoholic beverage; or
+
+(vii) a brewed soft drink; or
+
+(viii) fruit drink; or
+
+(ix) an electrolyte drink; or
+
+(x) an electrolyte drink base; and
+
+(b) the food must contain no less than 90% fruit or vegetable by weight.
+
+*Phytosterols, phytostanols and their esters
+
+Reduces blood cholesterol
+
+Diet low in saturated fatty acids
+
+Diet containing 2 g of *phytosterols, phytostanols and their esters per day
+
+The food must:
+
+(a) meet the relevant conditions specified in the table in section S25—2; and
+
+(b) contain a minimum of 0.8 g total plant sterol equivalents content/serving.
+
+Saturated fatty acids
+
+Reduces total blood cholesterol or blood LDL cholesterol
+
+Diet low in saturated fatty acids
+
+The food must meet the conditions for making a nutrition content claim about low saturated fatty acids.
+
+Saturated and trans fatty acids
+
+Reduces total blood cholesterol or blood LDL cholesterol
+
+Diet low in saturated and trans fatty acids
+
+The food must meet the conditions for making a nutrition content claim about low saturated and trans fatty acids.
+
+Sodium or salt
+
+Reduces blood pressure
+
+Diet low in salt or sodium
+
+The food must meet the conditions for making a nutrition content claim about low sodium or salt.
+
+S4—5 Conditions for permitted general level health claims
+
+For subsection 1.2.7—18(3), the table is:
+
+Conditions for permitted general level health claims
+
+Part 1—Minerals
+
+Column 1
+
+Column 2
+
+Column 3
+
+Column 4
+
+Column 5
+
+Food or property of food
+
+Specific health effect
+
+Relevant population
+
+Dietary context
+
+Conditions
+
+Calcium
+
+Necessary for normal teeth and bone structure
+
+The food must meet the general claim conditions for making a nutrition content claim about calcium.
+
+Necessary for normal nerve and muscle function
+
+Necessary for normal blood coagulation
+
+Contributes to normal energy metabolism
+
+Contributes to the normal function of digestive enzymes
+
+Contributes to normal cell division
+
+Contributes to normal growth and development
+
+Children
+
+Chromium
+
+Contributes to normal macronutrient metabolism
+
+The food must meet the general claim conditions for making a nutrition content claim about chromium.
+
+Copper
+
+Contributes to normal connective tissue structure
+
+The food must meet the general claim conditions for making a nutrition content claim about copper.
+
+Contributes to normal iron transport and metabolism
+
+Contributes to cell protection from free radical damage
+
+Necessary for normal energy production
+
+Necessary for normal neurological function
+
+Necessary for normal immune system function
+
+Necessary for normal skin and hair colouration
+
+Contributes to normal growth and development
+
+Children
+
+Fluoride
+
+Contributes to the maintenance of tooth mineralisation
+
+The food must contain no less than 0.6 mg fluoride/L.
+
+Iodine
+
+Necessary for normal production of thyroid hormones
+
+The food must meet the general claim conditions for making a nutrition content claim about iodine.
+
+Necessary for normal neurological function
+
+Necessary for normal energy metabolism
+
+Contributes to normal cognitive function
+
+Contributes to the maintenance of normal skin
+
+Contributes to normal growth and development
+
+Children
+
+Iron
+
+Necessary for normal oxygen transport
+
+The food must meet the general claim conditions for making a nutrition content claim about iron.
+
+Contributes to normal energy production
+
+Necessary for normal immune system function
+
+Contributes to normal blood formation
+
+Necessary for normal neurological development in the foetus
+
+Contributes to normal cognitive function
+
+Contributes to the reduction of tiredness and fatigue
+
+Necessary for normal cell division
+
+Contributes to normal growth and development
+
+Children
+
+Contributes to normal cognitive development
+
+Children
+
+Manganese
+
+Contributes to normal bone formation
+
+The food must meet the general claim conditions for making a nutrition content claim about manganese.
+
+Contributes to normal energy metabolism
+
+Contributes to cell protection from free radical damage
+
+Contributes to normal connective tissue structure
+
+Contributes to normal growth and development
+
+Children
+
+Magnesium
+
+Contributes to normal energy metabolism
+
+The food must meet the general claim conditions for making a nutrition content claim about magnesium.
+
+Necessary for normal electrolyte balance
+
+Necessary for normal nerve and muscle function
+
+Necessary for teeth and bone structure
+
+Contributes to a reduction of tiredness and fatigue
+
+Necessary for normal protein synthesis
+
+Contributes to normal psychological function
+
+Necessary for normal cell division
+
+Contributes to normal growth and development
+
+Children
+
+Molybdenum
+
+Contributes to normal sulphur amino acid metabolism
+
+The food must meet the general claim conditions for making a nutrition content claim about molybdenum.
+
+Phosphorus
+
+Necessary for normal teeth and bone structure
+
+The food must meet the general claim conditions for making a nutrition content claim about phosphorus.
+
+Necessary for the normal cell membrane structure
+
+Necessary for normal energy metabolism
+
+Contributes to normal growth and development
+
+Children
+
+Selenium
+
+Necessary for normal immune system function
+
+The food must meet the general claim conditions for making a nutrition content claim about selenium.
+
+Necessary for the normal utilisation of iodine in the production of thyroid hormones
+
+Necessary for cell protection from some types of free radical damage
+
+Contributes to normal sperm production
+
+Contributes to the maintenance of normal hair and nails
+
+Contributes to normal growth and development
+
+Children
+
+Zinc
+
+Necessary for normal immune system function
+
+The food must meet the general conditions for making a nutrition content claim about zinc.
+
+Necessary for normal cell division
+
+Contributes to normal skin structure and wound healing
+
+Contributes to normal growth and development
+
+Children
+
+Contributes to normal acid-base metabolism
+
+Contributes to normal carbohydrate metabolism
+
+Contributes to normal cognitive function
+
+Contributes to normal fertility and reproduction
+
+Contributes to normal macronutrient metabolism
+
+Contributes to normal metabolism of fatty acids
+
+Contributes to normal metabolism of vitamin A
+
+Contributes to normal protein synthesis
+
+Contributes to the maintenance of normal bones
+
+Contributes to the maintenance of normal hair and nails
+
+Contributes to the maintenance of normal testosterone levels in the blood
+
+Contributes to cell protection from free radicals
+
+Contributes to the maintenance of normal vision
+
+Conditions for permitted general level health claims
+
+Part 2—Vitamins
+
+Column 1
+
+Column 2
+
+Column 3
+
+Column 4
+
+Column 5
+
+Food or property of food
+
+Specific health effect
+
+Relevant population
+
+Dietary context
+
+Conditions
+
+Biotin
+
+Contributes to normal fat metabolism and energy production
+
+The food must meet the general conditions for making a nutrition content claim about biotin.
+
+Contributes to normal functioning of the nervous system
+
+Contributes to normal macronutrient metabolism
+
+Contributes to normal psychological function
+
+Contributes to maintenance of normal hair
+
+Contributes to maintenance of normal skin and mucous membranes
+
+Choline
+
+Contributes to normal homocysteine metabolism
+
+The food must contain no less than 50 mg choline/serve.
+
+Contributes to normal fat metabolism
+
+Contributes to the maintenance of normal liver function
+
+Folate
+
+Necessary for normal blood formation
+
+The food must meet the general conditions for making a nutrition content claim about folate.
+
+Necessary for normal cell division
+
+Contributes to normal growth and development
+
+Children
+
+Contributes to maternal tissue growth during pregnancy
+
+Contributes to normal amino acid synthesis
+
+Contributes to normal homocysteine metabolism
+
+Contributes to normal psychological function
+
+Contributes to normal immune system function
+
+Contributes to the reduction of tiredness and fatigue
+
+Folic acid (but not folate)
+
+Contributes to normal neural tube structure in the developing foetus
+
+Women of child bearing age
+
+Consume at least 400 µg of folic acid/day, at least the month before and three months after conception
+
+(a) The food must contain no less than 40 µg folic acid per serving; and
+
+(b) the food is not:
+
+(i) soft cheese; or
+
+(ii) pâté; or
+
+(iii) liver or liver product; or
+
+(iv) food containing added *phytosterols, phytostanols and their esters; or
+
+(v) a formulated caffeinated beverage; or
+
+(vi) a formulated supplementary sports food; or
+
+(vii) a formulated meal replacement.
+
+Niacin
+
+Necessary for normal neurological function
+
+The food must meet the general claim conditions for making a nutrition content claim about niacin.
+
+Necessary for normal energy release from food
+
+Necessary for normal structure and function of skin and mucous membranes
+
+Contributes to normal growth and development
+
+Children
+
+Contributes to normal psychological function
+
+Contributes to the reduction of tiredness and fatigue
+
+Pantothenic acid
+
+Necessary for normal fat metabolism
+
+The food must meet the general claim conditions for making a nutrition content claim about pantothenic acid.
+
+Contributes to normal growth and development
+
+Children
+
+Contributes to normal energy production
+
+Contributes to normal mental performance
+
+Contributes to normal synthesis and metabolism of steroid hormones, vitamin D and some neurotransmitters
+
+Contributes to the reduction of tiredness and fatigue
+
+Riboflavin
+
+Contributes to normal iron transport and metabolism
+
+The food must meet the general claim conditions for making a nutrition content claim about riboflavin.
+
+Contributes to normal energy release from food
+
+Contributes to normal skin and mucous membrane structure and function
+
+Contributes to normal growth and development
+
+Children
+
+Contributes to normal functioning of the nervous system
+
+Contributes to the maintenance of normal red blood cells
+
+Contributes to the maintenance of normal vision
+
+Contributes to the protection of cells from oxidative stress
+
+Contributes to the reduction of tiredness and fatigue
+
+Thiamin
+
+Necessary for normal carbohydrate metabolism
+
+The food must meet the general claim conditions for making a nutrition content claim about thiamin.
+
+Necessary for normal neurological and cardiac function
+
+Contributes to normal growth and development
+
+Children
+
+Contributes to normal energy production
+
+Contributes to normal psychological function
+
+Vitamin A
+
+Necessary for normal vision
+
+The food must meet the general claim conditions for making a nutrition content claim about vitamin A.
+
+Necessary for normal skin and mucous membrane structure and function
+
+Necessary for normal cell differentiation
+
+Contributes to normal growth and development
+
+Children
+
+Contributes to normal iron metabolism
+
+Contributes to normal immune system function
+
+Vitamin B6
+
+Necessary for normal protein metabolism
+
+The food must meet the general claim conditions for making a nutrition content claim about vitamin B6.
+
+Necessary for normal iron transport and metabolism
+
+Contributes to normal growth and development
+
+Children
+
+Contributes to normal cysteine synthesis
+
+Contributes to normal energy metabolism
+
+Contributes to normal functioning of the nervous system
+
+Contributes to normal homocysteine metabolism
+
+Contributes to normal glycogen metabolism
+
+Contributes to normal psychological function
+
+Contributes to normal red blood cell formation
+
+Contributes to normal immune system function
+
+Contributes to the reduction of tiredness and fatigue
+
+Contributes to the regulation of hormonal activity
+
+Vitamin B12
+
+Necessary for normal cell division
+
+The food must meet the general conditions for making a nutrition content claim about vitamin B12.
+
+Contributes to normal blood formation
+
+Necessary for normal neurological structure and function
+
+Contributes to normal growth and development
+
+Children
+
+Contributes to normal energy metabolism
+
+Contributes to normal homocysteine metabolism
+
+Contributes to normal psychological function
+
+Contributes to normal immune system function
+
+Contributes to the reduction of tiredness and fatigue
+
+Vitamin C
+
+Contributes to iron absorption from food
+
+The food must meet the general claim conditions for making a nutrition content claim about vitamin C.
+
+Necessary for normal connective tissue structure and function
+
+Necessary for normal blood vessel structure and function
+
+Contributes to cell protection from free radical damage
+
+Necessary for normal neurological function
+
+Contributes to normal growth and development
+
+Children
+
+Contributes to normal collagen formation for the normal structure of cartilage and bones
+
+Contributes to normal collagen formation for the normal function of teeth and gums
+
+Contributes to normal collagen formation for the normal function of skin
+
+Contributes to normal energy metabolism
+
+Contributes to normal psychological function
+
+Contributes to the normal immune system function
+
+Contributes to the reduction of tiredness and fatigue
+
+Vitamin D
+
+Necessary for normal absorption and utilisation of calcium and phosphorus
+
+The food must meet the general claim conditions for making a nutrition content claim about vitamin D.
+
+Contributes to normal cell division
+
+Necessary for normal bone structure
+
+Contributes to normal growth and development
+
+Children
+
+Contributes to normal blood calcium levels
+
+Contributes to the maintenance of normal muscle function
+
+Contributes to the maintenance of normal teeth
+
+Contributes to the normal function of the immune system
+
+Vitamin E
+
+Contributes to cell protection from free radical damage
+
+The food must meet the general claim conditions for making a nutrition content claim about vitamin E.
+
+Contributes to normal growth and development
+
+Children
+
+Vitamin K
+
+Necessary for normal blood coagulation
+
+The food must meet the general claim conditions for making a nutrition content claim about vitamin K.
+
+Contributes to normal bone structure
+
+Contributes to normal growth and development
+
+Children
+
+Conditions for permitted general level health claims
+
+Part 3—Other
+
+Column 1
+
+Column 2
+
+Column 3
+
+Column 4
+
+Column 5
+
+Food or property of food
+
+Specific health effect
+
+Relevant population
+
+Dietary context
+
+Conditions
+
+Beta-glucan
+
+Reduces dietary and biliary cholesterol absorption
+
+Diet low in saturated fatty acids
+
+Diet containing 3 g of beta-glucan per day
+
+The food must contain:
+
+(a) one or more of the following oat or barley foods:
+
+(i) oat bran; or
+
+(ii) wholegrain oats; or
+
+(iii) wholegrain barley; and
+
+(b) at least 1 g per serving of beta-glucan from the foods listed in (a).
+
+*Carbohydrate
+
+Contributes energy for normal metabolism
+
+(a) *Carbohydrate must contribute at least 55% of the energy content of the food; or
+
+(b) the food must:
+
+(i) be a formulated meal replacement or a formulated supplementary food; and
+
+(ii) have a maximum 10% of *carbohydrate content from sugars.
+
+Contributes energy for normal metabolism
+
+Young children aged 1–3 years
+
+The food must:
+
+(a) be a formulated supplementary food for young children; and
+
+(b) have a maximum 10% of *carbohydrate content from sugars.
+
+Dietary fibre
+
+Contributes to regular laxation
+
+The food must meet the general conditions for making a nutrition content claim about dietary fibre.
+
+Eicosa-pentaenoic acid (EPA) and Docosa-hexaenoic acid (DHA) (but not Omega-3)
+
+Contributes to heart health
+
+Diet containing 500 mg of EPA and DHA per day
+
+(a) The food must contain a minimum of 50 mg EPA and DHA combined in a serving of food; and
+
+(b) other than for fish or fish products with no added saturated fatty acids—the food contains:
+
+(i) as a proportion of the total fatty acid content, no more than 28% *saturated fatty acids and trans fatty acids; or
+
+(ii) no more than 5 g per 100 g saturated fatty acids and trans fatty acids.
+
+Energy
+
+Contributes energy for normal metabolism
+
+The food must contain a minimum of 420 kJ of energy/serving
+
+Contributes energy for normal metabolism
+
+Young children aged 1–3 years
+
+The food must be a formulated supplementary food for young children
+
+Contributes to weight loss or weight maintenance
+
+Diet reduced in energy and including regular exercise
+
+The food:
+
+(a) meets the conditions for making a ‘diet’ nutrition content claim; or
+
+(b) is a formulated meal replacement and contains no more than 1200 kJ per serving
+
+Live yoghurt cultures
+
+Improves lactose digestion
+
+Individuals who have difficulty digesting lactose
+
+The food must:
+
+(a) be yoghurt or fermented milk; and
+
+(b) contain at least 108 cfu/g (Lactobacillus delbrueckii subsp. bulgaricus and Streptococcus thermophilus).
+
+*Phytosterols, phytostanols and their esters
+
+Reduces dietary and biliary cholesterol absorption
+
+Diet low in saturated fatty acids
+
+Diet containing 2 g of *phytosterols, phytostanols and their esters per day
+
+The food must:
+
+(a) meet the relevant conditions specified in the table to section S25—2; and
+
+(b) contain a minimum of 0.8 g *total plant sterol equivalents content per serving.
+
+Potassium
+
+Necessary for normal water and electrolyte balance
+
+The food contains no less than 200 mg of potassium/serving
+
+Contributes to normal growth and development
+
+Children
+
+Contributes to normal functioning of the nervous system
+
+Contributes to normal muscle function
+
+Protein
+
+Necessary for tissue building and repair
+
+The food must meet the general conditions for making a nutrition content claim about protein.
+
+Necessary for normal growth and development of bone
+
+Children and adolescents aged 4 years and over
+
+Contributes to the growth of muscle mass
+
+Contributes to the maintenance of muscle mass
+
+Contributes to the maintenance of normal bones
+
+Necessary for normal growth and development
+
+Children aged 4 years and over
+
+Necessary for normal growth and development
+
+Infants aged 6 months to 12 months
+
+The food must be a food for infants and comply with subsection 2.9.2—8(2).
+
+Fruits and vegetables
+
+Contributes to heart health
+
+Diet containing an increased amount of fruit and vegetables; or
+
+Diet containing a high amount of fruit and vegetables
+
+(a) The food is not:
+
+(i) juice blend; or
+
+(ii) fruit juice; or
+
+(iii) vegetable juice; or
+
+(iv) a formulated beverage; or
+
+(v) mineral water or spring water; or
+
+(vi) a non-alcoholic beverage; or
+
+(vii) a brewed soft drink; or
+
+(viii) fruit drink; or
+
+(ix) an electrolyte drink; or
+
+(x) an electrolyte drink base; and
+
+(b) the food contains no less than 90% fruit or vegetable by weight.
+
+Sugar or sugars
+
+Contributes to dental health
+
+Good oral hygiene
+
+The food:
+
+(a) is confectionery or chewing gum; and
+
+(b) either:
+
+(i) contains 0.2% or less starch, dextrins, mono-, di- and oligosaccharides, or other fermentable carbohydrates combined; or
+
+(ii) if the food contains more than 0.2% fermentable carbohydrates, it must not lower plaque pH below 5.7 by bacterial fermentation during 30 minutes after consumption as measured by the indwelling plaque pH test, referred to in ‘Identification of Low Caries Risk Dietary Components’ by T.N. Imfeld, Volume 11, Monographs in Oral Science, 1983.
+
+Chewing gum
+
+Contributes to the maintenance of tooth mineralisation
+
+Contributes to the neutralisation of plaque acids
+
+Chew the gum for at least 20 minutes after eating or drinking
+
+The food is chewing gum and either:
+
+(a) contains 0.2% or less starch, dextrins, mono-, di- and oligosaccharides, or other fermentable carbohydrates combined; or
+
+(b) if the food contains more than 0.2% fermentable carbohydrates, it must not lower plaque pH below 5.7 by bacterial fermentation during 30 minutes after consumption as measured by the indwelling plaque pH test, referred to in ‘Identification of Low Caries Risk Dietary Components’ by T.N. Imfeld, Volume 11, Monographs in Oral Science, 1983.
+
+Contributes to the reduction of oral dryness
+
+Chew the gum when the mouth feels dry
+
+S4—6 Nutrient profiling scoring criterion
+
+For this Code, the *NPSC (nutrient profiling scoring criterion) is:
+
+NPSC
+
+Column 1
+
+Column 2
+
+Category
+
+NPSC category
+
+The *nutrient profiling score must be less than …
+
+1
+
+Beverages
+
+1
+
+2
+
+Any food other than those included in category 1 or 3
+
+4
+
+3
+
+(a) Cheese or processed cheese with calcium content greater than 320 mg/100 g; or
+
+28
+
+(b) edible oil: or
+
+(c) edible oil spread; or
+
+(d) margarine; or
+
+(e) butter.
+
+Note With regard to NPSC category 3(a), all other cheeses (with calcium content of less than or equal to 320 mg/100 g) are classified as an NPSC category 2 food.
+
+____________________
+
+Application, saving and transitional provisions
+
+The table below details information on application, saving or transitional provisions in instruments affecting this Schedule.
+
+Instrument items affected
+
+A’ment No.
+
+FRL registration
+
+Gazette
+
+Instrument’s transitional provision
+
+Description of transitional arrangement
+
+Australia New Zealand Food Standards Code – Transitional Variation 2015 (Proposal P1037 – Amendments associated with Nutrition Content & Health Claims)
+
+Item [4] of the Schedule
+
+159
+
+F2015L01931
+
+3 Dec 2015
+
+FSC101
+
+7 Dec 2015
+
+Clause 4
+
+Clause 4 establishes a transitional arrangement for variations to the Code made by Item [4] of the Schedule.
+
+The transition period is the period of time that commences on 1 March 2016 and ends on 18 January 2017.
+
+Subclause 4(2) provides that section 1.1.1—9 of the Code does not apply to the above variations.
+
+Subclause 4(3) provides that, during the transition period, a food may comply with either:
+
+(a) the Code as in force without the above variations; or
+
+(b) the Code as amended by the above variations;
+
+but not a combination of both.
+
+Subclause 4(4) provides an exemption for stock-in-trade that will apply from 18 January 2007. A food is deemed to comply with the Code as amended by the above variations for a period of 12 months commencing on 18 January 2017 if the food otherwise complied with the Code before that date.
+
+Food Standards (Proposal P1062 – Defining added sugars for claims) Variation
+
+Item [1] of the Schedule
+
+224
+
+F2023L01624
+
+7 Dec 2023
+
+FSC164
+
+13 Dec 2023
+
+Clause 4
+
+Clause 4 establishes a transitional arrangement for variations to the Code made by Item [1] of the Schedule.
+
+The transition period is the period of time that commences on 13 December 2023 and ends 13 December 2027.
+
+The post-transition period is the period of time that commences on 14 December 2027 and ends on 14 December 2029.
+
+Subclause 4(1) provides that section 1.1.1—9 of the Code does not apply to the variations.
+
+Subclause 4(2) provides that during the transition period, a food product may be sold if it complies with one of the following:
+
+(a) the Code as in force without the variations; or
+
+(b) the Code as amended by the variations made.
+
+Subclause 4(3) provides that a food product that was packaged and labelled before the end of the transition period may be sold during the post-transition period if the product complies with one of the following:
+
+(a) the Code as in force without the variations; or
+
+(b) the Code as amended by the variations made.
+
+Food Standards (Proposal P1063 – Code Revision (2024) – Added Sugar(s) Claims) Variation
+
+Items [5] and [6] of the Schedule
+
+233
+
+F2024L01376
+
+28 Oct 2024
+
+FSC173
+
+29 Oct 2024
+
+Clause 4
+
+Clause 4 establishes a transitional arrangement for variations to the Code made by Item [1] of the Food Standards (Proposal P1063 – Code Revision (2024) – Added Sugar(s) Claims) Variation.
+
+The transition period is the period of time that commences on 29 October 2024 and ends on 29 October 2028.
+
+The post-transition period is the period of time that commences 30 October 2028 and ends on 30 October 2030.
+
+Subclause 4(1) provides that section 1.1.1—9 of the Code does not apply to the variations.
+
+Subclause 4(2) provides that during the transition period a food product may be sold if the product complies with one of the following:
+
+(a) the Code as in force without the variations made by the instruments; or;
+
+(b) the Code as amended by the variations made by the instruments.
+
+Subclause 4(3) provides that a food product that was packaged and labelled before the end of the transition period may be sold during the post-transition period if the product complies with one of the following:
+
+(a) the Code as in force without the variations made by the instruments; or;
+
+(b) the Code as amended by the variations made by the instruments.
+
+Amendment History
+
+The Amendment History provides information about each amendment to the Schedule. The information includes commencement or cessation information for relevant amendments.
+
+These amendments are made under section 92 of the Food Standards Australia New Zealand Act 1991 unless otherwise indicated. Amendments do not have a specific date for cessation unless indicated as such.
+
+About this compilation
+
+This is compilation No. 7 of Schedule 4 as in force on 30 April 2026 (up to Amendment No. 249). It includes any commenced amendment affecting the compilation to that date.
+
+Prepared by Food Standards Australia New Zealand on 30 April 2026.
+
+Uncommenced amendments or provisions ceasing to have effect
+
+To assist stakeholders, the effect of any uncommenced amendments or provisions which will cease to have effect, may be reflected in the Schedule as shaded boxed text with the relevant commencement or cessation date. These amendments will be reflected in a compilation registered on the Federal Register of Legislation including or omitting those amendments and provided in the Amendment History once the date is passed.
+
+The following abbreviations may be used in the table below:
+
+ad = added or inserted am = amended
+
+exp = expired or ceased to have effect rep = repealed
+
+rs = repealed and substituted
+
+Schedule 4 was published in the Food Standards Gazette No. FSC96 on 10 April 2015 as part of Amendment 154 (F2015L00474 –- 1 April 2015) and has since been amended as follows:
+
+Section affected
+
+A’ment No.
+
+FRL registration
+
+Gazette
+
+Commencement
+
+(Cessation)
+
+How affected
+
+Description of amendment
+
+S4—2
+
+159
+
+F2015L01931
+
+3 Dec 2015
+
+FSC101
+
+7 Dec 2015
+
+1 March 2016
+
+ad
+
+Text with definitions of ‘maximum claimable amount’ and ‘reference quantity’.
+
+For application, saving and transitional provisions, see above table.
+
+S4—2
+
+161
+
+F2016L00120
+
+18 Feb 2016
+
+FSC103
+
+22 Feb 2016
+
+1 March 2016
+
+am
+
+Correction to numbering in the Note (definition of ‘sugars’).
+
+Table to S4—3
+
+159
+
+F2015L01931
+
+3 Dec 2015
+
+FSC101
+
+7 Dec 2015
+
+1 March 2016
+
+am
+
+Entries for lactose, salt and sodium and omega-3 fatty acids in relation to references to the nutrition information panel.
+
+For application, saving and transitional provisions, see above table.
+
+Table to S4—3
+
+159
+
+F2015L01929
+
+3 Dec 2015
+
+FSC101
+
+7 Dec 2015
+
+1 March 2016
+
+am
+
+Entry for vitamin or mineral (not including potassium or sodium) to permit nutrition content claims about sodium and salt in relation to foods (not beverages) containing alcohol.
+
+For application, saving and transitional provisions, see above table.
+
+Table to S4—3
+
+172
+
+F2017L01142
+
+6 Sept 2017
+
+FSC114
+
+7 Sept 2017
+
+7 Sept 2017
+
+ad
+
+Entry for Omega fatty acids (any).
+
+Table to S4—5
+
+161
+
+F2016L00120
+
+18 Feb 2016
+
+FSC103
+
+22 Feb 2016
+
+1 March 2016
+
+am
+
+Entries for iodine, selenium and energy to remove duplicated text.
+
+Table to S4—6
+
+168
+
+F2017L00414
+
+11 April 2017
+
+FSC110
+
+13 April 2017
+
+13 April 2017
+
+am
+
+Heading to table to correct typographical error.
+
+Table to S4—3
+
+224
+
+F2023L01624
+
+7 December 2023
+
+13 December 2023
+
+13 December 2023
+
+rs
+
+Entry for ‘sugar or sugars’ repealed and substituted to amend the definition of what constitutes added sugars for the purposes of making voluntary nutrition content claims about added sugars and the conditions for use of the descriptors ‘No added’ and ‘Unsweetened’
+
+For application, saving and transitional provisions, see above table.
+
+Table to S4—3
+
+229
+
+F2024L00894
+
+18 July 2024
+
+FSC169
+
+22 July 2024
+
+22 July 2024
+
+rs
+
+Entry for native bee honey
+
+S4—2
+
+233
+
+F2024L01376
+
+28 October 2024
+
+FSC173
+
+29 October 2024
+
+29 October 2024
+
+rs
+
+Repeal and substitute S4-4 note, the definition of sugars.
+
+S4—3
+
+233
+
+F2024L01376
+
+28 October 2024
+
+FSC173
+
+29 October 2024
+
+29 October 2024
+
+rs
+
+Repeal and substitute S4—3 table entry dealing with Sugar or sugars.
+
+S4—2
+
+233
+
+F2024L01377
+
+28 October 2024
+
+FSC173
+
+29 October 2024
+
+29 October 2024
+
+am
+
+Amend S4-4 note, the definition of sugars to include (other than D-allulose).
+
+S4—3
+
+233
+
+F2024L01377
+
+28 October 2024
+
+FSC173
+
+29 October 2024
+
+29 October 2024
+
+am
+
+Amend substitute S4—3 table entry dealing with Sugar or sugars to include (other than D-allulose).
+
+S4—2
+
+249
+
+F2026L00481
+
+30 April 2026
+
+FSC 189
+
+30 April 2026
+
+30 April 2026
+
+rep
+
+Omit Note stating Sugars* is relevant for claims about no added sugar
+
+Table to S4—3
+
+249
+
+F2026L00481
+
+30 April 2026
+
+FSC 189
+
+30 April 2026
+
+30 April 2026
+
+rs
+
+In table item related to ‘Sugar or sugars’, descriptor of ‘No added’ in column 3, paragraph (f) column 4, repeal subparagraphs (xi) to (xiii) and replace with subparagraphs (xi) to (xiv).

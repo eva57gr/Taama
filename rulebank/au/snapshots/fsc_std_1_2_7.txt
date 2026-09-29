@@ -1,0 +1,1103 @@
+Standard 1.2.7 Nutrition, health and related claims
+
+Note 1 This instrument is a standard under the Food Standards Australia New Zealand Act 1991 (Cth). The standards together make up the Australia New Zealand Food Standards Code. See also section 1.1.1—3.
+
+Note 2 The provisions of the Code that apply in New Zealand are incorporated in, or adopted under, the Food Act 2014 (NZ). See also section 1.1.1—3.
+
+Division 1 Preliminary
+
+1.2.7—1 Name
+
+This Standard is Australia New Zealand Food Standards Code – Standard 1.2.7 – Nutrition, health and related claims.
+
+Note Commencement:
+
+This Standard commences on 1 March 2016, being the date specified as the commencement date in notices in the Gazette and the New Zealand Gazette under section 92 of the Food Standards Australia New Zealand Act 1991 (Cth). See also section 93 of that Act.
+
+1.2.7—2 Definitions
+
+In Standard 1.2.7 and Standard 1.2.8:
+
+fruit means the edible portion of a plant or constituents of the edible portion that are present in the typical proportion of the whole fruit (with or without the peel or water); and does not include nuts, spices, herbs, fungi, legumes and seeds.
+
+vegetable means the edible portion of a plant or constituents of the edible portion that are present in the typical proportion of the whole vegetable (with or without the peel or water) and does not include nuts, spices, herbs, fungi, dried legumes (including dried legumes that have been cooked or rehydrated) and seeds.
+
+Note 1 In this Code (see section 1.1.2—2):
+
+biomarker means a measurable biological parameter that is predictive of the risk of a serious disease when present at an abnormal level in the human body.
+
+carbohydrate, other than in the definition of beer (section 1.1.2—3), means available carbohydrate or available carbohydrate by difference.
+
+claim means an express or implied statement, representation, design or information in relation to a food or a property of food which is not mandatory in this Code.
+
+endorsement means a nutrition content claim or a health claim that is made with the permission of an endorsing body.
+
+endorsing body means a not-for-profit entity that:
+
+(a) has a nutrition- or health-related purpose or function; and
+
+(b) permits a supplier to make an endorsement.
+
+fat, in Standards 1.2.7 and 1.2.8 and Schedules 4 and 11, means total fat.
+
+food group means any of the following groups:
+
+(a) bread (both leavened and unleavened), grains, rice, pasta and noodles;
+
+(b) fruit, vegetables, herbs, spices and fungi;
+
+(c) milk, skim milk, cream, fermented milk, yoghurt, cheese, processed cheese, butter, ice cream, condensed milk, dried milk, evaporated milk, and dairy analogues derived from legumes, cereals, nuts, seeds, or a combination of these ingredients listed in section S17—4;
+
+(d) meat, fish, eggs, nuts, seeds and dried legumes;
+
+(e) fats including butter, edible oils and edible oil spreads.
+
+general level health claim means a health claim that is not a high level health claim.
+
+general level health claims table means the table to section S4—5.
+
+health claim means a claim which states, suggests or implies that a food or a property of food has, or may have, a health effect.
+
+Note See also subsection 2.10.2—8(3).
+
+health effect means an effect on the human body, including an effect on one or more of the following:
+
+(a) a biochemical process or outcome;
+
+(b) a physiological process or outcome;
+
+(c) a functional process or outcome;
+
+(d) growth and development;
+
+(e) physical performance;
+
+(f) mental performance;
+
+(g) a disease, disorder or condition.
+
+high level health claim means a health claim that refers to a serious disease or a biomarker of a serious disease.
+
+high level health claims table means the table to section S4—4.
+
+meet the NPSC means that the nutrient profiling score of a food described in Column 1 of the table to section S4—6 is less than the number specified for that food in Column 2 of that table.
+
+NPSC means the nutrient profiling scoring criterion (see section S4—6).
+
+property of food means a component, ingredient, constituent or other feature of food.
+
+nutrient profiling score means the final score calculated pursuant to the method referred to in section 1.2.7—25.
+
+reference food, in relation to a claim, means a food that is:
+
+(a) of the same type as the food for which the claim is made and that has not been further processed, formulated, reformulated or modified to increase or decrease the energy value or the amount of the nutrient for which the claim is made; or
+
+(b) a dietary substitute for the food in the same food group as the food for which the claim is made.
+
+serious disease means a disease, disorder or condition which is generally diagnosed, treated or managed in consultation with or with supervision by a health care professional.
+
+sugars, in Standard 1.2.7, Standard 1.2.8 and Schedule 4—means monosaccharides (other than
+
+D-allulose) and disaccharides. (Elsewhere in the Code it has a different definition).
+
+Note 2 Section 1.1.2—9 (Definition of nutrition content claim) provides as follows:
+
+(1) In this Code:
+
+nutrition content claim means a claim that:
+
+(a) is about:
+
+(i) the presence or absence of any of the following:
+
+(A) a biologically active substance;
+
+(B) dietary fibre;
+
+(C) energy;
+
+(D) minerals;
+
+(E) potassium;
+
+(F) protein;
+
+(G) carbohydrate;
+
+(H) fat;
+
+(I) the components of any one of protein, carbohydrate or fat;
+
+(J) salt;
+
+(K) sodium;
+
+(L) vitamins; or
+
+(ii) glycaemic index or glycaemic load; and
+
+(b) does not refer to the presence or absence of alcohol; and
+
+(c) is not a health claim.
+
+Note See also subsections 2.6.2—5(4) and 2.10.2—8(3).
+
+Inclusion of mandatory information in nutrition information panel does not constitute a nutrition content claim
+
+(2) To avoid doubt, if this Code requires particular information to be included in a nutrition information panel, the inclusion of that information does not constitute a nutrition content claim.
+
+Inclusion of voluntary information in nutrition information panel might constitute a nutrition content claim
+
+(3) If this Code permits, but does not require, particular information to be included in a nutrition information panel, the inclusion of that information constitutes a nutrition content claim unless:
+
+(a) this Code provides otherwise; or
+
+(b) the information is a declaration of:
+
+(i) if the food contains less than 2 g of dietary fibre per serving—dietary fibre; or
+
+(ii) trans fatty acid content; or
+
+(iii) lactose content.
+
+(4) For a food that contains more than 1.15% alcohol by volume, the inclusion in a nutrition information panel of the information referred to in paragraphs 1.2.8—6(1)(a), (b) and (c), and subparagraphs 1.2.8—6(1)(d)(i), (ii) and (iii) does not constitute a nutrition content claim.
+
+Note 3 In this Standard, the following terms are also defined: fvnl, information period, nutrition content claim table and required records.
+
+Division 2 Outline of Standard
+
+1.2.7—3 Outline
+
+This Standard:
+
+(a) sets out:
+
+(i) the claims that may be made on labels or in advertisements about the nutritional content of food (described as ‘nutrition content claims’); and
+
+(ii) the claims that may be made on labels or in advertisements about the relationship between a food or a property of a food, and a *health effect (described as ‘health claims’); and
+
+(b) describes the conditions under which such claims may be made; and
+
+(c) describes the circumstances in which endorsements may be provided on labels or in advertisements.
+
+Note Standard 1.2.8 may prescribe additional labelling requirements for claims regulated by this Standard.
+
+Division 3 Claims framework and general principles
+
+1.2.7—4 Restrictions on nutrition content claims and health claims about certain foods
+
+(1) A nutrition content claim or *health claim must not be made about:
+
+(a) kava; or
+
+(b) an infant formula product; or
+
+(c) a food that contains more than 1.15% alcohol by volume, other than a nutrition content claim about any of the following:
+
+(i) salt or sodium content of a food that is not a beverage;
+
+(ii) carbohydrate content;
+
+(iii) energy content;
+
+(iv) gluten content;
+
+(v) sugar or sugars content.
+
+Note Section 1.4.4—7 proscribes health claims and nutrition content claims in relation to cannabidiol in hemp food products.
+
+(2) A nutrition content claim about a food that contains more than 1.15% alcohol by volume must not name or refer to:
+
+(a) a component of carbohydrate other than sugar or sugars; or
+
+(b) individually named sugars.
+
+Example A nutrition content claim that refers to fructose is not permitted.
+
+1.2.7—5 Standard does not apply to certain foods
+
+This Standard does not apply to:
+
+(a) food that is intended for further processing, packaging or labelling prior to retail sale; or
+
+(b) food that is delivered to a vulnerable person by a delivered meal organisation; or
+
+(c) food, other than food in a package, that is provided to a patient in a hospital or a *medical institution.
+
+1.2.7—6 Standard does not apply to certain claims or declarations
+
+This Standard does not apply to:
+
+(a) a claim that is expressly permitted by this Code; or
+
+(b) a claim about the risks or dangers of alcohol consumption or about moderating alcohol intake; or
+
+(c) a declaration that is required by an application Act; or
+
+(d) a permitted Health Star Rating symbol.
+
+1.2.7—7 Form of food to which provisions of this Standard apply
+
+If this Standard imposes a prerequisite, condition, qualification or any other requirement on the making of a claim, that prerequisite, condition, qualification or requirement applies to whichever of the following forms of the food is applicable:
+
+(a) if the food can be either prepared with other food or consumed as sold—the food as sold;
+
+(b) if the food is required to be prepared and consumed according to directions—the food as prepared;
+
+(c) if the food requires reconstituting with water—the food after it is reconstituted with water and ready for consumption;
+
+(d) if the food requires draining before consuming—the food after it is drained and ready for consumption.
+
+1.2.7—8 Claims not to be therapeutic in nature
+
+A claim must not:
+
+(a) refer to the prevention, diagnosis, cure or alleviation of a disease, disorder or condition; or
+
+(b) compare a food with a good that is:
+
+(i) represented in any way to be for therapeutic use; or
+
+(ii) likely to be taken to be for therapeutic use, whether because of the way in which the good is presented or for any other reason.
+
+1.2.7—9 Claims not to compare vitamin or mineral content
+
+A claim that directly or indirectly compares the vitamin or mineral content of a food with that of another food must not be made unless the claim is permitted by this Code.
+
+1.2.7—10 Standard does not prescribe words
+
+Nothing in this Standard is to be taken to prescribe the words that must be used when making a claim.
+
+Note See also section 1.1.1—8.
+
+Division 4 Requirements for nutrition content claims
+
+1.2.7—11 Presentation of nutrition content claims
+
+A nutrition content claim must be stated together with a statement about the form of the food to which the claim relates, unless the form of the food to which the claim relates is the food as sold.
+
+1.2.7—12 Nutrition content claims about properties of food in section S4—3
+
+(1) If a *property of food is mentioned in Column 1 of the nutrition content claims table (section S4—3), a nutrition content claim may only be made about that property of food in accordance with this section.
+
+(2) If a claim is made in relation to a food about a *property of food mentioned in Column 1 of the nutrition content claims table, the food must meet the corresponding general claim conditions, if any, in Column 2 of the table.
+
+(3) If a claim made in relation to a food about a *property of food mentioned in Column 1 of the nutrition content claims table uses a descriptor mentioned in Column 3 of the table, or a synonym of that descriptor, the food must meet:
+
+(a) the general claim conditions for the relevant property of food in Column 2 of the table; and
+
+(b) the specific claim conditions in Column 4 of the table for the relevant descriptor.
+
+(4) If, in relation to a claim mentioned in subsection (3), there is an inconsistency between a general claim condition in Column 2 of the table and a specific claim condition in Column 4 of the table, the specific claim condition prevails.
+
+(5) A descriptor must not be used in a nutrition content claim about lactose or *trans fatty acids unless the descriptor:
+
+(a) is mentioned in Column 3 of the nutrition content claims table and corresponds with that property of food; or
+
+(b) is a synonym of the descriptor referred to in paragraph (a).
+
+(6) A descriptor must not be used in a nutrition content claim about glycaemic load unless that descriptor is expressed as a number or in numeric form.
+
+(7) A nutrition content claim in relation to *gluten may only:
+
+(a) use a descriptor that is mentioned in Column 3 of the nutrition content claims table in conjunction with gluten, or a synonym of such a descriptor; or
+
+(b) state that a food contains gluten or is high in gluten.
+
+(8) Subject to this section and section 1.2.7—15 (Nutrition content claims must not imply slimming effects), any descriptor that is not mentioned in Column 3 of the nutrition content claims table, including a descriptor expressed as a number or in numeric form, may be used in conjunction with a *property of food that is mentioned in Column 1 of the table.
+
+(9) In this Division:
+
+nutrition content claims table means the table to section S4—3.
+
+1.2.7—13 Nutrition content claims about properties of food not in section S4—3
+
+(1) A nutrition content claim about a *property of food that is not mentioned in the table to section S4—3 may state only:
+
+(a) that the food contains or does not contain the property of food; or
+
+(b) that the food contains a specified amount of the property of food in a specified amount of that food; or
+
+(c) a combination of paragraph (a) and (b).
+
+(2) A statement made for the purposes of paragraph (1)(a) must not use a descriptor listed in Column 3 of the nutrition content claims table, or any other descriptor, except a descriptor that indicates that the food does not contain the property of food.
+
+1.2.7—14 Nutrition content claims about choline, fluoride or folic acid
+
+(1) A nutrition content claim about choline, fluoride or folic acid may state only:
+
+(a) that the food contains choline, fluoride or folic acid; or
+
+(b) that the food contains a specified amount of choline, fluoride or folic acid in a specified amount of that food; or
+
+(c) a combination of paragraph (a) and (b).
+
+(2) A statement made for the purposes of paragraph (1)(a) must not use a descriptor listed in Column 3 of the nutrition content claims table, or any other descriptor.
+
+(3) A nutrition content claim about choline, fluoride or folic acid may be made only if a *health claim about that substance is made in relation to the same food.
+
+1.2.7—15 Nutrition content claims must not imply slimming effects
+
+A nutrition content claim that meets the conditions to use the descriptor diet must not use another descriptor that directly or indirectly refers to slimming or a synonym for slimming.
+
+1.2.7—16 Comparative claims
+
+(1) A comparative claim about a food (claimed food) must include together with the claim:
+
+(a) the identity of the *reference food; and
+
+(b) the difference between the amount of the *property of food in the claimed food and the reference food.
+
+(2) In this section, a nutrition content claim is a comparative claim if:
+
+(a) it:
+
+(i) directly or indirectly compares the nutrition content of one food or brand of food with another; and
+
+(ii) includes claims using any of the following descriptors:
+
+(A) light or lite;
+
+(B) increased;
+
+(C) reduced;
+
+(D) words of similar import; or
+
+(b) it:
+
+(i) uses the descriptor diet; and
+
+(ii) meets the conditions for making that claim by having at least 40% less energy than the same amount of *reference food.
+
+Division 5 Requirements for health claims
+
+1.2.7—17 Application or proposal to vary S4—5 taken to be a high level health claims variation
+
+An application or a proposal to add a *general level health claim to the table to section S4—5 is taken to be an application or proposal for a high level health claims variation.
+
+Note The term high level health claims variation is defined in section 4 of the FSANZ Act. The effect of this provision is that an application or a proposal to add a general level health claim to the table to S4—5 will be assessed under the provisions in Subdivision G of each of Divisions 1 and 2 of Part 3 of the FSANZ Act, as appropriate.
+
+1.2.7—18 Conditions for making health claims
+
+(1) A *health claim must not be made unless:
+
+(a) the food to which the health claim relates *meets the NPSC; and
+
+(b) the health claim complies with the requirements in:
+
+(i) if the health claim is a high level health claim—subsection (2); or
+
+(ii) if the health claim is a general level health claim—subsection (3).
+
+(2) For subparagraph (1)(b)(i), the requirements are:
+
+(a) the food or the *property of food is mentioned in Column 1 of the high level health claims table; and
+
+(b) the *health effect claimed for that food or property of food is mentioned in the corresponding row in Column 2 of the table; and
+
+(c) the food complies with the relevant conditions in Column 5 of the table.
+
+(3) For subparagraph (1)(b)(ii), the requirements are:
+
+(a) each of the following:
+
+(i) the food or the *property of food is mentioned in Column 1 of the general level health claims table;
+
+(ii) the *health effect claimed for that food or property of food is mentioned in the corresponding row in Column 2 of the table; and
+
+(iii) the food complies with the relevant conditions in Column 5 of the table; or
+
+(b) the person who is responsible for making the *health claim has notified the Chief Executive Officer of the Authority (FSANZ) of the details of a relationship between a food or *property of food and a *health effect that has been established by a process of systematic review that is described in Schedule 6.
+
+(4) Despite paragraph (1)(a), a special purpose food does not need to meet the NPSC.
+
+Note See Part 2.9.
+
+1.2.7—19 Requirement when making a general level health claim under paragraph 1.2.7—18(3)(b)
+
+(1) A person who gives the notice mentioned in paragraph 1.2.7—18(3)(b) is required to:
+
+(a) provide the name of the person that is giving the notice and the address in Australia or New Zealand of that person; and
+
+(b) consent to the publication by the Authority of the information given for the purposes of paragraph 1.2.7—18(3)(b) and paragraph (1)(a); and
+
+(c) certify that the notified relationship between a food or *property of food and a *health effect has been established by a process of systematic review that is described in Schedule 6; and
+
+(d) if requested by a relevant authority, provide records to the *relevant authority that demonstrate that:
+
+(i) the systematic review was conducted in accordance with the process of systematic review described in Schedule 6; and
+
+(ii) the notified relationship is a reasonable conclusion of the systematic review.
+
+(2) A certificate provided for a body corporate must be signed by a senior officer of the body corporate.
+
+1.2.7—20 How health claims are to be made
+
+(1) If a *health claim is a *high level health claim based on a relationship described in the *high level health claims table or a *general level health claim based on a relationship described in the *general level health claims table, the health claim must:
+
+(a) state:
+
+(i) the food or the *property of food mentioned in Column 1 of the relevant table; and
+
+(ii) the specific *health effect mentioned in Column 2 of the relevant table that is claimed for the food or the property of food; and
+
+(b) if column 3 of the relevant table refers to a relevant population group to which the specific health effect relates—include a statement of that population group in conjunction with the health claim; and
+
+(c) include, together with the health claim, the information referred to in subsection (3).
+
+(2) If a *health claim is a *general level health claim based on a relationship that has been notified under paragraph 1.2.7—18(3)(b), the health claim must:
+
+(a) state the food or the *property of food and the specific health effect; and
+
+(b) include together with the health claim a statement about the relevant population group, if any, that is a reasonable conclusion of the systematic review mentioned in paragraph 1.2.7—18(3)(b); and
+
+(c) include, together with the health claim, the information referred to in subsection (3).
+
+(3) For paragraphs (1)(c) and (2)(c), the information is:
+
+(a) a dietary context statement that complies with subsection (6); and
+
+(b) a statement of the form of the food to which the *health claim relates.
+
+(4) Despite paragraph (3)(a), a dietary context statement need not be included on a label on a food for sale that is contained in a small package.
+
+(5) Despite paragraph (3)(b), if the form of the food to which the claim relates is the food as sold, the form of the food to which the claim relates need not be stated.
+
+(6) A dietary context statement must:
+
+(a) state that the *health effect must be considered in the context of a healthy diet involving the consumption of a variety of foods; and
+
+(b) be appropriate to the type of food or the *property of food that is the subject of the claim and the health effect claimed; and
+
+(c) either:
+
+(i) if the *health claim is a *high level health claim based on a relationship described in the *high level health claims table or a *general level health claim based on a relationship described in the general level health claims table—include words to the effect of the relevant dietary context statement in the corresponding row of column 4 of the relevant table, if any; or
+
+(ii) if the health claim is a general level health claim based on a relationship that has been notified under paragraph 1.2.7—18(3)(b)—include words to the effect of a relevant dietary context statement that is a reasonable conclusion of the systematic review.
+
+1.2.7—21 Split health claims
+
+The matters referred to in paragraph 1.2.7—20(1)(a) or paragraph 1.2.7—20(2)(a) may also appear in another statement on the label or in an advertisement if:
+
+(a) the information required by subsection 1.2.7—20(1) or subsection 1.2.7—20(2) appears on a label or in an advertisement; and
+
+(b) the other statement indicates where on the label or advertisement the information required by subsection 1.2.7—20(1) or subsection 1.2.7—20(2) is located.
+
+1.2.7—22 Statements for claims about phytosterols, phytostanols and their esters
+
+A dietary context statement for a claim about *phytosterols, phytostanols and their esters need not include a statement required by paragraph 1.2.7—20(6)(a) if the claim appears together with the mandatory advisory statement required by subsection 1.2.3—2(1).
+
+Division 6 Endorsements
+
+1.2.7—23 Endorsing bodies
+
+(1) An *endorsing body must:
+
+(a) not be related to; and
+
+(b) be independent of; and
+
+(c) be free from influence by;
+
+the *supplier of food in relation to which an *endorsement is made.
+
+(2) In this section, an *endorsing body is related to a *supplier if the supplier:
+
+(a) has a financial interest in the endorsing body; or
+
+(b) established, either by itself or with others, the endorsing body; or
+
+(c) exercises direct or indirect control over the endorsing body.
+
+1.2.7—24 Criteria for endorsements
+
+(1) A *supplier of food may make or include an *endorsement on a label or in an advertisement for the food, or otherwise use the endorsement, if:
+
+(a) the supplier keeps the required records for the information period; and
+
+(b) the supplier upon request by the relevant authority, makes the required records available for inspection within the time specified by the relevant authority; and
+
+(c) the endorsement complies with section 1.2.7—8; and
+
+(d) the *endorsing body complies with section 1.2.7—23.
+
+(2) If a label on, or an advertisement for, imported food makes or includes an endorsement, the importer of the food must:
+
+(a) keep the required records for the information period as if the importer of the food were the *supplier of the food; and
+
+(b) upon request by the relevant authority, make the required records available for inspection within the time specified by the relevant authority.
+
+(3) An *endorsement must not refer to a *serious disease except in a reference to the *endorsing body if the serious disease is part of the name of the endorsing body.
+
+(4) This Standard, other than section 1.2.7—8, does not apply in relation to a claim in an endorsement.
+
+(5) In this section:
+
+information period, in relation to food, means the period:
+
+(a) during which the food is available for sale or advertised for sale; and
+
+(b) the period of 2 years after the food was last sold, or advertised or available for sale, whichever is the latest.
+
+required records means a document or documents that demonstrate that:
+
+(a) a *supplier using an *endorsement has obtained the permission of the *endorsing body to use the endorsement; and
+
+(b) the endorsing body has a nutrition- or health-related function or purpose; and
+
+(c) the endorsing body is a not-for-profit entity; and
+
+(d) the endorsing body is not related to the supplier using the endorsement.
+
+Division 7 Additional labelling of food required to meet the NPSC
+
+1.2.7—25 Method for calculating a nutrient profiling score
+
+The method for calculating a *nutrient profiling score is described in Schedule 5.
+
+1.2.7—26 Labelling of food required to meet the NPSC
+
+(1) This section applies if a food must *meet the NPSC in order to make a claim.
+
+Note See paragraph 1.2.7—18(1)(a) and subsection 1.2.7—18(4) for when a food must meet the NPSC in order to make a claim.
+
+(2) The particulars of a *property of food must be declared in the nutrition information panel if:
+
+(a) the property of food, other than fvnl, is relied on to meet the NPSC; and
+
+(b) those particulars are not otherwise required to be included in the nutrition information panel.
+
+(3) The calcium content of a food must be declared in the nutrition information panel if the food:
+
+(a) is classified in Category 3 of section S4—6 for the purposes of determining the food’s nutrient profiling score; and
+
+(b) is a cheese or processed cheese.
+
+(4) For the labelling provisions, if:
+
+(a) a food scores V points under section S5—4; and
+
+(b) the claim is not a *health claim about fruits and vegetables;
+
+the information relating to nutrition, health and related claims is the percentage of each element of fvnl that is relied on to meet the NPSC.
+
+Note The labelling provisions are set out in Standard 1.2.1.
+
+(5) In this section:
+
+fvnl is as defined in section S5—4 for the purpose of calculating V points.
+
+1.2.7—27 Labelling exemptions for certain foods
+
+Subsections 1.2.7—26(2), (3) and (4) do not apply to food in a small package.
+
+____________________
+
+Application, saving and transitional provisions
+
+The table below details information on application, saving or transitional provisions in instruments affecting this Standard.
+
+Instrument items affected
+
+A’ment No.
+
+FRLI registration
+
+Gazette
+
+Instrument’s transitional provision
+
+Description of transitional arrangement
+
+Food Standards (Proposal P1063 – Code Revision (2024) – Added Sugar(s) Claims) Variation
+
+Item [2] of the Schedule
+
+233
+
+F2024L01376
+
+28 October 2024
+
+FSC173
+
+29 October 2024
+
+Clause 4
+
+Clause 4 establishes a transitional arrangement for variations to the Code made by Item [2] of the Food Standards (Proposal P1063 – Code Revision (2024) – Added Sugar(s) Claims) Variation.
+
+The transition period is the period of time that commences on 29 October 2024 and ends on 29 October 2028.
+
+The post-transition period is the period of time that commences 30 October 2028 and ends on 30 October 2030.
+
+Subclause 4(1) provides that section 1.1.1—9 of the Code does not apply to the variations.
+
+Subclause 4(2) provides that during the transition period a food product may be sold if the product complies with one of the following:
+
+(a) the Code as in force without the variations made by the instruments; or;
+
+(b) the Code as amended by the variations made by the instruments.
+
+Subclause 4(3) provides that a food product that was packaged and labelled before the end of the transition period may be sold during the post-transition period if the product complies with one of the following:
+
+(a) the Code as in force without the variations made by the instruments; or;
+
+(b) the Code as amended by the variations made by the instruments.
+
+Amendment History
+
+The Amendment History provides information about each amendment to the Standard. The information includes commencement or cessation information for relevant amendments.
+
+These amendments are made under section 92 of the Food Standards Australia New Zealand Act 1991 unless otherwise indicated. Amendments do not have a specific date for cessation unless indicated as such.
+
+About this compilation
+
+This is compilation No. 8 of Standard 1.2.7 as in force on 13 August 2025 (up to Amendment No. 241). It includes any commenced amendment affecting the compilation to that date.
+
+Prepared by Food Standards Australia New Zealand on 13 August 2025.
+
+Uncommenced amendments or provisions ceasing to have effect
+
+To assist stakeholders, the effect of any uncommenced amendments or provisions which will cease to have effect, may be reflected in the Standard as shaded boxed text with the relevant commencement or cessation date. These amendments will be reflected in a compilation registered on the Federal Register of Legislation including or omitting those amendments and provided in the Amendment History once the date is passed.
+
+The following abbreviations may be used in the table below:
+
+ad = added or inserted am = amended
+
+exp = expired or ceased to have effect rep = repealed
+
+rs = repealed and substituted
+
+Standard 1.2.7 was published in the Food Standards Gazette No. FSC96 on 10 April 2015 as part of Amendment 154 (F2015L00394 – 31 March 2015) and has since been amended as follows:
+
+Section affected
+
+A’ment No.
+
+FRL registration
+
+Gazette
+
+Commencement
+
+(Cessation)
+
+How affected
+
+Description of amendment
+
+Note 1 to 1.2.7—2
+
+157
+
+F2015L01374
+
+1 Sept 2015
+
+FSC99
+
+3 Sept 2015
+
+1 March 2016
+
+am
+
+Correction of typographical error in cross-reference.
+
+Note 1 to 1.2.7—2
+
+168
+
+F2017L00414
+
+11 April 2017
+
+FSC110
+
+13 April 2017
+
+13 April 2017
+
+am
+
+Correction of references to legumes and cereals.
+
+1.2.7—3
+
+159
+
+F2015L01931
+
+3 Dec 2015
+
+FSC101
+
+7 Dec 2015
+
+1 March 2016
+
+ad
+
+Note following section.
+
+1.2.7—4
+
+159
+
+F2015L01929
+
+3 Dec 2015
+
+FSC101
+
+7 Dec 2015
+
+1 March 2016
+
+rs
+
+Subsections replaced with new section.
+
+Note to 1.2.7—4
+
+169
+
+F2017L0499
+
+4 May 2017
+
+FSC111
+
+11 May 2017
+
+12 Nov 2017
+
+ad
+
+Note as a consequential amendment arising from insertion of new section 1.4.4—7.
+
+1.2.7—4(1)
+
+157
+
+F2015L01374
+
+1 Sept 2015
+
+FSC99
+
+3 Sept 2015
+
+1 March 2016
+
+am
+
+Correction of typographical error.
+
+1.2.7—4(2)
+
+157
+
+F2015L01366
+
+1 Sept 2015
+
+FSC99
+
+3 Sept 2015
+
+1 March 2016
+
+am
+
+Inclusion of reference to gluten content.
+
+1.2.7—4(2)
+
+157
+
+F2015L01374
+
+1 Sept 2015
+
+FSC99
+
+3 Sept 2015
+
+1 March 2016
+
+am
+
+Correction of typographical error.
+
+1.2.7—6
+
+159
+
+F2015L01931
+
+3 Dec 2015
+
+FSC101
+
+7 Dec 2015
+
+1 March 2016
+
+ad
+
+New paragraph (d) relating to a permitted Health Star Rating symbol.
+
+1.2.7—12
+
+157
+
+F2015L01391
+
+1 Sept 2015
+
+FSC99
+
+3 Sept 2015
+
+1 March 2016
+
+am
+
+Insertion of note to reference new Standard 1.2.12.
+
+1.2.7—12
+
+161
+
+F2016L00120
+
+18 Feb 2016
+
+FSC103
+
+22 Feb 2016
+
+(19 Jan 2017)
+
+rep
+
+Note to section.
+
+1.2.7—12(2), (3), (5), (6), (7)
+
+157
+
+F2015L01374
+
+1 Sept 2015
+
+FSC99
+
+3 Sept 2015
+
+1 March 2016
+
+am
+
+Correction of typographical errors.
+
+1.2.7—13(1)
+
+157
+
+F2015L01374
+
+1 Sept 2015
+
+FSC99
+
+3 Sept 2015
+
+1 March 2016
+
+am
+
+Correction of typographical error.
+
+1.2.7—14(1)
+
+157
+
+F2015L01374
+
+1 Sept 2015
+
+FSC99
+
+3 Sept 2015
+
+1 March 2016
+
+am
+
+Correction of typographical error.
+
+1.2.7—15
+
+157
+
+F2015L01374
+
+1 Sept 2015
+
+FSC99
+
+3 Sept 2015
+
+1 March 2016
+
+am
+
+Correction of typographical error.
+
+1.2.7—16(1)
+
+157
+
+F2015L01374
+
+1 Sept 2015
+
+FSC99
+
+3 Sept 2015
+
+1 March 2016
+
+rs
+
+Correction to numbering of subclause.
+
+1.2.7—18(1)
+
+157
+
+F2015L01374
+
+1 Sept 2015
+
+FSC99
+
+3 Sept 2015
+
+1 March 2016
+
+am
+
+Correction of typographical error.
+
+Note to 1.2.7—18(4)
+
+168
+
+F2017L00414
+
+11 April 2017
+
+FSC110
+
+13 April 2017
+
+13 April 2017
+
+am
+
+Cross-reference.
+
+1.2.7—20(3)
+
+168
+
+F2017L00414
+
+11 April 2017
+
+FSC110
+
+13 April 2017
+
+13 April 2017
+
+am
+
+Cross-reference.
+
+1.2.7—4
+
+182
+
+F2018L01594
+
+23 Nov 2018
+
+FSC123
+
+29 Nov 2018
+
+29 Nov 2018
+
+am
+
+Correction of typographical error
+
+1.2.7—2
+
+233
+
+F2024L01376
+
+28 Oct 2024
+
+FSC173
+
+29 Oct 2024
+
+29 October 2024
+
+rs
+
+Repeal and substitute 1.2.7—2 note 1, the definition of sugars.
+
+1.2.7—2
+
+233
+
+F2024L01377
+
+28 Oct 2024
+
+FSC173
+
+29 Oct 2024
+
+29 October 2024
+
+am
+
+Amend 1.2.7—2 note 1, the definition of sugars to include (other than D-allulose‑).
+
+1.2.7-4
+
+241
+
+F2025L00922
+
+12 August 2025
+
+FSC180
+
+13 August 2025
+
+13 August 2025
+
+rs
+
+Replace text for whole section

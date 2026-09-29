@@ -1,0 +1,412 @@
+# Rules the engine can fire. Each rule carries the citations that justify it.
+#
+# Every `excerpt` must appear word for word (whitespace-normalised) in rulebank/au/snapshots/<source>.txt;
+# RuleBank refuses to load otherwise and tests/test_citations.py checks it in CI. Rules that depend on a
+# specific indication / Schedule 4 row / notified relationship get that row cited at run time as well.
+#
+# `why` is the plain-English justification. {placeholders} are filled by the engine.
+
+rules:
+
+  # ------------------------------------------------------------------ TGA listed medicines (AUST L)
+
+  TGA-IND-EXACT:
+    verdict: GREEN
+    title: Wording matches a permitted indication
+    why: >
+      {matched} uses the wording of permitted indication "{indication}" ({locator}). Listed medicines
+      may only carry indications from the Permissible Indications Determination, and the consultant's
+      rule is that TGA wording must match word for word.{via_note}
+    cite:
+      - source: tga_permissible_indications
+        locator: "s 5(a)"
+        excerpt: "each indication specified in column 2 of the tables in Parts 1 to 17 of Schedule 1"
+      - source: sources_and_logic_aus
+        locator: "§3.3 Matching rules"
+        excerpt: "TGA is exact word for word, no variation or semantic equivalence"
+
+  TGA-IND-VARIED:
+    verdict: AMBER
+    title: Reworded version of a permitted indication
+    why: >
+      {matched} is about {concept}, which the Determination covers ({closest}), but not in the permitted
+      words. The Determination tolerates varied wording only if the meaning is unchanged, while the
+      consultant's rule is exact wording only; a reviewer must either restore the permitted wording or
+      confirm the variation keeps the meaning.
+    cite:
+      - source: tga_permissible_indications
+        locator: "s 6(4)(a)"
+        excerpt: "If the wording of an indication is varied on the label of a medicine, then the indication, as varied, must not: (a) change the meaning or intent of the indication as specified in column 2 of an item in a table in Parts 1 to 17 of Schedule 1"
+      - source: sources_and_logic_aus
+        locator: "§3.3 Matching rules"
+        excerpt: "TGA is exact word for word, no variation or semantic equivalence"
+
+  TGA-IND-UNCOVERED:
+    verdict: RED
+    title: Therapeutic claim with no permitted indication
+    why: >
+      {matched} claims an effect on {concept}, and no indication in the Permissible Indications
+      Determination covers it. A listed medicine cannot carry an indication outside the Determination.
+    cite:
+      - source: tga_permissible_indications
+        locator: "s 5(a)"
+        excerpt: "each indication specified in column 2 of the tables in Parts 1 to 17 of Schedule 1"
+      - source: sources_and_logic_aus
+        locator: "§3.1 Trigger logic"
+        excerpt: "Unrecognised therapeutic claim | Therapeutic claim not matching a permitted indication. / TG (Permissible Indications) Determination | Not listable with that claim; assess / register | Blocks (for listing)"
+
+  TGA-TRAD-QUALIFIER:
+    verdict: RED
+    title: Traditional-evidence indication used without a traditional qualifier
+    why: >
+      {matched} can only be supported by traditional evidence ({closest}), so the claim itself must carry
+      a traditional context qualifier (e.g. "Traditionally used in Western herbal medicine to ..."). None is
+      present{conflict}.
+    cite:
+      - source: tga_permissible_indications
+        locator: "s 6(8)(a)"
+        excerpt: "the indication must be qualified with an appropriate traditional context qualifier as set out in the code tables"
+      - source: tga_permissible_indications
+        locator: "s 6(2)(a)"
+        excerpt: "may only be used for the medicine if the relevant indication is supported by evidence of the type that is specified in column 3 of the item"
+      - source: sources_and_logic_aus
+        locator: "Part 2, TGA-1 Claims"
+        excerpt: "If traditional evidence is being used, this must be qualified in the claim ie. Traditionally used in Western Herbal medicine…"
+
+  TGA-REQUIREMENT:
+    verdict: AMBER
+    title: Indication requirement to confirm on the full label
+    why: >
+      The matched indication carries a requirement that cannot be confirmed from this statement alone:
+      {requirements}.
+    cite:
+      - source: tga_permissible_indications
+        locator: "s 6(2)(b)"
+        excerpt: "the requirements, if any, in relation to the relevant indication, set out in column 4 of the item must be met"
+
+  TGA-REQUIREMENT-BREACH:
+    verdict: RED
+    title: Breaches a requirement of the matched indication
+    why: >
+      The matched indication requires: {requirements}. The claim refers to {matched}.
+    cite:
+      - source: tga_permissible_indications
+        locator: "s 6(2)(b)"
+        excerpt: "the requirements, if any, in relation to the relevant indication, set out in column 4 of the item must be met"
+
+  TGA-SERIOUS:
+    verdict: RED
+    title: Refers to a disease or serious condition
+    why: >
+      {matched} refers to treating, preventing or curing a disease or a serious / prohibited condition.
+      Listed-medicine indications must not imply this, and serious-disease claims fall outside AUST L.
+    cite:
+      - source: tga_permissible_indications
+        locator: "s 6(4)(b)-(c)"
+        excerpt: "infer or imply that the medicine is for preventing or curing a disease, ailment, defect or injury"
+      - source: sources_and_logic_aus
+        locator: "§3.1 Trigger logic"
+        excerpt: "Serious disease claim | Claims to diagnose / treat / prevent a serious disease."
+      - source: sources_and_logic_aus
+        locator: "Part 2, TGA-1 Advertising"
+        excerpt: "Prohibited representations (cancer, STDs, HIV/AIDS, HCV, mental illness) are banned at every tier."
+
+  TGA-PREVENTION:
+    verdict: RED
+    title: Implies the medicine prevents harm
+    why: >
+      {matched} frames the effect as protection or prevention. No permitted indication uses that framing
+      for this target, and varied wording must not imply the medicine is for preventing a disease,
+      ailment, defect or injury.
+    cite:
+      - source: tga_permissible_indications
+        locator: "s 6(4)(c)"
+        excerpt: "infer or imply that the medicine is for preventing or curing a disease, ailment, defect or injury"
+
+  TGA-SAFETY:
+    verdict: RED
+    title: Represents the product as safe
+    why: >
+      {matched} represents the goods as safe. The Advertising Code prohibits representing therapeutic
+      goods as safe or without harm or side-effects, and labels are advertisements.
+    cite:
+      - source: tga_advertising_code
+        locator: "s 9(1)(a)"
+        excerpt: "An advertisement about therapeutic goods must not contain any statement, pictorial representation or design that, expressly or by implication, represents the goods to be: (a) safe, or without harm or side-effects"
+      - source: sources_and_logic_aus
+        locator: "Part 2, TGA-1 Advertising"
+        excerpt: "Labels ARE advertisements — every label & promotional claim must comply with the Advertising Code."
+
+  TGA-GUARANTEE:
+    verdict: RED
+    title: Guaranteed / miraculous effect
+    why: >
+      {matched} presents the effect as guaranteed, universal or miraculous, which the Advertising Code
+      prohibits.
+    cite:
+      - source: tga_advertising_code
+        locator: "s 9(1)(b)-(c)"
+        excerpt: "(b) effective in all cases, or a guaranteed cure; or (c) infallible, unfailing, magical or miraculous."
+
+  TGA-SUBSTANTIATE:
+    verdict: AMBER
+    title: Efficacy detail that needs substantiation
+    why: >
+      {matched} adds a specific performance promise (onset, duration, intensity or comparison) beyond the
+      indication itself. It is only acceptable if the sponsor holds evidence for exactly that promise, and
+      it must not exaggerate efficacy.
+    cite:
+      - source: tga_advertising_code
+        locator: "s 8(1)(b)"
+        excerpt: "only contain information that is substantiated by the advertiser prior to publication or dissemination"
+      - source: tga_advertising_code
+        locator: "s 9(3)(d)"
+        excerpt: "exaggerates, or is likely to exaggerate, the efficacy or performance of the goods"
+      - source: sources_and_logic_aus
+        locator: "§3.1 Trigger logic"
+        excerpt: "Missing supporting evidence | Evidence for the claim has not been provided. / Supporting claims & indications guidance | Compliance warning; evidence must be held | Warns"
+
+  TGA-RESEARCH:
+    verdict: AMBER
+    title: Refers to clinical or scientific proof
+    why: >
+      {matched} asserts clinical or scientific proof. The evidence must be held before publication and,
+      outside the label itself, the research must be identified (researcher, sponsor and citation).
+    cite:
+      - source: tga_advertising_code
+        locator: "s 8(1)(b)"
+        excerpt: "only contain information that is substantiated by the advertiser prior to publication or dissemination"
+      - source: tga_advertising_code
+        locator: "s 11(3)"
+        excerpt: "An advertisement about therapeutic goods that refers to scientific or clinical research, expressly or by implication, must: (a) identify the researcher; and"
+
+  TGA-EXCESSIVE-USE:
+    verdict: AMBER
+    title: Encourages continued or increased use
+    why: >
+      {matched} encourages ongoing use for better results. The Advertising Code prohibits encouraging
+      inappropriate or excessive use, so a reviewer should confirm this matches the approved directions.
+    cite:
+      - source: tga_advertising_code
+        locator: "s 9(3)(e)"
+        excerpt: "encourages, or is likely to encourage, inappropriate or excessive use of the goods"
+
+  TGA-AMOUNT-MISMATCH:
+    verdict: AMBER
+    title: Stated amount differs from the product record
+    why: >
+      The claim states {claimed}, but the product record ({record_source}) says {recorded}. Advertising must
+      be accurate.
+    cite:
+      - source: tga_advertising_code
+        locator: "s 8(1)(a)"
+        excerpt: "be accurate, balanced and not misleading or likely to be misleading"
+
+  TGA-NO-CLAIM:
+    verdict: GREEN
+    title: No therapeutic or restricted representation
+    why: >
+      {kind} No indication, disease reference, safety or efficacy promise was detected, so only the general
+      accuracy requirement applies.
+    cite:
+      - source: tga_advertising_code
+        locator: "s 8(1)(a)"
+        excerpt: "be accurate, balanced and not misleading or likely to be misleading"
+
+  # ------------------------------------------------------------------------------ FSANZ foods
+
+  FOOD-THERAPEUTIC:
+    verdict: RED
+    title: Therapeutic claim on a food
+    why: >
+      {matched} refers to preventing, diagnosing, curing or alleviating a disease, disorder or condition,
+      which no food claim may do.
+    cite:
+      - source: fsc_std_1_2_7
+        locator: "1.2.7—8(a)"
+        excerpt: "A claim must not: (a) refer to the prevention, diagnosis, cure or alleviation of a disease, disorder or condition"
+
+  FOOD-HC-PERMITTED:
+    verdict: GREEN
+    title: Health claim based on a permitted relationship, conditions met
+    why: >
+      {matched} is a general level health claim based on {basis}, and every checkable condition is met.
+    cite:
+      - source: fsc_std_1_2_7
+        locator: "1.2.7—18(3)"
+        excerpt: "the *health effect claimed for that food or property of food is mentioned in the corresponding row in Column 2 of the table"
+
+  FOOD-HC-CONDITIONS:
+    verdict: AMBER
+    title: Health claim with a permitted basis but unmet or unverified conditions
+    why: >
+      {matched} is a health claim (it states or implies a health effect). A permitted basis exists
+      ({basis}), but these conditions are not met or cannot be verified: {open_conditions}.
+    cite:
+      - source: fsc_std_1_2_7
+        locator: "1.2.7—18(1)(a)"
+        excerpt: "the food to which the health claim relates *meets the NPSC"
+      - source: fsc_std_1_2_7
+        locator: "1.2.7—20(2)(a)"
+        excerpt: "state the food or the *property of food and the specific health effect"
+      - source: fsc_std_1_2_7
+        locator: "1.2.7—20(6)(a)"
+        excerpt: "state that the *health effect must be considered in the context of a healthy diet involving the consumption of a variety of foods"
+
+  FOOD-HC-UNAUTHORISED:
+    verdict: AMBER
+    title: Health effect with no Schedule 4 or notified basis
+    why: >
+      {matched} implies an effect on {concept}. Neither Schedule 4 (for a property this product contains)
+      nor a relationship notified by this business covers it. Per the consultant, this is a warning: the
+      relationship would need to be notified / approved by FSANZ before the claim is made.
+    cite:
+      - source: fsc_std_1_2_7
+        locator: "definition, 1.2.7—2"
+        excerpt: "health claim means a claim which states, suggests or implies that a food or a property of food has, or may have, a health effect."
+      - source: fsc_std_1_2_7
+        locator: "1.2.7—18(3)(b)"
+        excerpt: "the person who is responsible for making the *health claim has notified the Chief Executive Officer of the Authority (FSANZ) of the details of a relationship between a food or *property of food and a *health effect"
+      - source: sources_and_logic_aus
+        locator: "§3.1 Trigger logic"
+        excerpt: "Unauthorised health claim (food) | Food health claim not permitted / conditions not met. / FSC Schedule 4 (nutrition & health claims) |  | Blocks (claim) | ☐ Disapprove | Provide warning and advise needs to be submitted for FSANZ pre-approval"
+
+  FOOD-NCC-MET:
+    verdict: GREEN
+    title: Nutrition content claim, conditions met
+    why: "{detail}"
+    cite:
+      - source: fsc_std_1_2_7
+        locator: "1.2.7—12(2)"
+        excerpt: "If a claim is made in relation to a food about a *property of food mentioned in Column 1 of the nutrition content claims table, the food must meet the corresponding general claim conditions, if any, in Column 2 of the table."
+
+  FOOD-NCC-UNMET:
+    verdict: RED
+    title: Nutrition content claim, conditions not met
+    why: "{detail}"
+    cite:
+      - source: fsc_std_1_2_7
+        locator: "1.2.7—12(2)"
+        excerpt: "If a claim is made in relation to a food about a *property of food mentioned in Column 1 of the nutrition content claims table, the food must meet the corresponding general claim conditions, if any, in Column 2 of the table."
+
+  FOOD-NCC-UNVERIFIED:
+    verdict: AMBER
+    title: Nutrition content claim, conditions not verifiable
+    why: "{detail}"
+    cite:
+      - source: fsc_std_1_2_7
+        locator: "1.2.7—12(2)"
+        excerpt: "If a claim is made in relation to a food about a *property of food mentioned in Column 1 of the nutrition content claims table, the food must meet the corresponding general claim conditions, if any, in Column 2 of the table."
+
+  FOOD-NCC-OTHER:
+    verdict: GREEN
+    title: Presence / absence / amount of a property not in S4—3
+    why: >
+      {matched} only states that the food contains (or does not contain) {property}, or how much, which is
+      the form a claim about a property outside the S4—3 table may take.{detail}
+    cite:
+      - source: fsc_std_1_2_7
+        locator: "1.2.7—13(1)"
+        excerpt: "A nutrition content claim about a *property of food that is not mentioned in the table to section S4—3 may state only: (a) that the food contains or does not contain the property of food; or (b) that the food contains a specified amount of the property of food in a specified amount of that food"
+
+  FOOD-NCC-OTHER-DESCRIPTOR:
+    verdict: RED
+    title: Descriptor used for a property outside S4—3
+    why: >
+      {matched} uses a descriptor for {property}, which is not in the S4—3 table; such claims may only state
+      presence, absence or amount.
+    cite:
+      - source: fsc_std_1_2_7
+        locator: "1.2.7—13(2)"
+        excerpt: "must not use a descriptor listed in Column 3 of the nutrition content claims table, or any other descriptor, except a descriptor that indicates that the food does not contain the property of food."
+
+  FOOD-VITMIN-COMPARE:
+    verdict: AMBER
+    title: Compares vitamin / mineral content with other foods
+    why: >
+      {matched} compares vitamin or mineral content with other foods. That is prohibited unless it is a
+      comparative claim permitted by the Code (reference food identified, difference stated), and the
+      comparison itself must be substantiated.
+    cite:
+      - source: fsc_std_1_2_7
+        locator: "1.2.7—9"
+        excerpt: "A claim that directly or indirectly compares the vitamin or mineral content of a food with that of another food must not be made unless the claim is permitted by this Code."
+      - source: fsc_std_1_2_7
+        locator: "1.2.7—16(1)"
+        excerpt: "A comparative claim about a food (claimed food) must include together with the claim: (a) the identity of the *reference food; and (b) the difference between the amount of the *property of food in the claimed food and the reference food."
+
+  FOOD-COMPARATIVE:
+    verdict: AMBER
+    title: Comparative descriptor (light / lite / reduced / increased)
+    why: >
+      {matched} is a Schedule 4 comparative descriptor. If it refers to a nutrient (e.g. sugar or energy),
+      the food needs at least 25% less than a named reference food and the claim must state the reference
+      food and the difference. If it describes taste or texture instead, that should be made explicit.
+    cite:
+      - source: fsc_std_1_2_7
+        locator: "1.2.7—16(1)"
+        excerpt: "A comparative claim about a food (claimed food) must include together with the claim: (a) the identity of the *reference food; and (b) the difference between the amount of the *property of food in the claimed food and the reference food."
+      - source: fsc_schedule_4
+        locator: "S4—3, Sugar or sugars"
+        excerpt: "Reduced or Light/Lite The food contains at least 25% less sugars than in the same amount of *reference food."
+
+  FOOD-SUBSTANTIATE:
+    verdict: AMBER
+    title: Factual / comparative claim that needs substantiation
+    why: >
+      {matched} is a factual, absolute or comparative statement ({kind}). It is acceptable only if it is
+      accurate and the business can substantiate it; it must not mislead.
+    cite:
+      - source: sources_and_logic_aus
+        locator: "Part 3, FOOD-1 Advertising"
+        excerpt: "Claims must be true and not misleading under Australian Consumer Law (ACCC), on top of the FSC claim rules."
+
+  FOOD-AMOUNT-MISMATCH:
+    verdict: AMBER
+    title: Stated amount differs from the product record
+    why: >
+      The claim states {claimed}, but the product record ({record_source}) says {recorded}. A claim about a
+      specified amount must be accurate.
+    cite:
+      - source: fsc_std_1_2_7
+        locator: "1.2.7—13(1)(b)"
+        excerpt: "that the food contains a specified amount of the property of food in a specified amount of that food"
+      - source: sources_and_logic_aus
+        locator: "Part 3, FOOD-1 Advertising"
+        excerpt: "Claims must be true and not misleading under Australian Consumer Law (ACCC), on top of the FSC claim rules."
+
+  FOOD-NZ-CATEGORY:
+    verdict: AMBER
+    title: New Zealand-only regulatory category on an Australian label
+    why: >
+      {matched} names a New Zealand-only category with no Australian equivalent. In Australia the product
+      must comply as an ordinary food under the FSC, so the statement and the formulation behind it need
+      review for the Australian market.
+    cite:
+      - source: sources_and_logic_aus
+        locator: "Part 3, FOOD-3"
+        excerpt: "Two NZ-only regimes with no Australian equivalent: (a) Supplemented food"
+
+  FOOD-NO-CLAIM:
+    verdict: GREEN
+    title: Not a nutrition content or health claim
+    why: >
+      {kind} It does not state or imply a health effect or make a nutrient claim, so Standard 1.2.7 does not
+      restrict it; the general consumer-law requirement to be true and not misleading applies.
+    cite:
+      - source: fsc_std_1_2_7
+        locator: "definition, 1.2.7—2"
+        excerpt: "health claim means a claim which states, suggests or implies that a food or a property of food has, or may have, a health effect."
+      - source: sources_and_logic_aus
+        locator: "Part 3, FOOD-1 Advertising"
+        excerpt: "Claims must be true and not misleading under Australian Consumer Law (ACCC), on top of the FSC claim rules."
+
+  # ---------------------------------------------------------------------------------- both
+
+  NEEDS-REVIEW:
+    verdict: AMBER
+    title: Health-related wording the rule bank cannot map
+    why: >
+      {matched} uses health-related language in a benefit statement that the rule bank has no mapping for,
+      so it cannot be cleared automatically. A reviewer should decide whether it is a health claim.
+    cite: []

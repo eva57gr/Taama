@@ -1,0 +1,55 @@
+{
+  "generated": "2026-09-28",
+  "sources": {
+    "sources_and_logic_aus": {
+      "title": "Taama — Australia Product Classification & Regulatory Assessment (consultant working document)",
+      "author": "Dione Simmons, Health Product Development Co (reviewed 23.07.26, signed 8.08.26)",
+      "file": "rulebank/au/source_docs/sources_and_logic_aus.docx"
+    },
+    "fsc_std_1_2_7": {
+      "title": "Australia New Zealand Food Standards Code – Standard 1.2.7 – Nutrition, health and related claims",
+      "title_id": "F2015L00394",
+      "register_id": "F2025C00833",
+      "compilation": "8",
+      "in_force_from": "2025-08-13",
+      "status": "InForce",
+      "url": "https://www.legislation.gov.au/F2015L00394/latest/text",
+      "snapshot_url": "https://www.legislation.gov.au/F2015L00394/2025-08-13/2025-08-13/text/original/epub/OEBPS/document_1/document_1.html"
+    },
+    "fsc_schedule_4": {
+      "title": "Australia New Zealand Food Standards Code – Schedule 4 – Nutrition, health and related claims",
+      "title_id": "F2015L00474",
+      "register_id": "F2026C00415",
+      "compilation": "7",
+      "in_force_from": "2026-04-30",
+      "status": "InForce",
+      "url": "https://www.legislation.gov.au/F2015L00474/latest/text",
+      "snapshot_url": "https://www.legislation.gov.au/F2015L00474/2026-04-30/2026-04-30/text/original/epub/OEBPS/document_1/document_1.html"
+    },
+    "tga_permissible_indications": {
+      "title": "Therapeutic Goods (Permissible Indications) Determination (No. 1) 2025",
+      "title_id": "F2025L00450",
+      "register_id": "F2025L00450",
+      "compilation": "0",
+      "in_force_from": "2025-04-02",
+      "status": "InForce",
+      "url": "https://www.legislation.gov.au/F2025L00450/latest/text",
+      "snapshot_url": "https://www.legislation.gov.au/F2025L00450/2025-04-02/2025-04-02/text/original/epub/OEBPS/document_1/document_1.html"
+    },
+    "tga_advertising_code": {
+      "title": "Therapeutic Goods (Therapeutic Goods Advertising Code) Instrument 2021",
+      "title_id": "F2021L01661",
+      "register_id": "F2023C00019",
+      "compilation": "1",
+      "in_force_from": "2022-12-20",
+      "status": "InForce",
+      "url": "https://www.legislation.gov.au/F2021L01661/latest/text",
+      "snapshot_url": "https://www.legislation.gov.au/F2021L01661/2022-12-20/2022-12-20/text/original/epub/OEBPS/document_1/document_1.html"
+    },
+    "fsanz_notified_arepa": {
+      "title": "FSANZ — Notified food-health relationships to make a health claim (search: 'arepa')",
+      "url": "https://www.foodstandards.gov.au/fhr?combine=arepa",
+      "retrieved": "2026-09-28"
+    }
+  }
+}

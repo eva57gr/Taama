@@ -1,0 +1,269 @@
+# Health concepts: how a claim talks about a health effect, and what can make such a claim permissible.
+#
+# This file is the tool's judgement, not regulatory text. It decides which permitted indications / Schedule 4
+# relationships / notified relationships a claim is compared against. The regulatory text itself is never
+# paraphrased here: every `indication` must be an exact column-2 entry of the Permissible Indications
+# Determination, every `food_s4` entry an exact S4—5 row, and every `food_notified` an exact effect from a
+# notified-relationships snapshot. RuleBank fails to load if any of them is not found.
+#
+#   patterns    regexes (case-insensitive) that detect the concept in claim text
+#   tga         indications covering the concept; `actions` x `targets` are the word-for-word forms
+#               accepted as an exact match ("helps"/"helps to" and a population qualifier may precede);
+#               `nouns` are exact single-term forms (e.g. "adaptogen")
+#   food_s4     Schedule 4 general level health claims covering the concept
+#   food_notified  effects (as notified to FSANZ) covering the concept
+
+concepts:
+
+  energy:
+    label: energy levels
+    patterns: ['\benerg(?:y|ies|ised|ized|ising|izing)\b']
+    tga:
+      - indication: "Enhance/promote energy levels"
+        actions: [enhance, promote]
+        targets: [energy levels]
+      - indication: "Maintain/support energy levels"
+        actions: [maintain, support]
+        targets: [energy levels]
+      - indication: "Helps enhance/promote body energy reserves"
+        actions: [enhance, promote]
+        targets: [body energy reserves]
+
+  tiredness:
+    label: tiredness and fatigue
+    patterns: ['\btired(?:ness)?\b', '(?<!mental )(?<!cognitive )\bfatigue(?:d)?\b', '\bweariness\b', '\bexhaust(?:ion|ed)\b']
+    tga:
+      - indication: "Relieve weariness/tiredness/fatigue/feeling of weakness"
+        actions: [relieve]
+        targets: [weariness, tiredness, fatigue, feeling of weakness]
+    food_s4:
+      - {property: Vitamin C, effect: "Contributes to the reduction of tiredness and fatigue"}
+
+  mental_fatigue:
+    label: mental fatigue
+    patterns: ['\b(?:mental|cognitive) (?:fatigue|tiredness)\b', '\bbrain fog\b']
+    tga:
+      - indication: "Decrease/reduce mental/cognitive fatigue"
+        actions: [decrease, reduce]
+        targets: [mental fatigue, cognitive fatigue]
+
+  cognitive_function:
+    label: cognitive function
+    patterns:
+      - '\bcognitive (?:function|performance)\b'
+      - '\bcognition\b'
+      - '\bmental (?:function|performance)\b'
+      - '\bbrain function\b'
+      - '\bnootropics?\b'
+    tga:
+      - indication: "Enhance/improve/promote/increase cognitive performance"
+        actions: [enhance, improve, promote, increase]
+        targets: [cognitive performance]
+      - indication: "Maintain/support cognitive function/mental function"
+        actions: [maintain, support]
+        targets: [cognitive function, mental function]
+      - indication: "Maintain/support brain function"
+        actions: [maintain, support]
+        targets: [brain function]
+
+  brain_health:
+    label: brain health
+    patterns: ['\bbrain health\b', '\bhealthy brain\b', '\bbrain tonic\b', '\bstructures? of the brain\b', '\bbrain (?:structure|cells?)\b']
+    tga:
+      - indication: "Brain tonic/Enhance brain health"
+        actions: [enhance]
+        targets: [brain health]
+        nouns: [brain tonic]
+      - indication: "Maintain/support brain health"
+        actions: [maintain, support]
+        targets: [brain health]
+
+  focus:
+    label: mental focus and clarity
+    patterns: ['\bfocus(?:ed|es|ing)?\b', '\bconcentrat(?:e|ion|ing)\b', '\bclarity\b', '\bclearer\b', '(?<=calm and )clear\b', '\bsharp(?:en|er|ness)?\b(?= (?:focus|mind))']
+    tga:
+      - indication: "Maintain/support mental concentration/focus/clarity"
+        actions: [maintain, support]
+        targets: [mental concentration, mental focus, mental clarity]
+    food_notified: ["Helps to support mental clarity"]
+
+  attention:
+    label: attention and alertness
+    patterns: ['\battention(?: span)?\b', '\balert(?:ness)?\b', '\bwakefulness\b']
+    tga:
+      - indication: "Helps enhance/improve/promote/increase attention span"
+        actions: [enhance, improve, promote, increase]
+        targets: [attention span]
+      - indication: "Enhance/improve/promote/increase mental alertness/wakefulness"
+        actions: [enhance, improve, promote, increase]
+        targets: [mental alertness, mental wakefulness]
+    food_notified: ["Helps to support attention to tasks"]
+
+  memory:
+    label: memory
+    patterns: ['\bmemory\b', '\brecall\b']
+    tga:
+      - indication: "Enhance/improve/promote/increase memory/recall"
+        actions: [enhance, improve, promote, increase]
+        targets: [memory, recall]
+      - indication: "Maintain/support memory/mental recall"
+        actions: [maintain, support]
+        targets: [memory, mental recall]
+    food_notified: ["Helps to support working memory"]
+
+  calm:
+    label: calmness and relaxation
+    patterns: ['\bcalm(?:s|ing|er|ness|ative)?\b', '\brelax(?:ation|ed|ing|ant)?\b']
+    tga:
+      - indication: "Calms the mind"
+        actions: [calm]
+        targets: [the mind]
+      - indication: "Aid/assist/helps mind relaxation"
+        actions: [aid, assist]
+        targets: [mind relaxation]
+      - indication: "Enhance/improve/promote/increase mind relaxation"
+        actions: [enhance, improve, promote, increase]
+        targets: [mind relaxation]
+      - indication: "Calmative/nervous system relaxant"
+        actions: []
+        targets: []
+        nouns: [calmative, nervous system relaxant]
+    food_notified: ["Helps to support calmness", "Helps to support relaxation"]
+
+  stress:
+    label: stress
+    patterns: ['\bstress(?:ed|es|ful)?\b']
+    tga:
+      - indication: "Aids/assists the body to cope with environmental stress"
+        actions: [aid, assist]
+        targets: [the body to cope with environmental stress]
+      - indication: "Decrease/reduce/relieve symptoms of stress"
+        actions: [decrease, reduce, relieve]
+        targets: [symptoms of stress]
+      - indication: "Enhance/promote body adaptation to stress"
+        actions: [enhance, promote]
+        targets: [body adaptation to stress]
+      - indication: "Support healthy stress response in the body"
+        actions: [support]
+        targets: [healthy stress response in the body]
+      - indication: "Support healthy body stress recovery"
+        actions: [support]
+        targets: [healthy body stress recovery]
+      - indication: "Adaptogen/Help body adapt to stress"
+        actions: [help]
+        targets: [body adapt to stress]
+    food_notified: ["Help with the management of stress levels"]
+
+  adaptogen:
+    label: adaptation to stress (adaptogen)
+    patterns: ['\badaptogen(?:s|ic)?\b']
+    tga:
+      - indication: "Adaptogen/Help body adapt to stress"
+        actions: []
+        targets: []
+        nouns: [adaptogen, adaptogens, adaptogenic]
+
+  anxiety:
+    label: mild anxiety
+    patterns: ['\banxi(?:ety|ous)\b']
+    tga:
+      - indication: "Decrease/reduce/relieve symptoms of mild anxiety"
+        actions: [decrease, reduce, relieve]
+        targets: [symptoms of mild anxiety]
+    food_notified: ["Helps with the management of non-clinical anxiety"]
+
+  mood:
+    label: mood and psychological function
+    patterns: ['\bmood\b', '\bhapp(?:y|ier|iness)\b', '\bpsychological(?= (?:and [a-z]+ )?(?:function|health|well-?being)\b)', '\bemotional\b']
+    tga:
+      - indication: "Support healthy emotional/mood balance"
+        actions: [support]
+        targets: [healthy emotional balance, healthy mood balance]
+    food_s4:
+      - {property: Vitamin C, effect: "Contributes to normal psychological function"}
+
+  nervous_system:
+    label: nervous system function
+    patterns: ['\bneurological(?= (?:and [a-z]+ )?(?:function|health)\b)', '\bnervous system\b', '\bnerves?\b']
+    tga:
+      - indication: "Maintain/support nervous system function"
+        actions: [maintain, support]
+        targets: [nervous system function]
+      - indication: "Maintain/support nervous system health"
+        actions: [maintain, support]
+        targets: [nervous system health]
+    food_s4:
+      - {property: Vitamin C, effect: "Necessary for normal neurological function"}
+
+  growth_development:
+    label: growth and development
+    patterns: ['\bgrowth (?:and|&) development\b']
+    tga:
+      - indication: "Maintain/support healthy growth and development"
+        actions: [maintain, support]
+        targets: [healthy growth and development]
+      - indication: "Helps enhance/promote healthy growth and development"
+        actions: [enhance, promote]
+        targets: [healthy growth and development]
+    food_s4:
+      - {property: Vitamin C, effect: "Contributes to normal growth and development"}
+
+  general_health:
+    label: general health and wellbeing
+    patterns: ['\bgeneral health\b', '\bwell-?being\b', '\boverall health\b']
+    tga:
+      - indication: "Maintain/support general health and wellbeing"
+        actions: [maintain, support]
+        targets: [general health and wellbeing]
+      - indication: "Helps enhance/promote general health and wellbeing"
+        actions: [enhance, promote]
+        targets: [general health and wellbeing]
+
+  immune:
+    label: immune function
+    patterns: ['\bimmun(?:e|ity)\b']
+    tga:
+      - indication: "Maintain/support healthy immune system function"
+        actions: [maintain, support]
+        targets: [healthy immune system function]
+      - indication: "Maintain/support immune system health"
+        actions: [maintain, support]
+        targets: [immune system health]
+      - indication: "Enhance/improve/promote immune defence/immunity"
+        actions: [enhance, improve, promote]
+        targets: [immune defence, immunity]
+    food_s4:
+      - {property: Vitamin C, effect: "Contributes to the normal immune system function"}
+
+  digestion:
+    label: digestive health
+    patterns: ['\bdigest(?:ion|ive)\b', '\bgut health\b', '\bgastrointestinal health\b', '\bgut flora\b', '\bmicrobiome health\b']
+    tga:
+      - indication: "Maintain/support digestive system health"
+        actions: [maintain, support]
+        targets: [digestive system health]
+      - indication: "Maintain/support healthy digestion"
+        actions: [maintain, support]
+        targets: [healthy digestion]
+      - indication: "Enhance/promote healthy digestion"
+        actions: [enhance, promote]
+        targets: [healthy digestion]
+
+  gut_brain:
+    label: the gut-brain axis
+    patterns: ['\bgut[- ]brain(?: axis)?\b', '\bbrain[- ]gut\b']
+    tga:
+      - indication: "Helps balance brain-gut interaction"
+        actions: [balance]
+        targets: [brain-gut interaction]
+
+  sleep:
+    label: sleep
+    patterns: ['\bsleep(?:ing|less|lessness)?\b']
+    tga:
+      - indication: "Maintain/support healthy sleeping patterns"
+        actions: [maintain, support]
+        targets: [healthy sleeping patterns]
+      - indication: "Enhance/improve/promote/increase sleep quality/deep sleep"
+        actions: [enhance, improve, promote, increase]
+        targets: [sleep quality, deep sleep]

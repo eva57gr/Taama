@@ -1,0 +1,129 @@
+# Trigger vocabulary for the non-indication rules. Regexes, case-insensitive, matched against the
+# normalised claim text after product-specific names have been masked. Like concepts.yaml this is the tool's
+# judgement about which words trigger a rule; the rules themselves (and their citations) are in rules.yaml.
+
+serious:            # disease / serious condition / prohibited representations
+  - '\b(?:cures?|cured|curing)\b'
+  - '\btreat(?:s|ing|ment|ments)?\b'
+  - '\bprevents?\b|\bprevention\b|\bpreventing\b'
+  - '\bheals?\b|\bhealing\b'
+  - '\bdiseases?\b'
+  - '\bdisorders?\b'
+  - '\bcancers?\b|\btumou?rs?\b'
+  - '\bdiabet(?:es|ic)\b'
+  - '\bdepress(?:ion|ive)\b'
+  - '\bdementia\b|\balzheimer'
+  - '\badhd\b|\bautism\b'
+  - '\binsomnia\b'
+  - '\binfections?\b|\bvirus(?:es)?\b|\bcovid\b'
+  - '\barthritis\b'
+  - '\bhypertension\b|\bheart disease\b'
+  - '\bchronic fatigue syndrome\b'
+  - '\bhiv\b|\baids\b|\bhepatitis\b|\bstds?\b'
+  - '\bmental illness(?:es)?\b|\bpsychiatric\b'
+
+mental_illness:     # "Product presentation must not imply or refer to mental illnesses, disorders or conditions."
+  - '\bmental illness(?:es)?\b'
+  - '\bdepress(?:ion|ive)\b'
+  - '\banxiety disorders?\b'
+  - '\badhd\b|\bbipolar\b|\bschizophreni|\bptsd\b|\bocd\b'
+  - '\bdementia\b|\balzheimer'
+
+prevention:         # protective / preventive framing
+  - '\bprotect(?:s|ing|ion|ive)?\b'
+  - '\bshields?\b|\bguards? against\b|\bdefends? against\b|\bwards? off\b|\bfights? off\b'
+
+safety:
+  - '\bsafe(?:ly|ty)?\b'
+  - '\bno side[- ]effects?\b|\bside[- ]effect[- ]free\b|\bwithout (?:any )?(?:harm|side[- ]effects?)\b|\bharmless\b'
+
+guarantee:
+  - '\bguarantee(?:d|s)?\b|\bworks for everyone\b|\b100% effective\b|\bmiracle\b|\bmiraculous\b|\bmagic(?:al)?\b|\binfallible\b'
+
+substantiate:       # onset / duration / intensity / comparison promises
+  - '\bwithin \d+(?:\.\d+)? ?(?:hours?|hrs?|minutes?|mins?|days?|weeks?)\b'
+  - '\bin (?:just |only )?\d+(?:\.\d+)? ?(?:hours?|hrs?|minutes?|mins?|days?)\b'
+  - '\b(?:for )?up to \d+(?:\.\d+)? ?(?:hours?|hrs?|days?)\b'
+  - '\bfast[- ]acting\b|\bworks fast\b|\bquick[- ]acting\b'
+  - '\bimmediate(?:ly)?\b|\binstant(?:ly)?\b'
+  - '\bwithout the crash\b|\bno crash\b'
+  - '\bpeaks?\b'
+  - '\boptimal\b|\bmaximum\b|\bmaximi[sz]e'
+  - '\brestores?\b'
+  - '\bbuilds? over time\b'
+  - '\btargeted (?:nutrient )?delivery\b'
+  - '\b(?:higher|more|greater|better|stronger|faster) than\b'
+  - '\bequivalent\b'
+
+research:           # claims of proof
+  - '\bclinically (?:proven|shown|tested|demonstrated)\b'
+  - '\bscientifically proven\b'
+  - '\bproven to\b'
+  - '\bstudies (?:show|prove)\b|\bresearch (?:shows|proves)\b'
+
+excessive_use:
+  - '\b(?:consistent|continued|continuous|regular),? daily use\b'
+  - '\bdaily use\b'
+  - '\bmaintain your routine\b'
+  - '\blong[- ]term use\b'
+  - '\bthe more you take\b'
+
+traditional_qualifier:
+  - '\btraditionally used\b|\bin (?:western herbal|ayurvedic|traditional chinese) medicine\b'
+
+dietary_context:     # "words to the effect of" 1.2.7—20(6)(a)
+  - '\bhealthy (?:and )?(?:varied|balanced) diet\b'
+  - '\bhealthy diet\b'
+  - '\bvariety of foods\b'
+
+# ---- food nutrition-content wording
+
+food_substantiate:   # ACL "true and not misleading" triggers, with a short label for the justification
+  absolute natural claim: ['^\W*(?:100% |all[- ]|completely |totally )?natural\W*$', '\b100% natural\b', '\ball[- ]natural\b']
+  equivalence claim: ['\bequivalent\b', '\b\d+(?:\.\d+)? ?cups?\b', '\b\d+(?:\.\d+)? ?kg\b']
+  comparison with other products: ['\b(?:higher|more|greater|better|stronger) than\b', '\beven higher\b']
+  time-bound effect: ['\bwithin \d+ ?(?:hours?|hrs?|minutes?|mins?)\b', '\bfast[- ]acting\b',
+                      '\bup to \d+ ?(?:hours?|hrs?|minutes?|mins?)\b.*\bfeel the effects?\b']
+  claim of proof: ['\bclinically (?:proven|shown|tested)\b', '\bscientifically proven\b', '\bproven to\b']
+
+food_comparative:
+  - '\blite\b|\blight\b(?! of)'
+  - '\breduced\b'
+  - '\bincreased\b'
+
+nz_only_category:
+  - '\bsupplemented food\b'
+
+vitmin_compare:      # compares vitamin / mineral content with other foods (only fires if a vitamin/mineral is mentioned)
+  - '\b(?:higher|more|greater|richer) than\b'
+  - '\beven higher\b'
+  - '\bcompared (?:to|with)\b'
+
+vitmin_high_descriptor:   # synonyms of the S4—3 "Good source" descriptor
+  - '\bgood source\b|\bexcellent source\b|\bgreat source\b|\brich in\b|\bhigh(?:er)? (?:in|levels? of)\b|\bpacked with\b|\bloaded with\b|\bhigh\b'
+
+presence:            # plain statements of presence / absence
+  - '\bwith\b|\bcontains?\b|\bcontaining\b|\bmade with\b|\bhas\b|\bhave\b'
+free_from:
+  - '\b(?:free|-free)\b|\bno added\b|\bno\b|\bwithout\b|\bzero\b|\b0 ?mg\b'
+
+vitamins_minerals:   # S4—3 "Vitamin or mineral" properties the engine recognises by name
+  vitamin c: ['\bvitamin c\b', '\bascorbic acid\b']
+  vitamin d: ['\bvitamin d\d?\b']
+  zinc: ['\bzinc\b']
+  b vitamins: ['\bb vitamins?\b', '\bvitamin b\d*\b']
+  iron: ['\biron\b']
+  calcium: ['\bcalcium\b']
+  magnesium: ['\bmagnesium\b']
+
+# ---- claim typing (descriptive only; verdicts come from the rules)
+
+types:
+  other: ['\$\s?\d', '\bper serving\b.*\$|\$.*\bper serving\b', '\balso available\b', '\bavailable (?:in|at|from)\b']
+  identity_or_origin: ['\bmade in\b', '\bproduct of\b', '\bgrown in\b', '\bsince \d{4}\b', '\bin \d{4},', '\byears later\b', '\bfounded\b', '\bpatent(?:ed)?\b', '\baotearoa\b', '\bnew zealand\b', '\baustralia\b', '\bisolated from\b', '\bderived from\b']
+  compositional: ['\bwith\b', '\bcontains?\b', '\bcontaining\b', '\bfree\b', '\bno artificial\b', '\bflavou?r(?:ed|s)?\b', '\bingredients?\b', '\bextract\b', '\bprebiotics?\b', '\bformula(?:tion)?\b', '\bcompound\b']
+
+# Health-adjacent words: if one of these appears together with a benefit verb and no concept or rule fired,
+# the claim is sent to review instead of being cleared.
+health_adjacent: ['\bhealth(?:y)?\b', '\bwellness\b', '\bbody\b', '\bbrain\b', '\bmind\b', '\bmental\b', '\bneuro\w*\b', '\bcognitive\b', '\bvitality\b', '\bmetabolism\b', '\bhormon\w*\b', '\bskin\b', '\bheart\b', '\bliver\b', '\bdetox\w*\b', '\bgut\b', '\bmicrobiome\b', '\bperformance\b']
+benefit_verbs: ['\bsupports?\b', '\bboosts?\b', '\bimproves?\b', '\benhances?\b', '\bpromotes?\b', '\bhelps?\b', '\baids?\b', '\bmaintains?\b', '\bincreases?\b', '\breduces?\b', '\brelieves?\b', '\bfights?\b', '\bcombats?\b', '\bstrengthens?\b', '\bnourish(?:es)?\b', '\bfuels?\b', '\bpowers?\b', '\bsharpens?\b', '\bkeeps?\b', '\bbalances?\b', '\bdetox\w*\b', '\bcleans(?:e|es)\b', '\bbuilds?\b', '\bdelivers?\b', '\bunlocks?\b']

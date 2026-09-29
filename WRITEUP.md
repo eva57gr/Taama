@@ -1,0 +1,11 @@
+# Write-up
+
+Two consecutive runs on Comvita, Seed and Arepa (`results/<product>.json`) produced the same claim ids, text, verdicts and statuses. The rules are ordinary Python with no randomness, and image OCR is cached by file hash, so the second run reads the same text and applies the same rules. That is why Seed took 232s then 1.4s, and Arepa 134s then 1.2s. Comvita is a PDF text layer, so both runs were about 4s. The judge was off. With the judge on, a repeat is identical only after the response is cached; a live model call is not a guarantee.
+
+The colour is the most severe rule that fired (red over amber over green). Green is permitted wording, a nutrition-content condition the product record meets, or text that is not a health or nutrient claim. Amber is either "allowed if these conditions are met" or "needs review" when the wording is close to a permitted indication but not the permitted words, or when no rule maps it. Red is a prohibition: a traditional-evidence indication with no traditional qualifier, a "safe" representation, or prevention wording. On this bank that is four Seed lines, including "Safe to take with coffee or tea" and "Protects key structures of the brain…". Comvita's 20 extracted claims were all green. Arepa's cognitive lines stayed amber because the NPSC is not calculated and several Standard 1.2.7 conditions are open.
+
+A new market is another snapshot directory, a manifest entry, and a regime function next to the TGA and FSANZ ones, with concepts pointing at that market's permitted claims. A new input type is one reader in `ingest.py` that returns text blocks with a file and a location. Segmentation and the verdict engine do not change.
+
+In production I would run `tests/test_citations.py` and diff `results/` on every change, and fail the deploy if a citation excerpt leaves its snapshot or a sample verdict moves. `/api/health` plus that golden diff tells us before a user does. The snapshot manifest already stores the in-force date; a scheduled job should flag when the legislation register moves past it.
+
+With another week I would check ingredient permissibility (St John's wort, Enzogenol, theacrine), calculate the NPSC so a food health claim can clear, and check mandatory label elements such as the AUST L number.
